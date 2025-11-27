@@ -1,0 +1,6 @@
+jupyter-book==1.0.4
+jupyterquiz==2.8.*
+matplotlib
+numpy
+sparqlkernel
+ipywidgets==8.1.7
