@@ -1,4 +1,4 @@
-# QUADRIGA OERs: erstellen und gestalten mit Jupyter Book
+# Leitfaden für das Aufbereiten von Daten für die Nachnutzung (Arbeitstitel)
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
@@ -24,7 +24,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Schnaitter, H., Samoilova, E. & Islam, L. (2024). _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Template._ https://doi.org/10.5281/zenodo.14970672
+Walter, P., Neuroth, H. & Plomin, J. (2026). _Leitfaden für das Aufbereiten von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
 
 ````
 `````
@@ -47,7 +47,10 @@ Erstellung von QUADRIGA-OERs aus der Jupyter-Book-Vorlage
 
 ## Zielgruppe
 
-Die Fallstudie richtet sich an Personen, die ihre Fallstudien unter Verwendung der QUADRIGA-Vorlage erstellen möchten. Einzelne Kapitel können jedoch auch für Lernende von Relevanz sein, beispielsweise hinsichtlich der lokalen Nutzung von Jupyter Books auf eigenen Geräten oder der Anwendung von Google Colab.
+Dieses Lehrbuch richtet sich an Forschende, die (Forschungs-)Daten anderer Wissenschafler:innen aufarbeiten wollen.
+
+Die Jupyter Books des Datentyps Tabelle sind für Verwaltungswissenschaftler:innen entworfen, aber auch für alle anderen wissenschaftlichen Disziplinen, Dozierende und Lehrende geeignet, die mit Tabellen oder strukturierten Daten arbeiten, einzelne Kapitel nachnutzen wollen oder Interesse an der Aufbereitung von Forschungsdaten haben.
+
 
 ## Struktur der Fallstudie
 
