@@ -1,4 +1,4 @@
-# Leitfaden für das Aufbereiten von Daten für die Nachnutzung (Arbeitstitel)
+# Leitfaden für das Aufbereiten von Daten für die Nachnutzung *(Arbeitstitel)*
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
@@ -29,13 +29,10 @@ Walter, P., Neuroth, H. & Plomin, J. (2026). _Leitfaden für das Aufbereiten von
 ````
 `````
 
-Diese Vorlage dient der Erstellung von Open Educational Resources (OER) im Rahmen des <a href="https://www.quadriga-dk.de/" class="external-link" target="_blank">QUADRIGA-Projekts</a>.
+Diese Fallstudie führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das Aufbereiten von (Forschungs-)Daten für die Nachnutzung. Das Aufbereiten geschieht ohne konkretes Nutzungsszenario, sodass die hier erarbeiteten Prozesse und Ergebnisse für alle Fachrichtungen von Interesse sein können.  
+Als Grundlage dient das QUADRIGA Datenkompetenzframework, dessen Phasen den wissenschaftlichen Forschungsprozess abdecken. Es wurde aber auch so gestaltet, dass sich dort das nachträgliche Auszeichnen von Forschungsdaten abbilden lässt.
 
-Zur einfachen Erstellung und langfristigen, technikunabhängigen Nutzbarkeit werden QUADRIGA-OERs mit Markdown-Dateien und Jupyter-Notebooks erstellt. Die konkrete Transformation dieser Inhalte in die hier zu sehende Darstellung erfolgt dabei per <a href="https://jupyterbook.org" class="external-link" target="_blank">Jupyter Book</a> {cite}`executable_books_community_2021_2561065`.
-
-Diese Vorlage dient somit der Entwicklung von QUADRIGA OERs und zeigt die Möglichkeiten der Jupyter Book Plattform auf. Zudem stellt sie unsere Empfehlungen, wie diese für die Entwicklung Ihrer OER genutzt werden sollten, dar. Gleichzeitig dient sie selbst als OER, welche das Erlernen der Gestaltung und Entwicklung von (QUADIRGA) OERs unterstützt.
-
-Die QUADRIGA-Vorlagen sind speziell für OERs konzipiert, die auf realen Forschungsbeispielen basieren. Sie wurden so entwickelt, dass sie direkt verwendet und mit eigenen Inhalten gefüllt werden können. Diese Seite des interaktives Lehrbuchs dient als Startseite. Hier sollten Sie eine kurze Beschreibung Ihrer Fallstudie geben und, wenn möglich, ein Bild einfügen, das die Essenz des Inhalts widerspiegelt.
+*ein Bild einfügen, Themenkreise: Aufbereitung, Schatz, Erneuerung, Neusortierung, -ordnung, aus Altem Neues machen etc.*
 
 ```{figure} /assets/intro/oer-creation-process.png
 ---
@@ -49,18 +46,15 @@ Erstellung von QUADRIGA-OERs aus der Jupyter-Book-Vorlage
 
 Dieses Lehrbuch richtet sich an Forschende, die (Forschungs-)Daten anderer Wissenschafler:innen aufarbeiten wollen.
 
-Die Jupyter Books des Datentyps Tabelle sind für Verwaltungswissenschaftler:innen entworfen, aber auch für alle anderen wissenschaftlichen Disziplinen, Dozierende und Lehrende geeignet, die mit Tabellen oder strukturierten Daten arbeiten, einzelne Kapitel nachnutzen wollen oder Interesse an der Aufbereitung von Forschungsdaten haben.
+Die Jupyter Books des Datentyps Tabelle sind für Verwaltungswissenschaftler:innen entworfen, aber auch für alle anderen wissenschaftlichen Disziplinen, Dozierende und Lehrende geeignet, die mit Tabellen oder strukturierten Daten arbeiten, einzelne Kapitel nachnutzen wollen oder - in diesem Fall - Interesse an der Aufbereitung von Forschungsdaten haben.
 
 
 ## Struktur der Fallstudie
 
-Im QUADRIGA-Projekt entwickeln wir Fallstudien, die auf datengetriebenen Forschungsaktivitäten basieren und spezifische Forschungsfragen zusammen mit den dazugehörigen Datensätzen und Methoden abbilden. Ihre Fallstudie sollte in empirische Schritte unterteilt werden, die:
+Im Projekt QUADRIGA werden Fallstudien entworfen, die auf datengetriebenen Forschungsaktivitäten basieren und spezifische Forschungsfragen zusammen mit den dazugehörigen Datensätzen und Methoden abbilden.  
+Diese Fallstudie orientiert sich an einem realen Fall, der aber übertragbar sein sollte. Es handelt sich eher um ein Szenario als um eine Fallstudie, der eine spezifische Forschungsfrage zugrunde liegt, da hier Forschungsdaten aus (früheren) Projekten nachträglich in Bezug auf ihre Publikation aufbereitet werden sollen.
 
-- dem Datenlebenszyklus folgen,
-- den strukturellen Rahmen für Lehrmaterialien bilden,
-- den einzelnen Kapiteln im interaktives Lehrbuch entsprechen.
-
-Diese Schritte sollten in diesem Abschnitt visualisiert und kurz beschrieben werden.
+*Abbildung der Schritte und kurze Beschreibung*
 
 ```{figure} ./assets/intro/Aufbau_der_OER.svg
 ---
@@ -70,16 +64,15 @@ width: 100%
 Flussdiagramm der QUADRIGA-Vorlage, die sich aus sechs Schritten zusammensetzt.
 ```
 
-In diesem interaktives Lehrbuch durchlaufen wir die folgenden Schritte:
+In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir als elementar in der nachträglichen Datenaufbereitung ausgemacht haben und die mit Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen: *aktuell stimmen die Schritte mit den Phasen überein, obwohl sich die Kompetetenzen natürlich auch abbilden*
 
-- Im **1. Schritt** führen wir in die OER ein, indem wir die Lernziele definieren und die technischen Voraussetzungen klären (siehe Kapitel {ref}`Präambel<lernziele>`).
-- Im **2. Schritt** stellen wir die inhaltliche Struktur einer QUADRIGA OER vor und erläutern das zugrundeliegende didaktische Konzept (siehe Kapitel {ref}`Struktur und didaktisches Konzept<struktur:einleitung>`).
-- Im **3. Schritt** beschäftigen wir uns mit der technischen Umsetzung, wobei wir das Zusammenspiel der verschiedenen Tools und deren grafische Aufbereitung betrachten im Detail betrachten. (siehe Kapitel {ref}`Technologie<technologie:einleitung>`).
-- Im **4. Schritt** präsentieren wir zuerst allgemeine Hinweise zu Formatierungs und Darstellungsmöglichkeiten und geben dann konkrete Vorgaben und Empfehlungen für QUADRIGA OER (siehe Kapitel {ref}`Formatierung<formatierung:einleitung>`).
-- Im **5. Schritt** widmen wir uns der Lernstandskontrolle, indem wir die Rolle des Assessments in QUADRIGA OER erläutern und dessen konkrete Umsetzungsmöglichkeiten aufzeigen (siehe Kapitel {ref}`Lernstandskontrolle (Assessment)<assessment:einleitung>`).
-- Im **6. Schritt** schließen wir die OER inhaltlich mit einem Abschlussassessment ab, fassen die wichtigsten Punkte zusammen und geben weiterführende Hinweise (siehe Kapitel {ref}`Reflexion und Resümee<reflexion>`).
+- Im **1. Schritt** führen wir eine Qualitätsprüfung durch, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen (siehe Kapitel {ref}`Präambel<lernziele>`).
+- Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Struktur und didaktisches Konzept<struktur:einleitung>`).
+- Im **3. Schritt** Überblick verschaffen/Einordnen (siehe Kapitel {ref}`Technologie<technologie:einleitung>`).
+- Im **4. Schritt** Datenmanagement (Organisation und Erschließung) (siehe Kapitel {ref}`Formatierung<formatierung:einleitung>`).
+- Im **5. Schritt** Publikation (Aufbewahrung und Publikation) (siehe Kapitel {ref}`Lernstandskontrolle (Assessment)<assessment:einleitung>`).
+- Im **6. Schritt** Kommunikation? (siehe Kapitel {ref}`Reflexion und Resümee<reflexion>`).
 
-Die OER wird durch den Epilog komplettiert, das Raum für Fragen und Feedback bietet, das Literaturverzeichnis enthält, die Autor:innen vorstellt sowie Informationen zu QUADRIGA und das Impressum bereitstellt (siehe Kapitel {ref}`Epilog<fragen_feedback>`).
 
 **Literatur**
 
