@@ -6,7 +6,7 @@
 >
   <schema1:Book rdf:about="https://quadriga-dk.github.io/Book_Template/">
     <dcterms:tableOfContents>- Präambel
-- Struktur und didaktisches Konzept
+- Kapitel 1 - Einleitung
 - Technologie
 - Formatierungs- und Darstellungsmöglichkeiten
 - Lernstandskontrolle (Assessment)
