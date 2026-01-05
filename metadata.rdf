@@ -6,11 +6,11 @@
 >
   <schema1:Book rdf:about="https://quadriga-dk.github.io/Book_Template/">
     <dcterms:tableOfContents>- Präambel
-- Kapitel 1 - Einleitung
-- Technologie
-- Formatierungs- und Darstellungsmöglichkeiten
-- Lernstandskontrolle (Assessment)
-- Reflexion und Resümee
+- [Missing: einleitung]
+- [Missing: einleitung]
+- [Missing: einleitung]
+- [Missing: einleitung]
+- [Missing: toc]
 - Epilog</dcterms:tableOfContents>
     <schema1:about>
       <schema1:Thing rdf:about="https://quadriga-dk.github.io/Book_Template/#discipline_0">
