@@ -1,4 +1,4 @@
-# Leitfaden für das Aufbereiten von Daten für die Nachnutzung *(Arbeitstitel)*
+# Nachträgliche Publikation der Daten für die Nachnutzung *(Arbeitstitel)*
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
@@ -24,7 +24,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Walter, P., Neuroth, H. & Plomin, J. (2026). _Leitfaden für das Aufbereiten von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
+Walter, P., Neuroth, H. & Plomin, J. (2026). _Nachträgliche Publikation der Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
 
 ````
 `````
