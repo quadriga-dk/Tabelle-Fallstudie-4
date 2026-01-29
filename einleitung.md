@@ -1,4 +1,4 @@
-# Leitfaden für das Aufbereiten von Daten für die Nachnutzung *(Arbeitstitel)*
+# Datenqualität sichern: Ein Best-Practice-Beispiel zur strukturierten Aufbereitung von Daten für die Nachnutzung *(Arbeitstitel)*
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
