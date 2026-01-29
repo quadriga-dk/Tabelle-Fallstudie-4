@@ -72,7 +72,7 @@ In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir 
 - Im **1. Schritt** führen wir eine Qualitätsprüfung durch, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen (siehe Kapitel {ref}`Präambel<lernziele>`).
 - Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Struktur und didaktisches Konzept<struktur:einleitung>`).
 - Im **3. Schritt** Überblick verschaffen/Einordnen (siehe Kapitel {ref}`Technologie<technologie:einleitung>`).
-- Im **4. Schritt** Datenmanagement (Organisation und Erschließung) (siehe Kapitel {ref}`Formatierung<formatierung:einleitung>`).
+- Im **4. Schritt** Datenmanagement (Organisation und Erschließung) (siehe Kapitel {ref}`Datenmanagement<datenmanagement:einleitung>`).
 - Im **5. Schritt** Publikation (siehe Kapitel {ref}`Publikation<publikation:einleitung>`).
 - Im **6. Schritt** Kommunikation (siehe Kapitel {ref}`Reflexion und Resümee<reflexion>`).
 

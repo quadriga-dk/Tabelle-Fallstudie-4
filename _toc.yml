@@ -38,7 +38,7 @@ chapters:
       - file: Kapitel3_Einordnung/editor
   - file: Kapitel4_Datenmanagement/einleitung
     sections:
-      - file: Kapitel4_Datenmanagement/dateiformate.md
+      - file: Kapitel4_Datenmanagement/auswahl.md
       - file: Kapitel4_Datenmanagement/spezifische_elemente.md
       - file: Kapitel4_Datenmanagement/resümee
   - file: Kapitel5_Publikation/einleitung.md

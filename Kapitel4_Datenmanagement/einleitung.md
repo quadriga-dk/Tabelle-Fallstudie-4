@@ -1,31 +1,13 @@
-(formatierung:einleitung)=
+(datenmanagement:einleitung)=
 
-# Formatierungs- und Darstellungsmöglichkeiten
+# Datenmanagement
 
-Jupyter Book verarbeitet standardmäßig zwei Dateiformate –
-(MyST-)Markdown[^url-myst-markdown] und Jupyter
-Notebook[^url-jupyter-notebook]. Dabei gibt es verschiedene
-Formatierungsmöglichkeiten um Abbildungen, Admonitions und ähnliches
-umzusetzen. In den nachfolgenden Abschnitten werden grundlegende
-Formatierungshinweise gegeben sowie spezielle Variationen für QUADRGIA OER
-vorgestellt. Weitere Hinweise zur Formatierung finden Sie auch im <a
-    href="https://jupyterbook.org/en/stable/reference/cheatsheet.html"
-    class="external-link" target="_blank">MyST syntax cheat sheet</a>.
+*Dies dürfte das wichtigste Kapitel werden, weil hier alles zusammenkommt und geordnet werden muss, bevor es publiziert werden kann.*
 
-In den nachfolgenden Kapiteln werden zuerst drei Möglichkeiten der Formatierung
-einer Seite in Jupyter Book ({numref}`%s. Markdown<formatierung:markdown>`, [3.
-Jupyter Notebook](./notebooks.ipynb) und {numref}`%s. MyST
-Notebook<formatierung:myst_notebooks>`) vorgestellt. Dann folgen einzelne
-Abschnitte, die sich mit konkreten Umsetzungsempfehlungen/-vorgaben einer
-Formatierung oder Funktionalität in QUADRIGA OER befassen.
-
-Konkrete Umsetzung in QUADRIGA OER:
-
-- {numref}`%s Links in neuem Tab öffnen<formatierung:neuer_tab>`
-- {numref}`%s Abbildungen<formatierung:abbildungen>`
-- {numref}`%s Videos einbetten<formatierung:videos_einbetten>`
-- {numref}`%s Admonitions<formatierung:admonitions>`
-
-[^url-myst-markdown]: <a href="https://mystmd.org/guide/syntax-overview" class="external-link" target="_blank">https://mystmd.org/guide/syntax-overview</a>
-
-[^url-jupyter-notebook]: <a href="https://docs.jupyter.org/en/latest/what_is_jupyter.html" class="external-link" target="_blank">https://docs.jupyter.org/en/latest/what_is_jupyter.html</a>
+Wenn noch kein DMP vorliegt (s. Schritt 4 in Kapitel 3 Einordnung [Link]), muss spätestens zu diesem Zeitpunkt einer angelegt werden. Dies gehen wir Schritt für Schritt am Beispiel der Anlage eines DMP für unseren *Architekten* durch.
+Schritte sind u. a.:
+- Auswahl und Ordnung (Auswahl und Clusterung der zu veröffentlichenden Forschungsdaten)
+- Dateibenennung (Benennung der Forschungsdaten nach einem Schema)
+- Metadaten (Angabe von Metadaten nach Konventionen der Disziplin)
+- FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*)
+- README (README-Datei zur Dokumentation Anlegen)
