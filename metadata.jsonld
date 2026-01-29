@@ -338,6 +338,6 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Präambel\n- Kapitel 1 - Einleitung\n- Technologie\n- Entwicklungsumgebung\n- Formatierungs- und Darstellungsmöglichkeiten\n- Publikation\n- Reflexion und Resümee\n- Epilog",
+  "dcterms:tableOfContents": "- Präambel\n- Kapitel 1 - Einleitung\n- Technologie\n- Entwicklungsumgebung\n- Datenmanagement\n- Publikation\n- Reflexion und Resümee\n- Epilog",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034"
 }
