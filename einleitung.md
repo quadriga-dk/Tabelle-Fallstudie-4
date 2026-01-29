@@ -1,5 +1,7 @@
 # Nachträgliche Publikation der Daten für die Nachnutzung *(Arbeitstitel)*
 
+*Alternativer Titel: Datenqualität sichern: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung* 
+
 ````{margin}
 ```{admonition} Fragen oder Feedback
 :class: frage-feedback
@@ -29,8 +31,9 @@ Walter, P., Neuroth, H. & Plomin, J. (2026). _Nachträgliche Publikation der Dat
 ````
 `````
 
-Diese Fallstudie führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das Aufbereiten von (Forschungs-)Daten für die Nachnutzung. Das Aufbereiten geschieht ohne konkretes Nutzungsszenario, sodass die hier erarbeiteten Prozesse und Ergebnisse für alle Fachrichtungen von Interesse sein können.  
-Als Grundlage dient das QUADRIGA Datenkompetenzframework, dessen Phasen den wissenschaftlichen Forschungsprozess abdecken. Es wurde aber auch so gestaltet, dass sich dort das nachträgliche Auszeichnen von Forschungsdaten abbilden lässt.
+Diese Fallstudie führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten für die Nachnutzung. Dies geschieht ohne konkretes Nutzungsszenario, sodass die hier erarbeiteten Prozesse und Ergebnisse unabhängig vom gewählten Beispiel für alle Fachrichtungen von Interesse sein können.  
+
+Als Grundlage dient das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abdecken. Es wurde aber auch so gestaltet, dass sich dort das nachträgliche Auszeichnen von Forschungsdaten abbilden lässt. *letzteres genauer*
 
 *ein Bild einfügen, Themenkreise: Aufbereitung, Schatz, Erneuerung, Neusortierung, -ordnung, aus Altem Neues machen etc.*
 
@@ -44,15 +47,15 @@ Erstellung von QUADRIGA-OERs aus der Jupyter-Book-Vorlage
 
 ## Zielgruppe
 
-Dieses Lehrbuch richtet sich an Forschende, die (Forschungs-)Daten anderer Wissenschafler:innen aufarbeiten wollen.
+Dieses Lehrbuch richtet sich an Forschende, die (Forschungs-)Daten anderer Wissenschafler:innen aufarbeiten oder eigene bisher unveröffentlichte Daten veröffentlichen wollen. Darüber hinaus ist auch das FDM-Personal an Hochschulen angesprochen.
 
-Die Jupyter Books des Datentyps Tabelle sind für Verwaltungswissenschaftler:innen entworfen, aber auch für alle anderen wissenschaftlichen Disziplinen, Dozierende und Lehrende geeignet, die mit Tabellen oder strukturierten Daten arbeiten, einzelne Kapitel nachnutzen wollen oder - in diesem Fall - Interesse an der Aufbereitung von Forschungsdaten haben.
+*Die Jupyter Books des Datentyps Tabelle sind für Verwaltungswissenschaftler:innen entworfen, aber auch für alle anderen wissenschaftlichen Disziplinen, Dozierende und Lehrende geeignet, die mit Tabellen oder strukturierten Daten arbeiten, einzelne Kapitel nachnutzen wollen oder - in diesem Fall - Interesse an der Aufbereitung von Forschungsdaten haben.*
 
 
 ## Struktur der Fallstudie
 
 Im Projekt QUADRIGA werden Fallstudien entworfen, die auf datengetriebenen Forschungsaktivitäten basieren und spezifische Forschungsfragen zusammen mit den dazugehörigen Datensätzen und Methoden abbilden.  
-Diese Fallstudie orientiert sich an einem realen Fall, der aber übertragbar sein sollte. Es handelt sich eher um ein Szenario als um eine Fallstudie, der eine spezifische Forschungsfrage zugrunde liegt, da hier Forschungsdaten aus (früheren) Projekten nachträglich in Bezug auf ihre Publikation aufbereitet werden sollen.
+Diese Fallstudie orientiert sich an einem realen Fall, der aber übertragbar sein sollte. Es handelt sich eher um ein Szenario als um eine Fallstudie, der eine spezifische Forschungsfrage zugrunde liegt, da hier Forschungsdaten aus (früheren) Projekten nachträglich in Bezug auf ihre Publikation aufbereitet werden sollen. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt durch die Veröffentlichung führt.
 
 *Abbildung der Schritte und kurze Beschreibung*
 
@@ -70,8 +73,8 @@ In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir 
 - Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Struktur und didaktisches Konzept<struktur:einleitung>`).
 - Im **3. Schritt** Überblick verschaffen/Einordnen (siehe Kapitel {ref}`Technologie<technologie:einleitung>`).
 - Im **4. Schritt** Datenmanagement (Organisation und Erschließung) (siehe Kapitel {ref}`Formatierung<formatierung:einleitung>`).
-- Im **5. Schritt** Publikation (Aufbewahrung und Publikation) (siehe Kapitel {ref}`Lernstandskontrolle (Assessment)<assessment:einleitung>`).
-- Im **6. Schritt** Kommunikation? (siehe Kapitel {ref}`Reflexion und Resümee<reflexion>`).
+- Im **5. Schritt** Publikation (siehe Kapitel {ref}`Publikation<publikation:einleitung>`).
+- Im **6. Schritt** Kommunikation (siehe Kapitel {ref}`Reflexion und Resümee<reflexion>`).
 
 
 **Literatur**
