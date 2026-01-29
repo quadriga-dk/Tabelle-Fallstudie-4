@@ -67,7 +67,7 @@ width: 100%
 Flussdiagramm der QUADRIGA-Vorlage, die sich aus sechs Schritten zusammensetzt.
 ```
 
-In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir als elementar in der nachträglichen Datenaufbereitung ausgemacht haben und die mit Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen: *aktuell stimmen die Schritte mit den Phasen überein, obwohl sich die Kompetetenzen natürlich auch abbilden*
+In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir als elementar in der nachträglichen Datenpublikation ausgemacht haben und die mit Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen: *aktuell stimmen die Schritte mit den Phasen überein, obwohl sich die Kompetetenzen natürlich auch abbilden* (siehe Kapitel {ref}`Kapitel 1 Einleitung<kap1:einleitung>`)
 
 - Im **1. Schritt** führen wir eine Qualitätsprüfung durch, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen (siehe Kapitel {ref}`Präambel<lernziele>`).
 - Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Struktur und didaktisches Konzept<struktur:einleitung>`).

@@ -19,12 +19,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```{admonition} Lernziele des 1. Kapitels
 :class: lernziele
-
-1. Der forschungsgeleitete Ansatz der QUADRIGA OERs kann erläutert und der Beitrag von Fallstudien zur Datenkompetenzvermittlung erklärt werden.
-
-2. Die hierarchische Struktur der Lernziele in QUADRIGA OERs kann beschrieben und der Zusammenhang zwischen Fallstudienstruktur, Datenlebenszyklus und Lernzielen erläutert werden.
-
-3. Die zentralen didaktischen Komponenten einer QUADRIGA OER können identifiziert und deren Funktion im Lernprozess erklärt werden.
+*braucht es in einem einführenden/erklärenden Kapitel Lernziele?*
 ```
 
 *Lohnt ein einleitendes Kapitel zur Erklärung, warum es diese OER braucht? Oder reicht eine solche Erklärung als Absatz auf der Titelseite aus?*
@@ -40,6 +35,21 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 - PARTHENOS Leitfaden zur "FAIRifizierung" des Datenmanagements und der Ermöglichung der Nachnutzung von Daten ? (https://zenodo.org/records/3363078)
 - Guide zum Publizieren von FD (in eigenem Repo) von RWTH Aachen (https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaauujnm)
 
+*Sammlung von möglichen (Unter-)Kapiteln für das 1. einleitende Kapitel*
+
+## Framework
+
+Das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a> bildet Kompetenzen ab, die im Laufe eines wissenschaftlichen Projekts benötigt werden (könnten). 
+Für die nachträgliche Publikation werden nicht alle Kompetenzen benötigt bzw. nicht alle Phasen des Datenflusses durchschritten. Es werden nur Bereiche aus den Phasen Planung (1), Management (3) und Publikation und Nachnutzung (5) angesprochen (s. Abb. 1). 
+
+```{figure} /assets/chap1/framework.png
+---
+align: center
+width: 70%
+---
+Das QUADRIGA Datenkompetenzframework mit Hervorhebung der bei der nachträglichen Publikation von Forschungsdaten benötigten Kompetenzen/Phasen im Datenfluss.
+```
+Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">Zenodo</a>, Bearbeitung (Hervorhebungen) von Paul Walter.
 
 **Literatur**
 
