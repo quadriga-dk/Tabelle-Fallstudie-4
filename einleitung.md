@@ -1,4 +1,4 @@
-# Forschungsdatenpublikation: Datenqualität sichern: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung *(Arbeitstitel)* 
+# Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung *(Arbeitstitel)* 
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
@@ -24,7 +24,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Walter, P., Neuroth, H. & Plomin, J. (2026). _Forschungsdatenpublikation: Datenqualität sichern: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
+Walter, P., Neuroth, H. & Plomin, J. (2026). _Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
 
 ````
 `````
@@ -68,7 +68,7 @@ Flussdiagramm der QUADRIGA-Vorlage, die sich aus sechs Schritten zusammensetzt.
 In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir als elementar in der nachträglichen Datenpublikation ausgemacht haben und die mit Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen: *aktuell stimmen die Schritte mit den Phasen überein, obwohl sich die Kompetetenzen natürlich auch abbilden* (siehe Kapitel {ref}`Kapitel 1 Einleitung<kap1:einleitung>`)
 
 - Im **1. Schritt** führen wir eine Qualitätsprüfung durch, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen (siehe Kapitel {ref}`Qualitätsprüfung<qualitätsprüfung>`).
-- Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Struktur und didaktisches Konzept<struktur:einleitung>`).
+- Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Vorgaben und Juristisches<vorgaben:einleitung>`).
 - Im **3. Schritt** Überblick verschaffen/Einordnen (siehe Kapitel {ref}`Technologie<technologie:einleitung>`).
 - Im **4. Schritt** Datenmanagement (Organisation und Erschließung) (siehe Kapitel {ref}`Datenmanagement<datenmanagement:einleitung>`).
 - Im **5. Schritt** Publikation (siehe Kapitel {ref}`Publikation<publikation:einleitung>`).
