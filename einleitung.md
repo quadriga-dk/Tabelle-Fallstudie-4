@@ -1,15 +1,13 @@
-# Nachträgliche Publikation der Daten für die Nachnutzung *(Arbeitstitel)*
-
-*Alternativer Titel: Datenqualität sichern: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung* 
+# Forschungsdatenpublikation: Datenqualität sichern: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung *(Arbeitstitel)* 
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
 :class: frage-feedback
 
-<a href="https://github.com/quadriga-dk/Book_Template/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
     Stellen Sie eine Frage
 </a> <br>
-<a href="https://github.com/quadriga-dk/Book_Template/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
     Geben Sie uns Feedback
 </a>
 
@@ -26,14 +24,14 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Walter, P., Neuroth, H. & Plomin, J. (2026). _Nachträgliche Publikation der Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
+Walter, P., Neuroth, H. & Plomin, J. (2026). _Forschungsdatenpublikation: Datenqualität sichern: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
 
 ````
 `````
 
 Diese Fallstudie führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten für die Nachnutzung. Dies geschieht ohne konkretes Nutzungsszenario, sodass die hier erarbeiteten Prozesse und Ergebnisse unabhängig vom gewählten Beispiel für alle Fachrichtungen von Interesse sein können.  
 
-Als Grundlage dient das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abdecken. Es wurde aber auch so gestaltet, dass sich dort das nachträgliche Auszeichnen von Forschungsdaten abbilden lässt. *letzteres genauer*
+Als Grundlage dient das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abdecken. Es wurde aber auch so gestaltet, dass sich dort das nachträgliche Auszeichnen von Forschungsdaten abbilden lässt. *letzteres genauer*, *Link zum folgenden Kapitel "Hintergrund"*
 
 *ein Bild einfügen, Themenkreise: Aufbereitung, Schatz, Erneuerung, Neusortierung, -ordnung, aus Altem Neues machen etc.*
 
@@ -69,7 +67,7 @@ Flussdiagramm der QUADRIGA-Vorlage, die sich aus sechs Schritten zusammensetzt.
 
 In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir als elementar in der nachträglichen Datenpublikation ausgemacht haben und die mit Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen: *aktuell stimmen die Schritte mit den Phasen überein, obwohl sich die Kompetetenzen natürlich auch abbilden* (siehe Kapitel {ref}`Kapitel 1 Einleitung<kap1:einleitung>`)
 
-- Im **1. Schritt** führen wir eine Qualitätsprüfung durch, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen (siehe Kapitel {ref}`Präambel<lernziele>`).
+- Im **1. Schritt** führen wir eine Qualitätsprüfung durch, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen (siehe Kapitel {ref}`Qualitätsprüfung<qualitätsprüfung>`).
 - Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Struktur und didaktisches Konzept<struktur:einleitung>`).
 - Im **3. Schritt** Überblick verschaffen/Einordnen (siehe Kapitel {ref}`Technologie<technologie:einleitung>`).
 - Im **4. Schritt** Datenmanagement (Organisation und Erschließung) (siehe Kapitel {ref}`Datenmanagement<datenmanagement:einleitung>`).

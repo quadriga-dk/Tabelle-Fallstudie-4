@@ -11,7 +11,7 @@ Schritte sind u. a.:
 - Auswahl und Ordnung (Auswahl und Clusterung der zu veröffentlichenden Forschungsdaten)
 - Dateibenennung (Benennung der Forschungsdaten nach einem Schema)
 - Metadaten (Angabe von Metadaten nach Konventionen der Disziplin)
-- FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*)
+- FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*) -> dazu auch FAIRification von FD-Objekten: https://datascience.codata.org/articles/dsj-2021-004 
 - README (README-Datei zur Dokumentation Anlegen)
 
 

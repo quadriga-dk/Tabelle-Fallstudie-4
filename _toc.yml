@@ -13,7 +13,7 @@ chapters:
       - file: präambel/vorkenntnisse
   - file: Kapitel1_Einleitung/einleitung
     sections:
-      - file: Kapitel1_Einleitung/didaktisches_konzept
+      - file: Kapitel1_Einleitung/qualitätsprüfung
       - file: Kapitel1_Einleitung/struktur
       - file: Kapitel1_Einleitung/komponenten
       - file: Kapitel1_Einleitung/resümee

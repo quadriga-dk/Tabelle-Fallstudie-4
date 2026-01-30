@@ -1,14 +1,14 @@
-(kap1:einleitung)=
-# Kapitel 1 - Einleitung
+(hintergrund:einleitung)=
+# Hintergrund - Einleitung
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
 :class: frage-feedback
 
-<a href="https://github.com/quadriga-dk/Book_Template/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
     Stellen Sie eine Frage
 </a> <br>
-<a href="https://github.com/quadriga-dk/Book_Template/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
     Geben Sie uns Feedback
 </a>
 
@@ -22,7 +22,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 *braucht es in einem einführenden/erklärenden Kapitel Lernziele?*
 ```
 
-*Lohnt ein einleitendes Kapitel zur Erklärung, warum es diese OER braucht? Oder reicht eine solche Erklärung als Absatz auf der Titelseite aus?*
+*Lohnt ein einleitendes Kapitel zur Erklärung, warum es diese OER braucht? Oder reicht eine solche Erklärung als Absatz auf der Titelseite oder als zusätzlicher Abschnitt in der Präambel aus?*
 
 *Vielleicht sollte an dieser Stelle erklärt werden, was diese OER besonders macht/was diese Veröffentlichung von anderen des gleiches Themas unterscheidet/was der Hintergrund für die Entscheidung für diese Thema war etc.*
 -	Erklären, was uns von „normalem“ FDM trennt (siehe Checklisten zum Thema)
