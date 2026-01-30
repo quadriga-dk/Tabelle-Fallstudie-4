@@ -7,7 +7,7 @@
   <schema1:Book rdf:about="https://quadriga-dk.github.io/Book_Template/">
     <dcterms:tableOfContents>- Präambel
 - Hintergrund - Einleitung
-- Technologie
+- Vorgaben und Juristisches
 - Entwicklungsumgebung
 - Datenmanagement
 - Publikation
