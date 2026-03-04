@@ -1,7 +1,7 @@
 (lernziele)=
 # Vorkenntnisse und Lernziele
 
-In diesem Kapitel erfahren Sie, welche Vorkenntnisse Sie zum absolvieren des Lehrbuchs benötigen und welche Lernziele Sie im Prozess des Durcharbeitens erreichen können.
+In diesem Abschnitt erfahren Sie, welche Vorkenntnisse Sie zum absolvieren des Lehrbuchs benötigen und welche Lernziele Sie im Prozess des Durcharbeitens erreichen können.
 
 ## Vorkenntnisse
 

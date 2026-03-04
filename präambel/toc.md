@@ -1,2 +1,14 @@
 # Präambel
-In diesem Kapitel werden die [Lernziele](/präambel/lernziele.md) der vorliegenden OER genauer vorgestellt, die technischen [Voraussetzungen](/präambel/technische_voraussetzungen.md) spezifiziert und die [Vorkenntnisse](/präambel/vorkenntnisse.md), die Sie für eine erfolgreiche Nutzung der OER mitbringen sollten, genannt.
+
+<span style="color:red">Einfügen Abbildung: catchy pic zum Thema Datenpublikation</span>
+
+```{figure} /assets/....png
+---
+name: ...
+alt: ...
+---
+Untertitel...
+```
+*Quellenangabe:*
+
+In diesem einführenden Kapitel können Sie sich mit den [Vorkenntnissen und Lernzielen](lernziele) sowie der [Anwendung und den technischen Voraussetzungen](voraussetzungen) vertraut machen.
