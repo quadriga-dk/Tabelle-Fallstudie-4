@@ -17,14 +17,26 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-```{admonition} Lernziele des 1. Kapitels
+Das erste Kapitel dieser Lerneinheit und damit der erste Schritt einer nachträglichen Publikation von Forschungsdaten ist die Qualitätsprüfung. Genügen die vorliegenden Daten den wissenschaftlichen Ansprüchen nicht, sind die Voraussetzungen für eine Publikation nicht gegeben und alle weiteren Schritte entfallen. 
+
+*Soll diese Lerneinheit die Anwendenden dazu befähigen, die Forschungsdaten von anderen auf ihre Qualität hin zu überprüfen? Dann müssen Sie sie einschätzen (Expertenlevel: Bloom 5/6)*
+*Oder soll diese Lerneinheit nur zeigen, dass Qualitätsprüfung wichtig ist? Dann reicht es, wenn die Anwendenden um grundlegende Aspekte der Qualitätsprüfung wissen (Anfänger:innenlevel: Bloom 1/2)*
+
+```{admonition} Lernziele des Kapitels Qualitätsprüfung
 :class: lernziele
-*braucht es in einem einführenden/erklärenden Kapitel Lernziele?*
+
+1. Die Lernenden können Datenqualität bewerten. (*Bloom 5, siehe LZM 02_012_0447*)
 ```
 
-*Eine Erklärung, warum es diese OER braucht reicht als Absatz auf der Titelseite oder - wenn zu lang - als zusätzlicher Abschnitt in der Präambel aus?*
 
-*Dieses Kapitel sollte direkt die Qualitätsprüfung der Daten umfassen.*
+<span style="color:red">Einfügen: Grafik zur Struktur der Fallstudie mit Hervorhebung des 1. Schrittes</span>
+
+
+---
+
+*Sammlung von Unterpunkten vor dem 1. Kapitel "Qualität"*
+
+*Eine Erklärung, warum es diese OER braucht reicht als Absatz auf der Titelseite oder - wenn zu lang - als zusätzlicher Abschnitt in der Präambel aus?*
 
 *Vielleicht sollte an dieser Stelle erklärt werden, was diese OER besonders macht/was diese Veröffentlichung von anderen des gleiches Themas unterscheidet/was der Hintergrund für die Entscheidung für diese Thema war etc.*
 -	Erklären, was uns von „normalem“ FDM trennt (siehe Checklisten zum Thema)
@@ -36,8 +48,6 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 - Link zur Checkliste Forschungsdaten (https://www.fh-potsdam.de/forschung-transfer/forschung/forschungsdatenmanagement oder direkter Link: https://www.fh-potsdam.de/media/9516/download)
 - PARTHENOS Leitfaden zur "FAIRifizierung" des Datenmanagements und der Ermöglichung der Nachnutzung von Daten ? (https://zenodo.org/records/3363078)
 - Guide zum Publizieren von FD (in eigenem Repo) von RWTH Aachen (https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaauujnm)
-
-*Sammlung von möglichen (Unter-)Kapiteln für das 1. einleitende Kapitel*
 
 ## Framework
 
@@ -51,7 +61,7 @@ width: 70%
 ---
 Das QUADRIGA Datenkompetenzframework mit Hervorhebung der bei der nachträglichen Publikation von Forschungsdaten benötigten Kompetenzen/Phasen im Datenfluss.
 ```
-Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">Zenodo</a>, Bearbeitung (Hervorhebungen) von Paul Walter.
+*Quellenangabe: Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">Zenodo</a>, Bearbeitung (Hervorhebungen) von Paul Walter.*
 
 **Literatur**
 
