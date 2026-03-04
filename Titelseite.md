@@ -29,7 +29,9 @@ Walter, P., Neuroth, H. & Plomin, J. (2026). _Forschungsdatenpublikation: Ein Be
 ````
 `````
 
-Diese Fallstudie führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten für die Nachnutzung. Dies geschieht ohne konkretes Nutzungsszenario, sodass die hier erarbeiteten Prozesse und Ergebnisse unabhängig vom gewählten Beispiel für alle Fachrichtungen von Interesse sein können.  
+Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten für die Nachnutzung. Dies geschieht ohne konkretes Nutzungsszenario, sodass die hier erarbeiteten Prozesse und Ergebnisse unabhängig vom gewählten Beispiel für alle Fachrichtungen von Interesse sein können.  
+
+Die Lerneinheit orientiert sich an den Learnings, die sich durch die Begleitung und die Dokumentation von Forschungsdaten des Projekts Q-LCA (Link) von Prof. Dr.-Ing. Michael Prytula (Link) an der Fachhochschule Potsdam ergeben haben.
 
 Als Grundlage dient das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abdecken. Es wurde aber auch so gestaltet, dass sich dort das nachträgliche Auszeichnen von Forschungsdaten abbilden lässt. *letzteres genauer*, *Link zum folgenden Kapitel "Hintergrund"*
 

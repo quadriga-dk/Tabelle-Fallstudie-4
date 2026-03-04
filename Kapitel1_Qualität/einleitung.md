@@ -1,5 +1,5 @@
-(hintergrund:einleitung)=
-# Hintergrund - Einleitung
+(qualität:einleitung)=
+# Qualitätsprüfung - Einleitung
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
@@ -22,7 +22,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 *braucht es in einem einführenden/erklärenden Kapitel Lernziele?*
 ```
 
-*Lohnt ein einleitendes Kapitel zur Erklärung, warum es diese OER braucht? Oder reicht eine solche Erklärung als Absatz auf der Titelseite oder als zusätzlicher Abschnitt in der Präambel aus?*
+*Eine Erklärung, warum es diese OER braucht reicht als Absatz auf der Titelseite oder - wenn zu lang - als zusätzlicher Abschnitt in der Präambel aus?*
+
+*Dieses Kapitel sollte direkt die Qualitätsprüfung der Daten umfassen.*
 
 *Vielleicht sollte an dieser Stelle erklärt werden, was diese OER besonders macht/was diese Veröffentlichung von anderen des gleiches Themas unterscheidet/was der Hintergrund für die Entscheidung für diese Thema war etc.*
 -	Erklären, was uns von „normalem“ FDM trennt (siehe Checklisten zum Thema)

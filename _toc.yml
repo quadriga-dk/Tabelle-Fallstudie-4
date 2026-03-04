@@ -11,31 +11,18 @@ chapters:
       - file: präambel/lernziele
       - file: präambel/technische_voraussetzungen
       - file: präambel/vorkenntnisse
-  - file: Kapitel1_Einleitung/einleitung
+  - file: Kapitel1_Qualität/einleitung
     sections:
-      - file: Kapitel1_Einleitung/qualitätsprüfung
-      - file: Kapitel1_Einleitung/struktur
-      - file: Kapitel1_Einleitung/komponenten
-      - file: Kapitel1_Einleitung/resümee
+      - file: Kapitel1_Qualität/qualitätsprüfung
+      - file: Kapitel1_Qualität/resümee
   - file: Kapitel2_Vorgaben/einleitung
     sections:
-      - file: Kapitel2_Vorgaben/zusammenspiel_der_tools
-      - file: Kapitel2_Vorgaben/grafische_aufbereitung
-      - file: Kapitel2_Vorgaben/interactive_interfaces_colab
-      - file: Kapitel2_Vorgaben/interactive_interfaces_binder
-      - file: Kapitel2_Vorgaben/local_mode
-      - file: Kapitel2_Vorgaben/jupyter_book_mit_gh_page
-      - file: Kapitel2_Vorgaben/jupyter_kernel
-      - file: Kapitel2_Vorgaben/publikation_auf_zenodo.md
-      - file: Kapitel2_Vorgaben/metadaten.md
+      - file: Kapitel2_Vorgaben/vorgaben
       - file: Kapitel2_Vorgaben/resümee
   - file: Kapitel3_Einordnung/einleitung
     sections:
-      - file: Kapitel3_Einordnung/git
-      - file: Kapitel3_Einordnung/unix
-      - file: Kapitel3_Einordnung/python
-      - file: Kapitel3_Einordnung/jupyter_book
-      - file: Kapitel3_Einordnung/editor
+      - file: Kapitel3_Einordnung/einordnung
+      - file: Kapitel3_Einordnung/resümee
   - file: Kapitel4_Datenmanagement/einleitung
     sections:
       - file: Kapitel4_Datenmanagement/auswahl.md
