@@ -6,12 +6,10 @@
 >
   <schema1:Book rdf:about="https://quadriga-dk.github.io/Book_Template/">
     <dcterms:tableOfContents>- Präambel
-- Qualitätsprüfung - Einleitung
-- Vorgaben und Juristisches
-- Entwicklungsumgebung
+- [Missing: einleitung]
+- Einarbeiten
 - Datenmanagement
 - Publikation
-- Reflexion und Resümee
 - Epilog</dcterms:tableOfContents>
     <schema1:about>
       <schema1:Thing rdf:about="https://quadriga-dk.github.io/Book_Template/#discipline_0">
