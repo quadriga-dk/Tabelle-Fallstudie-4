@@ -11,7 +11,7 @@
     "Book",
     "LearningResource"
   ],
-  "name": "QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Template",
+  "name": "Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.",
   "description": "Diese OER führt in die Erstellung von QUADRIGA-OERs ein, bietet Inhalte für Nutzer:innen der OERs und dient gleichzeitig als Template für die Erstellung eigener OERs auf Basis der QUADRIGA-Empfehlungen.",
   "identifier": {
     "@type": "PropertyValue",
@@ -338,6 +338,6 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Präambel\n- [Missing: einleitung]\n- Einarbeiten\n- Datenmanagement\n- Publikation\n- Epilog",
+  "dcterms:tableOfContents": "- Einstieg\n- Nachträgliches Publizieren - Einleitung\n- Einarbeiten\n- Datenmanagement\n- Publikation\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034"
 }

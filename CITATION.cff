@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 version: 0.61.0
-title: 'QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-  Resources: Template'
+title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
+  Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
+  Tabelle 4.'
 abstract: Dieses Buch ist einerseits ein Template für die Erstellung von OERs nach
   den Empfehlungen von QUADRIGA (https://quadriga-dk.de) und andererseits eine OER
   für die Entwicklung von OERs entsprechend der QUADRIGA Empfehlungen.
@@ -44,8 +45,9 @@ preferred-citation:
   year: '2025'
   version: 0.61.0
   authors: *id001
-  title: 'QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-    Resources: Template'
+  title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
+    Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
+    Tabelle 4.'
   type: book
   doi: 10.5281/zenodo.14970672
   url: https://quadriga-dk.github.io/Book_Template/

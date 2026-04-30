@@ -5,12 +5,12 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <schema1:Book rdf:about="https://quadriga-dk.github.io/Book_Template/">
-    <dcterms:tableOfContents>- Präambel
-- [Missing: einleitung]
+    <dcterms:tableOfContents>- Einstieg
+- Nachträgliches Publizieren - Einleitung
 - Einarbeiten
 - Datenmanagement
 - Publikation
-- Epilog</dcterms:tableOfContents>
+- Abschluss</dcterms:tableOfContents>
     <schema1:about>
       <schema1:Thing rdf:about="https://quadriga-dk.github.io/Book_Template/#discipline_0">
         <schema1:name>übergreifend</schema1:name>
@@ -217,7 +217,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:name>Content</schema1:name>
       </schema1:CreativeWork>
     </schema1:license>
-    <schema1:name>QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Template</schema1:name>
+    <schema1:name>Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.</schema1:name>
     <schema1:schemaVersion>1.0.0</schema1:schemaVersion>
     <schema1:timeRequired>PT16H15M</schema1:timeRequired>
     <schema1:url rdf:resource="https://quadriga-dk.github.io/Book_Template/"/>

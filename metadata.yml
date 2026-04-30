@@ -1,7 +1,8 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
 schema-version: 1.0.0
-title: 'QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-  Resources: Template'
+title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
+  Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
+  Tabelle 4.'
 identifier: https://doi.org/10.5281/zenodo.14970672
 version: 0.61.0
 date-issued: 2024-05-06
@@ -35,9 +36,9 @@ contributors:
 - family-names: Zhang
   given-names: Yue
   orcid: https://orcid.org/0009-0007-6432-1259
-table-of-contents: '- Präambel
+table-of-contents: '- Einstieg
 
-  - [Missing: einleitung]
+  - Nachträgliches Publizieren - Einleitung
 
   - Einarbeiten
 
@@ -45,7 +46,7 @@ table-of-contents: '- Präambel
 
   - Publikation
 
-  - Epilog'
+  - Abschluss'
 description: Diese OER führt in die Erstellung von QUADRIGA-OERs ein, bietet Inhalte
   für Nutzer:innen der OERs und dient gleichzeitig als Template für die Erstellung
   eigener OERs auf Basis der QUADRIGA-Empfehlungen.
