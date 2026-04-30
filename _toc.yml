@@ -10,9 +10,8 @@ chapters:
     sections:
       - file: einstieg/lernziele
       - file: einstieg/technische_voraussetzungen
-  - file: Kapitel1_Qualität/einleitung
+  - file: Kapitel1_NachPub/einleitung
     sections:
-      - file: Kapitel1_NachPub/einleitung
       - file: Kapitel1_NachPub/resumee
   - file: Kapitel2_Einarbeiten/einleitung
     sections:
