@@ -1,4 +1,4 @@
-(assessment:resümee)=
+(publikation:resumee)=
 # Resümee
 
 ```{admonition} Keypoints

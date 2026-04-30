@@ -1,4 +1,4 @@
-(struktur:resümee)=
+(einarbeiten:resumee)=
 # Resümee
 
 ```{admonition} Keypoints

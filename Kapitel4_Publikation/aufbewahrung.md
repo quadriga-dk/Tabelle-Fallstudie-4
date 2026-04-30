@@ -1,6 +1,5 @@
-(formatierung:resümee)=
-# Resümee
-
+(publikation:aufbewahrung)=
+# Aufbewahrung
 ````{margin}
 ```{admonition} Fragen oder Feedback
 :class: frage-feedback
@@ -17,8 +16,12 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
+*Hier muss es um Kompetenz 5.1 Aufbewahrung gehen*
 
-```{admonition} Keypoints
-:class: keypoint
-Wichtige Erkenntnisse, Lernergebnisse und sonstige Keypoints werden mit diesem Admonition-Typ gekennzeichnet.
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+:style: plain
 ```

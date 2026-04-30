@@ -1,7 +1,7 @@
 (publikation:einleitung)=
 # Publikation 
 
-In diesem Kapitel steht die Publikation im Vordergrund. (*bezieht sich auf Kompetenz "5.2 Datenpublikation" des Frameworks [Link]*)
+In diesem Kapitel steht die Datenflussphase *5. Publikation und Nachnutzung* im Vordergrund. (*bezieht sich auf Kompetenzen 5.1 Aufbewahrung, 5.2 Datenpublikation und 5.3 Kommunikation des Frameworks [Link]*)
 
 Das heißt, es geht um die Methoden und Plattformen für das Publizieren und Teilen von Daten für die Nachnutzung. 
 

@@ -1,5 +1,5 @@
-(qualität:einleitung)=
-# Qualitätsprüfung - Einleitung
+(nachpub:einleitung)=
+# Nachträgliches Publizieren - Einleitung
 
 ````{margin}
 ```{admonition} Fragen oder Feedback

@@ -1,2 +1,0 @@
-(einordnung:resümee)=
-# Resümee

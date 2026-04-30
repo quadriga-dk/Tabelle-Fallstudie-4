@@ -6,42 +6,35 @@ root: Titelseite
 options:
   numbered: 3
 chapters:
-  - file: präambel/toc
+  - file: einstieg/toc
     sections:
-      - file: präambel/lernziele
-      - file: präambel/technische_voraussetzungen
-      - file: präambel/vorkenntnisse
+      - file: einstieg/lernziele
+      - file: einstieg/technische_voraussetzungen
   - file: Kapitel1_Qualität/einleitung
     sections:
-      - file: Kapitel1_Qualität/qualitätsprüfung
-      - file: Kapitel1_Qualität/resümee
-  - file: Kapitel2_Vorgaben/einleitung
+      - file: Kapitel1_NachPub/einleitung
+      - file: Kapitel1_NachPub/resumee
+  - file: Kapitel2_Einarbeiten/einleitung
     sections:
-      - file: Kapitel2_Vorgaben/vorgaben
-      - file: Kapitel2_Vorgaben/resümee
-  - file: Kapitel3_Einordnung/einleitung
+      - file: Kapitel2_Einarbeiten/einordnung
+      - file: Kapitel2_Einarbeiten/qualitätsprüfung
+      - file: Kapitel2_Einarbeiten/vorgaben
+      - file: Kapitel2_Einarbeiten/resumee
+  - file: Kapitel3_Datenmanagement/einleitung
     sections:
-      - file: Kapitel3_Einordnung/einordnung
-      - file: Kapitel3_Einordnung/resümee
-  - file: Kapitel4_Datenmanagement/einleitung
+      - file: Kapitel3_Datenmanagement/organisation
+      - file: Kapitel3_Datenmanagement/erschließung
+      - file: Kapitel3_Datenmanagement/resumee
+  - file: Kapitel4_Publikation/einleitung
     sections:
-      - file: Kapitel4_Datenmanagement/auswahl.md
-      - file: Kapitel4_Datenmanagement/spezifische_elemente.md
-      - file: Kapitel4_Datenmanagement/resümee
-  - file: Kapitel5_Publikation/einleitung.md
+      - file: Kapitel4_Publikation/aufbewahrung
+      - file: Kapitel4_Publikation/publikation
+      - file: Kapitel4_Publikation/kommunikation
+      - file: Kapitel4_Publikation/resumee
+  - file: abschluss/toc
     sections:
-      - file: Kapitel5_Publikation/theoretische_überlegungen.md
-      - file: Kapitel5_Publikation/umsetzung
-      - file: Kapitel5_Publikation/resümee
-  - file: Kapitel6_Kommunikation/einleitung
-    sections:
-      - file: Kapitel6_Kommunikation/reflexion
-      - file: Kapitel6_Kommunikation/weiterführende_hinweise
-      - file: Kapitel6_Kommunikation/resümee
-  - file: epilog/toc
-    sections:
-      - file: epilog/fragen_und_feedback
-      - file: epilog/literaturverzeichnis
-      - file: epilog/authors
-      - file: epilog/quadriga
-      - file: epilog/impressum
+      - file: abschluss/fragen_und_feedback
+      - file: abschluss/literaturverzeichnis
+      - file: abschluss/authors
+      - file: abschluss/quadriga
+      - file: abschluss/impressum

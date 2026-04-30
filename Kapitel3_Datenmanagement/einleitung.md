@@ -1,5 +1,4 @@
 (datenmanagement:einleitung)=
-
 # Datenmanagement
 
 *Dies dürfte das wichtigste Kapitel werden, weil hier alles zusammenkommt und geordnet werden muss, bevor es publiziert werden kann.*

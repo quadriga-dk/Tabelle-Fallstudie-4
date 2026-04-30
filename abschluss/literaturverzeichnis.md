@@ -6,7 +6,7 @@
 ```{literalinclude} ../CITATION.bib
 :language: bibtex
 ```
-Schnaitter, H., Samoilova, E. & Islam, L. (2024). _QUADRIGA OERs: erstellen und gestalten mit interaktives Lehrbuch. QUADRIGA Open Educational Resources: Template._ https://doi.org/10.5281/zenodo.14970672
+Walter, P., Neuroth, H. & Plomin, J. (2026). _Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ https://doi.org/10.5281/zenodo.14970672
 
 ````
 `````

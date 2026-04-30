@@ -1,6 +1,5 @@
-(technologie:resümee)=
+(nachpub:resumee)=
 # Resümee
-
 
 ```{admonition} Keypoints
 :class: keypoint
