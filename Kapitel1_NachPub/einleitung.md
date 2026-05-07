@@ -45,9 +45,13 @@ Das erste Kapitel dieser Lerneinheit und damit der erste Schritt einer nachträg
 
 
 *Weiterhin ließen sich - gerade als Abgrenzung - die wenigen Publikationen verlinken, die es zu diesem Thema gibt.*
+<span style="color:red">Hier gerne noch welche hinzufügen</span>
+
 - Link zur Checkliste Forschungsdaten (https://www.fh-potsdam.de/forschung-transfer/forschung/forschungsdatenmanagement oder direkter Link: https://www.fh-potsdam.de/media/9516/download)
 - PARTHENOS Leitfaden zur "FAIRifizierung" des Datenmanagements und der Ermöglichung der Nachnutzung von Daten ? (https://zenodo.org/records/3363078)
 - Guide zum Publizieren von FD (in eigenem Repo) von RWTH Aachen (https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaauujnm)
+- OER/Modul "Was braucht es für eine Datenpublikation" von ORCA.nrw: https://www.orca.nrw/moodle/mod/book/view.php?id=22027
+- Video "Forschungsdaten zu Publikationen" von der RTHW Aachen: https://www.youtube.com/watch?v=GuIQO3cFIuw 
 
 ## Framework
 
