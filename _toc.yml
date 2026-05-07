@@ -22,7 +22,7 @@ chapters:
   - file: Kapitel3_Datenmanagement/einleitung
     sections:
       - file: Kapitel3_Datenmanagement/organisation
-      - file: Kapitel3_Datenmanagement/erschließung
+      - file: Kapitel3_Datenmanagement/erschliessung
       - file: Kapitel3_Datenmanagement/resumee
   - file: Kapitel4_Publikation/einleitung
     sections:
