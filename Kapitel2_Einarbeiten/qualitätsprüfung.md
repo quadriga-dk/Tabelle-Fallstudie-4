@@ -12,16 +12,15 @@ In einem ersten Schritt müssen die zu publizierenden Daten einer Qualitätsprü
 Vorliegende Daten müssen auf ihre Qualität überprüft werden.
 
 **Lösung**
-Die Daten müssen händisch und stichprobenartig geprüft werden.
+Die Daten müssen händisch und stichprobenartig geprüft werden. *Können wir hier mit Software zur Qualitätsprüfung arbeiten?*
+
 Folgende Fragen können dabei helfen:
-- Wurde die Gute wissenschaftliche Praxis eingehalten, v. a. die Punkte ...?
-- Sind die Daten vollständig oder sind Lücken ersichtlich? *Sind das nicht Fragen der Datenerhebung und Validierung?*
-- Sind die Daten plausibel und nachvollziehbar?
+- genügen die Daten in der Art und Weise wie sie vorliegen den Ansprüchen (an GwP (welche Punkte genau?), Vollständigkeit, Plausibilität etc.)
+- Sind die Daten vollständig oder sind Lücken ersichtlich? *Sind das nicht Fragen der Datenerhebung und Validierung?* *Wie prüfe ich das bei mir fremden, mglw. fachfremden Daten (es lassen sich doch nur übliche Lücken und Fehler erkennen)*
 - Sind die Metadaten aussagekräftig und die Daten gut dokumentiert?
 
-*Muss ich, um die Qualität der Daten (z. B. Vollständigkeit) bewerten zu können, nicht wissen, worum es geht? Bei der Einarbeitung in ein Projekt entsteht in der Regel automatisch ein Bild von möglichen Fragestellungen, Methodiken, Analysen und Ergebnissen. Diese Fragen können genutzt werden, um die Daten auf ihre Qualität zu prüfen.* 
+*Bei der Einarbeitung in ein Projekt entsteht in der Regel automatisch ein Bild von möglichen Fragestellungen, Methodiken, Analysen und Ergebnissen. Diese Fragen können genutzt werden, um die Daten auf ihre Qualität zu prüfen.* 
 
-*Können wir hier mit Software zur Qualitätsprüfung arbeiten?*
 
 **Beispiel Szenario Michael** 
 In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht notwendig, weil die Daten bereits gut aufgearbeitet vorliegen.

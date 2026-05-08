@@ -18,22 +18,26 @@ Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über
 
 ---
 
-
-```{admonition} Lernziele Vorgaben und Juristisches:
-:class: lernziele
-
-...
-
-```
-
-*Oder lassen sich die ersten  Kapitel als eins zusammenfassen? à la "before we start"?*
-
 Dieses Kapitel nimmt juristische und andere Vorgaben in den Blick, die es bei der Publikation von Daten zu beachten gilt.
 
-Dazu gehören:
+<span style="color:red">Einfügen Abbildung: Framework mit Ethik und Recht hervorgehoben</span>
+
+*Quellenangabe: Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">Zenodo</a>, Bearbeitung (Hervorhebungen) von Paul Walter.*
+
 - Rechte an Daten
+    - Bei wem liegen die Rechte an der Forschung/ den Daten? Müssen die Rechte eingeholt werden?
 - Vorgaben von (ehem.) Förderern
-- Vorgaben von (weiteren) Dritten
+    - Gab es Bestimmungen während der Datenerhebung in den Projekten? (in unserem Fall: Antragsbestätigung vom BBSR)
+- Vorgaben von Dritten
+    - Gibt es Vorgaben von anderen involvierten Akteuren, Stakeholdern o. ä.? (in unserem Fall FD-Policy FHP, LUH, GWP-Richtlinie FHP/DFG)
 - Fachcommunity
-- Verlags- oder Journalpolicies
-- Lizenzen
+    - Gibt es Vorgaben, Empfehlungen, State-of-the-Art in der Fachcommunity? (in unserem Fall: nein; Michael ist Vorreiter)
+- Verlags- o. Journalpolicies
+    - Gibt es Vorgaben oder Richtlinien der Journale, Verlage oder Repositorien, bei denen bereits veröffentlicht wurde und/oder bei denen veröffentlicht werden soll? (in unserem Fall: BBSR)
+- Lizenz(en)
+    - Bereits am Anfang Lizenz(en) für die Veröffentlichung(en) überlegen bzw. klären. (Was ist aufgrund von Vorgaben und Rechten überhaupt möglich?)
+
+Learnings: 
+- Es ist schwer, sich von außen in ein Projekt zu denken (Nachvollziehen wie Daten entstanden sind, wie Strukturen waren) -> Wer ist jetzt wo, wer hat was gemacht (vor allem wichtig, wenn weitere Fragen aufkommen; schwer, wenn die Personen keine ORCID haben)
+- in unserem Fall alles ganz ok, weil Michael als Projektleitung von allem und allen Bescheid wusste
+
