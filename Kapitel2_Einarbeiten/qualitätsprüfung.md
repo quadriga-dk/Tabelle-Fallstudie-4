@@ -1,7 +1,6 @@
 (einarbeiten:qualitätsprüfung)=
 # Qualitätsprüfung
 
-
 In einem ersten Schritt müssen die zu publizierenden Daten einer Qualitätsprüfung unterzogen werden: genügen die Daten in der Art und Weise wie sie vorliegen den Ansprüchen? Dies gilt in Bezug auf Vollständigkeit, Plausibilität und die Einhaltung der guten wissenschaftlichen Praxis (GWP) [Link].
 
 <span style="color:red">Einfügen Abbildung: Framework mit Qualitätssicherung hervorgehoben</span>
@@ -30,9 +29,13 @@ In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht no
 **Learnings (generisch)** 
 *können auch ins Resümee*
 
-
+*weiterdenken: was passiert, wenn die Daten nicht den Ansprüchen genügen? Sollten sie dann aufbereitet werden? Oder entfallen dann alle Schritte und ein nachträgliches Publizieren ist nicht möglich?*
 
 **Literatur**
+
+z. B.
+- GwP der DFG
+
 
 ```{bibliography}
 :filter: docname in docnames

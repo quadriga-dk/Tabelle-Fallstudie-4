@@ -1,6 +1,22 @@
 (datenmanagement:einleitung)=
 # Datenmanagement
 
+````{margin}
+```{admonition} Fragen oder Feedback
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+````
+
 *Dies dürfte das wichtigste Kapitel werden, weil hier alles zusammenkommt und geordnet werden muss, bevor es publiziert werden kann.*
 
 Wenn noch kein DMP vorliegt (s. Schritt 4 in Kapitel 3 Einordnung [Link]), muss spätestens zu diesem Zeitpunkt einer angelegt werden. Dies gehen wir Schritt für Schritt am Beispiel der Anlage eines DMP für unseren *Architekten*  mit dem Tool <a href="https://rdmo.fdm-bb.de/" class="external-link" target="_blank">RDMO</a> (Instanz Brandenburg) durch. 
