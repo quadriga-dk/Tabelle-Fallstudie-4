@@ -38,6 +38,8 @@ Folgend finden Sie einige Materialien aufgelistet, die ebenfalls einen Bezug zum
 
 **Checklisten:**
 - Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> der FH Potsdam (direkter Downloadlink)
+- <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> Checkliste, welche Hilft seine Arbeit auf FAIR-Konformität zu überprüfen
+- <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Creative Commons Chooser</a> Fragebogen von CC, welcher hilft die richtige Lizenz für die eigene Ausarbeitung zu wählen
 
 **Leitfäden:**
 - PARTHENOS Leitfaden zur <a href="https://zenodo.org/records/3363078" class="external-link" target="_blank">"FAIRifizierung" des Datenmanagements und der Ermöglichung der Nachnutzung von Daten</a> des gleichnamigen Projektes
@@ -47,7 +49,10 @@ Folgend finden Sie einige Materialien aufgelistet, die ebenfalls einen Bezug zum
 
 **Videos:**
 - Video <a href="https://www.youtube.com/watch?v=GuIQO3cFIuw" class="external-link" target="_blank">Forschungsdaten zu Publikationen</a> von der RTHW Aachen
+- Video <a href="https://av.tib.eu/media/51995" class="external-link" target="_blank">10 Gründe für Open Access</a> von der TIB Hannover
 
+**Paper:**
+- <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#d1e183" class="external-link" target="_blank">Data Organization in Spreadsheets</a> Anleitung von Broman & Woo, 2018 zur Erstellung maschinenlesbarer Tabellen.
 ```
 
 ## Framework
