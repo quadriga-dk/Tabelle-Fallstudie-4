@@ -6,7 +6,6 @@
 >
   <schema1:Book rdf:about="https://quadriga-dk.github.io/Book_Template/">
     <dcterms:tableOfContents>- Einstieg
-- Nachträgliches Publizieren - Einleitung
 - Einarbeiten
 - Datenmanagement
 - Publikation
