@@ -31,9 +31,10 @@ Walter, P., Neuroth, H. & Plomin, J. (2026). _Forschungsdatenpublikation: Ein Be
 
 Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten für die Nachnutzung. Dies geschieht ohne konkretes Nutzungsszenario, sodass die hier erarbeiteten Prozesse und Ergebnisse unabhängig vom gewählten Beispiel für alle Fachrichtungen von Interesse sein können.  
 
-Die Lerneinheit orientiert sich an den Learnings, die sich durch die Begleitung und die Dokumentation von Forschungsdaten des Projekts Q-LCA (Link) von Prof. Dr.-Ing. Michael Prytula (Link) an der Fachhochschule Potsdam ergeben haben.
+Die Lerneinheit orientiert sich an den Learnings, die sich durch die Begleitung zur Publikation und Dokumentation von Forschungsdaten des Projekts <a href="https://www.fh-potsdam.de/forschung-transfer/projekte/q-lca" class="external-link" target="_blank">Q-LCA</a> von <a href="https://orcid.org/0000-0001-7738-7627" class="external-link" target="_blank">Prof. Dr.-Ing. Michael Prytula</a> (Fachhochschule Potsdam) und <a href="https://orcid.org/0000-0003-2507-6469" class="external-link" target="_blank">Prof. Dipl.-Ing. Tim Rieniets</a> (Leibniz Universität Hannover) an der <a href="https://www.fh-potsdam.de/" class="external-link" target="_blank">Fachhochschule Potsdam</a> ergeben haben.
 
-Als Grundlage dient das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abdecken. Es wurde aber auch so gestaltet, dass sich dort das nachträgliche Auszeichnen von Forschungsdaten abbilden lässt. *letzteres genauer*, *Link zum folgenden Kapitel "Hintergrund"*
+Als Grundlage dient das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abbilden.  
+Auch der Prozess des nachträglichen Veröffentlichens von Forschungsdaten lässt sich mit diesem Modell fassen und organisieren (s. [Kap. Nachträgliches Publizieren](nachpub:einleitung)).  
 
 *ein Bild einfügen, Themenkreise: Aufbereitung, Schatz, Erneuerung, Neusortierung, -ordnung, aus Altem Neues machen etc.*
 
@@ -55,7 +56,7 @@ Dieses Lehrbuch richtet sich an Forschende, die (Forschungs-)Daten anderer Wisse
 ## Struktur der Fallstudie
 
 Im Projekt QUADRIGA werden Fallstudien entworfen, die auf datengetriebenen Forschungsaktivitäten basieren und spezifische Forschungsfragen zusammen mit den dazugehörigen Datensätzen und Methoden abbilden.  
-Diese Fallstudie orientiert sich an einem realen Fall, der aber übertragbar sein sollte. Es handelt sich eher um ein Szenario als um eine Fallstudie, der eine spezifische Forschungsfrage zugrunde liegt, da hier Forschungsdaten aus (früheren) Projekten nachträglich in Bezug auf ihre Publikation aufbereitet werden sollen. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt durch die Veröffentlichung führt.
+Diese Fallstudie orientiert sich an einem realen Fall, der übertragbar ist. Es handelt sich um ein Szenario und nicht um eine Fallstudie, da dieser Lerneinheit keine spezifische Forschungsfrage zugrunde liegt. Thematischer Fokus ist hier, wie Forschungsdaten aus (früheren) Projekten nachträglich in Bezug auf ihre Publikation aufbereitet werden sollen. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt durch die Veröffentlichung führt, Fallstricke identifiziert und Lösungen anbietet.
 
 *Abbildung der Schritte und kurze Beschreibung*
 
@@ -67,14 +68,11 @@ width: 100%
 Flussdiagramm der QUADRIGA-Vorlage, die sich aus sechs Schritten zusammensetzt.
 ```
 
-In diesem interaktiven Lehrbuch durchlaufen wir die folgenden Schritte, die wir als elementar in der nachträglichen Datenpublikation ausgemacht haben und die mit Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen: *aktuell stimmen die Schritte mit den Phasen überein, obwohl sich die Kompetetenzen natürlich auch abbilden* (siehe Kapitel {ref}`Kapitel 1 Einleitung<kap1:einleitung>`)
+In diesem Lehrbuch werden die folgenden Schritte durchlaufen, die als elementar in der nachträglichen Datenpublikation ausgemacht worden sind und die mit den Datenflussphasen und Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen (siehe Kapitel {ref}`Nachträgliches Publizieren<nachpub:einleitung>`).
 
-- Im **1. Schritt** führen wir eine Qualitätsprüfung durch, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen (siehe Kapitel {ref}`Qualitätsprüfung<qualitätsprüfung>`).
-- Im **2. Schritt** blicken wir auf (mögliche) Vorgaben und zu beachtende juristische Aspekte (siehe Kapitel {ref}`Vorgaben und Juristisches<vorgaben:einleitung>`).
-- Im **3. Schritt** Überblick verschaffen/Einordnen (siehe Kapitel {ref}`Technologie<technologie:einleitung>`).
-- Im **4. Schritt** Datenmanagement (Organisation und Erschließung) (siehe Kapitel {ref}`Datenmanagement<datenmanagement:einleitung>`).
-- Im **5. Schritt** Publikation (siehe Kapitel {ref}`Publikation<publikation:einleitung>`).
-- Im **6. Schritt** Kommunikation (siehe Kapitel {ref}`Reflexion und Resümee<reflexion>`).
+- Im **1. Schritt** gilt es, sich in das Projekt einzuarbeiten (Planung). Dazu wird eine Qualitätsprüfung durchgeführt, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen sowie (mögliche) Vorgaben und juristische Aspekte beleuchtet (siehe Kapitel {ref}`Einarbeiten<einarbeiten:einleitung>`).
+- Im **2. Schritt** folgt mit dem Datenmanagement die Datenflussphase Organisation und Erschließung (siehe Kapitel {ref}`Datenmanagement<datenmanagement:einleitung>`).
+- Im **3. Schritt** werden die Kompetenzen Aufbewahrung, Publikation und Kommunikation von Forschungsdaten behandelt (siehe Kapitel {ref}`Publikation<publikation:einleitung>`).
 
 
 **Literatur**
