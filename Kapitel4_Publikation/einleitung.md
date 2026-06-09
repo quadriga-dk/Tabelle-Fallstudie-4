@@ -17,20 +17,39 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-In diesem Kapitel steht die Datenflussphase *5. Publikation und Nachnutzung* im Vordergrund. (*bezieht sich auf Kompetenzen 5.1 Aufbewahrung, 5.2 Datenpublikation und 5.3 Kommunikation des Frameworks [Link]*)
+Dieses Kapitel nimmt Bezug auf die 5. Phase des Datenflusses im QUADRIGA Datenkompetenzframework "Publikation und Nachnutzung" sowie die Kompetenzen "5.1 Aufbewahrung", "5.2 Datenpublikation" und "5.3 Kommunikation". Dabei können Sie folgende Lernziele erreichen:
 
-Das heißt, es geht um die Methoden und Plattformen für das Publizieren und Teilen von Daten für die Nachnutzung. 
-
-In dem hier skizzierten Fall der nachträglichen Publikation von Forschungsdaten sind also folgende Aspekte zu beachten:
-- Wenn man Daten publiziert, muss man vielleicht alles andere nochmal publizieren, weil man für alles eine DOI braucht (Problem der Gleichzeitigkeit, s. auch Abschnitt ? DMP in Kapitel 4 Datenmanagment [Link]).
-- aus Cloud runterladen, alles durchgehen, ob alles richtig ist (Qualiprüfung)
+```{include} ../einstieg/lernziele.md
+:start-after: "<!-- START: Publikation -->"
+:end-before: "<!-- END: Publikation -->"
+```
 
 ---
+
+Wie Abbildung 4.1 zeigt, befinden wir uns im finalen Teil dieses Lehrbuchs:
 
 ```{figure} /assets/steps_cs4-3.png
 ---
 align: left
 width: 100%
 ---
-Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 3. Schrittes.
 ```
+
+Im Fokus stehen hier die Methoden und Plattformen für das Publizieren und Teilen von Daten für die Nachnutzung. 
+
+Das Kapitel ist entsprechend den Kompetenzen in 3 Unterkapitel gegliedert:
+- [Aufbewahrung](publikation:aufbewahrung)
+- [Publikation](publikation:publikation)
+- [Kommunikation](publikation:kommunikation)
+
+---
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ... Minuten.
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 

@@ -1,6 +1,8 @@
 (datenmanagement:einleitung)=
 # Datenmanagement
 
+*Dies dürfte das wichtigste Kapitel werden, weil hier alles zusammenkommt und geordnet werden muss, bevor es publiziert werden kann.*
+
 ````{margin}
 ```{admonition} Fragen oder Feedback
 :class: frage-feedback
@@ -17,25 +19,38 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-*Dies dürfte das wichtigste Kapitel werden, weil hier alles zusammenkommt und geordnet werden muss, bevor es publiziert werden kann.*
+Dieses Kapitel widmet sich dem Management der zu veröffentlichenden (Forschungs-)Daten und bezieht sich damit auf die dritte Phase des Frameworks "Management" und die Kompetenzen "3.1 Organisation" und "3.2 Erschließung". Dabei werden folgende Lernziele erreicht:
 
-Wenn noch kein DMP vorliegt (s. Schritt 4 in Kapitel 3 Einordnung [Link]), muss spätestens zu diesem Zeitpunkt einer angelegt werden. Dies gehen wir Schritt für Schritt am Beispiel der Anlage eines DMP für unseren *Architekten*  mit dem Tool <a href="https://rdmo.fdm-bb.de/" class="external-link" target="_blank">RDMO</a> (Instanz Brandenburg) durch. 
+```{include} ../einstieg/lernziele.md
+:start-after: "<!-- START: Kapitel3_Datenmanagement -->"
+:end-before: "<!-- END: Kapitel3_Datenmanagement -->"
+```
 
-(Bitte beachten Sie: Um selbst einen DMP anzulegen, müssen Sie sich registrieren - z. B. für den <a href="https://rdmo.fdm-bb.de/account/signup/" class="external-link" target="_blank">Brandenburger RDMO-Dienst</a>. Falls Sie sich nicht registrieren wollen oder können, werden Sie durch Beispielbilder trotzdem in der Lage sein, dem Erstellen eines Datenmanagementplans zu folgen.)
-Schritte sind u. a.:
-- Auswahl und Ordnung (Auswahl und Clusterung der zu veröffentlichenden Forschungsdaten) -> Die Entscheidung über die Bereitstellung der Dateien (als Gesamt-ZIP, ZIP-"Pakete", einzeln) muss getroffen werden
-- Dateibenennung (Benennung der Forschungsdaten nach einem Schema) -> Hier gilt es mitzunehmen, dass die Dateibenennung im Nachhinein sehr mühsam ist und das aufzupassen ist, dass keine Verständigungsprobleme auftauchen
-- Metadaten (Angabe von Metadaten nach Konventionen der Disziplin)
-- FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*) -> dazu auch FAIRification von FD-Objekten: https://datascience.codata.org/articles/dsj-2021-004 
-- README (README-Datei zur Dokumentation Anlegen)
+*Wahrscheinliche Lernziele: LZM nach DMP checken*
 
 ---
+
+Dieses ist das 2. Kapitel bzw. der 2. Schritt dieses Lehrbuchs.
 
 ```{figure} /assets/steps_cs4-2.png
 ---
 align: left
 width: 100%
 ---
-Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 2. Schrittes.
 ```
 
+Sie finden hier folgende 2 Unterkapitel:
+- [Organisation](datenmanagement:organisation)
+- [Erschließung](datenmanagement:erschliessung)
+
+---
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ... Minuten.
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 

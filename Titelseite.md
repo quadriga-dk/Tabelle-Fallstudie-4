@@ -43,7 +43,7 @@ Auch der Prozess des nachträglichen Veröffentlichens von Forschungsdaten läss
 align: center
 width: 100%
 ---
-Erstellung von QUADRIGA-OERs aus der Jupyter-Book-Vorlage
+Bild Untertitel
 ```
 
 ## Zielgruppe

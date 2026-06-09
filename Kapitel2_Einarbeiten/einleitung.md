@@ -17,13 +17,12 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-*Bezieht sich auf Kompetenzen 1.2 Qualitätssicherung und 1.3 Ethik und Recht*
 
-Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende Forschungsdatenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks: "Planung". Dabei werden folgende Lernziele erreicht:
+Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende (Forschungs-)Datenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks "Planung" sowie die Kompetenzen "1.2 Qualitätssicherung" und "1.3 Ethik und Recht". Dabei werden folgende Lernziele erreicht:
 
 ```{include} ../einstieg/lernziele.md
-:start-after: "<!-- START: Kapitel2_Einarbeiten -->"
-:end-before: "<!-- END: Kapitel2_Einarbeiten -->"
+:start-after: "<!-- START: Einarbeiten -->"
+:end-before: "<!-- END: Einarbeiten -->"
 ```
 
 **Lernzielideen (mit Bezug zur LZM):**
@@ -52,7 +51,7 @@ Vorgaben:
 
 ---
 
-Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Arbeitsprozesses der "Planung". 
+Wie die folgende Abbildung 2.1 zeigt, ist dieses das 1. Kapitel bzw. der 1. Schritt dieses Lehrbuchs.
 
 ```{figure} /assets/steps_cs4-1.png
 ---
@@ -63,10 +62,12 @@ Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
 ```
 
 
+Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Arbeitsprozesses der "Planung". 
+
 In Bezug auf ein nachträgliches Veröffentlichen von Forschungsdaten bedeutet das: Je nachdem, ob Sie die Forschungsdaten eines eigenen oder "fremden" Projektes publizieren wollen, müssen Sie sich einen Überblick über den Kontext verschaffen. In jedem Fall sollten Sie die zur Publikation vorgesehenen Daten einer Qualitätsprüfung unterziehen. Darüber hinaus gilt es, einige juristische Aspekte und sonstige Vorgaben zu beachten.
 
-Dieses Kapitel ist dementsprechend in folgende Abschnitte unterteilt:
-- [Einordnung/Überblick verschaffen](einarbeiten:einordnung)
+Dieses Kapitel ist dementsprechend in folgende 3 Abschnitte unterteilt:
+- [Überblick verschaffen](einarbeiten:einordnung)
 - [Qualitätsprüfung](einarbeiten:qualitätsprüfung)
 - [Vorgaben und Juristisches](einarbeiten:vorgaben)
 

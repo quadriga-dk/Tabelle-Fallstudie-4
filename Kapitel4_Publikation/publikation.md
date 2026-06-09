@@ -20,6 +20,11 @@ Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über
 
 ---
 
+
+In dem hier skizzierten Fall der nachträglichen Publikation von Forschungsdaten sind also folgende Aspekte zu beachten:
+- Wenn man Daten publiziert, muss man vielleicht alles andere nochmal publizieren, weil man für alles eine DOI braucht (Problem der Gleichzeitigkeit, s. auch Abschnitt ? DMP in Kapitel 4 Datenmanagment [Link]).
+- aus Cloud runterladen, alles durchgehen, ob alles richtig ist (Qualiprüfung)
+
 *Die vom Projekt ausgemachten Qualitätskriterien zur Veröffentlichung sollten hier selbstverständlich Erwähnung finden:*
 
 - FAIR-Assessment
