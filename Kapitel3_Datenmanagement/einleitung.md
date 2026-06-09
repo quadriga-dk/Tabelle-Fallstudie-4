@@ -29,5 +29,13 @@ Schritte sind u. a.:
 - FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*) -> dazu auch FAIRification von FD-Objekten: https://datascience.codata.org/articles/dsj-2021-004 
 - README (README-Datei zur Dokumentation Anlegen)
 
+---
 
+```{figure} /assets/steps_cs4-2.png
+---
+align: left
+width: 100%
+---
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
+```
 

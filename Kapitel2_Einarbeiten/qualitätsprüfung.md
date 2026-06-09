@@ -38,5 +38,5 @@ z. B.
 
 ```{bibliography}
 :filter: docname in docnames
-:style: plain
+:list: bullet
 ```

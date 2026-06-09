@@ -54,7 +54,14 @@ Vorgaben:
 
 Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Arbeitsprozesses der "Planung". 
 
-<span style="color:red">Einfügen: Grafik zur Struktur der Fallstudie mit Hervorhebung des 1. Schrittes</span>
+```{figure} /assets/steps_cs4-1.png
+---
+align: left
+width: 100%
+---
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
+```
+
 
 In Bezug auf ein nachträgliches Veröffentlichen von Forschungsdaten bedeutet das: Je nachdem, ob Sie die Forschungsdaten eines eigenen oder "fremden" Projektes publizieren wollen, müssen Sie sich einen Überblick über den Kontext verschaffen. In jedem Fall sollten Sie die zur Publikation vorgesehenen Daten einer Qualitätsprüfung unterziehen. Darüber hinaus gilt es, einige juristische Aspekte und sonstige Vorgaben zu beachten.
 

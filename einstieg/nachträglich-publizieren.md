@@ -84,5 +84,5 @@ Diese Lerneinheit ist so aufgebaut, dass die einzelnen Kapitel den entsprechende
 
 ```{bibliography}
 :filter: docname in docnames
-:style: plain
+:list: bullet
 ```

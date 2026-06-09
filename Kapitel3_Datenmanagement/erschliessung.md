@@ -24,7 +24,7 @@ Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über
 
 ```{bibliography}
 :filter: docname in docnames
-:style: plain
+:list: bullet
 ```
 
 

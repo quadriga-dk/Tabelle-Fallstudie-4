@@ -38,10 +38,10 @@ Auch der Prozess des nachträglichen Veröffentlichens von Forschungsdaten läss
 
 *ein Bild einfügen, Themenkreise: Aufbereitung, Schatz, Erneuerung, Neusortierung, -ordnung, aus Altem Neues machen etc.*
 
-```{figure} /assets/intro/oer-creation-process.png
+```{figure} /assets/...
 ---
 align: center
-width: 70%
+width: 100%
 ---
 Erstellung von QUADRIGA-OERs aus der Jupyter-Book-Vorlage
 ```
@@ -58,14 +58,14 @@ Dieses Lehrbuch richtet sich an Forschende, die (Forschungs-)Daten anderer Wisse
 Im Projekt QUADRIGA werden Fallstudien entworfen, die auf datengetriebenen Forschungsaktivitäten basieren und spezifische Forschungsfragen zusammen mit den dazugehörigen Datensätzen und Methoden abbilden.  
 Diese Fallstudie orientiert sich an einem realen Fall, der übertragbar ist. Es handelt sich um ein Szenario und nicht um eine Fallstudie, da dieser Lerneinheit keine spezifische Forschungsfrage zugrunde liegt. Thematischer Fokus ist hier, wie Forschungsdaten aus (früheren) Projekten nachträglich in Bezug auf ihre Publikation aufbereitet werden sollen. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt durch die Veröffentlichung führt, Fallstricke identifiziert und Lösungen anbietet.
 
-*Abbildung der Schritte und kurze Beschreibung*
+Die folgende Abbildung zeigt die 3 Schritte bzw. Kapitel dieses Szenarios.
 
-```{figure} ./assets/intro/Aufbau_der_OER.svg
+```{figure} /assets/steps_cs4.png
 ---
 align: left
 width: 100%
 ---
-Flussdiagramm der QUADRIGA-Vorlage, die sich aus sechs Schritten zusammensetzt.
+Visualisierung der 3 Schritte dieses Lehrbuchs.
 ```
 
 In diesem Lehrbuch werden die folgenden Schritte durchlaufen, die als elementar in der nachträglichen Datenpublikation ausgemacht worden sind und die mit den Datenflussphasen und Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen (s. Kap. {ref}`Nachträgliches Publizieren<nachpub:einleitung>`).
@@ -79,5 +79,5 @@ In diesem Lehrbuch werden die folgenden Schritte durchlaufen, die als elementar 
 
 ```{bibliography}
 :filter: docname in docnames
-:style: plain
+:list: bullet
 ```

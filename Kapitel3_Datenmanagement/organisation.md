@@ -56,6 +56,6 @@ Das Rhein-Ruhr Zentrum für wissenschaftliche Datenqualität (<a href="https://w
 
 ```{bibliography}
 :filter: docname in docnames
-:style: plain
+:list: bullet
 ```
 

@@ -20,9 +20,20 @@ Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über
 
 ---
 
+*Die vom Projekt ausgemachten Qualitätskriterien zur Veröffentlichung sollten hier selbstverständlich Erwähnung finden:*
+
+- FAIR-Assessment
+- Metadaten
+- PID
+- Versionierung und Upload
+- Dokumentation
+- Zitationshinweis
+
+---
+
 **Literatur**
 
 ```{bibliography}
 :filter: docname in docnames
-:style: plain
+:list: bullet
 ```

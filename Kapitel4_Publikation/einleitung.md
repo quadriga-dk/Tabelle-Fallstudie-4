@@ -24,3 +24,13 @@ Das heißt, es geht um die Methoden und Plattformen für das Publizieren und Tei
 In dem hier skizzierten Fall der nachträglichen Publikation von Forschungsdaten sind also folgende Aspekte zu beachten:
 - Wenn man Daten publiziert, muss man vielleicht alles andere nochmal publizieren, weil man für alles eine DOI braucht (Problem der Gleichzeitigkeit, s. auch Abschnitt ? DMP in Kapitel 4 Datenmanagment [Link]).
 - aus Cloud runterladen, alles durchgehen, ob alles richtig ist (Qualiprüfung)
+
+---
+
+```{figure} /assets/steps_cs4-3.png
+---
+align: left
+width: 100%
+---
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
+```
