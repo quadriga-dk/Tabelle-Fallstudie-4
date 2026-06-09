@@ -1,9 +1,14 @@
 (datenmanagement:organisation)=
 # Organisation
 
-<span style="color:red">*Hier muss es um Kompetenz 3.1 Organisation gehen; Bild der Kompetenz einfügen*</span>
+Dieses Unterkapitel bezieht sich auf die Kompetenz "3.1 Organisation" des QUADRIGA Datenkompetenzframeworks:
 
-<span style="color:red">Folgendes ist (bis auf die Admonition) aus dem BoxUP Dokument kopiert:</span>
+*Bild der Kompetenz 3.1 Organisation einfügen*
+
+Dies bedeutet, dass die im Projekt entstandenen Forschungsdaten an dieser Stelle geordnet und organisiert werden müssen. Wenn zum Beispiel noch kein Datenmanagementplan (DMP) vorliegt, muss nun einer angelegt werden.  
+Dieses Lehrbuch führt Sie Schritt für Schritt durch das Anlegen eines DMP am Beispiel des DMP für das Projekt Q-LCA, der mit dem Tool <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO</a> (Instanz Brandenburg) verfasst wurde. 
+
+---
 
 **Aufbau jeder Lerneinheit/jedes Unterkapitels:**
 
@@ -25,7 +30,7 @@ Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über
 Datenmanagement
 Management im Sinne von Ordnung; dabei so ordnen, dass sie auch interdisziplinär bzw. projekt-extern verstanden werden 
 ·	DMP
-·	DMP anlegen, wenn keiner vorhanden ist (ein DMP musste nachträglich geschrieben werden. Entscheidung für Repo (Wir haben uns für RDMO Brandenburg entschieden (weil bei uns entwickelt), Auswahl DFG Checkliste v5 (warum?)) https://rdmo.fdm-bb.de/ 
+·	DMP anlegen, wenn keiner vorhanden ist (
 ·	Datenauswahl
 ·	Auswahl und Clustertung der zu veröffentlichenden Forschungsdaten
 ·	Datenbenennung
@@ -38,15 +43,32 @@ Management im Sinne von Ordnung; dabei so ordnen, dass sie auch interdisziplinä
 ·	README
 ·	README zur Dokumentation anlegen
 
-Learnings:
+
+
+## Datenmanagementplan
+
+### Problem
+
+Es gibt keinen Datenmanagementplan für die im Projekt entstandenen Forschungsdaten.
+
+### Lösung
+
+Ein DMP muss angelegt werden.
+*Tools für DMP nennen/verlinken; Wie lässt sich sonst noch ein DMP anlegen etc.*
+
+### Beispiel Szenario Q-LCA 
+
+Ein DMP musste nachträglich geschrieben werden. Entscheidung für Repo (Wir haben uns für RDMO Brandenburg entschieden (weil bei uns entwickelt), Auswahl DFG Checkliste v5 (warum?)) https://rdmo.fdm-bb.de/ 
+
+### Learnings (generisch)
+*können möglicherweise auch ins Resümee*
+
 ·	Struktur soweit wie möglich aus dem Projekt übernehmen (Strukturen und Benennungen sind nicht ohne Grund entstanden und folgen einer Logik)
 ·	Für Quadriga mitnehmen: Dateibenennung im Nachhinein mühsam, aufpassen, dass keine Verständigungsprobleme entstehen.
 ·	auch die Bereitstellung war ein Thema (als ZIP, Gesamt-ZIP, Teil-ZIP) -> logische Ordnung und Clusterung
 ·	Versionierung und Dateibenennung Kompetenzen, die gebraucht werden, wenn man nachträglich aufarbeitet
 
-## Datenmanagementplan
 
-Wenn noch kein DMP vorliegt, muss spätestens zu diesem Zeitpunkt einer angelegt werden. Dies gehen wir Schritt für Schritt am Beispiel der Anlage eines DMP für unseren *Architekten*  mit dem Tool <a href="https://rdmo.fdm-bb.de/" class="external-link" target="_blank">RDMO</a> (Instanz Brandenburg) durch. 
 
 (Bitte beachten Sie: Um selbst einen DMP anzulegen, müssen Sie sich registrieren - z. B. für den <a href="https://rdmo.fdm-bb.de/account/signup/" class="external-link" target="_blank">Brandenburger RDMO-Dienst</a>. Falls Sie sich nicht registrieren wollen oder können, werden Sie durch Beispielbilder trotzdem in der Lage sein, dem Erstellen eines Datenmanagementplans zu folgen.)
 Schritte sind u. a.:

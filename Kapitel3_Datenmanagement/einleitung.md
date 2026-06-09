@@ -22,8 +22,8 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Dieses Kapitel widmet sich dem Management der zu veröffentlichenden (Forschungs-)Daten und bezieht sich damit auf die dritte Phase des Frameworks "Management" und die Kompetenzen "3.1 Organisation" und "3.2 Erschließung". Dabei werden folgende Lernziele erreicht:
 
 ```{include} ../einstieg/lernziele.md
-:start-after: "<!-- START: Kapitel3_Datenmanagement -->"
-:end-before: "<!-- END: Kapitel3_Datenmanagement -->"
+:start-after: "<!-- START: Datenmanagement -->"
+:end-before: "<!-- END: Datenmanagement -->"
 ```
 
 *Wahrscheinliche Lernziele: LZM nach DMP checken*
