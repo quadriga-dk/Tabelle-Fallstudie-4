@@ -1,8 +1,6 @@
 (datenmanagement:einleitung)=
 # Datenmanagement
 
-*Dies dürfte das wichtigste Kapitel werden, weil hier alles zusammenkommt und geordnet werden muss, bevor es publiziert werden kann.*
-
 ````{margin}
 ```{admonition} Fragen oder Feedback
 :class: frage-feedback
@@ -30,6 +28,8 @@ Die 3. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 ```
 *Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
+---
+
 Dabei werden folgende Lernziele erreicht:
 
 ```{include} ../einstieg/lernziele.md
@@ -37,23 +37,24 @@ Dabei werden folgende Lernziele erreicht:
 :end-before: "<!-- END: Datenmanagement -->"
 ```
 
-*Wahrscheinliche Lernziele: LZM nach DMP checken*
-
 ---
 
-Dieses ist das 2. Kapitel bzw. der 2. Schritt dieses Lehrbuchs.
+Dieses ist das 3. Kapitel dieses Lehrbuchs bzw. der 2. Schritt im Szenario einer nachträglichen Datenpublikation (Abb. 3.2).
 
 ```{figure} /assets/steps_cs4-2.png
 ---
 align: left
-width: 100%
+width: 50%
 ---
 Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 2. Schrittes.
 ```
 
-Sie finden hier folgende 2 Unterkapitel:
+---
+
+Sie finden hier folgende 3 Unterkapitel:
 - [Organisation](datenmanagement:organisation)
 - [Erschließung](datenmanagement:erschliessung)
+- [Resümee](datenmanagement:resümee)
 
 ---
 
