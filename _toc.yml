@@ -6,11 +6,11 @@ root: Titelseite
 options:
   numbered: 3
 chapters:
-  - file: einstieg/einleitung
+  - file: Kapitel1_Einstieg/einleitung
     sections:
-      - file: einstieg/lernziele
-      - file: einstieg/technische_voraussetzungen
-      - file: einstieg/nachträglich-publizieren
+      - file: Kapitel1_Einstieg/lernziele
+      - file: Kapitel1_Einstieg/technische_voraussetzungen
+      - file: Kapitel1_Einstieg/nachträglich-publizieren
   - file: Kapitel2_Einarbeiten/einleitung
     sections:
       - file: Kapitel2_Einarbeiten/einordnung
@@ -28,10 +28,10 @@ chapters:
       - file: Kapitel4_Publikation/publikation
       - file: Kapitel4_Publikation/kommunikation
       - file: Kapitel4_Publikation/resumee
-  - file: abschluss/toc
+  - file: Kapitel5_Abschluss/toc
     sections:
-      - file: abschluss/fragen_und_feedback
-      - file: abschluss/literaturverzeichnis
-      - file: abschluss/authors
-      - file: abschluss/quadriga
-      - file: abschluss/impressum
+      - file: Kapitel5_Abschluss/fragen_und_feedback
+      - file: Kapitel5_Abschluss/literaturverzeichnis
+      - file: Kapitel5_Abschluss/authors
+      - file: Kapitel5_Abschluss/quadriga
+      - file: Kapitel5_Abschluss/impressum
