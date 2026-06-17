@@ -20,9 +20,14 @@ Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über
 
 Dieses Kapitel nimmt juristische und andere Vorgaben in den Blick, die es bei der Publikation von Daten zu beachten gilt.
 
-<span style="color:red">Einfügen Abbildung: Framework mit Ethik und Recht hervorgehoben</span>
-
-*Quellenangabe: Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">Zenodo</a>, Bearbeitung (Hervorhebungen) von Paul Walter.*
+```{figure} /assets/1.3_ethik-recht.png
+---
+align: center
+width: 50%
+---
+Die Kompetenz 1.3 Ethik und Recht des QUADRIGA Datenkompetenzframeworks.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
 - Rechte an Daten
     - Bei wem liegen die Rechte an der Forschung/ den Daten? Müssen die Rechte eingeholt werden?

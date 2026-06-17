@@ -3,7 +3,14 @@
 
 Dieses Unterkapitel bezieht sich auf die Kompetenz "3.1 Organisation" des QUADRIGA Datenkompetenzframeworks:
 
-*Bild der Kompetenz 3.1 Organisation einfügen*
+```{figure} /assets/3.1_organisation.png
+---
+align: center
+width: 50%
+---
+Die Kompetenz 3.1 Organisation des QUADRIGA Datenkompetenzframeworks.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
 Dies bedeutet, dass die im Projekt entstandenen Forschungsdaten an dieser Stelle geordnet und organisiert werden müssen. Wenn zum Beispiel noch kein Datenmanagementplan (DMP) vorliegt, muss nun einer angelegt werden.  
 Dieses Lehrbuch führt Sie Schritt für Schritt durch das Anlegen eines DMP am Beispiel des DMP für das Projekt Q-LCA, der mit dem Tool <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO</a> (Instanz Brandenburg) verfasst wurde. 

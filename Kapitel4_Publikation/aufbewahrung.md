@@ -1,12 +1,12 @@
 (publikation:aufbewahrung)=
 # Aufbewahrung
 
-In diesem Kapitel steht die Kompetenz der Aufbewahrung von Forschungsdaten im Fokus.
+In diesem Unterkapitel steht die Kompetenz der Aufbewahrung von Forschungsdaten im Fokus.
 
-```{figure} /assets/5.1_Aufbewahrung.png
+```{figure} /assets/5.1_aufbewahrung.png
 ---
 align: center
-width: 100%
+width: 50%
 ---
 Die Kompetenz 5.1 Aufbewahrung des QUADRIGA Datenkompetenzframeworks.
 ```

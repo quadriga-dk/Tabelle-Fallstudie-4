@@ -1,12 +1,12 @@
 (publikation:kommunikation)=
 # Kommunikation
 
-Dieses Kapitel nimmt die in anderen Modellen häufig vernachlässigte Kompetenz der Kommunikation von Forschungsdaten oder -ergebnissen in den Blick.
+Dieses Unterkapitel nimmt die in anderen Modellen häufig vernachlässigte Kompetenz der Kommunikation von Forschungsdaten oder -ergebnissen in den Blick.
 
-```{figure} /assets/5.3_Kommunikation.png
+```{figure} /assets/5.3_kommunikation.png
 ---
 align: center
-width: 100%
+width: 50%
 ---
 Die Kompetenz 5.3 Kommunikation des QUADRIGA Datenkompetenzframeworks.
 ```

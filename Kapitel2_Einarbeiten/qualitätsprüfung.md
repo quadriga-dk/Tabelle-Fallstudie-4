@@ -3,9 +3,15 @@
 
 In einem ersten Schritt müssen die zu publizierenden Daten einer Qualitätsprüfung unterzogen werden: genügen die Daten in der Art und Weise wie sie vorliegen den Ansprüchen? Dies gilt in Bezug auf Vollständigkeit, Plausibilität und die Einhaltung der guten wissenschaftlichen Praxis (GWP) [Link].
 
-<span style="color:red">Einfügen Abbildung: Framework mit Qualitätssicherung hervorgehoben</span>
+```{figure} /assets/1.2_qualitaetssicherung.png
+---
+align: center
+width: 50%
+---
+Die Kompetenz 1.2 Qualitätssicherung des QUADRIGA Datenkompetenzframeworks.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
-*Quellenangabe: Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">Zenodo</a>, Bearbeitung (Hervorhebungen) von Paul Walter.*
 
 
 **Problem**

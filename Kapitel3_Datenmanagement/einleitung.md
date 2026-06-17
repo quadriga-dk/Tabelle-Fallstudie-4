@@ -19,7 +19,18 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-Dieses Kapitel widmet sich dem Management der zu veröffentlichenden (Forschungs-)Daten und bezieht sich damit auf die dritte Phase des Frameworks "Management" und die Kompetenzen "3.1 Organisation" und "3.2 Erschließung". Dabei werden folgende Lernziele erreicht:
+Dieses Kapitel widmet sich dem Management der zu veröffentlichenden (Forschungs-)Daten (s. Abb. 3.1) und bezieht sich damit auf die dritte Phase des Frameworks "Management" und die Kompetenzen "3.1 Organisation" und "3.2 Erschließung". 
+
+```{figure} /assets/3_management.png
+---
+align: center
+width: 50%
+---
+Die 3. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Kompetenzen.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
+
+Dabei werden folgende Lernziele erreicht:
 
 ```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Datenmanagement -->"

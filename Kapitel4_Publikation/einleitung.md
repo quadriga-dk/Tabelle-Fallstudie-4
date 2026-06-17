@@ -19,10 +19,10 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Dieses Kapitel nimmt Bezug auf die in Abb. 4.1 dargestellte 5. Phase des Datenflusses im QUADRIGA Datenkompetenzframework "Publikation und Nachnutzung" mit den Kompetenzen "5.1 Aufbewahrung", "5.2 Datenpublikation" und "5.3 Kommunikation". 
 
-```{figure} /assets/5_Publikation-und-Nachnutzung.png
+```{figure} /assets/5_publikation-nachnutzung.png
 ---
 align: center
-width: 100%
+width: 50%
 ---
 Die 5. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Kompetenzen.
 ```

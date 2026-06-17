@@ -1,7 +1,16 @@
 (datenmanagement:erschliessung)=
 # Erschließung
 
-*Hier muss es um Kompetenz 3.2 Erschließung gehen*
+Dieses Unterkapitel fokussiert die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks.
+
+```{figure} /assets/3.2_erschliessung.png
+---
+align: center
+width: 50%
+---
+Die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
 **Aufbau jeder Lerneinheit/jedes Unterkapitels:**
 

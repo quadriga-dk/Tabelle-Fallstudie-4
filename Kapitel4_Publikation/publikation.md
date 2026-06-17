@@ -1,12 +1,12 @@
 (publikation:publikation)=
 # Publikation
 
-Dieses Kapitel widmet sich der Kompetenz der Publikation von Forschungsdaten.
+Dieses Unterkapitel widmet sich der Kompetenz der Publikation von Forschungsdaten.
 
-```{figure} /assets/5.2_Publikation.png
+```{figure} /assets/5.2_publikation.png
 ---
 align: center
-width: 100%
+width: 50%
 ---
 Die Kompetenz 5.2 Publikation des QUADRIGA Datenkompetenzframeworks.
 ```
