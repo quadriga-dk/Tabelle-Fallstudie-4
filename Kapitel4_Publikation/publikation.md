@@ -1,7 +1,17 @@
 (publikation:publikation)=
 # Publikation
 
-*Hier muss es um Kompetenz 5.2 Publikation gehen*
+Dieses Kapitel widmet sich der Kompetenz der Publikation von Forschungsdaten.
+
+```{figure} /assets/5.2_Publikation.png
+---
+align: center
+width: 100%
+---
+Die Kompetenz 5.2 Publikation des QUADRIGA Datenkompetenzframeworks.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
+
 
 **Aufbau jeder Lerneinheit/jedes Unterkapitels:**
 

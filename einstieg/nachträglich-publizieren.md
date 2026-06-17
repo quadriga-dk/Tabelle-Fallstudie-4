@@ -67,7 +67,7 @@ Für die nachträgliche Publikation werden nicht alle Kompetenzen benötigt bzw.
 ```{figure} /assets/framework_phases.png
 ---
 align: center
-width: 70%
+width: 100%
 ---
 Das QUADRIGA Datenkompetenzframework mit Hervorhebung der bei der nachträglichen Publikation von Forschungsdaten benötigten Kompetenzen/Phasen im Datenfluss.
 ```

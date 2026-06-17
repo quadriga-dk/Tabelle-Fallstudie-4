@@ -1,7 +1,18 @@
 (publikation:aufbewahrung)=
 # Aufbewahrung
 
-*Hier muss es um Kompetenz 5.1 Aufbewahrung gehen*
+In diesem Kapitel steht die Kompetenz der Aufbewahrung von Forschungsdaten im Fokus.
+
+```{figure} /assets/5.1_Aufbewahrung.png
+---
+align: center
+width: 100%
+---
+Die Kompetenz 5.1 Aufbewahrung des QUADRIGA Datenkompetenzframeworks.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
+
+
 
 **Aufbau jeder Lerneinheit/jedes Unterkapitels:**
 
