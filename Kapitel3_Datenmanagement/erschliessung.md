@@ -1,12 +1,12 @@
 (datenmanagement:erschliessung)=
 # Erschließung
 
-Dieses Unterkapitel fokussiert die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks. Dies umfasst die an Standards orientierte Auszeichnung bzw. Beschreibung der Daten.
+Dieses Unterkapitel fokussiert die Kompetenz "3.2 Erschließung" des QUADRIGA Datenkompetenzframeworks. Dies umfasst die an Standards orientierte Auszeichnung bzw. Beschreibung von Daten.
 
 ```{figure} /assets/3.2_erschliessung.png
 ---
 align: center
-width: 25%
+width: 33%
 ---
 Die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks.
 ```
@@ -16,8 +16,7 @@ Die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks.
 
 ## Ausgangslage
 
-Im Rahmen der ERschließung der Daten, müssen **Metadaten** vergeben werden, wenn das an anderer Stelle noch nicht geschehen ist. Dies sollte nach den Konventionen der Disziplin geschehen, aus der die Forschungsdaten stammen.  
-
+Im Rahmen der Erschließung der Daten, müssen **Metadaten** vergeben werden, wenn das an anderer Stelle noch nicht geschehen ist. Dies sollte nach den Konventionen der Disziplin geschehen, aus der die Forschungsdaten stammen.  
 Die Daten und Metadaten sollten eine **FAIRifizierung** durchlaufen, d. h. möglichst vollständig beschrieben werden. Dazu sollte, wo es möglich ist, auf Standards zurückgegriffen werden.   
 Auch eine **README** gehört zu einer guten Datenbeschreibung. Darin sollten Sie alles dokumentieren, was Nachnutzende über die Daten wissen wollen.
 
