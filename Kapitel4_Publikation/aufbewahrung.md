@@ -18,13 +18,13 @@ Die Kompetenz 5.1 Aufbewahrung des QUADRIGA Datenkompetenzframeworks.
 :class: story
 [Storyline entsprechend vorheriger Kapitel fortsetzen. Vermutlich sowas wie: Nachdem Protagonist XY a,b und c gemacht hat, fragt er sich nun wo er die von ihm erhobenen Daten am besten aufbewahrt. Dabei ist ihm besonders wichtig, dass die Daten **sicher** aufbewahrt werden, aber auch dass berechtigte Personen einfachen Zugriff zu den Daten haben. Des weiteren (erinnert er sich an die Schwierigkeiten/Zeitaufwand aus Kap XY, und daher) möchte er seine erarbeiteten Daten/Erkenntnisse/o.Ä. mölichst einfach anderen Menschen zur Verfügung stellen, die einen Bezug zu seiner Forschung haben (Architektur,Städtebau, Geowissenschaften??)]
 ```
-Nachdem Sie [X,Y und Z] gemacht haben, haben fragen Sie sich nun wo und wie Sie Ihre Daten aufbewahren können. Hierfür werden üblicherweise sogeannte <i>Repositorien<i> verwendet. 
+Nachdem Sie [X,Y und Z] gemacht haben, haben fragen Sie sich nun wo und wie Sie Ihre Daten aufbewahren können. Hierfür werden üblicherweise sogenannte <i>Repositorien</i> verwendet. 
 In diesem Unterkapitel erfahren Sie:
 <ul>
   <li>Was ein Repositorium genau ist;</li>
   <li>Welche Arten von Repositorien es gibt;</li>
   <li>Nach welchen Kriterien Sie ein (oder mehrere) für Ihr Projekt passende Repositorien auswählen;</li>
-  <li>Und wo Sie Repositorien finden können.<li>
+  <li>Und wo Sie Repositorien finden können.</li>
 </ul>
 
 ## Repositorien im Überblick
