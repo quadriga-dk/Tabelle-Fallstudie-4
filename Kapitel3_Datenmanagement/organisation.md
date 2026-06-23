@@ -39,7 +39,7 @@ Das oben genannte Datenmanagement wird mit der Anlage eines DMP erreicht. Wie Si
 *Eingehen auf Datenbenennung*
 
 Im Beispielszenario 'Q-LCA Forschungsdatenveröffentlichung' 
-Ein DMP musste nachträglich geschrieben werden. Entscheidung für Repo (Wir haben uns für RDMO Brandenburg entschieden (weil bei uns entwickelt), Auswahl DFG Checkliste v5 (warum?)) https://rdmo.fdm-bb.de/ 
+Ein DMP musste nachträglich geschrieben werden. Entscheidung für Repo (Wir haben uns für RDMO Brandenburg entschieden (weil bei uns entwickelt - diese Begründung reicht natürlich nicht;) ), Auswahl DFG Checkliste v5 (warum?)) https://rdmo.fdm-bb.de/ 
 
 ### Datenmanagementplan
 
