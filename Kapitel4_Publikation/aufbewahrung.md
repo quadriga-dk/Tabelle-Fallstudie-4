@@ -29,17 +29,19 @@ In diesem Unterkapitel erfahren Sie:
 
 ## Repositorien im Überblick
 
-Der Begriff "Repositorium" stammt aus dem lateinischen und bedeutet so viel wie 'Lager'. Ursprünglich wurde der Begriff synonym mit Büchergestell oder Aktenschrank verwendet. Den Unterschied zum <i>Archiv<i> stellt die Aktualität der darin aufbewahrten Dokumente dar.
-Heutzutage ist mit Repositorium (und seineer englischen Übersetzung <i>Repository<i>, welche in der Informatik sehr verbreitet ist) primär ein Ort zur (geordneten) Speicherung von Daten gemeint. Im informatischen Bereich ist damit ein Verzeichnis gemeint, welches i.d.R. auf einem Server hinterlegt ist. Auf diese Weise können Programmierer ggf. parallel und effizient ein und demselben Projekt arbeiten oder das Verzeichnis als Endprodukt der Zielgruppe oder Öffentlichkeit zur Verfügung stellen. 
+Der Begriff "Repositorium" stammt aus dem lateinischen und bedeutet so viel wie 'Lager'. Ursprünglich wurde der Begriff synonym mit Büchergestell oder Aktenschrank verwendet. Den Unterschied zum <i>Archiv</i> stellt die Aktualität der darin aufbewahrten Dokumente dar.
+Heutzutage ist mit Repositorium (und seineer englischen Übersetzung <i>Repository</i>, welche in der Informatik sehr verbreitet ist) primär ein Ort zur (geordneten) Speicherung von Daten gemeint. Im informatischen Bereich ist damit ein Verzeichnis gemeint, welches i.d.R. auf einem Server hinterlegt ist. Auf diese Weise können Programmierer ggf. parallel und effizient ein und demselben Projekt arbeiten oder das Verzeichnis als Endprodukt der Zielgruppe oder Öffentlichkeit zur Verfügung stellen. 
 Im Bibliothekswesen und Forschungsdatenmanagement (FDM) hingegen ist mit Repositorium in der Regel ein Dokumentenserver gemeint, auf welchem Daten mithilfe von Metadaten wiederauffindbar hinterlegt werden können. Oft wird dieser auch Publikationserver oder Online-Archiv genannt. In dieser Fallstudie sind letztere Relevant.
 
 Die Informationsplattform <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a> unterteilt Repositorien in die folgenden 3 Kategorien:
 
 <ol>
   <li><b>Institutionelle Repositorien:</b> Diese Art Repositorien werden von Institutionen (bsp. von Universitäten betrieben). Die Thematik der Datensätze sind demnach ähnlich vielseitig wie die Ausrichtung der Institution selbst. Institutionelle Repositorien sind auf die Bedürfnisse seiner Mitglieder ausgelegt und für Dritte und die Öffentlichtkeit oft nur eingeschränkt oder sogar gar nicht zugänglich.</li>
-  <li><b>Fachspezifische Repositorien</b>beinhalten, wie ihr Name bereits vermuten lässt, Informationen aus einer spezifischen Disziplin und sind dementsprechend homogen. Des weiteren sind sie zugeschnitten auf die Bedarfe und Anforderungen der entsprechenden Wissenschaftscommunity.</li>
-  <li><b>Generische Repositorien</b>sind allgemeine Repositiorien ohne spezifische Fachrichtung, welche oft keine direkte Verbindung zu wisschenschaftlichen Institutionen haben. Hierzu gehört zum Beispiel <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a></li>
+  <li><b>Fachspezifische Repositorien</b> beinhalten, wie ihr Name bereits vermuten lässt, Informationen aus einer spezifischen Disziplin und sind dementsprechend homogen. Des weiteren sind sie zugeschnitten auf die Bedarfe und Anforderungen der entsprechenden Wissenschaftscommunity.</li>
+  <li><b>Generische Repositorien</b> sind allgemeine Repositiorien ohne spezifische Fachrichtung, welche oft keine direkte Verbindung zu wisschenschaftlichen Institutionen haben. Hierzu gehört zum Beispiel <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a></li>
 </ol>
+
+
 
 **Aufbau jeder Lerneinheit/jedes Unterkapitels:**
 
