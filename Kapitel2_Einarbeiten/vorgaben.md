@@ -55,7 +55,8 @@ Gerade bei älteren oder nachträglich veröffentlichten Datensätzen kann die K
 Learnings: 
 - Es ist schwer, sich von außen in ein Projekt zu denken (Nachvollziehen wie Daten entstanden sind, wie Strukturen waren) -> Wer ist jetzt wo, wer hat was gemacht (vor allem wichtig, wenn weitere Fragen aufkommen; schwer, wenn die Personen keine ORCID haben)
 - in unserem Fall alles ganz ok, weil Michael als Projektleitung von allem und allen Bescheid wusste
-## Literatur
+
+**Literatur**
 
 ```{bibliography}
 :filter: docname in docnames
