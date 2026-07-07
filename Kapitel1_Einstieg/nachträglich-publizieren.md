@@ -17,11 +17,15 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-*Diese Seite dient als Erklärung, warum es diese OER braucht.*
+In dieser Open Educational Resource (OER) wird die nachträgliche Publikation von Forschungsdaten in den Blick genommen. Das zielt ab auf den häufig vorzufindenden Fall, dass die Ergebnisse eines Forschungsprojekts zwar in einer abschließenden Publikation zusammengefasst wurden, die Forschungsdaten der Community aber nicht zur Verfügung stehen. Aus Gründen der Reproduzierbarkeit, der FAIRness sowie der Guten wissenschaftlichen Praxis (Leitlinien 13 und 17){cite}´deutsche_forschungsgemeinschaft_2025´ sollten diese ebenfalls veröffentlicht werden.
 
 ## Besonderheiten dieser OER 
 
+Diese OER entstand 
+
+Im Gegensatz zu Forschungsdatenmanagement, dass während eines Projektes
 *An dieser Stelle erklären, was diese OER besonders macht/was diese Veröffentlichung von anderen des gleiches Themas unterscheidet/was der Hintergrund für die Entscheidung für diese Thema war etc.*
+
 
 -	Erklären, was uns von „normalem“ FDM trennt (siehe Checklisten zum Thema)
     - FDM ist ...
@@ -62,7 +66,7 @@ Folgend finden Sie einige Materialien aufgelistet, die ebenfalls einen Bezug zum
 ## Framework
 
 Das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a> bildet (Daten-)Kompetenzen ab, die im Laufe eines wissenschaftlichen Projekts benötigt werden.  
-Für die nachträgliche Publikation werden nicht alle Kompetenzen benötigt bzw. nicht alle Phasen des Datenflusses durchschritten, da das eigentliche Forschungsprojekt mit der Erhebung, Aufbereitung und Analyse von Daten bereits in der Vergangenheit liegt. Es werden nur Bereiche aus den Phasen Planung (1), Management (3) sowie Publikation und Nachnutzung (5) angesprochen (s. Abb. X). Dabei hängen 1.2 Qualitätssicherung sowie 3.1 Organisation und 3.2 Erschließung als Arbeitsschritte zur nachträglichen Publikation in erheblichem Maße davon ab, wie gut diese bereits während des Projektes beachtet wurden. Die Kompetenz 1.3 Ethik und Recht bezieht sich ursprünglich auf das rechtssichere (Nach-)Nutzen von Daten, findet in diesem Szenario aber Anwendung auf das (nachträgliche) Publizieren von Daten.
+Für die nachträgliche Publikation werden nicht alle Kompetenzen benötigt bzw. nicht alle Phasen des Datenflusses durchschritten, da das eigentliche Forschungsprojekt mit der Erhebung, Aufbereitung und Analyse von Daten bereits in der Vergangenheit liegt. Es werden nur Bereiche aus den Phasen Planung (1), Management (3) sowie Publikation und Nachnutzung (5) angesprochen (s. Abb. 1.2). Dabei hängen 1.2 Qualitätssicherung sowie 3.1 Organisation und 3.2 Erschließung als Arbeitsschritte zur nachträglichen Publikation in erheblichem Maße davon ab, wie gut diese bereits während des Projektes beachtet wurden. Die Kompetenz 1.3 Ethik und Recht bezieht sich ursprünglich auf das rechtssichere (Nach-)Nutzen von Daten, findet in diesem Szenario aber Anwendung auf das (nachträgliche) Publizieren von Daten.
 
 ```{figure} /assets/framework_phases.png
 ---

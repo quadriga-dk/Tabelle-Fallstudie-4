@@ -6,7 +6,7 @@ In einem ersten Schritt müssen die zu publizierenden Daten einer Qualitätsprü
 ```{figure} /assets/1.2_qualitaetssicherung.png
 ---
 align: center
-width: 50%
+width: 33%
 ---
 Die Kompetenz 1.2 Qualitätssicherung des QUADRIGA Datenkompetenzframeworks.
 ```

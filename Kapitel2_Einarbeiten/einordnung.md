@@ -1,18 +1,20 @@
 (einarbeiten:einordnung)=
 # Überblick verschaffen
 
-**Aufbau jeder Lerneinheit/jedes Unterkapitels:**
+Zuerst gilt es, sich einen Überblick über die zu veröffentlichenden Forschungsdaten zu verschaffen. Dies gilt nur, wenn es sich um fremde Daten handelt.
+Des Weiteren gehen wir in diesem Szeanrio davon aus, dass Sie wissen, wo die Daten liegen und sie Zugang zu diesen haben.
 
-**Problem**
-Problembeschreibung, z. B. Vorliegende Daten müssen auf ihre Qualität überprüft werden.
+## Ausgangslage
 
-**Lösung**
+Zunächst gilt es, den Ursprungskontext nachvollziehen
+
+## Vorgehen
 Problemlösung skizzieren, z. B. Die Daten müssen geprüft werden.
 
-**Beispiel Szenario Michael** 
+## Beispiel Szenario Q-LCA
 Speziellen Fall unseres Szenarios schildern, z. B. In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht notwendig, weil die Daten bereits gut aufgearbeitet vorliegen.
 
-**Learnings (generisch)** 
+## Learnings
 *können möglicherweise auch ins Resümee*
 Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über das Beispielszenario hinaus Anwendung finden können.
 

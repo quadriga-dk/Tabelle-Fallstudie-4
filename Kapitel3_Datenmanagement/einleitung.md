@@ -32,26 +32,27 @@ Die 3. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 
 Dabei werden folgende Lernziele erreicht:
 
-```{include} ../einstieg/lernziele.md
+```{include} /einstieg/lernziele.md
 :start-after: "<!-- START: Datenmanagement -->"
 :end-before: "<!-- END: Datenmanagement -->"
 ```
 
 ---
 
-Dieses ist das 3. Kapitel dieses Lehrbuchs bzw. der 2. Schritt im Szenario einer nachträglichen Datenpublikation (Abb. 3.2).
+Dieses ist das 3. Kapitel dieses Lehrbuchs bzw. der 2. Schritt im Szenario einer nachträglichen Datenpublikation (s. Abb. 3.2).
 
 ```{figure} /assets/steps_cs4-2.png
 ---
 align: left
-width: 50%
+width: 75%
 ---
 Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 2. Schrittes.
 ```
 
 ---
 
-Sie finden hier folgende 3 Unterkapitel:
+Entsprechend den Kompetenzen finden Sie hier folgende 2 Unterkapitel und ein Resümee:
+
 - [Organisation](datenmanagement:organisation)
 - [Erschließung](datenmanagement:erschliessung)
 - [Resümee](datenmanagement:resümee)

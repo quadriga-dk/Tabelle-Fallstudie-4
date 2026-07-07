@@ -23,7 +23,7 @@ Dieses Kapitel nimmt juristische und andere Vorgaben in den Blick, die es bei de
 ```{figure} /assets/1.3_ethik-recht.png
 ---
 align: center
-width: 50%
+width: 33%
 ---
 Die Kompetenz 1.3 Ethik und Recht des QUADRIGA Datenkompetenzframeworks.
 ```

@@ -17,46 +17,35 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
+Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende (Forschungs-)Datenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks "Planung" (s. Abb. 2.1) und den Kompetenzen "1.2 Qualitätssicherung" sowie "1.3 Ethik und Recht". 
 
-Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende (Forschungs-)Datenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks "Planung" sowie die Kompetenzen "1.2 Qualitätssicherung" und "1.3 Ethik und Recht". Dabei werden folgende Lernziele erreicht:
+```{figure} /assets/1_planung.png
+---
+align: center
+width: 66%
+---
+Die 1. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Kompetenzen.
+```
+*Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
-```{include} ../einstieg/lernziele.md
+---
+
+Dabei werden folgende Lernziele erreicht:
+
+```{include} /einstieg/lernziele.md
 :start-after: "<!-- START: Einarbeiten -->"
 :end-before: "<!-- END: Einarbeiten -->"
 ```
 
-**Lernzielideen (mit Bezug zur LZM):**
-
-Einordnung:
-*Was wollen wir lehren? Was sollen Lernende nach Abschluss können?*
-- Relevanz von FDM benennen oder erläutern? (LZM 01_001_0001 oder _0002)
-- Begriff Forschungsdaten erläutern? (LZM 01_001_0007)
-- Beispiele für Forschungsdaten benennen? (LZM 01_001_0008)
-- Problemstellungen im Bereich Forschungsdatenmanagement (FDM) benennen oder erläutern? (_0018/19)
-- eigene Rolle im FDM erläutern? (_0036)
-- Forschungsdatenmanagement (FDM)-Maßnahmen in verschiedenen Phasen des Forschungsdatenlebenszyklus benennen/erläutern? (_0082/83)
-- eigene Tätigkeiten in einem Forschungsprozess den Stationen des Forschungsdatenlebenszyklus zuordnen? (_0084)
-
-Qualität:
-*Soll diese Lerneinheit die Anwendenden dazu befähigen, die Forschungsdaten von anderen auf ihre Qualität hin zu überprüfen? Dann müssen Sie sie einschätzen (Expertenlevel: Bloom 5/6). Oder soll diese Lerneinheit nur zeigen, dass Qualitätsprüfung wichtig ist? Dann reicht es, wenn die Anwendenden um grundlegende Aspekte der Qualitätsprüfung wissen (Anfänger:innenlevel: Bloom 1/2)*
-- Lernende können Datenqualität bewerten. (*Bloom 5, siehe LZM 02_012_0447*)
-- Lernende können Qualitätskriterien für eine Datenpublikation benennen/erläutern (LZM 04_003_0852/53)
-- Prinzipien GwP benennen/erläutern?
-
-Vorgaben:
-- Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen. (LZM 04_003_0851)
-- Lernende können die Vorraussetzungen für Lizenzierungen von Forschungsdaten benennen/erläutern. (LZM 05_003_0926/27)
-- Lernende können eine Nachnutzung lizenzierter Daten anderer konform durchführen (LZM 05_003:0933)
-
-
 ---
+
 
 Wie die folgende Abbildung 2.1 zeigt, ist dieses das 1. Kapitel bzw. der 1. Schritt dieses Lehrbuchs.
 
 ```{figure} /assets/steps_cs4-1.png
 ---
 align: left
-width: 100%
+width: 75%
 ---
 Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
 ```
@@ -66,10 +55,12 @@ Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Arbeitsproze
 
 In Bezug auf ein nachträgliches Veröffentlichen von Forschungsdaten bedeutet das: Je nachdem, ob Sie die Forschungsdaten eines eigenen oder "fremden" Projektes publizieren wollen, müssen Sie sich einen Überblick über den Kontext verschaffen. In jedem Fall sollten Sie die zur Publikation vorgesehenen Daten einer Qualitätsprüfung unterziehen. Darüber hinaus gilt es, einige juristische Aspekte und sonstige Vorgaben zu beachten.
 
-Dieses Kapitel ist dementsprechend in folgende 3 Abschnitte unterteilt:
+Dieses Kapitel ist dementsprechend in folgende 3 Unterkapitel sowie ein abschließendes Resümee unterteilt:
+
 - [Überblick verschaffen](einarbeiten:einordnung)
 - [Qualitätsprüfung](einarbeiten:qualitätsprüfung)
 - [Vorgaben und Juristisches](einarbeiten:vorgaben)
+- [Resümee](einarbeiten:resumee)
 
 ---
 
