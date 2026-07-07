@@ -12,12 +12,16 @@ cwd = os.getcwd()
 if cwd not in sys.path:
     sys.path.insert(0, cwd)
 
-from quadriga.metadata.create_bibtex import create_bibtex_from_cff
+from quadriga.metadata.create_bibtex import create_bibtex_from_metadata
 from quadriga.metadata.create_jsonld import create_jsonld
 from quadriga.metadata.create_rdfxml import create_rdfxml
 from quadriga.metadata.create_zenodo_json import create_zenodo_json
 from quadriga.metadata.extract_from_book_config import extract_and_update
-from quadriga.metadata.update_citation_cff import update_citation
+from quadriga.metadata.extract_from_lernziele import (
+    merge_learning_objectives_into_metadata,
+)
+from quadriga.metadata.create_citation_cff import create_citation_cff
+from quadriga.metadata.validate_schema import validate_schema
 
 logger = logging.getLogger(__name__)
 
@@ -34,6 +38,26 @@ def main() -> bool | None:
 
         logger.info("Running all metadata update scripts...")
 
+        # Extract learning objectives
+        try:
+            logger.info("Extracting learning objectives from Lernziele.md...")
+            if not merge_learning_objectives_into_metadata():
+                logger.error("Learning objective extraction failed.")
+                return False
+        except Exception:
+            logger.exception("Unexpected error during learning objective extraction")
+            return False
+
+        # Validate metadata.yml against QUADRIGA schema first
+        try:
+            logger.info("Validating metadata.yml against QUADRIGA schema...")
+            if not validate_schema():
+                logger.error("Schema validation failed.")
+                return False
+        except Exception:
+            logger.exception("Unexpected error during schema validation")
+            return False
+
         # Execute extract_and_update with error handling
         try:
             logger.info("Extracting metadata from _config.yml and _toc.yml...")
@@ -44,29 +68,29 @@ def main() -> bool | None:
             logger.exception("Unexpected error during extract_and_update")
             return False
 
-        # Execute update_citation with error handling
+        # Execute create_citation_cff with error handling
         try:
-            logger.info("Updating CITATION.cff...")
-            if not update_citation():
-                logger.error("Update citation process failed.")
+            logger.info("Creating CITATION.cff from metadata.yml...")
+            if not create_citation_cff():
+                logger.error("Create citation process failed.")
                 return False
         except Exception:
-            logger.exception("Unexpected error during update_citation")
+            logger.exception("Unexpected error during create_citation_cff")
             return False
 
-        # Execute create_bibtex_from_cff with error handling
+        # Execute create_bibtex_from_metadata with error handling
         try:
-            logger.info("Creating CITATION.bib from CITATION.cff...")
-            if not create_bibtex_from_cff():
+            logger.info("Creating CITATION.bib from metadata.yml...")
+            if not create_bibtex_from_metadata():
                 logger.error("Create BibTeX process failed.")
                 return False
         except Exception:
-            logger.exception("Unexpected error during create_bibtex_from_cff")
+            logger.exception("Unexpected error during create_bibtex_from_metadata")
             return False
 
         # Execute create_zenodo_json with error handling
         try:
-            logger.info("Creating .zenodo.json from CITATION.cff and metadata.yml...")
+            logger.info("Creating .zenodo.json from metadata.yml...")
             if not create_zenodo_json():
                 logger.error("Create Zenodo JSON process failed.")
                 return False

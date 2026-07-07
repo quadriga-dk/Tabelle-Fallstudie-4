@@ -12,22 +12,21 @@ semantic web applications, triple stores, and other RDF-aware systems.
 from __future__ import annotations
 
 import logging
-import os
 import sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
-from rdflib import RDF, Graph, Literal, Namespace, URIRef  # type: ignore[import-not-found]
+from rdflib import (  # type: ignore[import-not-found]
+    RDF,
+    Graph,
+    Literal,
+    Namespace,
+    URIRef,
+)
 from rdflib.namespace import DCTERMS, SKOS, XSD  # type: ignore[import-not-found]
 
-from .utils import extract_keywords, get_file_path, get_repo_root, load_yaml_file
-
-# Ensure deterministic hash seed for consistent RDF serialization
-# This must be set before any dictionaries/sets are created
-if "PYTHONHASHSEED" not in os.environ:
-    os.environ["PYTHONHASHSEED"] = "0"
-    # Re-exec the script with the environment variable set
-    os.execv(sys.executable, [sys.executable] + sys.argv)
+from .utils import clean_orcid, extract_keywords, get_doi, get_file_path, get_repo_root, load_yaml_file
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -38,57 +37,25 @@ DC = Namespace("http://purl.org/dc/elements/1.1/")
 LRMI = Namespace("http://purl.org/dcx/lrmi-terms/")
 
 
-def clean_orcid(orcid_string: str) -> str | None:
+def _sort_xml_element(element: ET.Element) -> None:
     """
-    Extract ORCID identifier from an ORCID string or URL.
+    Recursively sort child elements for deterministic XML output.
+
+    Sorts by tag name, then by attributes (as sorted key-value pairs),
+    then by text content. This ensures identical output regardless of
+    Python's hash randomization (PYTHONHASHSEED).
 
     Args:
-        orcid_string (str): ORCID string which may include URL prefix
-
-    Returns
-    -------
-        str: Clean ORCID identifier (e.g., "0000-0002-1602-6032")
+        element: XML element whose children will be sorted in-place
     """
-    if not orcid_string:
-        return None
-
-    orcid = str(orcid_string)
-    prefixes = ["https://orcid.org/", "http://orcid.org/", "orcid:"]
-    for prefix in prefixes:
-        if orcid.startswith(prefix):
-            orcid = orcid[len(prefix) :]
-            break
-
-    return orcid.strip()
+    children = list(element)
+    for child in children:
+        _sort_xml_element(child)
+    children.sort(key=lambda e: (e.tag, sorted(e.attrib.items()), e.text or ""))
+    element[:] = children
 
 
-def clean_doi(doi_string: str) -> str | None:
-    """
-    Extract DOI identifier from a DOI string or URL.
-
-    Args:
-        doi_string (str): DOI string which may include URL prefix
-
-    Returns
-    -------
-        str: Clean DOI identifier (e.g., "10.5281/zenodo.14970672")
-    """
-    if not doi_string:
-        return None
-
-    doi = str(doi_string)
-    prefixes = ["https://doi.org/", "http://doi.org/", "doi:"]
-    for prefix in prefixes:
-        if doi.startswith(prefix):
-            doi = doi[len(prefix) :]
-            break
-
-    return doi.strip()
-
-
-def add_person(
-    graph: Graph, person_data: Any, base_uri: str, person_type: str, index: int
-) -> URIRef | None:
+def add_person(graph: Graph, person_data: Any, base_uri: str, person_type: str, index: int) -> URIRef | None:
     """
     Add a person (author or contributor) to the RDF graph.
 
@@ -142,9 +109,7 @@ def add_person(
             graph.add((orcid_node, RDF.type, SCHEMA.PropertyValue))
             graph.add((orcid_node, SCHEMA.propertyID, Literal("ORCID")))
             graph.add((orcid_node, SCHEMA.value, Literal(clean_orcid_id)))
-            graph.add(
-                (orcid_node, SCHEMA.url, URIRef(f"https://orcid.org/{clean_orcid_id}"))
-            )
+            graph.add((orcid_node, SCHEMA.url, URIRef(f"https://orcid.org/{clean_orcid_id}")))
             graph.add((person_uri, SCHEMA.identifier, orcid_node))
 
     # affiliation -> schema:affiliation (mapped in both author and contributor)
@@ -171,6 +136,7 @@ def add_learning_objective(
     - learning-objective -> schema:teaches / lrmi:teaches (closeMatch)
     - competency -> maps to modalia:Skill
     - blooms-category -> part of educational alignment
+    - assessment -> lrmi:assesses / schema:assesses (closeMatch)
 
     Args:
         graph: RDF graph to add triples to
@@ -217,12 +183,14 @@ def add_learning_objective(
     if descriptions:
         graph.add((obj_uri, SCHEMA.targetDescription, Literal(" | ".join(descriptions))))
 
+    # assessment -> lrmi:assesses (closeMatch)
+    if "assessment" in objective_data:
+        graph.add((obj_uri, LRMI.assesses, Literal(objective_data["assessment"])))
+
     return obj_uri
 
 
-def add_chapter(
-    graph: Graph, chapter_data: Any, base_uri: str, chapter_index: int
-) -> URIRef | None:
+def add_chapter(graph: Graph, chapter_data: Any, base_uri: str, chapter_index: int) -> URIRef | None:
     """
     Add a chapter to the RDF graph as a LearningResource.
 
@@ -274,9 +242,7 @@ def add_chapter(
     # learning-objectives -> educationalAlignment with AlignmentObject
     if chapter_data.get("learning-objectives"):
         for obj_index, obj_data in enumerate(chapter_data["learning-objectives"]):
-            obj_uri = add_learning_objective(
-                graph, obj_data, base_uri, chapter_index, obj_index
-            )
+            obj_uri = add_learning_objective(graph, obj_data, base_uri, chapter_index, obj_index)
             if obj_uri:
                 graph.add((chapter_uri, SCHEMA.educationalAlignment, obj_uri))
 
@@ -360,17 +326,18 @@ def create_rdfxml() -> bool | None:
             logger.info("Added description")
 
         # identifier (DOI) -> schema:identifier (exactMatch)
-        if "identifier" in metadata:
-            clean_doi_id = clean_doi(metadata["identifier"])
-            if clean_doi_id:
-                # Create PropertyValue node for DOI
-                doi_node = URIRef(f"{base_uri}#doi")
-                graph.add((doi_node, RDF.type, SCHEMA.PropertyValue))
-                graph.add((doi_node, SCHEMA.propertyID, Literal("DOI")))
-                graph.add((doi_node, SCHEMA.value, Literal(clean_doi_id)))
-                graph.add((doi_node, SCHEMA.url, URIRef(metadata["identifier"])))
-                graph.add((resource_uri, SCHEMA.identifier, doi_node))
-                logger.info("Added DOI identifier: %s", clean_doi_id)
+        doi = get_doi(metadata)
+        if doi:
+            # Create PropertyValue node for DOI
+            doi_node = URIRef(f"{base_uri}#doi")
+            graph.add((doi_node, RDF.type, SCHEMA.PropertyValue))
+            graph.add((doi_node, SCHEMA.propertyID, Literal("DOI")))
+            graph.add((doi_node, SCHEMA.value, Literal(doi)))
+            graph.add((doi_node, SCHEMA.url, URIRef(f"https://doi.org/{doi}")))
+            graph.add((resource_uri, SCHEMA.identifier, doi_node))
+            logger.info("Added DOI identifier: %s", doi)
+        else:
+            logger.warning("No DOI found in metadata.yml 'identifier' field")
 
         # version -> schema:version (exactMatch)
         if "version" in metadata:
@@ -379,9 +346,7 @@ def create_rdfxml() -> bool | None:
 
         # schema-version -> schema:schemaVersion
         if "schema-version" in metadata:
-            graph.add(
-                (resource_uri, SCHEMA.schemaVersion, Literal(str(metadata["schema-version"])))
-            )
+            graph.add((resource_uri, SCHEMA.schemaVersion, Literal(str(metadata["schema-version"]))))
             logger.info("Added schema version: %s", metadata["schema-version"])
 
         # url -> schema:url (exactMatch)
@@ -532,9 +497,7 @@ def create_rdfxml() -> bool | None:
                                 )
                             )
                     elif isinstance(content_license_data, str):
-                        graph.add(
-                            (content_license_node, SCHEMA.license, URIRef(content_license_data))
-                        )
+                        graph.add((content_license_node, SCHEMA.license, URIRef(content_license_data)))
                     graph.add((resource_uri, SCHEMA.license, content_license_node))
             logger.info("Added license information")
 
@@ -550,9 +513,7 @@ def create_rdfxml() -> bool | None:
 
         # table-of-contents -> dcterms:tableOfContents (exactMatch)
         if "table-of-contents" in metadata:
-            graph.add(
-                (resource_uri, DCTERMS.tableOfContents, Literal(metadata["table-of-contents"]))
-            )
+            graph.add((resource_uri, DCTERMS.tableOfContents, Literal(metadata["table-of-contents"])))
             logger.info("Added table of contents")
 
         # ===== ADDITIONAL METADATA =====
@@ -562,28 +523,53 @@ def create_rdfxml() -> bool | None:
             graph.add((resource_uri, SCHEMA.funding, Literal(metadata["context-of-creation"])))
             logger.info("Added context of creation")
 
-        # quality-assurance is not included in RDF
-        # It's in active development and has no standard schema.org mapping
+        # learning-resource-type -> schema:learningResourceType (closeMatch)
+        #                        -> lrmi:learningResourceType (closeMatch)
+        #                        -> dcterms:type (broadMatch)
+        #                        -> dc:type (broadMatch)
+        if "learning-resource-type" in metadata:
+            lrt = Literal(metadata["learning-resource-type"])
+            graph.add((resource_uri, SCHEMA.learningResourceType, lrt))
+            graph.add((resource_uri, LRMI.learningResourceType, lrt))
+            graph.add((resource_uri, DCTERMS.type, lrt))
+            graph.add((resource_uri, DC.type, lrt))
+            logger.info("Added learning resource type: %s", metadata["learning-resource-type"])
 
-        # Sort triples for deterministic output
-        # This ensures consistent ordering regardless of Python's hash randomization
-        logger.info("Sorting triples for deterministic output...")
-        sorted_triples = sorted(graph, key=lambda t: (str(t[0]), str(t[1]), str(t[2])))
+        # quality-assurance: not mapped to RDF
+        # All schema x-mappings are relatedMatch only — too loose for RDF/JSON-LD output
 
-        # Create a new graph with sorted triples
-        sorted_graph = Graph()
-        for prefix, namespace in graph.namespaces():
-            sorted_graph.bind(prefix, namespace)
+        # Serialize to RDF/XML and post-process for deterministic output.
+        # rdflib's pretty-xml serializer uses Python dicts internally, so element
+        # and namespace ordering varies across process invocations due to hash
+        # randomization. We sort the XML elements after serialization to guarantee
+        # reproducible output regardless of PYTHONHASHSEED.
+        logger.info("Serializing %d triples to RDF/XML...", len(graph))
 
-        for triple in sorted_triples:
-            sorted_graph.add(triple)
-
-        logger.info("Sorted %d triples", len(sorted_triples))
-
-        # Write RDF/XML file
         try:
-            with rdf_path.open("wb") as f:
-                sorted_graph.serialize(f, format="pretty-xml", encoding="utf-8")
+            xml_bytes = graph.serialize(format="pretty-xml", encoding="utf-8")
+            xml_str = xml_bytes.decode("utf-8") if isinstance(xml_bytes, bytes) else xml_bytes
+
+            # Register namespace prefixes so ElementTree preserves them
+            for prefix, uri in [
+                ("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
+                ("schema", str(SCHEMA)),
+                ("dc", str(DC)),
+                ("dcterms", str(DCTERMS)),
+                ("lrmi", str(LRMI)),
+                ("skos", str(SKOS)),
+            ]:
+                ET.register_namespace(prefix, uri)
+
+            # Parse, sort elements recursively, and re-serialize
+            root = ET.fromstring(xml_str)
+            _sort_xml_element(root)
+            ET.indent(root, space="  ")
+
+            sorted_xml = ET.tostring(root, encoding="unicode", xml_declaration=True)
+
+            with rdf_path.open("w", encoding="utf-8") as f:
+                f.write(sorted_xml)
+                f.write("\n")
         except OSError:
             logger.exception("Error writing to %s", rdf_path)
             return False
