@@ -13,12 +13,6 @@
   ],
   "name": "Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.",
   "description": "Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "DOI",
-    "value": "TODO",
-    "url": "TODO"
-  },
   "version": "0.0.1",
   "schemaVersion": "1.0.0",
   "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/",
@@ -195,13 +189,19 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html",
       "timeRequired": "TODO",
-      "teaches": "Einarbeiten in Forschungsdaten",
+      "teaches": "Qualitätssicherung von Daten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Lernenden können Datenqualität bewerten.",
+          "targetName": "Die Lernenden können Datenqualität bewerten. (LZ-ID 02_012_0447)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "*noch zu formulieren*",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.3 Ethik und Recht | Bloom's: ... | Data Flow: 1 Planung"
         }
       ]
     },
@@ -211,29 +211,29 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html",
       "timeRequired": "TODO",
-      "teaches": "Management von Forschungsdaten",
+      "teaches": "Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation, Datenmanagementpläne",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Lernende können Bestandteile eines Datenmanagementplans benennen.",
+          "targetName": "Lernende können Bestandteile eines Datenmanagementplans benennen. (LZ-ID 01_006_0092)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Lernende können Bestandteile eines Datenmanagementplans erläutern.",
+          "targetName": "Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen.",
+          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen. (LZ-ID 01_006_0109)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern.",
+          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern. (LZ-ID 01_006_0110)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         }
@@ -245,13 +245,25 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html",
       "timeRequired": "TODO",
-      "teaches": "Publikation von Forschungsdaten",
+      "teaches": "Kompetenz Aufbewahrung",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "TODO",
+          "targetName": "*noch zu formulieren*",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5.1 Aufbewahrung | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung"
+          "targetDescription": "Competency: 5.1 Aufbewahrung | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "*noch zu formulieren*",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "*noch zu formulieren*",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 5.3 Kommunikation | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung"
         }
       ]
     }

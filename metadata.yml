@@ -84,53 +84,62 @@ chapters:
 - title: Einarbeiten
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html
-  learning-goal: Einarbeiten in Forschungsdaten
+  learning-goal: Qualitätssicherung von Daten
   time-required: TODO
   learning-objectives:
-  - learning-objective: Die Lernenden können Datenqualität bewerten.
+  - learning-objective: Die Lernenden können Datenqualität bewerten. (LZ-ID 02_012_0447)
     competency: 1.2 Qualitätssicherung
     data-flow: 1 Planung
     blooms-category: 5 Bewerten
-    assessment: keins
+  - learning-objective: '*noch zu formulieren*'
+    competency: 1.3 Ethik und Recht
+    data-flow: 1 Planung
+    blooms-category: '...'
 - title: Datenmanagement
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html
-  learning-goal: Management von Forschungsdaten
+  learning-goal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation,
+    Datenmanagementpläne
   time-required: TODO
   learning-objectives:
   - learning-objective: Lernende können Bestandteile eines Datenmanagementplans benennen.
+      (LZ-ID 01_006_0092)
     competency: 3.1 Organisation
     data-flow: 3 Management
     blooms-category: 1 Erinnern
-    assessment: keins
   - learning-objective: Lernende können Bestandteile eines Datenmanagementplans erläutern.
+      (LZ-ID 01_006_0093)
     competency: 3.1 Organisation
     data-flow: 3 Management
     blooms-category: 2 Verstehen
-    assessment: keins
   - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung
-      von Datenmanagementplänen aus Sicht von Forschenden benennen.
+      von Datenmanagementplänen aus Sicht von Forschenden benennen. (LZ-ID 01_006_0109)
     competency: 3.1 Organisation
     data-flow: 3 Management
     blooms-category: 1 Erinnern
-    assessment: keins
   - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung
-      von Datenmanagementplänen aus Sicht von Forschenden erläutern.
+      von Datenmanagementplänen aus Sicht von Forschenden erläutern. (LZ-ID 01_006_0110)
     competency: 3.1 Organisation
     data-flow: 3 Management
     blooms-category: 2 Verstehen
-    assessment: keins
 - title: Publikation
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
-  learning-goal: Publikation von Forschungsdaten
+  learning-goal: Kompetenz Aufbewahrung
   time-required: TODO
   learning-objectives:
-  - learning-objective: TODO
+  - learning-objective: '*noch zu formulieren*'
     competency: 5.1 Aufbewahrung
     data-flow: 5 Publikation und Nachnutzung
-    blooms-category: 1 Erinnern
-    assessment: keins
+    blooms-category: '...'
+  - learning-objective: '*noch zu formulieren*'
+    competency: 5.2 Datenpublikation
+    data-flow: 5 Publikation und Nachnutzung
+    blooms-category: '...'
+  - learning-objective: '*noch zu formulieren*'
+    competency: 5.3 Kommunikation
+    data-flow: 5 Publikation und Nachnutzung
+    blooms-category: '...'
 date-issued: 2025-12-19
 date-modified: 2025-12-19
 version: 0.0.1

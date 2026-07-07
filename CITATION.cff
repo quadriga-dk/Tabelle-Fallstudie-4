@@ -1,12 +1,10 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-version: 0.0.1
 title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
   Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
   Tabelle 4.'
-abstract: Dieses Buch ist einerseits ein Template für die Erstellung von OERs nach
-  den Empfehlungen von QUADRIGA (https://quadriga-dk.de) und andererseits eine OER
-  für die Entwicklung von OERs entsprechend der QUADRIGA Empfehlungen.
+abstract: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für
+  Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -23,10 +21,6 @@ authors: &id001
   family-names: Neuroth
   orcid: https://orcid.org/0000-0002-3637-3154
   affiliation: Fachhochschule Potsdam
-identifiers:
-- type: doi
-  value: '...'
-  description: Zenodo
 repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
 keywords: &id002
@@ -40,26 +34,20 @@ keywords: &id002
 - FAIR
 - Datenfluss
 - Datenkompetenzframework
-license: CC-BY-4.0
-references:
-- title: Jupyter Book
-  type: software
-  authors:
-  - name: The Jupyter Book Community
-    website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
+license: CC BY 4.0
 preferred-citation:
   year: '2025'
-  version: 0.0.1
   authors: *id001
   title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
     Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
     Tabelle 4.'
   type: book
-  doi: '...'
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
   repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
-  license: CC-BY-4.0
+  license: CC BY 4.0
   languages:
   - deu
-  copyright: CC-BY-4.0
+  copyright: CC BY 4.0
   keywords: *id002
+  version: 0.0.1
+version: 0.0.1
