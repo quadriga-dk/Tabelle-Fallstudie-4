@@ -46,7 +46,7 @@ Existieren mehrere zusammengehörige Dateien, sollte für jede logische Dateigru
 
 Auch aus Sicht guter Praxis im wissenschaftlichen Rechnen gehört die README als zentrale Dokumentationsdatei ins Stammverzeichnis eines Projekts, neben eigenständigen Lizenz- (LICENSE) und Zitierdateien (CITATION); sie sollte zudem knappe Einstiegshinweise enthalten, etwa zu benötigten Abhängigkeiten ("Getting Started") {cite}`wilson_et_al_2017`.
 
-Eine ausführliche Anleitung samt kostenloser <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Readme-Vorlage</a> bietet [Cornell Data Services].
+Zur Unterstützung bei der Erstellung einer Readme-Datei stellt <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Cornell Data Services</a> eine ausführliche Anleitung und eine frei verfügbare Vorlage bereit.
 
 ## Beispiel Szenario Q-LCA 
 
