@@ -45,36 +45,37 @@ Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei di
 ```{admonition} Beispiel: Vorlage für eine README-Datei
 :class: hinweis, dropdown
 
-```text
-Diese README-Datei wurde am JJJJ-MM-TT von NAME erstellt.
+**ALLGEMEINE INFORMATIONEN**
 
-ALLGEMEINE INFORMATIONEN
 - Titel des Projekts
 - Autor:innen und Kontaktinformationen
 - Zeitraum und Ort der Datenerhebung
 - Angaben zum Förderprojekt
 
-WEITERGABE UND ZUGANG
+**WEITERGABE UND ZUGANG**
+
 - Lizenz
 - Empfohlene Zitierweise
 - Zugehörige Publikationen
 
-DATEN- UND DATEIÜBERSICHT
+**DATEN- UND DATEIÜBERSICHT**
+
 - Beschreibung der Dateien
 - Datei- und Ordnerstruktur
 - Versionen
 
-METHODISCHE INFORMATIONEN
+**METHODISCHE INFORMATIONEN**
+
 - Datenerhebung
 - Datenverarbeitung
 - Verwendete Software
 - Qualitätssicherung
 
-DATEISPEZIFISCHE INFORMATIONEN
+**DATEISPEZIFISCHE INFORMATIONEN**
+
 - Variablen
 - Fehlende Werte
 - Besonderheiten
-```
 
 *Vorlage aus dem Englischen übersetzt und gekürzt nach* {cite}`ucsb_library_2024` *(CC BY 4.0).*
 
