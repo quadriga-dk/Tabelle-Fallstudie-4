@@ -38,20 +38,47 @@ Legen Sie eine README an.
 <span style="color:red">*Beispiele für gute README bereitstellen. Hilfe zum Schreiben einer guten README zusammenstellen bzw. auf bestehende Listen verweisen.*</span>
 
 
-
 Eine README-Datei ist die einfachste Form der Datendokumentation und soll sicherstellen, dass Daten auch später oder von anderen Personen korrekt interpretiert werden können {cite}`hassenstein_jung_2025`.
 
-```{admonition} Hilfestellung: Was sollte eine README-Datei enthalten?
+Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei dienen.
+
+```{admonition} Beispiel: Vorlage für eine README-Datei
 :class: hinweis, dropdown
 
+```text
+Diese README-Datei wurde am JJJJ-MM-TT von NAME erstellt.
 
-- Titel und kurze Beschreibung des Datensatzes
-- Autor:innen bzw. Ersteller:innen und Kontaktinformationen
+ALLGEMEINE INFORMATIONEN
+- Titel des Projekts
+- Autor:innen und Kontaktinformationen
 - Zeitraum und Ort der Datenerhebung
-- Datei- und Ordnerstruktur
-- verwendete Methoden, Software und Dateiformate
-- Lizenz und Zitiervorschlag
+- Angaben zum Förderprojekt
 
+WEITERGABE UND ZUGANG
+- Lizenz
+- Empfohlene Zitierweise
+- Zugehörige Publikationen
+
+DATEN- UND DATEIÜBERSICHT
+- Beschreibung der Dateien
+- Datei- und Ordnerstruktur
+- Versionen
+
+METHODISCHE INFORMATIONEN
+- Datenerhebung
+- Datenverarbeitung
+- Verwendete Software
+- Qualitätssicherung
+
+DATEISPEZIFISCHE INFORMATIONEN
+- Variablen
+- Fehlende Werte
+- Besonderheiten
+```
+
+*Vorlage aus dem Englischen übersetzt und gekürzt nach* {cite}`ucsb_library_2024` *(CC BY 4.0).*
+
+Als ergänzende Hilfestellung stellt <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Cornell Data Services</a> eine ausführliche Anleitung sowie eine frei verfügbare Vorlage für README-Dateien bereit.
 ```
 
 Zur Unterstützung bei der Erstellung einer Readme-Datei stellt <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Cornell Data Services</a> eine ausführliche Anleitung und eine frei verfügbare Vorlage bereit.
