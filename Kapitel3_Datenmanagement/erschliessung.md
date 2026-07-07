@@ -37,6 +37,17 @@ Legen Sie eine README an.
 
 <span style="color:red">*Beispiele für gute README bereitstellen. Hilfe zum Schreiben einer guten README zusammenstellen bzw. auf bestehende Listen verweisen.*</span>
 
+
+Eine README-Datei ist die einfachste Form der Datendokumentation {cite}`hassenstein_jung_2025`. Sie soll sicherstellen, dass Daten auch später oder von anderen Personen korrekt interpretiert werden können, und sollte dafür als reine Textdatei (z. B. .txt oder .md) verfasst und klar erkennbar benannt werden.
+
+Inhaltlich gehören in eine README mindestens: was die Daten enthalten und wofür sie ursprünglich erhoben wurden, wer sie erstellt hat, wann sie entstanden sind, sowie ob bestimmte Software oder andere Besonderheiten zu beachten sind {cite}`hassenstein_jung_2025`.
+
+Existieren mehrere zusammengehörige Dateien, sollte für jede logische Dateigruppe eine eigene README erstellt und einheitlich formatiert werden (gleiche Reihenfolge, gleiche Terminologie).
+
+Auch aus Sicht guter Praxis im wissenschaftlichen Rechnen gehört die README als zentrale Dokumentationsdatei ins Stammverzeichnis eines Projekts, neben eigenständigen Lizenz- (LICENSE) und Zitierdateien (CITATION); sie sollte zudem knappe Einstiegshinweise enthalten, etwa zu benötigten Abhängigkeiten ("Getting Started") {cite}`wilson_et_al_2017`.
+
+Eine ausführliche Anleitung samt kostenloser README-Vorlage bietet [Cornell Data Services](https://data.research.cornell.edu/data-management/sharing/readme/).
+
 ## Beispiel Szenario Q-LCA 
 
 *Speziellen Fall unseres Szenarios schildern, z. B. In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht notwendig, weil die Daten bereits gut aufgearbeitet vorliegen.*
