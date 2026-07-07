@@ -3,56 +3,53 @@
   "title": "Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.",
   "creators": [
     {
-      "name": "Schnaitter, Hannes",
-      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft",
-      "orcid": "0000-0002-1602-6032"
+      "name": "Walter, Paul",
+      "affiliation": "Fachhochschule Potsdam",
+      "orcid": "0000-0002-9236-3268"
     },
     {
-      "name": "Samoilova, Evgenia",
-      "affiliation": "Universität Potsdam",
-      "orcid": "0000-0003-3858-901X"
+      "name": "Plomin, Jana",
+      "affiliation": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS",
+      "orcid": "0000-0003-0127-7493"
     },
     {
-      "name": "Islam, Lamia",
-      "affiliation": "Universität Potsdam"
+      "name": "Neuroth, Heike",
+      "affiliation": "Fachhochschule Potsdam",
+      "orcid": "0000-0002-3637-3154"
     }
   ],
   "description": "Dieses Buch ist einerseits ein Template für die Erstellung von OERs nach den Empfehlungen von QUADRIGA (https://quadriga-dk.de) und andererseits eine OER für die Entwicklung von OERs entsprechend der QUADRIGA Empfehlungen.",
-  "publication_date": "2025-11-14",
+  "publication_date": "2025-12-19",
   "keywords": [
-    "Open Educational Resources",
-    "Offene Bildungsressource",
-    "Jupyter Book",
-    "Data Literacy",
-    "Datenkompetenz"
+    "Verwaltung",
+    "Verwaltungswissenschaft",
+    "Public Sector",
+    "Tabelle",
+    "Lerneinheit",
+    "Open Educational Resource",
+    "Forschungsdatenpublikation",
+    "FAIR",
+    "Datenfluss",
+    "Datenkompetenzframework"
   ],
   "license": "CC-BY-4.0",
   "language": "deu",
   "contributors": [
     {
-      "name": "Seltmann, Melanie",
+      "name": "Schnaitter, Hannes",
       "type": "Other",
-      "orcid": "0000-0002-7588-4395"
-    },
-    {
-      "name": "Walter, Paul",
-      "type": "Other",
-      "orcid": "0000-0002-9236-3268"
-    },
-    {
-      "name": "Zhang, Yue",
-      "type": "Other",
-      "orcid": "0009-0007-6432-1259"
+      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft",
+      "orcid": "0000-0002-1602-6032"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/quadriga-dk/Book_Template",
+      "identifier": "https://github.com/quadriga-dk/Tabelle-Fallstudie-4",
       "relation": "isSupplementedBy",
       "scheme": "url"
     },
     {
-      "identifier": "https://quadriga-dk.github.io/Book_Template/",
+      "identifier": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/",
       "relation": "isAlternateIdentifier",
       "scheme": "url"
     }
@@ -62,5 +59,5 @@
       "identifier": "quadriga"
     }
   ],
-  "version": "0.61.0"
+  "version": "0.0.1"
 }

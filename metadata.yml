@@ -1,4 +1,7 @@
-title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.'
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
+title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
+  Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
+  Tabelle 4.'
 authors:
 - family-names: Walter
   given-names: Paul
@@ -38,7 +41,8 @@ keywords:
 - de: FAIR
 - de: Datenfluss
 - de: Datenkompetenzframework
-description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
+description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt
+  für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
 table-of-contents: '- Einstieg
 
   - Einarbeiten
@@ -77,7 +81,7 @@ prerequisites:
 used-tools:
 - keine
 chapters:
-- title: Einarbeiten 
+- title: Einarbeiten
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html
   learning-goal: Einarbeiten in Forschungsdaten
@@ -88,7 +92,7 @@ chapters:
     data-flow: 1 Planung
     blooms-category: 5 Bewerten
     assessment: keins
-- title: Datenmanagement 
+- title: Datenmanagement
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html
   learning-goal: Management von Forschungsdaten
@@ -104,17 +108,19 @@ chapters:
     data-flow: 3 Management
     blooms-category: 2 Verstehen
     assessment: keins
-  - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen.
+  - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung
+      von Datenmanagementplänen aus Sicht von Forschenden benennen.
     competency: 3.1 Organisation
     data-flow: 3 Management
     blooms-category: 1 Erinnern
     assessment: keins
-  - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern.
+  - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung
+      von Datenmanagementplänen aus Sicht von Forschenden erläutern.
     competency: 3.1 Organisation
     data-flow: 3 Management
     blooms-category: 2 Verstehen
     assessment: keins
-- title: Publikation 
+- title: Publikation
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
   learning-goal: Publikation von Forschungsdaten

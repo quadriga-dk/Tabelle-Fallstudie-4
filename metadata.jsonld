@@ -12,24 +12,74 @@
     "LearningResource"
   ],
   "name": "Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.",
-  "description": "Diese OER führt in die Erstellung von QUADRIGA-OERs ein, bietet Inhalte für Nutzer:innen der OERs und dient gleichzeitig als Template für die Erstellung eigener OERs auf Basis der QUADRIGA-Empfehlungen.",
+  "description": "Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
-    "value": "10.5281/zenodo.14970672",
-    "url": "https://doi.org/10.5281/zenodo.14970672"
+    "value": "TODO",
+    "url": "TODO"
   },
-  "version": "0.61.0",
+  "version": "0.0.1",
   "schemaVersion": "1.0.0",
-  "url": "https://quadriga-dk.github.io/Book_Template/",
+  "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/",
   "workExample": {
     "@type": "SoftwareSourceCode",
     "name": "Source Code Repository",
-    "codeRepository": "https://github.com/quadriga-dk/Book_Template"
+    "codeRepository": "https://github.com/quadriga-dk/Tabelle-Fallstudie-4"
   },
-  "datePublished": "2024-05-06",
-  "dateModified": "2025-11-14",
+  "datePublished": "2025-12-19",
+  "dateModified": "2025-12-19",
   "author": [
+    {
+      "@type": "Person",
+      "givenName": "Paul",
+      "familyName": "Walter",
+      "name": "Paul Walter",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-9236-3268",
+        "url": "https://orcid.org/0000-0002-9236-3268"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Jana",
+      "familyName": "Plomin",
+      "name": "Jana Plomin",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-0127-7493",
+        "url": "https://orcid.org/0000-0003-0127-7493"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Heike",
+      "familyName": "Neuroth",
+      "name": "Heike Neuroth",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-3637-3154",
+        "url": "https://orcid.org/0000-0002-3637-3154"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
+      }
+    }
+  ],
+  "contributor": [
     {
       "@type": "Person",
       "givenName": "Hannes",
@@ -45,104 +95,69 @@
         "@type": "Organization",
         "name": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
       }
-    },
-    {
-      "@type": "Person",
-      "givenName": "Evgenia",
-      "familyName": "Samoilova",
-      "name": "Evgenia Samoilova",
-      "identifier": {
-        "@type": "PropertyValue",
-        "propertyID": "ORCID",
-        "value": "0000-0003-3858-901X",
-        "url": "https://orcid.org/0000-0003-3858-901X"
-      },
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universität Potsdam"
-      }
-    },
-    {
-      "@type": "Person",
-      "givenName": "Lamia",
-      "familyName": "Islam",
-      "name": "Lamia Islam",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universität Potsdam"
-      }
-    }
-  ],
-  "contributor": [
-    {
-      "@type": "Person",
-      "givenName": "Melanie",
-      "familyName": "Seltmann",
-      "name": "Melanie Seltmann",
-      "identifier": {
-        "@type": "PropertyValue",
-        "propertyID": "ORCID",
-        "value": "0000-0002-7588-4395",
-        "url": "https://orcid.org/0000-0002-7588-4395"
-      }
-    },
-    {
-      "@type": "Person",
-      "givenName": "Paul",
-      "familyName": "Walter",
-      "name": "Paul Walter",
-      "identifier": {
-        "@type": "PropertyValue",
-        "propertyID": "ORCID",
-        "value": "0000-0002-9236-3268",
-        "url": "https://orcid.org/0000-0002-9236-3268"
-      }
-    },
-    {
-      "@type": "Person",
-      "givenName": "Yue",
-      "familyName": "Zhang",
-      "name": "Yue Zhang",
-      "identifier": {
-        "@type": "PropertyValue",
-        "propertyID": "ORCID",
-        "value": "0009-0007-6432-1259",
-        "url": "https://orcid.org/0009-0007-6432-1259"
-      }
     }
   ],
   "inLanguage": "de",
   "keywords": [
-    "Open Educational Resources",
-    "Offene Bildungsressource",
-    "Jupyter Book",
-    "Data Literacy",
-    "Datenkompetenz"
+    "Verwaltung",
+    "Verwaltungswissenschaft",
+    "Public Sector",
+    "Tabelle",
+    "Lerneinheit",
+    "Open Educational Resource",
+    "Forschungsdatenpublikation",
+    "FAIR",
+    "Datenfluss",
+    "Datenkompetenzframework"
   ],
   "about": [
     {
       "@type": "Thing",
-      "name": "Open Educational Resources"
+      "name": "Verwaltung"
     },
     {
       "@type": "Thing",
-      "name": "Offene Bildungsressource"
+      "name": "Verwaltungswissenschaft"
     },
     {
       "@type": "Thing",
-      "name": "Jupyter Book"
+      "name": "Public Sector"
     },
     {
       "@type": "Thing",
-      "name": "Data Literacy"
+      "name": "Tabelle"
     },
     {
       "@type": "Thing",
-      "name": "Datenkompetenz"
+      "name": "Lerneinheit"
+    },
+    {
+      "@type": "Thing",
+      "name": "Open Educational Resource"
+    },
+    {
+      "@type": "Thing",
+      "name": "Forschungsdatenpublikation"
+    },
+    {
+      "@type": "Thing",
+      "name": "FAIR"
+    },
+    {
+      "@type": "Thing",
+      "name": "Datenfluss"
+    },
+    {
+      "@type": "Thing",
+      "name": "Datenkompetenzframework"
     },
     {
       "@type": "Thing",
       "name": "übergreifend"
+    },
+    {
+      "@type": "Thing",
+      "name": "Tabelle"
     },
     {
       "@type": "Thing",
@@ -167,173 +182,76 @@
       "audienceType": "Hochschullehrende"
     }
   ],
-  "timeRequired": "PT16H15M",
-  "license": [
-    {
-      "@type": "CreativeWork",
-      "name": "Source Code",
-      "license": "https://opensource.org/licenses/AGPL-3.0"
-    },
-    {
-      "@type": "CreativeWork",
-      "name": "Content",
-      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
-    }
-  ],
+  "timeRequired": "TODO",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Content",
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "hasPart": [
     {
       "@type": "LearningResource",
-      "name": "Präambel",
-      "description": "Präambel des Templates. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.",
-      "url": "https://quadriga-dk.github.io/Book_Template/präambel/toc.html",
-      "timeRequired": "PT15M",
-      "teaches": "Überblick über Template",
+      "name": "Einarbeiten",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html",
+      "timeRequired": "TODO",
+      "teaches": "Einarbeiten in Forschungsdaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Das Template und seine Bestandteile werden verstanden und die jeweils relevanten Inhalte sind der Nutzer:in klar.",
+          "targetName": "Die Lernenden können Datenqualität bewerten.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die technischen Voraussetzungen für die verschiedenen möglichen Nutzungsformen werden verstanden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "name": "Struktur und didaktisches Konzept",
-      "description": "Dieses Kapitel stellt die Struktur des Templates und das zugrunde liegende didaktische Konzept vor.",
-      "url": "https://quadriga-dk.github.io/Book_Template/struktur_didaktisches_konzept/einleitung.html",
-      "timeRequired": "PT2H",
-      "teaches": "Fallstudienbasiertes didaktisches Konzept von QUADRIGA",
+      "name": "Datenmanagement",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html",
+      "timeRequired": "TODO",
+      "teaches": "Management von Forschungsdaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Der forschungsgeleitete Ansatz der QUADRIGA OERs kann erläutert und der Beitrag von Fallstudien zur Datenkompetenzvermittlung erklärt werden.",
+          "targetName": "Lernende können Bestandteile eines Datenmanagementplans benennen.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Die hierarchische Struktur der Lernziele in QUADRIGA OERs kann beschrieben und der Zusammenhang zwischen Fallstudienstruktur, Datenlebenszyklus und Lernzielen erläutert werden.",
+          "targetName": "Lernende können Bestandteile eines Datenmanagementplans erläutern.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Die zentralen didaktischen Komponenten einer QUADRIGA OER können identifiziert und deren Funktion im Lernprozess erklärt werden.",
+          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "name": "Technologie",
-      "description": "Es werden die verschiedenen Bestandteile des Templates sowie die Technologien, welche genutzt werden, vorgestellt. Besonderes Augenmerk liegt auf dem Zusammenspiel der einzelnen Elemente.",
-      "url": "https://quadriga-dk.github.io/Book_Template/technologie/einleitung.html",
-      "timeRequired": "PT5H",
-      "teaches": "Technische Umsetzung der QUADRIGA OERs",
+      "name": "Publikation",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html",
+      "timeRequired": "TODO",
+      "teaches": "Publikation von Forschungsdaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Bestandteile der Entwicklungsumgebung (Git, Python, Jupyter Book, Editor) können identifiziert und deren Funktionen im OER-Entwicklungsprozess erläutert werden.",
+          "targetName": "TODO",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Der Unterschied zwischen Jupyter Book und Jupyter Notebook kann erklärt und deren jeweilige Rolle im Entwicklungsworkflow beschrieben werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die automatische Website-Erstellung über GitHub Actions kann erklärt und der Vorteil gegenüber manueller lokaler Entwicklung bewertet werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Installation und Einrichtung einer lokalen Entwicklungsumgebung mit Python/Anaconda kann durchgeführt und Virtual Environments für projektspezifische Anforderungen erstellt werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Der Unterschied zwischen Texteditoren und Textprozessoren für die Code-Entwicklung kann erklärt und geeignete Editoren wie VS Code für die OER-Entwicklung ausgewählt werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "name": "Formatierungs- und Darstellungsmöglichkeiten",
-      "description": "Spezifische Ausführungen und Anleitungen zu Markdown- und Jupyter-Noteboook-Dateien und Formatierungsmöglichkeiten. Empfehlungen für deren einheitliche Nutzung in QUADRIGA OERs.",
-      "url": "https://quadriga-dk.github.io/Book_Template/formatierung/einleitung.html",
-      "timeRequired": "PT5H",
-      "teaches": "Schreiben und Formatieren von Inhalten nach den Empfehlungen von QUADRIGA",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Kenntnis, Auswahl und Nutzung verschiedener möglicher Dateiformate und Programmiersprachen",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Kenntnis, Auswahl und Nutzung spezifischer Auszeichungs- und Formatierungsoptionen",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "name": "Lernstandskontrolle (Assessment)",
-      "description": "Assessment-Konzept und dessen konkrete Ausgestaltung in Jupyter Books, die den QUADRIGA-Empfehlungen folgen",
-      "url": "https://quadriga-dk.github.io/Book_Template/assessment/einleitung.html",
-      "timeRequired": "PT3H",
-      "teaches": "Gestaltung und Implementierung von Assessments",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Verständnis des Assessmentkonzepts von QUADRIGA",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Auswahl und Implementierung spezifischer Assessment-Formate",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "name": "Reflexion und Resümee",
-      "description": "Zusammenfassung und Wiederholung der wichtigsten Inhalte des Buchs. Hinweise auf weiterführende Inhalte.",
-      "url": "https://quadriga-dk.github.io/Book_Template/reflexion_und_resümee/toc.html",
-      "timeRequired": "PT1H",
-      "teaches": "Festigung der erlernten Inhalte",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Kenntnis der wichtigsten Inhalte des Templates und dessen Nutzung",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: 2 Verstehen | Data Flow: nicht anwendbar"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Auswahl geeigneter Formate, Formatierungskonzepte, Übungs- und Assessmentformate und deren Anwendung.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: 3 Anwenden | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 5.1 Aufbewahrung | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung"
         }
       ]
     }
