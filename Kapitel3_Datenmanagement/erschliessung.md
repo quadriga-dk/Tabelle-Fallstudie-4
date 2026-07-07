@@ -79,9 +79,7 @@ DATEISPEZIFISCHE INFORMATIONEN
 *Vorlage aus dem Englischen übersetzt und gekürzt nach* {cite}`ucsb_library_2024` *(CC BY 4.0).*
 
 Als ergänzende Hilfestellung stellt <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Cornell Data Services</a> eine ausführliche Anleitung sowie eine frei verfügbare Vorlage für README-Dateien bereit.
-```
 
-Zur Unterstützung bei der Erstellung einer Readme-Datei stellt <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Cornell Data Services</a> eine ausführliche Anleitung und eine frei verfügbare Vorlage bereit.
 
 ## Beispiel Szenario Q-LCA 
 
