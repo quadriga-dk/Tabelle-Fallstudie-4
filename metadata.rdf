@@ -1,272 +1,279 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:schema1="http://schema.org/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <schema1:Book rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/">
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema:targetDescription>
+    <schema:targetName>Die Lernenden können Datenqualität bewerten. (LZ-ID 02_012_0447)</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_1">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 1.3 Ethik und Recht | Bloom's: ... | Data Flow: 1 Planung</schema:targetDescription>
+    <schema:targetName>*noch zu formulieren*</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management</schema:targetDescription>
+    <schema:targetName>Lernende können Bestandteile eines Datenmanagementplans benennen. (LZ-ID 01_006_0092)</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_1">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema:targetDescription>
+    <schema:targetName>Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_2">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management</schema:targetDescription>
+    <schema:targetName>Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen. (LZ-ID 01_006_0109)</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_3">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema:targetDescription>
+    <schema:targetName>Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern. (LZ-ID 01_006_0110)</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 5.1 Aufbewahrung | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
+    <schema:targetName>*noch zu formulieren*</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_1">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 5.2 Datenpublikation | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
+    <schema:targetName>*noch zu formulieren*</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_2">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 5.3 Kommunikation | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
+    <schema:targetName>*noch zu formulieren*</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:Book rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/">
     <dcterms:tableOfContents>- Einstieg
 - Einarbeiten
 - Datenmanagement
 - Publikation
 - Abschluss</dcterms:tableOfContents>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#discipline_0">
-        <schema1:name>übergreifend</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_0">
-        <schema1:name>Verwaltung</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_1">
-        <schema1:name>Verwaltungswissenschaft</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_2">
-        <schema1:name>Public Sector</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_3">
-        <schema1:name>Tabelle</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_4">
-        <schema1:name>Lerneinheit</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_5">
-        <schema1:name>Open Educational Resource</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_6">
-        <schema1:name>Forschungsdatenpublikation</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_7">
-        <schema1:name>FAIR</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_8">
-        <schema1:name>Datenfluss</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_9">
-        <schema1:name>Datenkompetenzframework</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#research_object_0">
-        <schema1:name>Tabelle</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:about>
-      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#research_object_1">
-        <schema1:name>übergreifend</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:audience>
-      <schema1:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_0">
-        <schema1:audienceType>Forschende (PostDoc)</schema1:audienceType>
-      </schema1:Audience>
-    </schema1:audience>
-    <schema1:audience>
-      <schema1:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_1">
-        <schema1:audienceType>Forschende (Projektleitung)</schema1:audienceType>
-      </schema1:Audience>
-    </schema1:audience>
-    <schema1:audience>
-      <schema1:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_2">
-        <schema1:audienceType>Promovierende</schema1:audienceType>
-      </schema1:Audience>
-    </schema1:audience>
-    <schema1:audience>
-      <schema1:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_3">
-        <schema1:audienceType>Hochschullehrende</schema1:audienceType>
-      </schema1:Audience>
-    </schema1:audience>
-    <schema1:author>
-      <schema1:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0">
-        <schema1:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_org"/>
-        <schema1:familyName>Walter</schema1:familyName>
-        <schema1:givenName>Paul</schema1:givenName>
-        <schema1:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_orcid"/>
-        <schema1:name>Paul Walter</schema1:name>
-      </schema1:Person>
-    </schema1:author>
-    <schema1:author>
-      <schema1:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1">
-        <schema1:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_org"/>
-        <schema1:familyName>Plomin</schema1:familyName>
-        <schema1:givenName>Jana</schema1:givenName>
-        <schema1:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_orcid"/>
-        <schema1:name>Jana Plomin</schema1:name>
-      </schema1:Person>
-    </schema1:author>
-    <schema1:author>
-      <schema1:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2">
-        <schema1:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_org"/>
-        <schema1:familyName>Neuroth</schema1:familyName>
-        <schema1:givenName>Heike</schema1:givenName>
-        <schema1:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_orcid"/>
-        <schema1:name>Heike Neuroth</schema1:name>
-      </schema1:Person>
-    </schema1:author>
-    <schema1:contributor>
-      <schema1:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0">
-        <schema1:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_org"/>
-        <schema1:familyName>Schnaitter</schema1:familyName>
-        <schema1:givenName>Hannes</schema1:givenName>
-        <schema1:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_orcid"/>
-        <schema1:name>Hannes Schnaitter</schema1:name>
-      </schema1:Person>
-    </schema1:contributor>
-    <schema1:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-19</schema1:dateModified>
-    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-19</schema1:datePublished>
-    <schema1:description>Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.</schema1:description>
-    <schema1:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_0">
+        <schema:name>Verwaltung</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_1">
+        <schema:name>Verwaltungswissenschaft</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_2">
+        <schema:name>Public Sector</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_3">
+        <schema:name>Tabelle</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_4">
+        <schema:name>Lerneinheit</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_5">
+        <schema:name>Open Educational Resource</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_6">
+        <schema:name>Forschungsdatenpublikation</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_7">
+        <schema:name>FAIR</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_8">
+        <schema:name>Datenfluss</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#keyword_9">
+        <schema:name>Datenkompetenzframework</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#discipline_0">
+        <schema:name>übergreifend</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#research_object_0">
+        <schema:name>Tabelle</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#research_object_1">
+        <schema:name>übergreifend</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:audience>
+      <schema:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_0">
+        <schema:audienceType>Forschende (PostDoc)</schema:audienceType>
+      </schema:Audience>
+    </schema:audience>
+    <schema:audience>
+      <schema:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_1">
+        <schema:audienceType>Forschende (Projektleitung)</schema:audienceType>
+      </schema:Audience>
+    </schema:audience>
+    <schema:audience>
+      <schema:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_2">
+        <schema:audienceType>Promovierende</schema:audienceType>
+      </schema:Audience>
+    </schema:audience>
+    <schema:audience>
+      <schema:Audience rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#audience_3">
+        <schema:audienceType>Hochschullehrende</schema:audienceType>
+      </schema:Audience>
+    </schema:audience>
+    <schema:author>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_org" />
+        <schema:familyName>Walter</schema:familyName>
+        <schema:givenName>Paul</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_orcid" />
+        <schema:name>Paul Walter</schema:name>
+      </schema:Person>
+    </schema:author>
+    <schema:author>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_org" />
+        <schema:familyName>Plomin</schema:familyName>
+        <schema:givenName>Jana</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_orcid" />
+        <schema:name>Jana Plomin</schema:name>
+      </schema:Person>
+    </schema:author>
+    <schema:author>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_org" />
+        <schema:familyName>Neuroth</schema:familyName>
+        <schema:givenName>Heike</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_orcid" />
+        <schema:name>Heike Neuroth</schema:name>
+      </schema:Person>
+    </schema:author>
+    <schema:contributor>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_org" />
+        <schema:familyName>Schnaitter</schema:familyName>
+        <schema:givenName>Hannes</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_orcid" />
+        <schema:name>Hannes Schnaitter</schema:name>
+      </schema:Person>
+    </schema:contributor>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-19</schema:dateModified>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-19</schema:datePublished>
+    <schema:description>Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.</schema:description>
+    <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
-Förderkennzeichen: 16DKZ2034</schema1:funding>
-    <schema1:hasPart>
-      <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0">
-        <schema1:description>TODO</schema1:description>
-        <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_0"/>
-        <schema1:name>Einarbeiten</schema1:name>
-        <schema1:teaches>Einarbeiten in Forschungsdaten</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
-        <schema1:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html"/>
-      </schema1:LearningResource>
-    </schema1:hasPart>
-    <schema1:hasPart>
-      <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1">
-        <schema1:description>TODO</schema1:description>
-        <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_0"/>
-        <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_1"/>
-        <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_2"/>
-        <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_3"/>
-        <schema1:name>Datenmanagement</schema1:name>
-        <schema1:teaches>Management von Forschungsdaten</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
-        <schema1:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html"/>
-      </schema1:LearningResource>
-    </schema1:hasPart>
-    <schema1:hasPart>
-      <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2">
-        <schema1:description>TODO</schema1:description>
-        <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_0"/>
-        <schema1:name>Publikation</schema1:name>
-        <schema1:teaches>Publikation von Forschungsdaten</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
-        <schema1:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html"/>
-      </schema1:LearningResource>
-    </schema1:hasPart>
-    <schema1:identifier>
-      <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#doi">
-        <schema1:propertyID>DOI</schema1:propertyID>
-        <schema1:url rdf:resource="TODO"/>
-        <schema1:value>TODO</schema1:value>
-      </schema1:PropertyValue>
-    </schema1:identifier>
-    <schema1:inLanguage>de</schema1:inLanguage>
-    <schema1:keywords>Datenfluss</schema1:keywords>
-    <schema1:keywords>Datenkompetenzframework</schema1:keywords>
-    <schema1:keywords>FAIR</schema1:keywords>
-    <schema1:keywords>Forschungsdatenpublikation</schema1:keywords>
-    <schema1:keywords>Lerneinheit</schema1:keywords>
-    <schema1:keywords>Open Educational Resource</schema1:keywords>
-    <schema1:keywords>Public Sector</schema1:keywords>
-    <schema1:keywords>Tabelle</schema1:keywords>
-    <schema1:keywords>Verwaltung</schema1:keywords>
-    <schema1:keywords>Verwaltungswissenschaft</schema1:keywords>
-    <schema1:license>
-      <schema1:CreativeWork rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#license_content">
-        <schema1:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <schema1:name>Content</schema1:name>
-      </schema1:CreativeWork>
-    </schema1:license>
-    <schema1:name>Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.</schema1:name>
-    <schema1:schemaVersion>1.0.0</schema1:schemaVersion>
-    <schema1:timeRequired>TODO</schema1:timeRequired>
-    <schema1:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/"/>
-    <schema1:version>0.0.1</schema1:version>
-    <schema1:workExample>
-      <schema1:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#repository">
-        <schema1:codeRepository rdf:resource="https://github.com/quadriga-dk/Tabelle-Fallstudie-4"/>
-        <schema1:name>Source Code Repository</schema1:name>
-      </schema1:SoftwareSourceCode>
-    </schema1:workExample>
-    <rdf:type rdf:resource="http://schema.org/LearningResource"/>
-  </schema1:Book>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_0">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema1:targetDescription>
-    <schema1:targetName>Die Lernenden können Datenqualität bewerten.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_2">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management</schema1:targetDescription>
-    <schema1:targetName>Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_0">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management</schema1:targetDescription>
-    <schema1:targetName>Lernende können Bestandteile eines Datenmanagementplans benennen.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_org">
-    <schema1:name>Fachhochschule Potsdam</schema1:name>
-  </schema1:Organization>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_3">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema1:targetDescription>
-    <schema1:targetName>Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_orcid">
-    <schema1:propertyID>ORCID</schema1:propertyID>
-    <schema1:url rdf:resource="https://orcid.org/0000-0002-3637-3154"/>
-    <schema1:value>0000-0002-3637-3154</schema1:value>
-  </schema1:PropertyValue>
-  <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_orcid">
-    <schema1:propertyID>ORCID</schema1:propertyID>
-    <schema1:url rdf:resource="https://orcid.org/0000-0002-9236-3268"/>
-    <schema1:value>0000-0002-9236-3268</schema1:value>
-  </schema1:PropertyValue>
-  <schema1:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_org">
-    <schema1:name>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</schema1:name>
-  </schema1:Organization>
-  <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_orcid">
-    <schema1:propertyID>ORCID</schema1:propertyID>
-    <schema1:url rdf:resource="https://orcid.org/0000-0003-0127-7493"/>
-    <schema1:value>0000-0003-0127-7493</schema1:value>
-  </schema1:PropertyValue>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_0">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: 5.1 Aufbewahrung | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung</schema1:targetDescription>
-    <schema1:targetName>TODO</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_1">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema1:targetDescription>
-    <schema1:targetName>Lernende können Bestandteile eines Datenmanagementplans erläutern.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_org">
-    <schema1:name>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</schema1:name>
-  </schema1:Organization>
-  <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_orcid">
-    <schema1:propertyID>ORCID</schema1:propertyID>
-    <schema1:url rdf:resource="https://orcid.org/0000-0002-1602-6032"/>
-    <schema1:value>0000-0002-1602-6032</schema1:value>
-  </schema1:PropertyValue>
-  <schema1:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_org">
-    <schema1:name>Fachhochschule Potsdam</schema1:name>
-  </schema1:Organization>
+Förderkennzeichen: 16DKZ2034</schema:funding>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_1" />
+        <schema:name>Einarbeiten</schema:name>
+        <schema:teaches>Qualitätssicherung von Daten</schema:teaches>
+        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_2" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_3" />
+        <schema:name>Datenmanagement</schema:name>
+        <schema:teaches>Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation, Datenmanagementpläne</schema:teaches>
+        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_2" />
+        <schema:name>Publikation</schema:name>
+        <schema:teaches>Kompetenz Aufbewahrung</schema:teaches>
+        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:inLanguage>de</schema:inLanguage>
+    <schema:keywords>Datenfluss</schema:keywords>
+    <schema:keywords>Datenkompetenzframework</schema:keywords>
+    <schema:keywords>FAIR</schema:keywords>
+    <schema:keywords>Forschungsdatenpublikation</schema:keywords>
+    <schema:keywords>Lerneinheit</schema:keywords>
+    <schema:keywords>Open Educational Resource</schema:keywords>
+    <schema:keywords>Public Sector</schema:keywords>
+    <schema:keywords>Tabelle</schema:keywords>
+    <schema:keywords>Verwaltung</schema:keywords>
+    <schema:keywords>Verwaltungswissenschaft</schema:keywords>
+    <schema:license>
+      <schema:CreativeWork rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#license_content">
+        <schema:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
+        <schema:name>Content</schema:name>
+      </schema:CreativeWork>
+    </schema:license>
+    <schema:name>Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.</schema:name>
+    <schema:schemaVersion>1.0.0</schema:schemaVersion>
+    <schema:timeRequired>TODO</schema:timeRequired>
+    <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/" />
+    <schema:version>0.0.1</schema:version>
+    <schema:workExample>
+      <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#repository">
+        <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Tabelle-Fallstudie-4" />
+        <schema:name>Source Code Repository</schema:name>
+      </schema:SoftwareSourceCode>
+    </schema:workExample>
+    <rdf:type rdf:resource="http://schema.org/LearningResource" />
+  </schema:Book>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_org">
+    <schema:name>Fachhochschule Potsdam</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_org">
+    <schema:name>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_org">
+    <schema:name>Fachhochschule Potsdam</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_org">
+    <schema:name>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</schema:name>
+  </schema:Organization>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0002-9236-3268" />
+    <schema:value>0000-0002-9236-3268</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0003-0127-7493" />
+    <schema:value>0000-0003-0127-7493</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0002-3637-3154" />
+    <schema:value>0000-0002-3637-3154</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0002-1602-6032" />
+    <schema:value>0000-0002-1602-6032</schema:value>
+  </schema:PropertyValue>
 </rdf:RDF>
