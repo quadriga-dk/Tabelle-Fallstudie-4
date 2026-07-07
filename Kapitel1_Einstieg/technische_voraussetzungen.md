@@ -5,20 +5,13 @@ In diesem Abschnitt finden Sie Informationen zu den verschiedenen Anwendungsmodi
 
 ## Anwendung
 
-Diese Fallstudie umfasst einführende und erklärende Texte, ... sowie Übungen und Assessments zur Selbstüberprüfung.
+Diese OER umfasst vor allem erklärende Texte, praxisnah beschriebene Beispiele sowie Übungen und Assessments zur Selbstüberprüfung und Reflexion.
 
-Wir bieten drei verschiedene Zugangswege:
+Da es keinen ausführbare Code gibt, empfehlen wir Ihnen, die OER im 📘 Book-Only Mode durchzugehen. Dabei lesen Sie die Inhalte einfach wie eine interaktive Webseite im Browser. 
 
-<span style="color:red">Book Only Mode noch bearbeiten: Wenn wir keine Code-Beispiele haben, ist der BOM nur hübsch und einfach</span>
-
-📘 Book-Only Mode: Im Browser lesen Sie unser interaktives Lehrbuch wie eine interaktive Webseite. Dies erfordert keine Programmierkenntnisse oder Erfahrung mit Jupyter Notebooks.
-
-🌨️ Cloud Mode: Ausführen und Anpassen der enthaltenen Jupyter Notebooks über Binder. Kapitel mit ausführbaren Notebooks sind durch ein Raketen-Symbol (🚀) gekennzeichnet - klicken Sie darauf, um das Notebook in Binder zu öffnen.  
-
-💻 Local Mode: Herunterladen der Jupyter Notebooks auf Ihren Computer zur lokalen Ausführung. Dies ermöglicht die Nutzung lokaler Daten und umfassende Anpassungen, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z.B. Anaconda).  
+Wenn Sie einzelne Kapitel oder die ganze OER bearbeiten und für eigene Zwecke anpassen wollen, empfehlen wir Ihnen, die Markdown-Dateien direkt von <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4" class="external-link" target="_blank">GitHub</a> herunterzuladen. Diese können Sie dann zum Beispiel mit <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code</a> oder <a href="https://vscodium.com/" class="external-link" target="_blank">VSCodium</a> bearbeiten.
 
 
 ## Technische Voraussetzungen
 
-*Nutzen wir Tools? Muss etwas installiert werden?*
-- Software zur Qualitätsprüfung von Daten?
+In dieser OER werden keine Tools verwendet, weshalb Sie keine Software herunterladen und ausführen müssen.

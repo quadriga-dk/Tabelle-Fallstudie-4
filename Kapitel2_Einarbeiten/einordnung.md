@@ -6,28 +6,35 @@ Des Weiteren gehen wir in diesem Szeanrio davon aus, dass Sie wissen, wo die Dat
 
 ## Ausgangslage
 
-Zunächst gilt es, den Ursprungskontext nachvollziehen
+Zunächst gilt es, den Ursprungskontext nachvollziehen und sich in das Projekt einzuarbeiten, aus dem die Daten stammen. Danach sehen Sie sich die Daten an. Wahrscheinlich ist es sinnvoll zwischen Rohdaten und Forschungsdaten zu unterscheiden. Diese Daten sollten beschrieben sein bzw. müssen von Ihnen beschrieben werden. Diesbezüglich ist es von Vorteil, wenn bereits eine README und ein Datenmanagementplan vorliegt. Wenn es das nicht gibt, müssen Sie einen anlegen. Eine Anleitung dazu finden Sie in Kapitel [3.1 Organisation](datenmanagement:organisation).
 
 ## Vorgehen
-Problemlösung skizzieren, z. B. Die Daten müssen geprüft werden.
+
+Um sich einen Überblick über den Projektkontext zu verschaffen, gehen Sie z. B. auf folgende Fragen ein:
+- Aus welchem Projekt stammen die Daten?
+- Wer war an dem Projekt bzw. der Datenerhebung beteiligt?
+- Wann und über welchen Zeitraum wurden die Daten erhoben?
+- Welche Daten liegen überhaupt vor und wie liegen sie vor? 
+Hier hilft es - wie oben beschrieben - zwischen Roh- und Forschungsdaten zu unterscheiden. Für beide müssen sie ähnliche Fragen beantworten:
+- Welche Rohdaten liegen vor?
+- Wie und in welchen Formaten liegen sie vor? 
+- Wie sind sie entstanden? (Methodik) 
+- Sind sie dokumentiert oder publiziert?
+- Welche Forschungsdaten liegen vor? 
+- Wie und in welchen Formaten liegen sie vor? 
+- Wie sind sie entstanden? (Methodik) 
+- Was davon ist bereits dokumentiert oder publiziert?
+
+Es ist hilfreich, sich dazu eine Excel-Tabelle zur Provenienz der Daten anzulegen. Darin enthalten sein sollte der Name der Untersuchung, eine Beschreibung der Untersuchung, das Ergebnis der Untersuchung und das Dateiformat. So lassen sich die Daten sichten und sortieren und ein Datenmanagementplan später einfacher anlegen.
 
 ## Beispiel Szenario Q-LCA
-Speziellen Fall unseres Szenarios schildern, z. B. In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht notwendig, weil die Daten bereits gut aufgearbeitet vorliegen.
+
+...
 
 ## Learnings
-*können möglicherweise auch ins Resümee*
-Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über das Beispielszenario hinaus Anwendung finden können.
+
+Wie umfangreich diese Arbeiten ausfallen, hängt maßgeblich davon ab, wie gut die Forschungsdaten im Projekt geordnet und beschrieben wurden, über welche fachliche Nähe Sie zu dem Projekt verfügen und ob eine Ansprechperson zur Verfügung steht. Ein alleiniges Durcharbeiten durch ungeordnete Hinterlassenschaften eines Projektes aus einer anderen Disziplin ist sehr anspruchsvoll. Wahrscheinlicher ist der Fall, dass Sie eigene Forschungsdaten publizieren wollen. In diesem Fall gilt es vor allem, sich erneut in den Projektkontext hineinzuversetzen. 
 
 ---
 
-Überblick verschaffen/ Einarbeiten/ Projekt nachvollziehen
-- Ursprungskontext nachvollziehen
-    - Aus welchem Projekt stammen die Daten? Wer war beteiligt? Zeitraum? Welche Daten liegen wie vor (Unterscheidung Roh- und Forschungsdaten)
-- Rohdaten
-    - Welche Rohdaten liegen vor? Wie/in welchen Formaten? Wie sind sie entstanden (Methodik)? Sind sie dokumentiert oder publiziert?
-- Forschungsdaten
-    - Welche Forschungsdaten liegen vor? Wie/in welchen Formaten? Wie sind sie entstanden (Methodiken)? Was ist bereits dokumentiert oder publiziert?
-- Datenbeschreibung/ DMP
-    - Sind die Daten beschrieben (README)/gibt es einen DMP? (Wenn nein, dann anlegen)
-    - Wenn man nachträglich einen DMP anlegt und FD publiziert, braucht man dann andere/weitere Kompetenzen (als die von uns ausgemachten)?
 
