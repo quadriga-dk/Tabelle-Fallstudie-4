@@ -30,7 +30,8 @@ Die 1. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 
 ---
 
-Dabei werden folgende Lernziele erreicht:
+Dabei können folgende Lernziele erreicht werden:
+(Die Lernziele mit Bezug zur <a href="https://zenodo.org/records/15025246" class="external-link" target="_blank">Lernzielmatrix</a> zum Themenbereich Forschungsdatenmanagement (FDM) von Petersen et al. (Version 3, 2025) sind durch ihre dort vergebene ID (LZ-ID) kenntlich gemacht.)
 
 ```{include} /Kapitel1_Einstieg/lernziele.md
 :start-after: "<!-- START: Einarbeiten -->"

@@ -1,22 +1,21 @@
 (publikation:publikation)=
 # Publikation
 
-Nachdem im vorigen Kapitel ein Repositorium für die Datenpublikation ausgewählt wurde, gilt es nun, die Daten darin zu publizieren. Dazu werden Methoden und Standards entsprechend der Kompetenz *5.2 Publikation* (s. Abb. 4.6) vorgestellt.
+Nachdem im vorigen Unterkapitel ein Repositorium für die Datenpublikation ausgewählt wurde, gilt es nun, die Daten darin zu publizieren. Dazu werden Methoden und Standards entsprechend der Kompetenz *5.2 Publikation* (s. Abb. 4.6) vorgestellt.
 
 ```{figure} /assets/5.2_publikation.png
 ---
 align: center
-width: 33%
+width: 50%
 ---
-Die Kompetenz 5.2 Publikation des QUADRIGA Datenkompetenzframeworks.
+Die Kompetenz '5.2 Publikation' des QUADRIGA Datenkompetenzframeworks.
 ```
 *Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
 
 ## Ausgangslage 
 
-- Upload der Dateien in das im vorigen Unterkapitel ausgewählte Repo
-- finales Prüfen vor Publizieren
+Die in Kapitel 3 [Datenmanagement](datenmanagement:einleitung) sortierten Dateien, für die im vorherigen Unterkapitel ein Repositorium ausgewählt wurde, müssen nun final geprüft und hochgeladen werden.
 
 ## Vorgehen
 
@@ -29,7 +28,7 @@ Die Kompetenz 5.2 Publikation des QUADRIGA Datenkompetenzframeworks.
 
 ## Beispiel Szenario Q-LCA 
 
-Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>
+Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> - u. a. weil es kein fachspezifisches Repositorium gab (s. Unterkapitel 4.1 [Aufbewahrung](publikation:aufbewahrung)).
 
 Die veröffentlichten Daten finden Sie hier: https://zenodo.org/records/17866716 
 

@@ -1,14 +1,13 @@
 # Einstieg
 
-<span style="color:red">Einfügen Abbildung: catchy pic zum Thema Datenpublikation</span>
 
-```{figure} /assets/....png
+```{figure} /assets/zenodo_uploadmaske.png
 ---
-name: ...
-alt: ...
+name: Zenodo Uploadmaske
+alt: Screenshot der Upload Seite bei Zenodo
 ---
-Untertitel...
+Beispielhafter Screenshot einer Eingabemaske zum Datei-Upload (hier Zenodo).
 ```
-*Quellenangabe:*
+*Quellenangabe: Screenshot der Eingabemaske zum Upload neuer Dateien des Repositoriums <a href="https://zenodo.org" class="external-link" target="_blank">Zenodo</a>, 08.07.2026.*
 
-In diesem einführenden Kapitel können Sie sich mit den [Vorkenntnissen und Lernzielen](lernziele) sowie der [Anwendung und den technischen Voraussetzungen](voraussetzungen) vertraut machen.
+In diesem einführenden Kapitel können Sie sich mit den [Vorkenntnissen und Lernzielen](lernziele) sowie der [Anwendung und den technischen Voraussetzungen](voraussetzungen) vertraut machen. Darüber hinaus führt Sie das Unterkapitel [Nachträgliches Publizieren - Einleitung](nachpub:einleitung) in das Thema ein, bevor Ihnen das Publizieren von Forschungsdaten ab Kapitel 2 [Einarbeiten](einarbeiten:einleitung) Schritt für Schritt erläutert wird.
