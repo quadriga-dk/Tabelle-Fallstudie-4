@@ -38,7 +38,7 @@
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 5.2 Datenpublikation | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
-    <schema:targetName>*noch zu formulieren*</schema:targetName>
+    <schema:targetName>*Können Schritte zur Publikation benennen (?), finale Prüf-Schritte nennen (?)*</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
