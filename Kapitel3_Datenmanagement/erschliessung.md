@@ -31,7 +31,7 @@ Die folgende Übersicht zeigt Beispiele etablierter Metadatenstandards verschied
 | Disziplin | Metadatenstandard | Organisation | Quelle |
 |---|---|---|---|
 | Astronomie | IVOA Technical Specifications | IVOA | {cite}`ivoa_2026` |
-| Bauwesen/Stadtplanung | XPlanung (ergänzt durch XBau)¹ | XLeitstelle | {cite}`xleitstelle_2018` |
+| Bauwesen/Stadtplanung | XPlanung (ergänzt durch XBau) | XLeitstelle | {cite}`xleitstelle_2018` |
 | Biodiversität | Darwin Core | TDWG | {cite}`wieczorek_et_al_2012` |
 | Fachübergreifend | DataCite Metadata Schema | DataCite | {cite}`datacite_2026` |
 | Geisteswissenschaften | TEI (Text Encoding Initiative) | TEI Consortium | {cite}`tei_consortium_2026` |
@@ -40,8 +40,6 @@ Die folgende Übersicht zeigt Beispiele etablierter Metadatenstandards verschied
 | Kulturerbe | CIDOC CRM | CIDOC CRM SIG / ISO | {cite}`iso_21127_2023` |
 | Medizin | CDISC (u. a. CDASH, SDTM, ODM) | CDISC | {cite}`cdisc_2026` |
 | Sozialwissenschaften | DDI (Data Documentation Initiative) | DDI Alliance | {cite}`ddi_alliance_2026` |
-
-¹ XBau ist ein eigener Standard für Baugenehmigungsverfahren, ergänzend zu XPlanung.
 
 Eine übergreifende Übersicht bietet zudem <a href="https://fairsharing.org" class="external-link" target="_blank">FAIRsharing</a> {cite}`sansone_et_al_2019`.
 
