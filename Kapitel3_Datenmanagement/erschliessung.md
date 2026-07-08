@@ -159,7 +159,6 @@ Als ergänzende Hilfestellung stellt <a href="https://data.research.cornell.edu/
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```
 
 
