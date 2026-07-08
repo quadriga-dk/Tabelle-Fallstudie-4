@@ -32,7 +32,7 @@ Die 5. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 
 Dabei können Sie folgende Lernziele erreichen:
 
-```{include} /einstieg/lernziele.md
+```{include} /Kapitel1_Einstieg/lernziele.md
 :start-after: "<!-- START: Publikation -->"
 :end-before: "<!-- END: Publikation -->"
 ```

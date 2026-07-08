@@ -58,6 +58,8 @@ Schritte sind u. a.:
 
 - Struktur soweit wie möglich aus dem Projekt übernehmen (Strukturen und Benennungen sind nicht ohne Grund entstanden und folgen einer Logik)
 - Für Quadriga mitnehmen: Dateibenennung im Nachhinein mühsam, aufpassen, dass keine Verständigungsprobleme entstehen.
+- Merke Quadriga: Benennung der Dateien schwierig, oft Anpassungen von Partnern, am Ende muss viel glatt gezogen werden
+
 - auch die Bereitstellung war ein Thema (als ZIP, Gesamt-ZIP, Teil-ZIP) -> logische Ordnung und Clusterung
 - Versionierung und Dateibenennung Kompetenzen, die gebraucht werden, wenn man nachträglich aufarbeitet
 

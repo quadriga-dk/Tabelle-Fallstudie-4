@@ -32,7 +32,7 @@ Die 1. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 
 Dabei werden folgende Lernziele erreicht:
 
-```{include} /einstieg/lernziele.md
+```{include} /Kapitel1_Einstieg/lernziele.md
 :start-after: "<!-- START: Einarbeiten -->"
 :end-before: "<!-- END: Einarbeiten -->"
 ```

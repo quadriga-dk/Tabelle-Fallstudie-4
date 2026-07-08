@@ -32,7 +32,7 @@ Die 3. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 
 Dabei werden folgende Lernziele erreicht:
 
-```{include} /einstieg/lernziele.md
+```{include} /Kapitel1_Einstieg/lernziele.md
 :start-after: "<!-- START: Datenmanagement -->"
 :end-before: "<!-- END: Datenmanagement -->"
 ```

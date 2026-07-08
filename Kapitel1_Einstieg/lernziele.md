@@ -72,7 +72,7 @@ Juristisches:
 1. *noch zu formulieren*
 <!-- competency: 5.1 Aufbewahrung | bloom: ... -->
 <!-- learning-goal: Kompetenz Publikation -->
-1. *noch zu formulieren*
+1. *Können Schritte zur Publikation benennen (?), finale Prüf-Schritte nennen (?)*
 <!-- competency: 5.2 Datenpublikation | bloom: ... -->
 <!-- learning-goal: Kompetenz Kommunikation -->
 1. *noch zu formulieren*
