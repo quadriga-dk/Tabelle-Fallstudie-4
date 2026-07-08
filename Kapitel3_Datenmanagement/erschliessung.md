@@ -27,6 +27,23 @@ Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt.
 
 <span style="color:red">*Angebot machen, auf welchen Seiten das recherchiert werden kann.*</span>
 
+Die folgende Übersicht zeigt Beispiele etablierter Metadatenstandards nach Fachdisziplin.
+
+| Disziplin | Metadatenstandard | Organisation |
+|---|---|---|
+| Sozialwissenschaften | DDI (Data Documentation Initiative) | DDI Alliance |
+| Geodaten/Geowissenschaften | ISO 19115 | ISO |
+| Bauwesen/Stadtplanung (Deutschland) | XPlanung/XBau | IT-Planungsrat / XLeitstelle |
+| Biodiversität | Darwin Core {cite}`wieczorek_et_al_2012` | TDWG / GBIF |
+| Fachübergreifend | DataCite Metadata Schema | DataCite |
+| Geisteswissenschaften/Digital Humanities | TEI (Text Encoding Initiative) | TEI Consortium |
+| Medizin/Gesundheitsforschung | CDISC-Standards (u. a. CDASH, SDTM, ODM) | CDISC |
+| Klimaforschung/Erdsystemwissenschaften | CF Conventions (Climate and Forecast Metadata Conventions) | cfconventions.org |
+| Kulturerbe/Archäologie | CIDOC CRM (ISO 21127:2023) | CIDOC CRM SIG / ISO |
+| Astronomie | IVOA Technical Specifications | International Virtual Observatory Alliance |
+
+Einen durchsuchbaren Überblick über weitere Metadatenstandards und Ontologien bietet <a href="https://fairsharing.org" class="external-link" target="_blank">FAIRsharing</a> {cite}`sansone_et_al_2019`.
+
 **FAIRifizierung**
 Prüfen Sie, ob die Beschreibung der Daten vollständig ist. Maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
 
