@@ -44,6 +44,50 @@ Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei di
 
 ```{admonition} Beispiel: Vorlage für eine README-Datei
 :class: hinweis, dropdown
+Diese README.txt-Datei wurde am JJJJ-MM-TT von NAME erstellt <Hinweistexte stehen in spitzen Klammern und können vor dem Speichern gelöscht werden>
+
+ALLGEMEINE INFORMATIONEN
+1. Titel des Projekts:
+2. Angaben zu den Autor:innen
+   A. Kontaktinformationen Projektleitung: Name: Institution: Adresse: E-Mail:
+   B. Kontaktinformationen Ko-Autor:innen: Name: Institution: Adresse: E-Mail:
+   C. Alternative Kontaktperson: Name: Institution: Adresse: E-Mail:
+3. Datum der Datenerhebung (Einzeldatum, Zeitraum oder ungefähres Datum) <empfohlenes Format JJJJ-MM-TT; bei mehreren Dateien entsprechend einzeln angeben>:
+4. Geografischer Ort der Datenerhebung: <Breiten-/Längengrad oder Stadt/Region, Bundesland, Land; bei mehreren Datenquellen entsprechend angeben>:
+5. Angaben zu Förderquellen, die die Datenerhebung unterstützt haben:
+
+WEITERGABE-/ZUGANGSINFORMATIONEN
+1. Lizenzen/Einschränkungen bezüglich der Daten:
+2. Links zu Publikationen, die die Daten zitieren oder nutzen:
+3. Links zu weiteren öffentlich zugänglichen Fundorten der Daten:
+4. Links/Beziehungen zu ergänzenden Datensätzen: <weitere unterstützende Datenquellen, die zur Analyse oder Klassifikation herangezogen wurden>
+5. Wurden die Daten aus einer anderen Quelle abgeleitet? Falls ja, Quelle(n) angeben: <Zitationen der Originalquellen>
+6. Empfohlene Zitierweise für das Projekt:
+
+DATEN- UND DATEIÜBERSICHT
+1. Dateiliste: <alle Dateien (bzw. Ordner) im Datensatz mit kurzer Inhaltsbeschreibung auflisten>
+2. Beziehung zwischen den Dateien, falls relevant:
+3. Zusätzliche verwandte Daten, die erhoben, aber nicht in dieses Datenpaket aufgenommen wurden:
+4. Gibt es mehrere Versionen des Datensatzes? <Falls ja: Name der aktualisierten Datei(en); warum und wann wurde die Datei aktualisiert?>
+
+METHODISCHE INFORMATIONEN
+1. Beschreibung der Methoden zur Datenerhebung/-generierung: <Links/Verweise auf Publikationen oder Dokumentation zu Versuchsaufbau bzw. verwendeten Protokollen>
+2. Methoden der Datenverarbeitung: <wie wurden die übermittelten Daten aus den Rohdaten erzeugt?>
+3. Geräte- oder softwarespezifische Informationen zur Interpretation der Daten: <vollständiger Name und Version der Software sowie benötigte Pakete/Bibliotheken>
+4. Standards und Kalibrierungsinformationen, falls zutreffend:
+5. Umgebungs-/Versuchsbedingungen:
+6. Beschreibung durchgeführter Qualitätssicherungsmaßnahmen:
+7. Beteiligte Personen bei Probenahme, Verarbeitung, Analyse und/oder Einreichung:
+
+DATENSPEZIFISCHE INFORMATIONEN FÜR: [DATEINAME] <diesen Abschnitt für jeden Datensatz/Ordner/Datei wiederholen>
+1. Anzahl der Variablen:
+2. Anzahl der Fälle/Zeilen:
+3. Variablenliste: <Variablennamen, Beschreibungen, Einheiten und ggf. Wertelabels>
+4. Codes für fehlende Daten: <Code/Symbol und Definition>
+5. Spezielle Formate oder verwendete Abkürzungen:
+```
+```{admonition} Beispiel: Vorlage für eine README-Datei
+:class: hinweis, dropdown
 
 **ALLGEMEINE INFORMATIONEN**
 
