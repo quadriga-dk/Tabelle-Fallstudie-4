@@ -28,21 +28,22 @@ Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt.
 <span style="color:red">*Angebot machen, auf welchen Seiten das recherchiert werden kann.*</span>
 
 Die folgende Übersicht zeigt Beispiele etablierter Metadatenstandards verschiedener Fachdisziplinen.
+| Disziplin | Metadatenstandard | Organisation | Quelle |
+|---|---|---|---|
+| Astronomie | IVOA Technical Specifications | IVOA | {cite}`ivoa_2026` |
+| Bauwesen/Stadtplanung | XPlanung (ergänzt durch XBau)¹ | XLeitstelle | {cite}`xleitstelle_2018` |
+| Biodiversität | Darwin Core | TDWG | {cite}`wieczorek_et_al_2012` |
+| Fachübergreifend | DataCite Metadata Schema | DataCite | {cite}`datacite_2026` |
+| Geisteswissenschaften | TEI (Text Encoding Initiative) | TEI Consortium | {cite}`tei_consortium_2026` |
+| Geodaten | ISO 19115 | ISO | {cite}`iso_19115_2014` |
+| Klimaforschung | CF Conventions | CF Conventions Community | {cite}`cf_conventions_2026` |
+| Kulturerbe | CIDOC CRM | CIDOC CRM SIG / ISO | {cite}`iso_21127_2023` |
+| Medizin | CDISC (u. a. CDASH, SDTM, ODM) | CDISC | {cite}`cdisc_2026` |
+| Sozialwissenschaften | DDI (Data Documentation Initiative) | DDI Alliance | {cite}`ddi_alliance_2026` |
 
-| Disziplin | Metadatenstandard | Organisation |
-|---|---|---|
-| Sozialwissenschaften | DDI (Data Documentation Initiative) | DDI Alliance |
-| Geodaten/Geowissenschaften | ISO 19115 | ISO |
-| Bauwesen/Stadtplanung (Deutschland) | XPlanung (ergänzend: XBau als eigener Standard für Baugenehmigungsverfahren) | XLeitstelle |
-| Biodiversität | Darwin Core {cite}`wieczorek_et_al_2012` | TDWG |
-| Fachübergreifend | DataCite Metadata Schema | DataCite |
-| Geisteswissenschaften/Digital Humanities | TEI (Text Encoding Initiative) | TEI Consortium |
-| Medizin/Gesundheitsforschung | CDISC-Standards (u. a. CDASH, SDTM, ODM) | CDISC |
-| Klimaforschung/Erdsystemwissenschaften | CF Conventions (Climate and Forecast Metadata Conventions) | CF Conventions Community |
-| Kulturerbe/Archäologie | CIDOC CRM (ISO 21127:2023) | CIDOC CRM SIG / ISO |
-| Astronomie | IVOA Technical Specifications | International Virtual Observatory Alliance |
+¹ XBau ist ein eigener Standard für Baugenehmigungsverfahren, ergänzend zu XPlanung.
 
-Einen durchsuchbaren Überblick über weitere Metadatenstandards und Ontologien bietet <a href="https://fairsharing.org" class="external-link" target="_blank">FAIRsharing</a> {cite}`sansone_et_al_2019`.
+Eine übergreifende Übersicht bietet zudem <a href="https://fairsharing.org" class="external-link" target="_blank">FAIRsharing</a> {cite}`sansone_et_al_2019`.
 
 **FAIRifizierung**
 Prüfen Sie, ob die Beschreibung der Daten vollständig ist. Maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
