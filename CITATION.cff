@@ -34,7 +34,7 @@ keywords: &id002
 - FAIR
 - Datenfluss
 - Datenkompetenzframework
-license: CC BY 4.0
+license: CC-BY-4.0
 preferred-citation:
   year: '2025'
   authors: *id001
@@ -44,10 +44,10 @@ preferred-citation:
   type: book
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
   repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
-  license: CC BY 4.0
+  license: CC-BY-4.0
   languages:
   - deu
-  copyright: CC BY 4.0
+  copyright: CC-BY-4.0
   keywords: *id002
   version: 0.0.1
 version: 0.0.1
