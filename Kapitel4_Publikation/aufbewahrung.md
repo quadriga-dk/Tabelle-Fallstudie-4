@@ -99,6 +99,16 @@ Einen Vergleich verschiedener generischer Repositorien finden Sie  <a href="http
 
 Um Ihre Datensätze nachhaltig und wiederauffindbar zu hinterlegen sollten Sie darauf achten, dass das von Ihnen präferierte Repositorium von hoher Qualität ist. Die <a href="https://www.coretrustseal.org/" class="external-link" target="_blank">CoreTrustSeal</a>- und <a href="https://www.langzeitarchivierung.de/Webs/nestor/DE/Services/nestor_Siegel/nestor_siegel_node.html" class="external-link" target="_blank">nestor</a>-Siegel sind beispielsweise zwei Zertifikate, welche sich zum Ziel gesetzt haben diese sicherzustellen. Beide Zertifizierungsverfahren basieren auf einem zweistufigen Prozess: Die Verantwortlichen für die Repositorien führen zunächst eine detaillierte, evidenzbasierte Selbstevaluierung durch. Diese Selbsteinschätzung wird anschließend von unabhängigen Fachexperten in einem formellen Begutachtungsprozess überprüft. Die Kriterien hierfür sind vielseitig und den Websiten der Zertifikate zu entnehmen. Im Allgemeinen lassen sich die Prüfkriterien dieser Siegel jedoch in drei zentrale Säulen zusammenfassen: Erstens muss das Repositorium über eine verlässliche organisatorische Infrastruktur verfügen, die langfristige Finanzierung, qualifiziertes Personal sowie rechtliche Konformität und Krisenplanung sicherstellt. Zweitens wird das professionelle Management der digitalen Objekte bewertet, was voraussetzt, dass Daten zielgruppengerecht aufbereitet, durch aktive Erhaltungsmaßnahmen interpretierbar gehalten sowie nachweisbar authentisch und auffindbar sind. Drittens wird eine stabile und geschützte IT-Infrastruktur gefordert, die Datensicherheit, Integrität durch regelmäßige Systemprüfungen und Schutz vor Ausfällen garantiert. 
 
+
+```{figure} /assets/3_säulen.png
+---
+align: center
+width: 100%
+name: 3_säulen
+---
+Eigenschaften, welche die Zertifikate als gut einstufen
+```
+
 Allerdings ist das Fehlen eines solchen Siegels keineswegs ein Zeichen, dass die Qualität eines Repositoriums unbedingt mangelhaft ist. Derartige Zertifikate sind kostenpflichtig und nur begrenzt Standartd im deutschsprachigen Raum und darüber hinaus. Das oben erwähnte generische Repositorium <i>Zenodo</i> is beispielsweise ein nichtzertifiziertes Repositorium, welches aufgrund seines namenhaften Trägers (CERN) höchstwahrscheinlich noch über einen langen Zeitraum instandgehalten werden wird, was es grundsätzlich zu einem attraktiven generischen Repositorium macht.
 
 Überprüfen Sie also auch selbstständig, ob ein Repositorium Ihren Ansprüchen bzw. den Ansprüchen Ihres Fachgebietes entspricht. Das bereits erwähnte Suchtool <a href="https://www.re3data.org/" class="external-link" target="_blank">r3data</a> bietet im Übrigen auch die Möglichkeit nach bestimmten Qualitätsmerkmalen wie Identifiervergabe, Open Access oder Zertifizierung zu filtern.
