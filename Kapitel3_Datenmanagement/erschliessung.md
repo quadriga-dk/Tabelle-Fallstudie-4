@@ -63,6 +63,8 @@ Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Pr�
 - <a href="https://fair-checker.france-bioinformatique.fr/" class="external-link" target="_blank">FAIR-Checker</a>
 
 Für Organisationen, die FAIR-Prinzipien systematisch bewerten möchten, bietet das **FAIR Data Maturity Model** der Research Data Alliance (RDA) zudem einen standardisierten Kriterienkatalog zur Beurteilung des FAIR-Reifegrads von Forschungsdaten.
+`````
+
 
 **README**
 Legen Sie eine README an.
