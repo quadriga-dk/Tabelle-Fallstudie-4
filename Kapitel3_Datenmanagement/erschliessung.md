@@ -48,6 +48,22 @@ Prüfen Sie, ob die Beschreibung der Daten vollständig ist. Maximieren Sie nach
 
 <span style="color:red">*Angebot machen, wie das geprüft werden kann, z. B. durch Checklisten, Webseiten etc.*</span>
 
+`````{admonition} Weitere Informationen
+:class: tip
+
+Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und Reifegradmodellen als auch mit automatisierten Prüfwerkzeugen unterstützt werden. Eine ausführliche Einführung in die FAIR-Prinzipien sowie weitere Hintergrundinformationen finden Sie bereits in der <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">1. Fallstudie, Kapitel 3.1 „FAIR-Prinzipien“</a>. Dort werden unter anderem folgende Ansätze vorgestellt:
+
+- **Checkliste:** die kompakte FAIR-Checkliste von Jones und Grootveld (2017)
+- **Webtool:** das deutschsprachige <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), basierend auf dem FAIR Assessment Tool der Australian Research Data Commons
+- **FAIR Data Maturity Model:** das detaillierte Reifegradmodell der Research Data Alliance (RDA), auf Deutsch verfügbar über das Projekt EcoDM
+
+Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Prüfwerkzeuge zur Verfügung. Diese bewerten die FAIRness eines Datensatzes anhand eines Persistent Identifiers (PID) oder einer URL und geben unmittelbar Rückmeldung darüber, welche FAIR-Kriterien bereits erfüllt sind und wo Verbesserungsbedarf besteht.
+
+- <a href="https://www.f-uji.net/" class="external-link" target="_blank">F-UJI</a>
+- <a href="https://fair-checker.france-bioinformatique.fr/" class="external-link" target="_blank">FAIR-Checker</a>
+
+Für Organisationen, die FAIR-Prinzipien systematisch bewerten möchten, bietet das **FAIR Data Maturity Model** der Research Data Alliance (RDA) zudem einen standardisierten Kriterienkatalog zur Beurteilung des FAIR-Reifegrads von Forschungsdaten.
+
 **README**
 Legen Sie eine README an.
 
