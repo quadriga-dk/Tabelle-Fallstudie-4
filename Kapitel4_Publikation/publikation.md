@@ -6,7 +6,7 @@ Nachdem im vorigen Unterkapitel ein Repositorium für die Datenpublikation ausge
 ```{figure} /assets/5.2_publikation.png
 ---
 align: center
-width: 50%
+width: 33%
 ---
 Die Kompetenz '5.2 Publikation' des QUADRIGA Datenkompetenzframeworks.
 ```

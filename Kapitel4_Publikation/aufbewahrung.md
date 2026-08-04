@@ -6,7 +6,7 @@ In diesem Unterkapitel steht die Kompetenz der Aufbewahrung von Forschungsdaten 
 ```{figure} /assets/5.1_aufbewahrung.png
 ---
 align: center
-width: 50%
+width: 33%
 ---
 Die Kompetenz 5.1 Aufbewahrung des QUADRIGA Datenkompetenzframeworks.
 ```
@@ -60,6 +60,8 @@ width: 50%
 ---
 Startseite von r3data
 ```
+*Quellenangabe: Screenshot der Startseite von r3data vom xx.xx.xxxx.*
+
 r3data funktioniert wie eine Art Suchmaschine für Forschungsdatenrepositorien, allerdings nur für Repositorien, welche auch im Register vorhanden sind. Ein besonderes Merkmal sind jedoch die Filtermöglichkeiten und die Stöberfunktion.
 Über den Reiter "Search" werden Sie direkt zu einer Liste mit allen Repositorien geleitet, wo Sie die Einträge nach 30 (<i>Stand: Juni 2026</i>) Kategorien filtern können. Dazu gehören beispielsweise die für das Repositorium relevanten Metadatenstandards.
 Was <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/dcat_ap/DCAT_AP_Recap.html" class="external-link" target="_blank">Metadaten</a> sind, wurde bereits in einer vergangenen <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html" class="external-link" target="_blank">Fallstudie</a> thematisiert.
@@ -70,8 +72,10 @@ Was <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/dcat_ap/DCAT_AP_
 align: center
 width: 50%
 ---
-Sunburstdiagramm von r3data
+Sunburst Diagramm von r3data
 ```
+*Quellenangabe: Screenshot des Sunburst Diagramms von r3data vom xx.xx.xxxx, das die Fachgebiete ud Fachdisziplinen zeigt, für die Repositorien verfügbar sind.*
+
 Auch Journals und Verlage verweisen oft auf Repositorien, welche Sie empfehlen oder sogar voraussetzen, um später bei ihnen publizieren zu dürfen.
 
 ### Nationale und internationale Initiativen
@@ -108,6 +112,8 @@ name: 3_säulen
 ---
 Eigenschaften, welche die Zertifikate als gut einstufen
 ```
+*Quellenangabe: Eigene Darstellung der Merkmale eines vertrauenswürdigen Repositoriums. Grafische Aufarbeitung mithilfe von xxx [Link].*
+
 
 Allerdings ist das Fehlen eines solchen Siegels keineswegs ein Zeichen, dass die Qualität eines Repositoriums unbedingt mangelhaft ist. Derartige Zertifikate sind kostenpflichtig und nur begrenzt Standard im deutschsprachigen Raum und darüber hinaus. Das oben erwähnte generische Repositorium <i>Zenodo</i> ist beispielsweise ein nichtzertifiziertes Repositorium, welches aufgrund seines renommierten Trägers (CERN) voraussichtlich langfristig betrieben wird, was es grundsätzlich zu einem attraktiven generischen Repositorium macht.
 
@@ -134,6 +140,7 @@ name: entscheidungshilfe
 ---
 Entscheidungshilfe zum Auswählen eines Repositoriums
 ```
+*Quellenangabe: Eigene Darstellung eines Entscheidungsbaums. Grafische Aufbereitung mithilfe von xxx.*
 
 
 ## Beispiel

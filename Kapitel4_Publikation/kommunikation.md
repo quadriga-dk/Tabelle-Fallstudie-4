@@ -1,7 +1,7 @@
 (publikation:kommunikation)=
 # Kommunikation
 
-Dieses Unterkapitel nimmt die in anderen Modellen häufig vernachlässigte Kompetenz der Kommunikation von Forschungsdaten oder -ergebnissen in den Blick.
+Dieses Unterkapitel nimmt die häufig vernachlässigte Kompetenz der Kommunikation von Forschungsdaten in den Blick.
 
 ```{figure} /assets/5.3_kommunikation.png
 ---
@@ -52,9 +52,9 @@ Neben den oben dargestellten Kommunikationswegen können Forschungsdaten auch ü
 
 ## Beispielszenario 
 
-In dem in diesem Szenario skizzierten Fall der Veröffentlichung der Forschungsdaten aus dem Projekt Q-LCA fanden folgende Veröffentlichungswege Anwednung:
+In dem in diesem Szenario skizzierten Fall der Veröffentlichung der Forschungsdaten aus dem Projekt Q-LCA fanden folgende Veröffentlichungswege Anwendung:
 
-- Ausgabe einer Pressemitteilung der Fachhochschule Potsdam über die Veröffentlichung der Forschungsdaten (*Link*) 
+- Ausgabe einer <a href="https://www.fh-potsdam.de/aktuelles-medien/news/klimaorientierte-planung-siedlungen-und-quartieren" class="external-link" target="_blank">Pressemitteilung</a> über die Webseite und den internen Mailverteiler der FH Potsdam über die Veröffentlichung der Forschungsdaten
 - Kommunikation zu Kolleg:innen (aus dem ehem. Projekt, aber auch an den beteiligten Einrichtungen)
 
 Was ist zu beachten?
@@ -62,8 +62,8 @@ Was ist zu beachten?
 
 ## Learnings 
 
-*können möglicherweise auch ins Resümee*
-*Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über das Beispielszenario hinaus Anwendung finden können.*
+- Prüfen Sie, welche Zielgruppe Sie erreichen wollen
+- Fassen Sie mehrere Kommunikationswege ins Auge
 
 ## Literatur
 
