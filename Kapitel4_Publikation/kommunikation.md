@@ -25,19 +25,6 @@ Die folgende Liste gibt Ihnen einen Überblick über verschiedene Veröffentlich
 
 <p style="color: red;">*hier verschiedene Veröffentlichungskanäle vorstellen*</p>
 
-`````{admonition} Weitere Veröffentlichungsformate
-:class: tip
-
-Die oben genannten Beispiele stellen nur einen Ausschnitt möglicher Formate der Wissenschaftskommunikation dar. Je nach Zielgruppe können weitere Veröffentlichungsformate sinnvoll sein {cite}`ross-hellauer_et_al_2020`.
-
-| Veröffentlichungsformat | Zielgruppe |
-|---|---|
-| Blogbeitrag | interessierte Fachöffentlichkeit |
-| Konferenzbeitrag | Fachcommunity |
-| Data Paper (z. B. in *Scientific Data*, *Data in Brief*) | Forschende und Datennachnutzende |
-
-**Praxisbeispiel:** <a href="https://data-blog.gbif.org/" class="external-link" target="_blank">GBIF</a> veröffentlicht regelmäßig Blogbeiträge zu neuen Datensätzen und fördert zudem die Veröffentlichung von <a href="https://www.gbif.org/data-papers" class="external-link" target="_blank">Data Papers</a>, um Forschungsdaten sichtbarer und besser zitierbar zu machen.
-
 Möglichkeiten der Wissenschaftskommunikation
 
 
@@ -51,6 +38,18 @@ Möglichkeiten der Wissenschaftskommunikation
 
 
 Data Stories bzw. Datenhighlights sind vorstellbar auf Webseiten von Universitäten, Außeruniversitären Forschungsinstituten oder Repositorien bzw. Infrastrukturanbietern.
+
+Neben den oben dargestellten Kommunikationswegen können Forschungsdaten auch über weitere Kommunikationsformate verbreitet werden. Diese ergänzen die klassischen Kommunikationskanäle und sprechen teilweise andere Zielgruppen an {cite}`alshawaf_2025`.
+
+| Kommunikationsformat | Zielgruppe |
+|---|---|
+| Blogbeitrag | interessierte Fachöffentlichkeit |
+| Konferenzbeitrag oder Poster | Fachcommunity |
+| Webinar / Online-Vortrag | Fachcommunity und Praxis |
+| Podcast | interessierte Öffentlichkeit |
+| Data Paper (z. B. in *Scientific Data*, *Data in Brief*) | Forschende und Datennachnutzende |
+
+*Praxisbeispiele:* <a href="https://data-blog.gbif.org/" class="external-link" target="_blank">GBIF</a> veröffentlicht regelmäßig Blogbeiträge zu neuen Datensätzen und fördert die Veröffentlichung von <a href="https://www.gbif.org/data-papers" class="external-link" target="_blank">Data Papers</a>. Die <a href="https://www.rd-alliance.org/" class="external-link" target="_blank">Research Data Alliance (RDA)</a> Europe bietet regelmäßig Webinare an, um über neue Entwicklungen und Aktivitäten im Forschungsdatenmanagement zu informieren.
 
 
 ## Beispielszenario 
