@@ -23,8 +23,6 @@ Um von der Existenz der nun publizierten Forschungsdaten zu berichten, sollten d
 
 Die folgende Liste gibt Ihnen einen Überblick über verschiedene Veröffentlichungskanäle, -formen und Zielgruppen: 
 
-<p style="color: red;">*hier verschiedene Veröffentlichungskanäle vorstellen*</p>
-
 Möglichkeiten der Wissenschaftskommunikation
 
 
@@ -39,7 +37,7 @@ Möglichkeiten der Wissenschaftskommunikation
 
 Data Stories bzw. Datenhighlights sind vorstellbar auf Webseiten von Universitäten, Außeruniversitären Forschungsinstituten oder Repositorien bzw. Infrastrukturanbietern.
 
-Neben den oben dargestellten Kommunikationswegen können Forschungsdaten auch über weitere Kommunikationsformate verbreitet werden. Diese ergänzen die klassischen Kommunikationskanäle und sprechen teilweise andere Zielgruppen an {cite}`alshawaf_2025`.
+Neben den oben dargestellten Kommunikationswegen können Forschungsdaten auch über weitere Kommunikationsformate verbreitet werden. Dazu zählen beispielsweise Blogbeiträge, Poster, Podcasts, Webinare, Konferenzbeiträge oder Data Paper, die unterschiedliche Zielgruppen ansprechen.
 
 | Kommunikationsformat | Zielgruppe |
 |---|---|
@@ -49,7 +47,7 @@ Neben den oben dargestellten Kommunikationswegen können Forschungsdaten auch ü
 | Podcast | interessierte Öffentlichkeit |
 | Data Paper (z. B. in *Scientific Data*, *Data in Brief*) | Forschende und Datennachnutzende |
 
-*Praxisbeispiele:* <a href="https://data-blog.gbif.org/" class="external-link" target="_blank">GBIF</a> veröffentlicht regelmäßig Blogbeiträge zu neuen Datensätzen und fördert die Veröffentlichung von <a href="https://www.gbif.org/data-papers" class="external-link" target="_blank">Data Papers</a>. Die <a href="https://www.rd-alliance.org/" class="external-link" target="_blank">Research Data Alliance (RDA)</a> Europe bietet regelmäßig Webinare an, um über neue Entwicklungen und Aktivitäten im Forschungsdatenmanagement zu informieren.
+*Praxisbeispiele:* <a href="https://data-blog.gbif.org/" class="external-link" target="_blank">GBIF</a> veröffentlicht regelmäßig Blogbeiträge und fördert die Veröffentlichung von <a href="https://www.gbif.org/data-papers" class="external-link" target="_blank">Data Papers</a>. Die <a href="https://www.rd-alliance.org/" class="external-link" target="_blank">Research Data Alliance (RDA)</a> Europe bietet regelmäßig Webinare an, um über neue Entwicklungen und Aktivitäten im Forschungsdatenmanagement zu informieren.
 
 
 ## Beispielszenario 
