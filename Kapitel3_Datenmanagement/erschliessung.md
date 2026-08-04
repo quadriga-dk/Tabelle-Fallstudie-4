@@ -55,14 +55,14 @@ Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und 
 
 - **Checkliste:** die kompakte FAIR-Checkliste von Jones und Grootveld (2017)
 - **Webtool:** das deutschsprachige <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), basierend auf dem FAIR Assessment Tool der Australian Research Data Commons
-- **FAIR Data Maturity Model:** das detaillierte Reifegradmodell der Research Data Alliance (RDA), auf Deutsch verfügbar über das Projekt EcoDM
+- **FAIR Data Maturity Model:** das detaillierte Reifegradmodell der <a href="https://www.rd-alliance.org/groups/fair-data-maturity-model-wg/outputs/?output=94549" target="_blank">Research Data Alliance</a> (RDA), auf <a href="https://zenodo.org/records/5834115" target="_blank">Deutsch</a> verfügbar über das Projekt <a href="https://www.ecodm.de/" target="_blank">EcoDM</a>
 
 Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Prüfwerkzeuge zur Verfügung. Diese bewerten die FAIRness eines Datensatzes anhand eines Persistent Identifiers (PID) oder einer URL und geben unmittelbar Rückmeldung darüber, welche FAIR-Kriterien bereits erfüllt sind und wo Verbesserungsbedarf besteht.
 
 - <a href="https://www.f-uji.net/" class="external-link" target="_blank">F-UJI</a>
 - <a href="https://fair-checker.france-bioinformatique.fr/" class="external-link" target="_blank">FAIR-Checker</a>
+- <a href="https://w3id.org/FAIR_Evaluator" class="external-link" target="_blank">FAIR Evaluator</a>
 
-Für Organisationen, die FAIR-Prinzipien systematisch bewerten möchten, bietet das **FAIR Data Maturity Model** der Research Data Alliance (RDA) zudem einen standardisierten Kriterienkatalog zur Beurteilung des FAIR-Reifegrads von Forschungsdaten.
 `````
 
 
