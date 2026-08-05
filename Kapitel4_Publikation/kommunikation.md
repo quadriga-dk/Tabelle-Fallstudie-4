@@ -21,34 +21,31 @@ Die Publikation der Daten sollte sowohl in der wissenschaftlichen Community als 
 
 Um von der Existenz der nun publizierten Forschungsdaten zu berichten, sollten die anzusprechenden Gruppen auf verschiedenen Wegen über die Veröffentlichung informiert werden. 
 
-Die folgende Liste gibt Ihnen einen Überblick über verschiedene Veröffentlichungskanäle, -formen und Zielgruppen: 
+Die folgende Übersicht zeigt verschiedene Wege und Formate der Wissenschaftskommunikation sowie deren typische Zielgruppen.
 
-Möglichkeiten der Wissenschaftskommunikation
+### Kommunikationswege für Forschungsdaten
 
+| Veröffentlichungsweg | Zielgruppe | Beispiel |
+|---|---|---|
+| Pressemitteilung auf der Webseite der beteiligten Institutionen | Interessierte Öffentlichkeit | — |
+| Mitteilung über Mailinglisten | Fachcommunity | — |
+| Informationsdienst Wissenschaft (idw) | Fachcommunity | <a href="https://idw-online.de/" class="external-link" target="_blank">idw-online.de</a> |
+| Social-Media-Beiträge | Fachcommunity, interessierte Öffentlichkeit | <a href="https://www.nfdi.de/" class="external-link" target="_blank">NFDI</a> (Mastodon, LinkedIn, Bluesky) |
+| Data Stories bzw. Datenhighlights | Fachcommunity, interessierte Öffentlichkeit | <a href="https://datastories.nfdi4culture.de/" class="external-link" target="_blank">NFDI4Culture Data Stories</a> |
 
-| Veröffentlichungsweg | Zielgruppe |
-|----------------------|------------|
-| PM auf Webseite der beteiligten Institutionen | Interessierte Öffentlichkeit |
-| Info über Mailingliste | Fachcommunity |
-| Info über idw | Fachcommunity |
-| Info über Social Media | Fachcommunity, interessierte Öffentlichkeit |
-| Data Stories (Highlights) | Fachcommunity, interessierte Öffentlichkeit |
+Data Stories bzw. Datenhighlights können beispielsweise auf Webseiten von Universitäten, außeruniversitären Forschungseinrichtungen, Repositorien oder anderen Infrastrukturanbietern veröffentlicht werden.
 
+Die oben dargestellten Kommunikationswege werden durch weitere Kommunikationsformate ergänzt, um unterschiedliche Zielgruppen zu erreichen.
 
-Data Stories bzw. Datenhighlights sind vorstellbar auf Webseiten von Universitäten, Außeruniversitären Forschungsinstituten oder Repositorien bzw. Infrastrukturanbietern.
+### Weitere Kommunikationsformate
 
-Neben den oben dargestellten Kommunikationswegen können Forschungsdaten auch über weitere Kommunikationsformate verbreitet werden. Dazu zählen beispielsweise Blogbeiträge, Poster, Podcasts, Webinare, Konferenzbeiträge oder Data Paper, die unterschiedliche Zielgruppen ansprechen.
-
-| Kommunikationsformat | Zielgruppe |
-|---|---|
-| Blogbeitrag | interessierte Fachöffentlichkeit |
-| Konferenzbeitrag oder Poster | Fachcommunity |
-| Webinar / Online-Vortrag | Fachcommunity und Praxis |
-| Podcast | interessierte Öffentlichkeit |
-| Data Paper (z. B. in *Scientific Data*, *Data in Brief*) | Forschende und Datennachnutzende |
-
-*Praxisbeispiele:* <a href="https://data-blog.gbif.org/" class="external-link" target="_blank">GBIF</a> veröffentlicht regelmäßig Blogbeiträge und fördert die Veröffentlichung von <a href="https://www.gbif.org/data-papers" class="external-link" target="_blank">Data Papers</a>. Die <a href="https://www.rd-alliance.org/" class="external-link" target="_blank">Research Data Alliance (RDA)</a> Europe bietet regelmäßig Webinare an, um über neue Entwicklungen und Aktivitäten im Forschungsdatenmanagement zu informieren.
-
+| Kommunikationsformat | Zielgruppe | Beispiel |
+|---|---|---|
+| Blogbeitrag | interessierte Fachöffentlichkeit | <a href="https://data-blog.gbif.org/" class="external-link" target="_blank">GBIF Data Blog</a>, <a href="https://blog.zenodo.org/" class="external-link" target="_blank">Zenodo Blog</a> |
+| Konferenzbeitrag oder Poster | Fachcommunity | <a href="https://www.nfdi.de/cordi-2025/" class="external-link" target="_blank">CoRDI</a> |
+| Webinar | Fachcommunity und Praxis | <a href="https://www.rd-alliance.org/news/rda-europes-regional-webinar-series/" class="external-link" target="_blank">RDA Europe</a> |
+| Podcast | interessierte Öffentlichkeit | <a href="https://open.spotify.com/show/2oILWXTRoR9zv9kEtYi5cx" class="external-link" target="_blank">Datenliebe</a> |
+| Data Paper | Forschende und Datennachnutzende | *Scientific Data*, *Data in Brief*, <a href="https://www.gbif.org/data-papers" class="external-link" target="_blank">GBIF Data Papers</a> |
 
 ## Beispielszenario 
 
