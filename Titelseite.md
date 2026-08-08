@@ -33,8 +33,8 @@ Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schri
 
 Die Lerneinheit orientiert sich an den Learnings, die sich durch die Begleitung zur Publikation und Dokumentation von Forschungsdaten des Projekts <a href="https://www.fh-potsdam.de/forschung-transfer/projekte/q-lca" class="external-link" target="_blank">Q-LCA</a> von <a href="https://orcid.org/0000-0001-7738-7627" class="external-link" target="_blank">Prof. Dr.-Ing. Michael Prytula</a> (Fachhochschule Potsdam) und <a href="https://orcid.org/0000-0003-2507-6469" class="external-link" target="_blank">Prof. Dipl.-Ing. Tim Rieniets</a> (Leibniz Universität Hannover) an der <a href="https://www.fh-potsdam.de/" class="external-link" target="_blank">Fachhochschule Potsdam</a> ergeben haben.
 
-Als Grundlage dient das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abbilden.  
-Auch der Prozess des nachträglichen Veröffentlichens von Forschungsdaten lässt sich mit diesem Modell fassen und organisieren (s. Kap. [Nachträgliches Publizieren](nachpub:einleitung)).  
+Als Grundlage dient das <a href="https://zenodo.org/records/14747822" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abbilden.  
+Auch der Prozess des nachträglichen Veröffentlichens von Forschungsdaten lässt sich mit diesem Modell fassen und organisieren (s. Kap. 1.3 [Nachträgliches Publizieren](nachpub:einleitung)).  
 
 *ein Bild einfügen, Themenkreise: Aufbereitung, Schatz, Erneuerung, Neusortierung, -ordnung, aus Altem Neues machen etc.*
 
@@ -48,7 +48,7 @@ Bild Untertitel
 
 ## Zielgruppe
 
-Dieses Lehrbuch richtet sich an Forschende, die (Forschungs-)Daten anderer Wissenschafler:innen aufarbeiten oder eigene bisher unveröffentlichte Daten veröffentlichen wollen. Darüber hinaus ist auch das FDM-Personal an Hochschulen angesprochen.
+Dieses Lehrbuch richtet sich an Forschende, die eigene bisher unveröffentlichte Forschungsdaten veröffentlichen oder die Daten anderer Wissenschafler:innen aufarbeiten wollen. Darüber hinaus ist auch das FDM-Personal an Hochschulen angesprochen.
 
 *Die Jupyter Books des Datentyps Tabelle sind für Verwaltungswissenschaftler:innen entworfen, aber auch für alle anderen wissenschaftlichen Disziplinen, Dozierende und Lehrende geeignet, die mit Tabellen oder strukturierten Daten arbeiten, einzelne Kapitel nachnutzen wollen oder - in diesem Fall - Interesse an der Aufbereitung von Forschungsdaten haben.*
 
@@ -68,11 +68,11 @@ width: 100%
 Visualisierung der 3 Schritte dieses Lehrbuchs.
 ```
 
-In diesem Lehrbuch werden die folgenden Schritte durchlaufen, die als elementar in der nachträglichen Datenpublikation ausgemacht worden sind und die mit den Datenflussphasen und Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen (s. Kap. {ref}`Nachträgliches Publizieren<nachpub:einleitung>`).
+In diesem Lehrbuch werden die folgenden Schritte durchlaufen, die als elementar in der nachträglichen Datenpublikation ausgemacht worden sind und die mit den Datenflussphasen und Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen (s. Kap. 1.3 {ref}`Nachträgliches Publizieren<nachpub:einleitung>`).
 
-- Im **1. Schritt** gilt es, sich in das Projekt einzuarbeiten (Planung). Dazu wird eine Qualitätsprüfung durchgeführt, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen sowie (mögliche) Vorgaben und juristische Aspekte beleuchtet (s. Kap. {ref}`Einarbeiten<einarbeiten:einleitung>`).
-- Im **2. Schritt** folgt mit dem Datenmanagement die Datenflussphase Organisation und Erschließung (s. Kap. {ref}`Datenmanagement<datenmanagement:einleitung>`).
-- Im **3. Schritt** werden die Kompetenzen Aufbewahrung, Publikation und Kommunikation von Forschungsdaten behandelt (s. Kap. {ref}`Publikation<publikation:einleitung>`).
+- Im **1. Schritt** gilt es, sich in das Projekt einzuarbeiten (Planung). Dazu wird eine Qualitätsprüfung durchgeführt, um zu prüfen, ob die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen sowie (mögliche) Vorgaben und juristische Aspekte beleuchtet (s. Kap. 2 {ref}`Einarbeiten<einarbeiten:einleitung>`).
+- Im **2. Schritt** folgt mit dem Datenmanagement die Datenflussphase Organisation und Erschließung (s. Kap. 3 {ref}`Datenmanagement<datenmanagement:einleitung>`).
+- Im **3. Schritt** werden die Kompetenzen Aufbewahrung, Publikation und Kommunikation von Forschungsdaten behandelt (s. Kap. 4 {ref}`Publikation<publikation:einleitung>`).
 
 
 **Literatur**

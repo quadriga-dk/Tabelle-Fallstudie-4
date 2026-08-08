@@ -26,7 +26,7 @@ Die in Kapitel 3 [Datenmanagement](datenmanagement:einleitung) sortierten Dateie
 - Dokumentation
 - Zitationshinweis
 
-## Beispiel Szenario Q-LCA 
+## Beispielszenario 
 
 Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> - u. a. weil es kein fachspezifisches Repositorium gab (s. Unterkapitel 4.1 [Aufbewahrung](publikation:aufbewahrung)).
 
