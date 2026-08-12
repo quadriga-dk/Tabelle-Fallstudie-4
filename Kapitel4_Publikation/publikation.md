@@ -52,7 +52,11 @@ In dem hier skizzierten Fall der nachträglichen Publikation von Forschungsdaten
 
 *Die vom Projekt ausgemachten Qualitätskriterien zur Veröffentlichung sollten hier selbstverständlich Erwähnung finden:*
 
+```{admonition} Zusätzliche Materialien
+:class: seealso
 
+- Sehr umfangreiche Zusammenstellung zum Thema Forschungsdaten publizieren auf der Informationsseite <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a>
+```
 
 ---
 

@@ -65,6 +65,14 @@ Schritte sind u. a.:
 
 ---
 
+```{admonition} Zusätzliche Materialien
+:class: seealso
+
+- Video (Coffee Lecture) zur Erstellung eines Datenmanagementplans vom Thüringer Kompetenznetzwerks Forschungsdatenmanagement <a href="https://www.forschungsdaten-thueringen.de/home.html" class="external-link" target="_blank">(TKFDM)</a> via <a href="https://youtu.be/xM67MO5tJoI?si=rykjHucyyPjHvAWf" class="external-link" target="_blank">Youtube</a>.
+
+- 5-minütiges Video "Datenmanagement nach Plan" von Schmitz et al. (2019) unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://publications.rwth-aachen.de/record/751109" class="external-link" target="_blank">RWTH Aachen</a>
+```
+
 **Literatur**
 
 ```{bibliography}

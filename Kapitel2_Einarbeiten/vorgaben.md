@@ -108,11 +108,8 @@ Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können S
 ```{admonition} Zusätzliche Materialien
 :class: seealso
 
-<style="color: red;">noch prüfen</>
-- https://www.youtube.com/watch?v=IDEZQqFtCZQ (HeFDI)
-- FDM-BB
-- irights lab
-- https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren 
+- Übersichtliche Zusammenstellung rechtlicher Themen im Forschungsdatenmanagement von der Landesinitiative Forschungsdatenmanagement Brandenburg <a href="https://fdm-bb.de/rechtlich-ethischer-kontaktpunkt/rechtliche-aspekte-im-fdm/" class="external-link" target="_blank">(FDM-BB)</a>
+- Video (Coffee Lecture) zu Rechten an Forschungsdaten vom Thüringer Kompetenznetzwerks Forschungsdatenmanagement <a href="https://www.forschungsdaten-thueringen.de/home.html" class="external-link" target="_blank">(TKFDM)</a> via <a href="https://youtu.be/s1uCwLW-IGU?si=7vx3gCx9QCiLiMUG" class="external-link" target="_blank">Youtube</a>.
 ```
 
 **Literatur**
