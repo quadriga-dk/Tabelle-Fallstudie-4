@@ -79,14 +79,14 @@ Das QUADRIGA Datenkompetenzframework mit Hervorhebung der bei der nachträgliche
 
 Diese Lerneinheit ist so aufgebaut, dass die einzelnen Kapitel den entsprechenden Phasen und die Unterkapitel den Kompetenzen entsprechen, die für eine nachträgliche Publikation von Forschungsdaten benötigt werden.
 
+---
+
 **Literatur**
 
 <span style="color:red">nur, wenn es welche gibt</span>
 
 - Quadriga DKF
 
-
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

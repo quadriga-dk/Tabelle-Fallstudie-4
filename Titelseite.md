@@ -74,10 +74,10 @@ In diesem Lehrbuch werden die folgenden Schritte durchlaufen, die als elementar 
 - Im **2. Schritt** folgt mit dem Datenmanagement die Datenflussphase Organisation und Erschließung (s. Kap. 3 {ref}`Datenmanagement<datenmanagement:einleitung>`).
 - Im **3. Schritt** werden die Kompetenzen Aufbewahrung, Publikation und Kommunikation von Forschungsdaten behandelt (s. Kap. 4 {ref}`Publikation<publikation:einleitung>`).
 
+---
 
 **Literatur**
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

@@ -73,10 +73,11 @@ Schritte sind u. a.:
 - 5-minütiges Video "Datenmanagement nach Plan" von Schmitz et al. (2019) unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://publications.rwth-aachen.de/record/751109" class="external-link" target="_blank">RWTH Aachen</a>
 ```
 
+---
+
 **Literatur**
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```
 

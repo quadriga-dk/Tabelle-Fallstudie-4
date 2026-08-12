@@ -154,13 +154,10 @@ Zenodo ermöglicht das Zufügen von eingestellten Objekten zu Communities, die z
 - Überlegen Sie sich eine Upload-Struktur. Die Anzeige der Daten kann je nach Repositorium und vor allem den Einstellungen variieren. Bei Zenodo ist die Standardeinstellung die Anzeige nach Uploaddatum. Das bedeutet, dass die zuletzt hochgeladene Datei als erste gelistet wird. Wenn Sie eine bestimmte Reihenfolge wünschen, sollten Sie das bedenken.
 - Bei Zenodo können Sie die Uploads zusätzlich so genannten Communities zuordnen. Dies kann beispielsweise ein Projekt, ein Lehrstuhl oder eine Konferenz sein. So lassen sich themenverwandte oder projektspezifische Veröffentlichungen auf einen Blick erkennen und miteinander verknüpfen. 
 
-
 ---
-
 
 **Literatur**
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```
