@@ -142,7 +142,11 @@ Entscheidungshilfe zum Auswählen eines Repositoriums
 
 ## Beispielszenario
 
-Im Beispielszenario wurde Zenodo gewählt. Das generische Repositorium ermöglicht das Zufügen von eingestellten Objekten zu Communities, die zudem miteinander verknüpft werden können. Diese sehr flexible Ausgestaltung war neben der Bekanntheit der Plattform ausschlaggebendes Kriterium.
+Für die Veröffentlichung von Forschungsdaten aus öffentlich geförderten Projekten im Bauwesen existiert bislang kein etabliertes disziplinspezifisches Repositorium. Mit BAUFO open wurde ein vom BBSR im Rahmen der Forschungsinitiative „Zukunft Bau" gefördertes Open-Access-Repositorium für die Bauforschung geschaffen, dessen Metadatenschema unter anderem Angaben zu DOI, Nutzungslizenz, Förderer und Projektlaufzeit vorsieht und in dessen fachlicher Klassifikation die Lebenszyklusanalyse (LCA) als Themenfeld geführt wird {cite}`probst_brodbeck_erdmann_2021`. Nach Angaben der Autor:innen soll die Plattform künftig auch weitere im Rahmen öffentlich geförderter Projekte entstandene Forschungsdaten, beispielsweise Messreihen, zur Nachnutzung bereitstellen {cite}`probst_brodbeck_erdmann_2021`. <p style="color: red;">Was ist damit geschehen?</p>
+
+Daher wurde im Beispielszenario letztlich Zenodo gewählt. Das generische und weithin bekannte Repositorium ist eine Alternative, wenn keine disziplinspezifischen Repositorien vorhanden sind bzw. diese nicht über den nötigen Impact in der Fachwissenschaft verfügen.  
+Zenodo ermöglicht das Zufügen von eingestellten Objekten zu Communities, die zudem miteinander verknüpft werden können. Diese sehr flexible Ausgestaltung war neben der Bekanntheit der Plattform ausschlaggebendes Kriterium.
+
 
 ## Learnings
 
