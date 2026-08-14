@@ -2,13 +2,23 @@
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema:targetDescription>
-    <schema:targetName>Die Lernenden können Datenqualität bewerten. (LZ-ID 02_012_0447)</schema:targetName>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend</schema:targetDescription>
+    <schema:targetName>Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM 01_001_0008)</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetName>Lernende können Qualitätskriterien für eine Datenpublikation benennen/erläutern (LZM 04_003_0852/53)</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_2">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema:targetDescription>
+    <schema:targetName>Die Lernenden können Datenqualität bewerten. (LZ-ID 02_012_0447)</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_3">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 1.3 Ethik und Recht | Bloom's: ... | Data Flow: 1 Planung</schema:targetDescription>
-    <schema:targetName>*noch zu formulieren*</schema:targetName>
+    <schema:targetName>Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen. (LZM 04_003_0851)</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_1_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
@@ -32,13 +42,13 @@
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 5.1 Aufbewahrung | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
-    <schema:targetName>*noch zu formulieren*</schema:targetName>
+    <schema:targetDescription>Competency: 5.1 Aufbewahrung | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
+    <schema:targetName>Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung, Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 5.2 Datenpublikation | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
-    <schema:targetName>*Können Schritte zur Publikation benennen (?), finale Prüf-Schritte nennen (?)*</schema:targetName>
+    <schema:targetDescription>Competency: 5.2 Datenpublikation | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
+    <schema:targetName>Lernende können den Begriff Datenpublikation erläutern. (LZ-ID 04_003_0842)</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_2_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
@@ -183,8 +193,10 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:description>TODO</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_2" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_3" />
         <schema:name>Einarbeiten</schema:name>
-        <schema:teaches>Qualitätssicherung von Daten</schema:teaches>
+        <schema:teaches>Forschungsdaten erkennen</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html" />
       </schema:LearningResource>
