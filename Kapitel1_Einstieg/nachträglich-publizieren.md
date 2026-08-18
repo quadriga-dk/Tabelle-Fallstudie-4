@@ -19,7 +19,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 In dieser Open Educational Resource (OER) wird die nachträgliche Publikation von Forschungsdaten in den Blick genommen. Das zielt ab auf den häufig vorzufindenden Fall, dass die Ergebnisse eines Forschungsprojekts zwar in einer abschließenden Publikation zusammengefasst wurden, die Forschungsdaten der Community aber nicht zur Verfügung stehen. Aus Gründen der Reproduzierbarkeit, der FAIRness sowie der Guten wissenschaftlichen Praxis (Leitlinien 13 und 17) {cite}`deutsche_forschungsgemeinschaft_2025` sollten diese ebenfalls veröffentlicht werden.  
 
-Eine einheitliche Definition für Forschungsdaten gibt es nicht, da die Methodiken und Ergebnisse stark nach wissenschaftlicher Disziplin variieren können. Grundsätzlich können alle Daten, die im Rahmen eines Forschungsprozesses entstehen oder ihr Ergebnis sind, als Forschungsdaten bezeichnet werden {cite} `Kindling_Schirmbacher_2013`.
+Eine einheitliche Definition für Forschungsdaten gibt es nicht, da die Methodiken und Ergebnisse stark nach wissenschaftlicher Disziplin variieren können. Grundsätzlich können alle Daten, die im Rahmen eines Forschungsprozesses entstehen oder ihr Ergebnis sind, als Forschungsdaten bezeichnet werden {cite}`Kindling_Schirmbacher_2013`.
 
 ## Besonderheiten dieser OER 
 
@@ -51,7 +51,7 @@ Folgend finden Sie weitere Materialien aufgelistet, die ebenfalls einen Bezug zu
 - Video <a href="https://av.tib.eu/media/51995" class="external-link" target="_blank">10 Gründe für Open Access</a> von der TIB Hannover
 
 **Paper:**
-- Paper <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#d1e183" class="external-link" target="_blank">Data Organization in Spreadsheets</a> von Broman & Woo (2018) zur Erstellung maschinenlesbarer Tabellen {cite} `Broman_2018`.
+- Paper <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#d1e183" class="external-link" target="_blank">Data Organization in Spreadsheets</a> von Broman & Woo (2018) zur Erstellung maschinenlesbarer Tabellen {cite}`Broman_2018`.
 ```
 
 ## Framework
