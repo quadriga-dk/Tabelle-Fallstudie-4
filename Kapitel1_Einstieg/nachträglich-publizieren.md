@@ -21,6 +21,12 @@ In dieser Open Educational Resource (OER) wird die nachträgliche Publikation vo
 
 Eine einheitliche Definition für Forschungsdaten gibt es nicht, da die Methodiken und Ergebnisse stark nach wissenschaftlicher Disziplin variieren können. Grundsätzlich können alle Daten, die im Rahmen eines Forschungsprozesses entstehen oder ihr Ergebnis sind, als Forschungsdaten bezeichnet werden {cite}`Kindling_Schirmbacher_2013`.
 
+## Vorteile einer Datenpublikation
+
+Die Publikation von Forschungsdaten gehört, wie bereits erwähnt, zur Einhaltung der Guten wissenschaftlichen Praxis. In Leitlinie 13 wird die "Herstellung von öffentlichem Zugang zu Forschungsergebnissen" gefordert, wozu explizit auch "die den Ergebnissen zugrunde liegenden Forschungsdaten" gehören. Auch Leitlinie 17, die die Archivierung fokussiert, bezieht sich auf die öffentliche Zugänglichkeit von Forschungsdaten und -ergebnissen {cite}`deutsche_forschungsgemeinschaft_2025`.
+
+Die unabhängig von anderen Forschungsergebnissen publizierten Forschungsdaten sind einfacher nachzunutzen, da sie nicht aus Texten oder anderen Publikationsformen herauskopiert werden müssen und so zudem einfacher zu zitieren sind - beispielsweise durch einen eigenen PID. Die Forschung wird dadurch transparent, verifizier- und reproduzierbar, was die wissenschaftliche Integrität insgesamt erhöht. Die Daten können darüber hinaus für weitere Forschungsprojekte genutzt werden und müssen von diesen nicht mühsam neu erhoben werden {cite}`TIB_Forschungsdaten_o.J.`.
+
 ## Besonderheiten dieser OER 
 
 Diese OER nimmt das nachträgliche Publizieren von Forschungsdaten in den Fokus. Im Gegensatz zum während des Projekts laufenden Forschungsdatenmanagements geht dieses Szenario also von einem bereits abgeschlossenen Forschungsvorhaben aus. Das bedeutet, dass Zusammenhänge retrospektiv wiederhergestellt werden müssen und auf Aufzeichnungen und Erinnerungen von Projektmitarbeitenden zurückgegriffen werden muss. Je besser die Dokumentation der Forschungsdaten zu Projektzeiten erfolgte, umso einfacher gestaltet sich eine nachträgliche Publikation.  
