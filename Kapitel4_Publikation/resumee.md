@@ -3,5 +3,6 @@
 
 ```{admonition} Keypoints
 :class: keypoint
-Wichtige Erkenntnisse, Lernergebnisse und sonstige Keypoints werden mit diesem Admonition-Typ gekennzeichnet.
+
+Für die **Kommunikation** der Veröffentlichung von Forschungsdaten kommen neben klassischen Mitteilungskanälen (Pressemitteilung, Social-Media-Post) auch spezielle Formate in Betracht (Data Stories). Es gilt zu prüfen, welche Zielgruppen erreicht werden sollen. Möglicherweise ist es sinnvoll, mehrere Kommunikationskanäle zu bedienen.
 ```

@@ -1,7 +1,7 @@
 (publikation:kommunikation)=
 # Kommunikation
 
-Dieses Unterkapitel nimmt die häufig vernachlässigte Kompetenz der Kommunikation von Forschungsdaten in den Blick.
+Dieses Unterkapitel nimmt die häufig vernachlässigte Kompetenz der Kommunikation von Forschungsergebnissen (hier explizit Forschungsdaten) in den Blick.
 
 ```{figure} /assets/5.3_kommunikation.png
 ---
@@ -15,25 +15,41 @@ Die Kompetenz 5.3 Kommunikation des QUADRIGA Datenkompetenzframeworks.
 
 ## Ausgangslage
 
-Die Publikation der Daten sollte sowohl in der wissenschaftlichen Community als auch in der interessierten Öffentlichkeit bekannt gemacht werden. 
+Die Publikation der Daten sollte den Kolleg:innen der Disziplin und der wissenschaftlichen Community bekannt gemacht werden. Je nach Art der Daten ist möglicherweise auch das Inkenntnissetzen der interessierten Öffentlichkeit sinnvoll.
 
 ## Vorgehen
 
-Um von der Existenz der nun publizierten Forschungsdaten zu berichten, sollten die anzusprechenden Gruppen auf verschiedenen Wegen über die Veröffentlichung informiert werden. 
+Um von der Existenz der nun publizierten Forschungsdaten zu berichten, sollten die anzusprechenden Gruppen auf verschiedenen Wegen über die Veröffentlichung informiert werden. Dazu bieten sich verschiedene Wege an:
 
-Die folgende Übersicht zeigt verschiedene Wege und Formate der Wissenschaftskommunikation sowie deren typische Zielgruppen.
+- Klassische Kommunikationswege
+- Neue Kommunikationswege
+- Spezielle Kommunikationswege für Daten
 
-### Kommunikationswege für Forschungsdaten
+Die folgende Übersicht zeigt verschiedene Wege der Wissenschaftskommunikation sowie deren typische Zielgruppen auf.
+
+### Mitteilung über wissenschaftliche Veröffentlichungen
+
+Die folgend gelisteten Optionen gelten nicht ausschließlich für Datenpublikationen, können aber auch für diese angewendet werden.
 
 | Veröffentlichungsweg | Zielgruppe | Beispiel |
 |---|---|---|
-| Pressemitteilung auf der Webseite der beteiligten Institutionen | Interessierte Öffentlichkeit | — |
-| Mitteilung über Mailinglisten | Fachcommunity | — |
-| Informationsdienst Wissenschaft (idw) | Fachcommunity | <a href="https://idw-online.de/" class="external-link" target="_blank">idw-online.de</a> |
-| Social-Media-Beiträge | Fachcommunity, interessierte Öffentlichkeit | <a href="https://www.nfdi.de/" class="external-link" target="_blank">NFDI</a> (Mastodon, LinkedIn, Bluesky) |
-| Data Stories bzw. Datenhighlights | Fachcommunity, interessierte Öffentlichkeit | <a href="https://datastories.nfdi4culture.de/" class="external-link" target="_blank">NFDI4Culture Data Stories</a> |
+| Pressemitteilung auf der Webseite der beteiligten Institutionen | Interessierte Öffentlichkeit, Kolleg:innen | <a href="https://www.fh-potsdam.de/aktuelles-medien/news" class="external-link" target="_blank">News-Seite der FH Potsdam</a> |
+| Mitteilung über Mailinglisten | Fachcommunity | <a href="https://www.listserv.dfn.de/sympa" class="external-link" target="_blank">E-Mail-Verteilerlisten für Wissenschaft und Forschung des DFN</a> |
+| Informationsdienst Wissenschaft (idw) | Fach- und wissenschaftliche Community | <a href="https://idw-online.de/" class="external-link" target="_blank">idw-online.de</a> |
+| Social-Media-Beiträge | interessierte Öffentlichkeit | <a href="https://www.linkedin.com//" class="external-link" target="_blank">LinkedIn</a>, <a href="https://joinmastodon.org/de" class="external-link" target="_blank">Mastodon</a>, <a href="https://bsky.app/" class="external-link" target="_blank">Bluesky</a> |
 
-Data Stories bzw. Datenhighlights können beispielsweise auf Webseiten von Universitäten, außeruniversitären Forschungseinrichtungen, Repositorien oder anderen Infrastrukturanbietern veröffentlicht werden.
+### Spezielle Kommunikationswege für Daten
+
+Für Daten haben sich einige spezifische Kommunikationswege herausgebildet. Data Stories oder Datenhighlights können auf verschiedenen Webseiten (Universitäten, außeruniversitären Forschungseinrichtungen, Repositorien oder andere Infrastrukturanbieter) veröffentlicht werden.
+
+```{admonition} Data Stories
+:class: hinweis
+Data Stories sind relativ kurze Zusammenfassungen von Erkenntnissen, die unter Einbindungen von prägnanten Visualisierungen komplexe Zusammenhänge verständlich vermitteln. Siehe auch <a href="https://de.wikipedia.org/wiki/Data_Storytelling" class="external-link" target="_blank">Wikipedia</a>.
+``` 
+| Veröffentlichungsweg | Zielgruppe | Beispiel |
+|---|---|---|
+| Data Stories | Fach- und Wissenschaftscommunity, interessierte Öffentlichkeit | <a href="https://data.europa.eu/en/publications/datastories" class="external-link" target="_blank">Europäisches Datenportal data.europa.eu</a>, <a href="https://www.dfg.de/de/aktuelles/zahlen-fakten/evaluation-studien-monitoring/data-stories" class="external-link" target="_blank">DFG</a> |
+| Datenhighlights | Fachcommunity, interessierte Öffentlichkeit | - |
 
 Die oben dargestellten Kommunikationswege werden durch weitere Kommunikationsformate ergänzt, um unterschiedliche Zielgruppen zu erreichen.
 
@@ -41,18 +57,17 @@ Die oben dargestellten Kommunikationswege werden durch weitere Kommunikationsfor
 
 | Kommunikationsformat | Zielgruppe | Beispiel |
 |---|---|---|
-| Blogbeitrag | interessierte Fachöffentlichkeit | <a href="https://data-blog.gbif.org/" class="external-link" target="_blank">GBIF Data Blog</a>, <a href="https://blog.zenodo.org/" class="external-link" target="_blank">Zenodo Blog</a> |
-| Konferenzbeitrag oder Poster | Fachcommunity | <a href="https://www.nfdi.de/cordi-2025/" class="external-link" target="_blank">CoRDI</a> |
+| Blogbeitrag | Fachcommunity, interessierte Fachöffentlichkeit | <a href="https://www.hermes-hub.de/aktuelles/blog/index.html" class="external-link" target="_blank">Datenkompetenzzentrum HERMES</a> |
+| Konferenzbeitrag oder Poster | Fachcommunity | - |
 | Webinar | Fachcommunity und Praxis | <a href="https://www.rd-alliance.org/news/rda-europes-regional-webinar-series/" class="external-link" target="_blank">RDA Europe</a> |
-| Podcast | interessierte Öffentlichkeit | <a href="https://open.spotify.com/show/2oILWXTRoR9zv9kEtYi5cx" class="external-link" target="_blank">Datenliebe</a> |
-| Data Paper | Forschende und Datennachnutzende | *Scientific Data*, *Data in Brief*, <a href="https://www.gbif.org/data-papers" class="external-link" target="_blank">GBIF Data Papers</a> |
+| Podcast | interessierte Öffentlichkeit, Fachcommunity | <a href="https://open.spotify.com/show/2oILWXTRoR9zv9kEtYi5cx" class="external-link" target="_blank">Datenliebe</a> |
 
 ## Beispielszenario 
 
 In dem in diesem Szenario skizzierten Fall der Veröffentlichung der Forschungsdaten aus dem Projekt Q-LCA fanden folgende Veröffentlichungswege Anwendung:
 
 - Ausgabe einer <a href="https://www.fh-potsdam.de/aktuelles-medien/news/klimaorientierte-planung-siedlungen-und-quartieren" class="external-link" target="_blank">Pressemitteilung</a> über die Webseite und den internen Mailverteiler der FH Potsdam über die Veröffentlichung der Forschungsdaten
-- Kommunikation zu Kolleg:innen (aus dem ehem. Projekt, aber auch an den beteiligten Einrichtungen)
+- Mitteilung über <a href="https://lnkd.in/p/dvcgr9jY" class="external-link" target="_blank">LinkedIn</a>
 
 Was ist zu beachten?
 - Rücksprache mit Förderern (in diesem Falls BBSR)
