@@ -21,8 +21,7 @@ Die Publikation der Daten sollte den Kolleg:innen der Disziplin und der wissensc
 
 Um von der Existenz der nun publizierten Forschungsdaten zu berichten, sollten die anzusprechenden Gruppen auf verschiedenen Wegen über die Veröffentlichung informiert werden. Dazu bieten sich verschiedene Wege an:
 
-- Klassische Kommunikationswege
-- Neue Kommunikationswege
+- Klassische Kommunikationswege (Mitteilungen über wissenschaftliche Veröffentlichungen)
 - Spezielle Kommunikationswege für Daten
 
 Die folgende Übersicht zeigt verschiedene Wege der Wissenschaftskommunikation sowie deren typische Zielgruppen auf.
@@ -38,44 +37,44 @@ Die folgend gelisteten Optionen gelten nicht ausschließlich für Datenpublikati
 | Informationsdienst Wissenschaft (idw) | Fach- und wissenschaftliche Community | <a href="https://idw-online.de/" class="external-link" target="_blank">idw-online.de</a> |
 | Social-Media-Beiträge | interessierte Öffentlichkeit | <a href="https://www.linkedin.com//" class="external-link" target="_blank">LinkedIn</a>, <a href="https://joinmastodon.org/de" class="external-link" target="_blank">Mastodon</a>, <a href="https://bsky.app/" class="external-link" target="_blank">Bluesky</a> |
 
-### Spezielle Kommunikationswege für Daten
+### Neue Kommunikationswege in Bezug auf Daten
 
-Für Daten haben sich einige spezifische Kommunikationswege herausgebildet. Data Stories oder Datenhighlights können auf verschiedenen Webseiten (Universitäten, außeruniversitären Forschungseinrichtungen, Repositorien oder andere Infrastrukturanbieter) veröffentlicht werden.
+Um Daten als Einzelpublikation oder Teil einer Publikation von Forschungsergebnissen zu unterstreichen, bilden sich derzeit neue Kommunikationswege heraus. So können Daten beispielsweise in einer Data Story aufbereitet werden oder ihre Veröffentlichung als "Datenhighlight" auf der Webseite der datenhaltenden Institution als Vorschau hervorgehoben werden. 
 
+````{margin}
 ```{admonition} Data Stories
 :class: hinweis
 Data Stories sind relativ kurze Zusammenfassungen von Erkenntnissen, die unter Einbindungen von prägnanten Visualisierungen komplexe Zusammenhänge verständlich vermitteln. Siehe auch <a href="https://de.wikipedia.org/wiki/Data_Storytelling" class="external-link" target="_blank">Wikipedia</a>.
 ``` 
+````
+
 | Veröffentlichungsweg | Zielgruppe | Beispiel |
 |---|---|---|
 | Data Stories | Fach- und Wissenschaftscommunity, interessierte Öffentlichkeit | <a href="https://data.europa.eu/en/publications/datastories" class="external-link" target="_blank">Europäisches Datenportal data.europa.eu</a>, <a href="https://www.dfg.de/de/aktuelles/zahlen-fakten/evaluation-studien-monitoring/data-stories" class="external-link" target="_blank">DFG</a> |
 | Datenhighlights | Fachcommunity, interessierte Öffentlichkeit | - |
 
-Die oben dargestellten Kommunikationswege werden durch weitere Kommunikationsformate ergänzt, um unterschiedliche Zielgruppen zu erreichen.
+Die oben dargestellten Kommunikationswege werden durch weitere Kommunikationsformate ergänzt, um unterschiedliche Zielgruppen zu erreichen. 
 
 ### Weitere Kommunikationsformate
+
+Die hier aufgeführten, zusätzlichen Formate dienen nicht exklusiv der Datenveröffentlichung, lassen sich aber als Plattformen nutzen, um diese zu kommunizieren.
 
 | Kommunikationsformat | Zielgruppe | Beispiel |
 |---|---|---|
 | Blogbeitrag | Fachcommunity, interessierte Fachöffentlichkeit | <a href="https://www.hermes-hub.de/aktuelles/blog/index.html" class="external-link" target="_blank">Datenkompetenzzentrum HERMES</a> |
-| Konferenzbeitrag oder Poster | Fachcommunity | - |
-| Webinar | Fachcommunity und Praxis | <a href="https://www.rd-alliance.org/news/rda-europes-regional-webinar-series/" class="external-link" target="_blank">RDA Europe</a> |
 | Podcast | interessierte Öffentlichkeit, Fachcommunity | <a href="https://open.spotify.com/show/2oILWXTRoR9zv9kEtYi5cx" class="external-link" target="_blank">Datenliebe</a> |
 
 ## Beispielszenario 
 
-In dem in diesem Szenario skizzierten Fall der Veröffentlichung der Forschungsdaten aus dem Projekt Q-LCA fanden folgende Veröffentlichungswege Anwendung:
+In dem Szenario, das diese Lerneinheit begleitet, fanden folgende Kommunikationswege Anwendung:
 
 - Ausgabe einer <a href="https://www.fh-potsdam.de/aktuelles-medien/news/klimaorientierte-planung-siedlungen-und-quartieren" class="external-link" target="_blank">Pressemitteilung</a> über die Webseite und den internen Mailverteiler der FH Potsdam über die Veröffentlichung der Forschungsdaten
-- Mitteilung über <a href="https://lnkd.in/p/dvcgr9jY" class="external-link" target="_blank">LinkedIn</a>
+- Post auf <a href="https://lnkd.in/p/dvcgr9jY" class="external-link" target="_blank">LinkedIn</a> über den Account der FH Potsdam
 
-Was ist zu beachten?
-- Rücksprache mit Förderern (in diesem Falls BBSR)
+## Zusammenfassung 
 
-## Learnings 
-
-- Prüfen Sie, welche Zielgruppe Sie erreichen wollen
-- Fassen Sie mehrere Kommunikationswege ins Auge
+Zur Kommunikation einer Datenpublikation kommen klassische Formate (Pressemitteilung) in Betracht, die Sie bereits von der Publikation üblicher Forschungsergebnisse kennen. Zusätzlich entwickeln sich aktuell neue Wege wie Data Stories, die eine Datenpublikation visuell hervorheben können. 
+Es gilt zu prüfen, welche Zielgruppe Sie erreichen wollen und welche Kommunikationswege zur Verfügung stehen. Unter Umständen ist das kommunizieren der Publikation auf mehreren Ebenen sinnvoll.
 
 ## Literatur
 
