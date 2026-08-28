@@ -26,9 +26,9 @@ Die in Kapitel 3 [Datenmanagement](datenmanagement:einleitung) sortierten Dateie
 - Dokumentation
 - Zitationshinweis
 
-## Beispiel Szenario Q-LCA 
+## Beispielszenario 
 
-Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> - u. a. weil es kein fachspezifisches Repositorium gab (s. Unterkapitel 4.1 [Aufbewahrung](publikation:aufbewahrung)).
+Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> - u. a. weil es kein fachspezifisches Repositorium gab (s. Unterkapitel 4.1 [Aufbewahrung](publikation:aufbewahrung)). Entsprechend der Leitlinie 17 der Guten wissenschaftlichen Praxis sollen Forschungsdaten an der Einrichtung, an der sie entstanden sind oder in "standortübergreifenden Repositorien" öffentlich zugänglich gemacht werden {cite}`deutsche_forschungsgemeinschaft_2025`.
 
 Die veröffentlichten Daten finden Sie hier: https://zenodo.org/records/17866716 
 
@@ -52,7 +52,11 @@ In dem hier skizzierten Fall der nachträglichen Publikation von Forschungsdaten
 
 *Die vom Projekt ausgemachten Qualitätskriterien zur Veröffentlichung sollten hier selbstverständlich Erwähnung finden:*
 
+```{admonition} Zusätzliche Materialien
+:class: seealso
 
+- Sehr umfangreiche Zusammenstellung zum Thema Forschungsdaten publizieren auf der Informationsseite <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a>
+```
 
 ---
 

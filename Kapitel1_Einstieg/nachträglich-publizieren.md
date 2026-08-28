@@ -17,37 +17,34 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-In dieser Open Educational Resource (OER) wird die nachträgliche Publikation von Forschungsdaten in den Blick genommen. Das zielt ab auf den häufig vorzufindenden Fall, dass die Ergebnisse eines Forschungsprojekts zwar in einer abschließenden Publikation zusammengefasst wurden, die Forschungsdaten der Community aber nicht zur Verfügung stehen. Aus Gründen der Reproduzierbarkeit, der FAIRness sowie der Guten wissenschaftlichen Praxis (Leitlinien 13 und 17){cite}´deutsche_forschungsgemeinschaft_2025´ sollten diese ebenfalls veröffentlicht werden.
+In dieser Open Educational Resource (OER) wird die nachträgliche Publikation von Forschungsdaten in den Blick genommen. Das zielt ab auf den häufig vorzufindenden Fall, dass die Ergebnisse eines Forschungsprojekts zwar in einer abschließenden Publikation zusammengefasst wurden, die Forschungsdaten der Community aber nicht zur Verfügung stehen. Aus Gründen der Reproduzierbarkeit, der FAIRness sowie der Guten wissenschaftlichen Praxis (Leitlinien 13 und 17) {cite}`deutsche_forschungsgemeinschaft_2025` sollten diese ebenfalls veröffentlicht werden.  
+
+Eine einheitliche Definition für Forschungsdaten gibt es nicht, da die Methodiken und Ergebnisse stark nach wissenschaftlicher Disziplin variieren können. Grundsätzlich können alle Daten, die im Rahmen eines Forschungsprozesses entstehen oder ihr Ergebnis sind, als Forschungsdaten bezeichnet werden {cite}`Kindling_Schirmbacher_2013`.
+
+## Vorteile einer Datenpublikation
+
+Die Publikation von Forschungsdaten gehört, wie bereits erwähnt, zur Einhaltung der Guten wissenschaftlichen Praxis. In Leitlinie 13 wird die "Herstellung von öffentlichem Zugang zu Forschungsergebnissen" gefordert, wozu explizit auch "die den Ergebnissen zugrunde liegenden Forschungsdaten" gehören. Auch Leitlinie 17, die die Archivierung fokussiert, bezieht sich auf die öffentliche Zugänglichkeit von Forschungsdaten und -ergebnissen {cite}`deutsche_forschungsgemeinschaft_2025`.
+
+Die unabhängig von anderen Forschungsergebnissen publizierten Forschungsdaten sind einfacher nachzunutzen, da sie nicht aus Texten oder anderen Publikationsformen herauskopiert werden müssen und so zudem einfacher zu zitieren sind - beispielsweise durch einen eigenen PID. Die Forschung wird dadurch transparent, verifizier- und reproduzierbar, was die wissenschaftliche Integrität insgesamt erhöht. Die Daten können darüber hinaus für weitere Forschungsprojekte genutzt werden und müssen von diesen nicht mühsam neu erhoben werden {cite}`TIB_Forschungsdaten_o.J.`.
 
 ## Besonderheiten dieser OER 
 
-Diese OER entstand 
-
-Im Gegensatz zu Forschungsdatenmanagement, dass während eines Projektes
-*An dieser Stelle erklären, was diese OER besonders macht/was diese Veröffentlichung von anderen des gleiches Themas unterscheidet/was der Hintergrund für die Entscheidung für diese Thema war etc.*
-
-
--	Erklären, was uns von „normalem“ FDM trennt (siehe Checklisten zum Thema)
-    - FDM ist ...
-    - Nachträgliches Publizieren von Forschungsdaten bedeutet ...
+Diese OER nimmt das nachträgliche Publizieren von Forschungsdaten in den Fokus. Im Gegensatz zum während des Projekts laufenden Forschungsdatenmanagements geht dieses Szenario also von einem bereits abgeschlossenen Forschungsvorhaben aus. Das bedeutet, dass Zusammenhänge retrospektiv wiederhergestellt werden müssen und auf Aufzeichnungen und Erinnerungen von Projektmitarbeitenden zurückgegriffen werden muss. Je besser die Dokumentation der Forschungsdaten zu Projektzeiten erfolgte, umso einfacher gestaltet sich eine nachträgliche Publikation.  
 
 Die Auswahl der für den Prozess des nachträglichen Publizierens von Forschungsdaten nötigen Kompetenzen erfolgte anhand des QUADRIGA Datenkompetenzframeworks (s. Abschnitt 1.3.2).
 
--	In Tabelle; und sortiert/strukturiert, nummeriert, Referenz zum Framework, Ja/Nein, wenn ja, dann…; wenn nicht, dann … (Grafik als Entscheidungsbaum wie irightsinfo)
-
 ---
 
-Folgend finden Sie einige Materialien aufgelistet, die ebenfalls einen Bezug zum Thema "Forschungsdatenpublikation" aufweisen:
-
-<span style="color:red">Hier gerne noch welche hinzufügen</span>
+Folgend finden Sie weitere Materialien aufgelistet, die ebenfalls einen Bezug zum Thema "Forschungsdatenpublikation" aufweisen:
 
 ```{admonition} Zusätzliche Materialien
 :class: seealso
 
 **Checklisten:**
 - Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> der FH Potsdam (direkter Downloadlink)
-- <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> Checkliste, welche Hilft seine Arbeit auf FAIR-Konformität zu überprüfen
-- <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Creative Commons Chooser</a> Fragebogen von CC, welcher hilft die richtige Lizenz für die eigene Ausarbeitung zu wählen
+- Checkliste <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> des niederländischen Netzwerks <a href="https://dans.knaw.nl/en/" class="external-link" target="_blank">DANS</a>, die hilft, Daten auf ihre FAIRness zu überprüfen
+- Der Fragebogen <a href="https://creativecommons.org/chooser/" class="external-link" target="_blank">Creative Commons Chooser</a> der internationalen Organisation <a href="https://creativecommons.org/" class="external-link" target="_blank">Creative Commons</a>, der bei der Wahl der richtigen Lizenz unterstützen kann
+
 
 **Leitfäden:**
 - PARTHENOS Leitfaden zur <a href="https://zenodo.org/records/3363078" class="external-link" target="_blank">"FAIRifizierung" des Datenmanagements und der Ermöglichung der Nachnutzung von Daten</a> des gleichnamigen Projektes
@@ -60,13 +57,13 @@ Folgend finden Sie einige Materialien aufgelistet, die ebenfalls einen Bezug zum
 - Video <a href="https://av.tib.eu/media/51995" class="external-link" target="_blank">10 Gründe für Open Access</a> von der TIB Hannover
 
 **Paper:**
-- <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#d1e183" class="external-link" target="_blank">Data Organization in Spreadsheets</a> Anleitung von Broman & Woo, 2018 zur Erstellung maschinenlesbarer Tabellen.
+- Paper <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#d1e183" class="external-link" target="_blank">Data Organization in Spreadsheets</a> von Broman & Woo (2018) zur Erstellung maschinenlesbarer Tabellen {cite}`Broman_2018`.
 ```
 
 ## Framework
 
-Das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a> bildet (Daten-)Kompetenzen ab, die im Laufe eines wissenschaftlichen Projekts benötigt werden.  
-Für die nachträgliche Publikation werden nicht alle Kompetenzen benötigt bzw. nicht alle Phasen des Datenflusses durchschritten, da das eigentliche Forschungsprojekt mit der Erhebung, Aufbereitung und Analyse von Daten bereits in der Vergangenheit liegt. Es werden nur Bereiche aus den Phasen Planung (1), Management (3) sowie Publikation und Nachnutzung (5) angesprochen (s. Abb. 1.2). Dabei hängen 1.2 Qualitätssicherung sowie 3.1 Organisation und 3.2 Erschließung als Arbeitsschritte zur nachträglichen Publikation in erheblichem Maße davon ab, wie gut diese bereits während des Projektes beachtet wurden. Die Kompetenz 1.3 Ethik und Recht bezieht sich ursprünglich auf das rechtssichere (Nach-)Nutzen von Daten, findet in diesem Szenario aber Anwendung auf das (nachträgliche) Publizieren von Daten.
+Das <a href="https://zenodo.org/records/15058057" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a> bildet (Daten-)Kompetenzen ab und verbindet sie mit dem Verlauf eines wissenschaftlichen Projekts.  
+Für die nachträgliche Publikation werden nicht alle Kompetenzen benötigt bzw. nicht alle Phasen des Datenflusses durchschritten, da das eigentliche Forschungsprojekt mit der Erhebung, Aufbereitung und Analyse von Daten bereits in der Vergangenheit liegt. Es werden nur Bereiche aus den Phasen *Planung (1)*, *Management (3)* sowie *Publikation und Nachnutzung (5)* angesprochen (s. Abb. 1.2). Dabei hängen die Kompetenzen *1.2 Qualitätssicherung* sowie *3.1 Organisation* und *3.2 Erschließung* als Arbeitsschritte zur nachträglichen Publikation in erheblichem Maße davon ab, wie gut diese bereits während des Projektes beachtet wurden. Die Kompetenz *1.3 Ethik und Recht* bezieht sich ursprünglich auf das rechtssichere (Nach-)Nutzen von Daten, findet in diesem Szenario aber Anwendung auf das (nachträgliche) Publizieren von Daten.
 
 ```{figure} /assets/framework_phases.png
 ---
@@ -79,14 +76,10 @@ Das QUADRIGA Datenkompetenzframework mit Hervorhebung der bei der nachträgliche
 
 Diese Lerneinheit ist so aufgebaut, dass die einzelnen Kapitel den entsprechenden Phasen und die Unterkapitel den Kompetenzen entsprechen, die für eine nachträgliche Publikation von Forschungsdaten benötigt werden.
 
+---
+
 **Literatur**
-
-<span style="color:red">nur, wenn es welche gibt</span>
-
-- Quadriga DKF
-
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

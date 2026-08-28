@@ -189,8 +189,20 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html",
       "timeRequired": "TODO",
-      "teaches": "Qualitätssicherung von Daten",
+      "teaches": "Forschungsdaten erkennen",
       "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM 01_001_0008)",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Lernende können Qualitätskriterien für eine Datenpublikation benennen/erläutern (LZM 04_003_0852/53)",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+        },
         {
           "@type": "AlignmentObject",
           "targetName": "Die Lernenden können Datenqualität bewerten. (LZ-ID 02_012_0447)",
@@ -199,7 +211,7 @@
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "*noch zu formulieren*",
+          "targetName": "Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen. (LZM 04_003_0851)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 1.3 Ethik und Recht | Bloom's: ... | Data Flow: 1 Planung"
         }
@@ -249,15 +261,15 @@
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "*noch zu formulieren*",
+          "targetName": "Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung, Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5.1 Aufbewahrung | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung"
+          "targetDescription": "Competency: 5.1 Aufbewahrung | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "*Können Schritte zur Publikation benennen (?), finale Prüf-Schritte nennen (?)*",
+          "targetName": "Lernende können den Begriff Datenpublikation erläutern. (LZ-ID 04_003_0842)",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: ... | Data Flow: 5 Publikation und Nachnutzung"
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung"
         },
         {
           "@type": "AlignmentObject",

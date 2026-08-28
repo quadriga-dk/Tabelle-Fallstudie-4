@@ -122,13 +122,13 @@ In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht no
 
 *weiterdenken: was passiert, wenn die Daten nicht den Ansprüchen genügen? Sollten sie dann aufbereitet werden? Oder entfallen dann alle Schritte und ein nachträgliches Publizieren ist nicht möglich?*
 
+---
+
 **Literatur**
 
 z. B.
 - GwP der DFG
 
-
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

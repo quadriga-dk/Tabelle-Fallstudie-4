@@ -1,12 +1,14 @@
 (einarbeiten:einordnung)=
 # Überblick verschaffen
 
-Zuerst gilt es, sich einen Überblick über die zu veröffentlichenden Forschungsdaten zu verschaffen. Dies gilt nur, wenn es sich um fremde Daten handelt.
-Des Weiteren gehen wir in diesem Szeanrio davon aus, dass Sie wissen, wo die Daten liegen und sie Zugang zu diesen haben.
+Zuerst gilt es, sich einen Überblick über die zu veröffentlichenden Forschungsdaten zu verschaffen. Dies gilt vor allem, wenn es sich um fremde Daten handelt.
+Des Weiteren geht diessm Szeanrio davon aus, dass Sie wissen, wo die Daten liegen und sie Zugang zu diesen haben.
 
 ## Ausgangslage
 
 Zunächst gilt es, den Ursprungskontext nachvollziehen und sich in das Projekt einzuarbeiten, aus dem die Daten stammen. Danach sehen Sie sich die Daten an. Wahrscheinlich ist es sinnvoll zwischen Rohdaten und Forschungsdaten zu unterscheiden. Diese Daten sollten beschrieben sein bzw. müssen von Ihnen beschrieben werden. Diesbezüglich ist es von Vorteil, wenn bereits eine README und ein Datenmanagementplan vorliegt. Wenn es das nicht gibt, müssen Sie einen anlegen. Eine Anleitung dazu finden Sie in Kapitel [3.1 Organisation](datenmanagement:organisation).
+
+Forschungsdaten können vielfältig sein. Die DFG hat 2021 eine <a href="https://www.dfg.de/resource/blob/174732/forschungsdaten-checkliste-de.pdf" class="external-link" target="_blank">Checkliste</a> (direkter Link zum PDF) zum Umgang mit Forschungsdaten veröffentlicht. In dieser werden einige mögliche Forschungsdaten direkt gelistet, darunter Messdaten, Texte, Fragebögen oder Software {cite}`dfg_umgang_2021`.
 
 ## Vorgehen
 
@@ -29,7 +31,7 @@ Es ist hilfreich, sich dazu eine Excel-Tabelle zur Provenienz der Daten anzulege
 
 ## Beispiel Szenario Q-LCA
 
-...
+In dem Beispielszenario konnten die Hintergründe des Projekts mit einem der Projektleitenden besprochen werden, wodurch der Kontext schnell nachvollzogen werden konnte. Da nicht mehr alle Projektmitarbeitenden noch an den beteiligten Institutionen arbeiteten, waren persönliche Aufzeichnungen und bestehende Kontakte der Projektleitung zu den ehemaligen Mitarbeitenden ein Schlüssel zum Verständnis der Forschungsdaten. Daraus lässt sich ableiten, dass die Einbeziehung eines Verantwortlichen oder einer Person mit sämtlichen Zugangsberechtigungen ein entscheidender Vorteil in der nachträglichen Datenpublikation ist. 
 
 ## Learnings
 
@@ -37,4 +39,9 @@ Wie umfangreich diese Arbeiten ausfallen, hängt maßgeblich davon ab, wie gut d
 
 ---
 
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```
 
