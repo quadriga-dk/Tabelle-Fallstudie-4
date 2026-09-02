@@ -102,7 +102,7 @@ In Bezug auf das in dieser OER verwendeten Beispielszenario der Veröffentlichun
 
 Eine Entscheidungshilfe kann die folgende Abbildung bieten:
 
-```{figure} /assets/Entscheidungshilfe_Daten_veroeffentlichen.pdf
+```{figure} /assets/Entscheidungshilfe_Daten_veroeffentlichen.png
 ---
 align: center
 width: 50%
