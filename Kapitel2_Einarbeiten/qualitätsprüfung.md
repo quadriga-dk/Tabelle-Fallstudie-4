@@ -20,7 +20,7 @@ Mit Syntax ist gemeint, dass die Datensätze korrekt und richtig formatiert sind
 
 Eine detallierte Übersicht von Qualitätsmerkmalen von Daten und Metadaten finden Sie <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/4_Qualit%C3%A4tsbewertung.html" class="external-link" target="_blank">hier</a>.
 
-Vier besonders wichtige Kriterien für die Gewährleistung der Datenintegrität sind:
+Fünf besonders wichtige Kriterien für die Gewährleistung der Datenintegrität sind:
 
 - 1. **Genauigkeit:** Abgleich der Daten mit der tatsächlichen Realität. Wenn beispielsweise ein plötzlicher Anstieg der Klickzahlen durch automatisierte Bots auf einer Website nicht herausgefiltert wird, spiegeln die Daten am Ende des Tages nicht die Realität wieder und sind ungenau.
 
@@ -28,7 +28,9 @@ Vier besonders wichtige Kriterien für die Gewährleistung der Datenintegrität 
 
 - 3. **Konsistenz:** Bezeichnet die Einheitlichkeit von Daten über verschiedene Systeme hinweg. Wenn das Einkaufsteam Postleitzahlen 5-stellig erfasst, das Marketingteam dieselben Postleitzahlen aber 9-stellig sammelt, passen die Kundeprofile beim Zusammenführen der Datenbanken nicht zusammen.
 
-- 4. **Eindeutigkeit:** Vermeidung von Duplikaten. Hat ein Unternehmen beispielsweise 50.000 Datensätze, von denen aber 20 % Duplikate sind (weil Kunden das Formular mehrfach ausgefüllt haben), besitzt das Unternehmen in Wahrheit 20 % weniger eindeutige Datensätze.
+- 4. **Eindeutigkeit:** Vermeidung von Duplikaten. Hat ein Unternehmen beispielsweise 50.000 Datensätze, von denen aber 20 % Duplikate sind (weil Kunden das Formular mehrfach ausgefüllt haben), besitzt das Unternehmen in Wahrheit 20 % weniger eindeutige Datensätze. 
+
+- 5. **Gültigkeit:** Die Konformität der Daten mit vordefinierten syntaktischen Vorgaben, Formatdefinitionen und zulässigen Wertebereichen. Ein ungültiger Wer für ein Datim wäre zum Beispiel "32.13.2025" {cite}`ramasamy2020big`.
 
 Um diese zu erfüllen, lohnt es sich anzuschauen, welche Methoden für die Datenbereinigung im <a href="https://www.ibm.com/de-de/think/topics/data-engineering" class="external-link" target="_blank">Data Engineering</a> üblich sind und auch für Forschende von Bedeutung sein könnten. Hierfür gibt es einige typische Tests, die Sie, angepasst an die von Ihnen erwarteten Ergebnisse, implementieren können.
 
@@ -42,7 +44,7 @@ Um diese zu erfüllen, lohnt es sich anzuschauen, welche Methoden für die Daten
 
 - **Datentypprüfung:** Es wird überprüft, ob die Daten den erwarteten Typ aufweisen (z. B. ob ein Feld ein Datum oder eine Ganzzahl ist). Dies ist besonders kritisch, wenn Daten aus Dateien ohne Spaltenüberschriften (Header) importiert werden, da sich dort die Spaltenreihenfolge unbemerkt verschieben kann. Durch den Test wird verhindert, dass Daten mit ungültigen Formaten im weiteren Datenverarbeitungsprozess verarbeitet werden.
 
-- **Eindeutigkeitsprüfung:** Diese Prüfung stellt sicher, dass Werte in einer Spalte (wie ID-Felder) absolut eindeutig sind und keine Duplikate enthalten.
+- **Eindeutigkeitsprüfung:** Diese Prüfung stellt sicher, dass Werte in einer Spalte (wie ID-Felder) absolut eindeutig sind und keine Duplikate enthalten {cite}`cai2015challenges,ramasamy2020big`.
 
 ## Medaillon-Schema
 
@@ -63,11 +65,11 @@ Auf der Bronze-Stufe werden die Daten zunächst möglichst unverändert aus ihre
 
 Anschließend werden die Daten auf der Silber-Stufe bereinigt und überprüft. Fehlerhafte oder doppelte Datensätze können entfernt, uneinheitliche Formate vereinheitlicht und festgelegte Standards umgesetzt werden. Zudem werden die Daten hinsichtlich ihrer Qualität geprüft. Dadurch entsteht ein konsistenterer Datenbestand, der sich insbesondere für die weitere Exploration und Verarbeitung eignet. Datenqualitätstests, beispielsweise zur Vollständigkeit, Gültigkeit oder Eindeutigkeit, können dabei eingesetzt werden, um fehlerhafte Daten frühzeitig zu erkennen.
 
-Auf der Gold-Stufe werden die Daten schließlich gezielt für konkrete Analyse- und Anwendungsszenarien aufbereitet. Dazu können Daten aggregiert, Kennzahlen berechnet oder geeignete Darstellungen für die Analyse und Visualisierung erzeugt werden. Während die Bronze- und Silber-Stufen somit vor allem die Erhaltung und Verbesserung der Datenqualität unterstützen, steht auf der Gold-Stufe die fachliche Nutzbarkeit und Interpretation der Daten im Vordergrund.
+Auf der Gold-Stufe werden die Daten schließlich gezielt für konkrete Analyse- und Anwendungsszenarien aufbereitet. Dazu können Daten aggregiert, Kennzahlen berechnet oder geeignete Darstellungen für die Analyse und Visualisierung erzeugt werden. Während die Bronze- und Silber-Stufen somit vor allem die Erhaltung und Verbesserung der Datenqualität unterstützen, steht auf der Gold-Stufe die fachliche Nutzbarkeit und Interpretation der Daten im Vordergrund {cite}`mohna2022ai,armbrust2020delta`.
 
 Obwohl die Bezeichnung Medaillon-Schema in der Forschungspraxis nicht üblich ist, besteht eine Verbindung zu Konzepten des Forschungsdatenmanagements und der Open Science. In der Forschung wird insbesondere die **Datenprovenienz** (eng. Data Provenance) dokumentiert, um nachvollziehbar zu machen, aus welchen Quellen genutzte Daten stammen und welche Verarbeitungsschritte zu einem wissenschaftlichen Ergebnis geführt haben. Die Dokumentation solcher Verarbeitungsschritte ist zugleich eine wichtige Voraussetzung für **reproduzierbare Forschung**, da Ergebnisse nicht allein von den Ausgangsdaten, sondern auch von deren Aufbereitung, verwendeten Programmen, Parametern und weiteren Verarbeitungsschritten abhängen.
 
-Ein mögliches Problem in der Wissenschaftspraxis besteht darin, dass bei einer Veröffentlichung vor allem die finalen, für die Analyse verwendeten Daten und Ergebnisse sichtbar sind. Sind die zugrunde liegenden Ausgangsdaten und Verarbeitungsschritte nicht ausreichend dokumentiert, wird es schwieriger nachzuvollziehen, wie aus den ursprünglichen Daten die veröffentlichten Ergebnisse entstanden sind. Eine gute Forschungsdatenpraxis sollte daher neben den relevanten Daten auch deren Verarbeitung und (sofern verwendet und rechtlich möglich) den zugehörigen Code dokumentieren und möglichst dauerhaft über ein Repositorium zugänglich machen.
+Ein mögliches Problem in der Wissenschaftspraxis besteht darin, dass bei einer Veröffentlichung vor allem die finalen, für die Analyse verwendeten Daten und Ergebnisse sichtbar sind. Sind die zugrunde liegenden Ausgangsdaten und Verarbeitungsschritte nicht ausreichend dokumentiert, wird es schwieriger nachzuvollziehen, wie aus den ursprünglichen Daten die veröffentlichten Ergebnisse entstanden sind. Eine gute Forschungsdatenpraxis sollte daher neben den relevanten Daten auch deren Verarbeitung und (sofern verwendet und rechtlich möglich) den zugehörigen Code dokumentieren und möglichst dauerhaft über ein Repositorium zugänglich machen {cite}`mpdlDataQuality`.
 
 
 ## Strukturierung von Forschungsdaten
@@ -76,7 +78,7 @@ Neben der Prüfung einzelner Werte ist auch die strukturelle Gestaltung eines Da
 
 ## Praktische Umsetzung
 
-Die beschriebenen Qualitäts- und Strukturprüfungen können grundsätzlich selbst als automatisierte Skripte implementiert werden. Besonders geeignet sind hierfür Programmiersprachen wie Python, mit denen beispielsweise Wertebereiche, Datentypen, fehlende Werte, Duplikate oder die Einhaltung bestimmter Formate systematisch überprüft werden können. Solche Prüfungen lassen sich wiederholt auf einen Datensatz anwenden und dadurch reproduzierbarer und weniger fehleranfällig gestalten als eine ausschließlich manuelle Kontrolle. Für viele Anwendungsfälle existieren darüber hinaus spezialisierte Werkzeuge, die solche Prüfungen vereinfachen oder um zusätzliche Funktionen ergänzen.
+Die beschriebenen Qualitäts- und Strukturprüfungen können grundsätzlich selbst als automatisierte Skripte implementiert werden. Besonders geeignet sind hierfür Programmiersprachen wie Python, mit denen beispielsweise Wertebereiche, Datentypen, fehlende Werte, Duplikate oder die Einhaltung bestimmter Formate systematisch überprüft werden können. Solche Prüfungen lassen sich wiederholt auf einen Datensatz anwenden und dadurch reproduzierbarer und weniger fehleranfällig gestalten als eine ausschließlich manuelle Kontrolle. Für viele Anwendungsfälle existieren darüber hinaus spezialisierte Werkzeuge, die solche Prüfungen vereinfachen oder um zusätzliche Funktionen ergänzen {cite}`wickham2014tidy,fowler2017frictionless`.
 
 Eine Übersicht verschiedener Werkzeuge für die Datenqualitätsprüfung bietet beispielsweise die Zusammenstellung von Tools for Data. Die dort aufgeführten Werkzeuge lassen sich unter anderem den Bereichen Data Testing, Data Observability, Data Lineage und Data Catalog zuordnen.
 
@@ -86,16 +88,16 @@ align: center
 width: 50%
 name: data-quality-tools
 ---
-Übersicht von Datenqualitätstools auf dem Markt (Quelle: https://toolsfordata.com/lists/data-quality-tools/)
+Übersicht von Datenqualitätstools auf dem Markt (Quelle: https://toolsfordata.com/lists/data-quality-tools/ abgerufen am 02.09.2026)
 ```
 - Unter **Data Testing** werden Werkzeuge zusammengefasst, mit denen konkrete Regeln und Erwartungen an Daten überprüft werden, beispielsweise ob eine Spalte ausschließlich gültige Werte enthält oder keine Duplikate aufweist. 
 - **Data Observability** erweitert diesen Ansatz um die fortlaufende Überwachung von Daten und die Erkennung von Anomalien, beispielsweise ungewöhnlichen Veränderungen in Datenbeständen. 
 - **Data Lineage** beschreibt hingegen die Nachverfolgung, aus welchen Quellen Daten stammen und welche Verarbeitungsschritte zwischen den verschiedenen Datenständen durchgeführt wurden. 
-- Ein **Data Catalog** dient schließlich dazu, Datenbestände und die zugehörigen Metadaten systematisch zu erfassen, auffindbar zu machen und zu dokumentieren.
+- Ein **Data Catalog** dient schließlich dazu, Datenbestände und die zugehörigen Metadaten systematisch zu erfassen, auffindbar zu machen und zu dokumentieren {cite}`toolsfordata2026`.
 
-Ein Beispiel für ein Open-Source-Werkzeug aus dem Bereich Data Testing ist <a href="https://greatexpectations.io/" class="external-link" target="_blank">Great Expectations</a>. Dabei handelt es sich um eine Python-Bibliothek, mit der Erwartungen an die Struktur und den Inhalt von Daten formuliert und automatisiert überprüft werden können. So lässt sich beispielsweise festlegen, dass eine Spalte einen bestimmten Datentyp besitzen, keine fehlenden Werte enthalten oder nur Werte innerhalb eines vorgegebenen Bereichs aufweisen darf. Great Expectations kann dabei unter anderem auf Dateien, Datenbanken und DataFrames angewendet werden.
+Ein Beispiel für ein Open-Source-Werkzeug aus dem Bereich Data Testing ist <a href="https://greatexpectations.io/" class="external-link" target="_blank">Great Expectations</a>. Dabei handelt es sich um eine Python-Bibliothek, mit der Erwartungen an die Struktur und den Inhalt von Daten formuliert und automatisiert überprüft werden können. So lässt sich beispielsweise festlegen, dass eine Spalte einen bestimmten Datentyp besitzen, keine fehlenden Werte enthalten oder nur Werte innerhalb eines vorgegebenen Bereichs aufweisen darf. Great Expectations kann dabei unter anderem auf Dateien, Datenbanken und DataFrames angewendet werden {cite}`gxgreatexpectations`.
 
-Neben solchen codebasierten Verfahren gibt es auch Werkzeuge, die eine Datenbereinigung über eine grafische Benutzeroberfläche ermöglichen. Ein Beispiel hierfür ist <a href="https://openrefine.org/" class="external-link" target="_blank">OpenRefine</a>, eine Open-Source-Software zur Bereinigung, Formatierung und Anreicherung von Datensätzen. Die tabellarische Oberfläche erinnert an eine Tabellenkalkulation, bietet jedoch weitergehende Funktionen zur systematischen Bearbeitung größerer Datensätze. OpenRefine kann unter anderem verschiedene Dateiformate einlesen und eignet sich insbesondere zur Standardisierung und Bereinigung bereits vorhandener, unstrukturierter oder inkonsistenter Daten.
+Neben solchen codebasierten Verfahren gibt es auch Werkzeuge, die eine Datenbereinigung über eine grafische Benutzeroberfläche ermöglichen. Ein Beispiel hierfür ist <a href="https://openrefine.org/" class="external-link" target="_blank">OpenRefine</a>, eine Open-Source-Software zur Bereinigung, Formatierung und Anreicherung von Datensätzen. Die tabellarische Oberfläche erinnert an eine Tabellenkalkulation, bietet jedoch weitergehende Funktionen zur systematischen Bearbeitung größerer Datensätze. OpenRefine kann unter anderem verschiedene Dateiformate einlesen und eignet sich insbesondere zur Standardisierung und Bereinigung bereits vorhandener, unstrukturierter oder inkonsistenter Daten {cite}`openrefine`.
 
 Die praktische Anwendung lässt sich anhand der von QUADRIGA bereitgestellten <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/openRefine/0_datenbereinigung.html" class="external-link" target="_blank">Fallstudie</a> zu studentischen Filmen der Filmuniversität Babelsberg nachvollziehen. Dort wird OpenRefine eingesetzt, um einen bestehenden Datensatz schrittweise zu sichten und zu bereinigen. Unter anderem werden Spalten und Einträge bereinigt und Jahresangaben sowie Filmtitel standardisiert. Die Fallstudie zeigt damit exemplarisch, wie die zuvor beschriebenen Anforderungen an Konsistenz, Standardisierung und Nachnutzbarkeit in einem konkreten Forschungsdatensatz umgesetzt werden können.
 
