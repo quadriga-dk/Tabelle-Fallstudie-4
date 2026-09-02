@@ -21,6 +21,7 @@ z.B. zu
 Auf diese Aspekte geht dieses Unterkapitel Schritt für Schritt ein.
 Bitte beachten Sie, dass dieser Teil der OER eine eventuelle Rechtsberatung nicht ersetzen kann.
 
+
 ## Rechte an Daten
 
 Vor der Veröffentlichung von Forschungsdaten sollte zunächst geprüft werden, welche Rechte an den Daten bestehen. Ein allgemeines Eigentum an Daten existiert im deutschen Recht nicht {cite}`kuschel_2018,baumann_2023`. Forschungsdaten können jedoch unterschiedlichen Schutzrechten unterliegen.
@@ -98,6 +99,17 @@ In Bezug auf das in dieser OER verwendeten Beispielszenario der Veröffentlichun
 - Hinsichtlich der Lizenzierung der Forschungsdaten wurde sich aus den oben ausgeführten Gründen für eine CC BY 4.0 Lizenz entschieden.
 
 ## Learnings
+
+Eine Entscheidungshilfe kann die folgende Abbildung bieten:
+
+```{figure} /assets/Entscheidungshilfe_Daten_veroeffentlichen.pdf
+---
+align: center
+width: 50%
+---
+Poster "Entscheidungshilfe Daten veröffentlichen" von M. Schleußinger und J. Rex. 
+```
+Bildquelle: Schleußinger, M. & Rex, J. (2020). Forschungsdaten veröffentlichen? Zenodo. <a href="https://doi.org/10.5281/zenodo.3368293" class="external-link" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
 
 Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können Sie sicher aus den ursrpünglichen Antragsunterlagen entnehmen. Bei Fragen wenden Sie sich an:
 - die Förderinstitution
