@@ -23,11 +23,11 @@ Auch eine **README** gehört zu einer guten Datenbeschreibung. Darin sollten Sie
 ## Vorgehen
 
 **Metadaten**
-Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt.
 
-<span style="color:red">*Angebot machen, auf welchen Seiten das recherchiert werden kann.*</span>
+Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt. Eine gute <a href="https://rdamsc.bath.ac.uk/" class="external-link" target="_blank">Übersicht</a> über Metadatenstandards hat die englische Universität Bath angelegt. 
 
-Die folgende Übersicht zeigt Beispiele etablierter Metadatenstandards verschiedener Fachdisziplinen.
+Die folgende Übersicht zeigt zudem beispielhaft einige etablierte Metadatenstandards verschiedener Fachdisziplinen.
+
 | Disziplin | Metadatenstandard | Organisation | Quelle |
 |---|---|---|---|
 | Astronomie | IVOA Technical Specifications | IVOA | {cite}`ivoa_2026` |
@@ -43,10 +43,11 @@ Die folgende Übersicht zeigt Beispiele etablierter Metadatenstandards verschied
 
 Eine übergreifende Übersicht bietet zudem <a href="https://fairsharing.org" class="external-link" target="_blank">FAIRsharing</a> {cite}`sansone_et_al_2019`.
 
-**FAIRifizierung**
-Prüfen Sie, ob die Beschreibung der Daten vollständig ist. Maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
+---
 
-<span style="color:red">*Angebot machen, wie das geprüft werden kann, z. B. durch Checklisten, Webseiten etc.*</span>
+**FAIRifizierung**
+
+Prüfen Sie, ob die Beschreibung der Daten vollständig ist. Maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
 
 `````{admonition} Weitere Informationen
 :class: tip
@@ -62,14 +63,13 @@ Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Pr�
 - <a href="https://www.f-uji.net/" class="external-link" target="_blank">F-UJI</a> – automatische FAIR-Bewertung anhand eines PID oder einer URL
 - <a href="https://fair-checker.france-bioinformatique.fr/" class="external-link" target="_blank">FAIR-Checker</a> – automatische Analyse der FAIR-Metadaten eines Datensatzes
 - <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> – unterstützt Forschende bei der Selbstbewertung anhand eines kurzen Fragenkatalogs
-
 `````
 
+---
+
 **README**
+
 Legen Sie eine README an.
-
-<span style="color:red">*Beispiele für gute README bereitstellen. Hilfe zum Schreiben einer guten README zusammenstellen bzw. auf bestehende Listen verweisen.*</span>
-
 
 Eine README-Datei ist die einfachste Form der Datendokumentation und soll sicherstellen, dass Daten auch später oder von anderen Personen korrekt interpretiert werden können {cite}`hassenstein_jung_2025`.
 

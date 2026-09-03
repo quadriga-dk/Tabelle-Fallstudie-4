@@ -22,7 +22,9 @@ An dieser Stelle hilft es, sich zu fragen, ob die Daten so strukturiert und bena
 
 ## Vorgehen
 
-*Hier könnten generische Lösungen präsentiert werden: Benennung nach welchen Schemata -> Beispiele, Listen, Links*
+Es empfiehlt sich, die Daten so zu ordnen, dass sie auch interdisziplinär bzw. projekt-extern verstanden werden. Fügen Sie Daten zu sinnvollen Bündeln zusammen oder teilen Sie sie in solche auf. 
+Bei der Custerung kann auch schon die Zusammenfassung in ZIP-Paketen mitgedacht werden.
+Diese Punkte müssen Sie bei der Anlage eines DMP ohnehin mitdenken.
 
 ```{admonition} Weitere Informationen
 :class: seealso

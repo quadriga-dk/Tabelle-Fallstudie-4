@@ -26,6 +26,9 @@ Die in Kapitel 3 [Datenmanagement](datenmanagement:einleitung) sortierten Dateie
 - Dokumentation
 - Zitationshinweis
 
+- Upload-Reihenfolge beachten und festlegen (bei Zenodo z. B. nach Datum, d.h. erster Upload steht später unten; innerhalb eines Uploads wird nach Namen sortiert, daher am besten mit Nummern agieren)
+- TOC
+
 ## Beispielszenario 
 
 Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> - u. a. weil es kein fachspezifisches Repositorium gab (s. Unterkapitel 4.1 [Aufbewahrung](publikation:aufbewahrung)). Entsprechend der Leitlinie 17 der Guten wissenschaftlichen Praxis sollen Forschungsdaten an der Einrichtung, an der sie entstanden sind oder in "standortübergreifenden Repositorien" öffentlich zugänglich gemacht werden {cite}`deutsche_forschungsgemeinschaft_2025`.

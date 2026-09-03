@@ -105,7 +105,7 @@ Eine Entscheidungshilfe kann die folgende Abbildung bieten:
 ```{figure} /assets/Entscheidungshilfe_Daten_veroeffentlichen.png
 ---
 align: center
-width: 50%
+width: 75%
 ---
 Poster "Entscheidungshilfe Daten veröffentlichen" von M. Schleußinger und J. Rex. 
 ```

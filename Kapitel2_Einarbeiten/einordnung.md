@@ -1,8 +1,7 @@
 (einarbeiten:einordnung)=
 # Überblick verschaffen
 
-Zuerst gilt es, sich einen Überblick über die zu veröffentlichenden Forschungsdaten zu verschaffen. Dies gilt vor allem, wenn es sich um fremde Daten handelt.
-Des Weiteren geht diessm Szeanrio davon aus, dass Sie wissen, wo die Daten liegen und sie Zugang zu diesen haben.
+Zuerst gilt es, sich einen Überblick über die zu veröffentlichenden Forschungsdaten zu verschaffen. Dies gilt vor allem, wenn es sich um fremde Daten handelt. Überlegen Sie sich eine Arbeitsstruktur zur Publikation: Wer arbeitet an dieser nachträglichen Publikation mit? Wie lässt sich das organisieren?
 
 ## Ausgangslage
 

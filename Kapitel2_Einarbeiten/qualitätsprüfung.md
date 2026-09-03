@@ -102,8 +102,6 @@ Neben solchen codebasierten Verfahren gibt es auch Werkzeuge, die eine Datenbere
 Die praktische Anwendung lässt sich anhand der von QUADRIGA bereitgestellten <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/openRefine/0_datenbereinigung.html" class="external-link" target="_blank">Fallstudie</a> zu studentischen Filmen der Filmuniversität Babelsberg nachvollziehen. Dort wird OpenRefine eingesetzt, um einen bestehenden Datensatz schrittweise zu sichten und zu bereinigen. Unter anderem werden Spalten und Einträge bereinigt und Jahresangaben sowie Filmtitel standardisiert. Die Fallstudie zeigt damit exemplarisch, wie die zuvor beschriebenen Anforderungen an Konsistenz, Standardisierung und Nachnutzbarkeit in einem konkreten Forschungsdatensatz umgesetzt werden können.
 
 
-**Problem**
-Vorliegende Daten müssen auf ihre Qualität überprüft werden.
 
 **Lösung**
 Die Daten müssen händisch und stichprobenartig geprüft werden. *Können wir hier mit Software zur Qualitätsprüfung arbeiten?*
@@ -116,20 +114,20 @@ Folgende Fragen können dabei helfen:
 *Bei der Einarbeitung in ein Projekt entsteht in der Regel automatisch ein Bild von möglichen Fragestellungen, Methodiken, Analysen und Ergebnissen. Diese Fragen können genutzt werden, um die Daten auf ihre Qualität zu prüfen.* 
 
 
-**Beispiel Szenario Michael** 
-In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht notwendig, weil die Daten bereits gut aufgearbeitet vorliegen.
+## Beispiel Szenario 
 
-**Learnings (generisch)** 
-*können auch ins Resümee*
+In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht notwendig gewesen, weil die Daten bereits gut aufgearbeitet vorlagen.
+
+## Learnings (generisch)
+
+Die inhaltliche Überprüfung der Datenqualität ist für Fachfremde durchaus herausfordernd. Daher hilft es, sich an den in diesem Unterkapitel genannten, allgemeinen Kriterien zur Prüfung von Datenqualität zu orientieren.
+
 
 *weiterdenken: was passiert, wenn die Daten nicht den Ansprüchen genügen? Sollten sie dann aufbereitet werden? Oder entfallen dann alle Schritte und ein nachträgliches Publizieren ist nicht möglich?*
 
 ---
 
 **Literatur**
-
-z. B.
-- GwP der DFG
 
 ```{bibliography}
 :filter: docname in docnames
