@@ -29,6 +29,22 @@ Die in Kapitel 3 [Datenmanagement](datenmanagement:einleitung) sortierten Dateie
 - Upload-Reihenfolge beachten und festlegen (bei Zenodo z. B. nach Datum, d.h. erster Upload steht später unten; innerhalb eines Uploads wird nach Namen sortiert, daher am besten mit Nummern agieren)
 - TOC
 
+### Upload und Veröffentlichung auf Zenodo
+
+Wenn Sie sich für <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> als Repositorium entschieden haben, können Sie Ihre Forschungsdaten dort in wenigen Schritten veröffentlichen.
+
+1. **Daten für den Upload vorbereiten:** Stellen Sie zunächst ein Datenpaket zusammen, das die zu veröffentlichenden Forschungsdaten, die zugehörigen Metadaten und die zugehörige Dokumentation enthält.
+
+2. **Zenodo-Konto erstellen:** Für den Upload benötigen Sie ein Zenodo-Konto. Dieses kann mit einer E-Mail-Adresse oder über GitHub, ORCID oder OpenAIRE erstellt werden. Die Anmeldung über ORCID wird empfohlen, da die Ersteller:innen eines Zenodo-Eintrags dadurch eindeutig identifiziert werden können.
+
+3. **Dateien hochladen:** Legen Sie über **„New upload“** einen neuen Eintrag an und laden Sie die vorbereiteten Dateien hoch. Soll eine hierarchische Ordnerstruktur erhalten bleiben, können die Dateien als ZIP-Archiv hochgeladen werden.
+
+4. **Datensatz beschreiben und Zugriffsrechte festlegen:** Beschreiben Sie den Datensatz mithilfe der Metadatenfelder. Dazu gehören unter anderem **„Resource type“**, Titel, Publikationsdatum, Ersteller:innen, Beschreibung und Lizenz. Für den Eintrag kann Zenodo einen neuen DOI vergeben; alternativ kann ein bereits vorhandener DOI angegeben werden. Ergänzend können beispielsweise Schlagwörter, Förderinformationen oder Verknüpfungen zu verwandten Publikationen angegeben werden. Legen Sie außerdem unter **„Visibility“** fest, wie der Datensatz zugänglich sein soll.
+
+5. **Eintrag prüfen und veröffentlichen:** Solange der Eintrag noch nicht veröffentlicht werden soll, kann er als Entwurf gespeichert werden. Prüfen Sie vor der Veröffentlichung, ob die Dateien korrekt hochgeladen und die Angaben vollständig sind. Anschließend kann der Eintrag veröffentlicht werden.
+
+Eine ausführliche englischsprachige Schritt-für-Schritt-Anleitung mit Abbildungen zum Upload von Forschungsdaten auf Zenodo finden Sie auf der Informationsplattform <a href="https://onderzoektips.ugent.be/en/tips/00002267/" class="external-link" target="_blank">Research Tips der Universität Gent</a>.
+
 ## Beispielszenario 
 
 Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> - u. a. weil es kein fachspezifisches Repositorium gab (s. Unterkapitel 4.1 [Aufbewahrung](publikation:aufbewahrung)). Entsprechend der Leitlinie 17 der Guten wissenschaftlichen Praxis sollen Forschungsdaten an der Einrichtung, an der sie entstanden sind oder in "standortübergreifenden Repositorien" öffentlich zugänglich gemacht werden {cite}`deutsche_forschungsgemeinschaft_2025`.
