@@ -39,7 +39,7 @@ Wenn Sie sich für <a href="https://zenodo.org/" class="external-link" target="_
 
 3. **Dateien hochladen:** Legen Sie über **„New upload“** einen neuen Eintrag an und laden Sie die vorbereiteten Dateien hoch. Soll eine hierarchische Ordnerstruktur erhalten bleiben, können die Dateien als ZIP-Archiv hochgeladen werden.
 
-4. **Datensatz beschreiben und Zugriffsrechte festlegen:** Beschreiben Sie den Datensatz mithilfe der Metadatenfelder. Dazu gehören unter anderem **„Resource type“**, Titel, Publikationsdatum, Ersteller:innen, Beschreibung und Lizenz. Für den Eintrag kann Zenodo einen neuen DOI vergeben; alternativ kann ein bereits vorhandener DOI angegeben werden. Ergänzend können beispielsweise Schlagwörter, Förderinformationen oder Verknüpfungen zu verwandten Publikationen angegeben werden. Legen Sie außerdem unter **„Visibility“** fest, wie der Datensatz zugänglich sein soll.
+4. **Datensatz beschreiben und Zugriffsrechte festlegen:** Beschreiben Sie den Datensatz mithilfe der Metadatenfelder. Dazu gehören unter anderem **„Resource type“**, Titel, Publikationsdatum, Ersteller:innen, Beschreibung und Lizenz. Für den Eintrag kann ein neuer DOI generiert oder ein bereits zugewiesener DOI angegeben werden. Ergänzend können beispielsweise Schlagwörter, Förderinformationen oder Verknüpfungen zu verwandten Publikationen angegeben werden. Legen Sie außerdem unter **„Visibility“** fest, wie der Datensatz zugänglich sein soll.
 
 5. **Eintrag prüfen und veröffentlichen:** Solange der Eintrag noch nicht veröffentlicht werden soll, kann er als Entwurf gespeichert werden. Prüfen Sie vor der Veröffentlichung, ob die Dateien korrekt hochgeladen und die Angaben vollständig sind. Anschließend kann der Eintrag veröffentlicht werden.
 
