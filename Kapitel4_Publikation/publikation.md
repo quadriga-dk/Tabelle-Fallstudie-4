@@ -15,35 +15,79 @@ Die Kompetenz '5.2 Publikation' des QUADRIGA Datenkompetenzframeworks.
 
 ## Ausgangslage 
 
-Die in Kapitel 3 [Datenmanagement](datenmanagement:einleitung) sortierten Dateien, für die im vorherigen Unterkapitel ein Repositorium ausgewählt wurde, müssen nun final geprüft und hochgeladen werden.
+Die Forschungsdaten für die im vorherigen Unterkapitel ein Repositorium ausgewählt wurde, müssen nun final geprüft und hochgeladen werden. Die Plattform für das Publizieren und Teilen von Daten entspricht in dem hier geschilderten Fall dem Auswählen eines Repositoriums.
 
-## Vorgehen
+Die hier zu beachtenden Punkte lassen sich in 3 Teile gliedern. Diese sind zum größten Teil Prüfschritte, da Sie, wenn Sie dieser Anleitung gefolgt sind, alle Aspekte bereits erledigt haben sollten. 
 
-- FAIR-Assessment
-- Metadaten
-- PID
-- Versionierung und Upload
-- Dokumentation
-- Zitationshinweis
+1. Metadaten und PID (inkl. Dokumentation)
+2. FAIR-Assessment und GwP (inkl. Zitationshinweis)
+3. Versionierung und Upload
 
-- Upload-Reihenfolge beachten und festlegen (bei Zenodo z. B. nach Datum, d.h. erster Upload steht später unten; innerhalb eines Uploads wird nach Namen sortiert, daher am besten mit Nummern agieren)
-- TOC
 
-### Upload und Veröffentlichung auf Zenodo
+### 3. Upload und Veröffentlichung auf Zenodo
 
 Wenn Sie sich für <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> als Repositorium entschieden haben, können Sie Ihre Forschungsdaten dort in wenigen Schritten veröffentlichen.
 
-1. **Daten für den Upload vorbereiten:** Stellen Sie zunächst ein Datenpaket zusammen, das die zu veröffentlichenden Forschungsdaten, die zugehörigen Metadaten und die zugehörige Dokumentation enthält.
+1. **Daten für den Upload vorbereiten:** Stellen Sie zunächst ein Datenpaket zusammen, das die zu veröffentlichenden Forschungsdaten, die zugehörigen Metadaten und die zugehörige Dokumentation enthält. Wenn Sie dieser Anleitung gefolgt sind, haben Sie die Daten bereits in Kapitel 3 [Datenmanagement](datenmanagement:einleitung) geordnet und durch einen DMP beschrieben. Dieser gehört ebenfalls in das Datenpaket.
 
-2. **Zenodo-Konto erstellen:** Für den Upload benötigen Sie ein Zenodo-Konto. Dieses kann mit einer E-Mail-Adresse oder über GitHub, ORCID oder OpenAIRE erstellt werden. Die Anmeldung über ORCID wird empfohlen, da die Ersteller:innen eines Zenodo-Eintrags dadurch eindeutig identifiziert werden können.
+2. **Zenodo-Konto erstellen:** Für den Upload benötigen Sie ein Zenodo-Konto. Dieses kann mit einer E-Mail-Adresse, über GitHub, ORCID oder OpenAIRE erstellt werden. Die Anmeldung über ORCID wird empfohlen, da die Ersteller:innen eines Zenodo-Eintrags dadurch eindeutig identifiziert werden können.
+
+```{figure} /assets/zenodo_login.png
+---
+align: center
+width: 75%
+---
+Screenshot des Logins zu Zenodo.
+```
+*Quellenangabe: Screenshot des Logins zu <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
 
 3. **Dateien hochladen:** Legen Sie über **„New upload“** einen neuen Eintrag an und laden Sie die vorbereiteten Dateien hoch. Soll eine hierarchische Ordnerstruktur erhalten bleiben, können die Dateien als ZIP-Archiv hochgeladen werden.
 
-4. **Datensatz beschreiben und Zugriffsrechte festlegen:** Beschreiben Sie den Datensatz mithilfe der Metadatenfelder. Dazu gehören unter anderem **„Resource type“**, Titel, Publikationsdatum, Ersteller:innen, Beschreibung und Lizenz. Für den Eintrag kann ein neuer DOI generiert oder ein bereits zugewiesener DOI angegeben werden. Ergänzend können beispielsweise Schlagwörter, Förderinformationen oder Verknüpfungen zu verwandten Publikationen angegeben werden. Legen Sie außerdem unter **„Visibility“** fest, wie der Datensatz zugänglich sein soll.
+```{figure} /assets/zenodo_newupload.png
+---
+align: center
+width: 100%
+---
+Screenshot des Anlegens eines neuen Uploads.
+```
+*Quellenangabe: Screenshot des Anlegens eines neuen Uploads bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+
+Wenn Sie mehrere Uploads tätigen wollen, beachten Sie die Upload-Reihenfolge (bei Zenodo z. B. nach Datum, d.h. der erste Upload steht später unten). Innerhalb eines Uploads wird nach Namen sortiert, d. h. hier agieren Sie am besten mit Nummern oder stellen, wie vorgeschlagen, das ganze Datenpaket als ZIP zur Verfügung. Die Daten(pakete) können einfach per Drag-and-Drop hinzugefügt werden.
+
+```{figure} /assets/zenodo_data.png
+---
+align: center
+width: 75%
+---
+Screenshot des Drag-and-Drop-Feldes.
+```
+*Quellenangabe: Screenshot des Drag-and-Drop-Feldes eines neuen Uploads bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+
+4. **Datensatz beschreiben und Zugriffsrechte festlegen:** Beschreiben Sie den Datensatz mithilfe der Metadatenfelder. Füllen Sie so viele Felder wie möglich aus. Für den Eintrag kann ein neuer DOI generiert oder ein bereits zugewiesener DOI angegeben werden. Ergänzend können beispielsweise Schlagwörter, Förderinformationen oder Verknüpfungen zu verwandten Publikationen angegeben werden. Legen Sie außerdem unter **„Visibility“** fest, wie der Datensatz zugänglich sein soll. Hier sollte "öffentlich" der Standard sein.
+
+```{figure} /assets/zenodo_metadata.png
+---
+align: center
+width: 75%
+---
+Screenshot einiger Metadatenfelder.
+```
+*Quellenangabe: Screenshot des Anfangs der Metadatenfelder bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+
+Vergessen Sie nicht eine TOC (Table of Contents = Inhaltsverzeichnis) in der Beschreibung hinzuzufügen. Diese ermöglicht einen schnellen Überblick über die Dateien und ist nicht nur bei großen Datenpaketen hilfreich.
 
 5. **Eintrag prüfen und veröffentlichen:** Solange der Eintrag noch nicht veröffentlicht werden soll, kann er als Entwurf gespeichert werden. Prüfen Sie vor der Veröffentlichung, ob die Dateien korrekt hochgeladen und die Angaben vollständig sind. Anschließend kann der Eintrag veröffentlicht werden.
 
-Eine ausführliche englischsprachige Schritt-für-Schritt-Anleitung mit Abbildungen zum Upload von Forschungsdaten auf Zenodo finden Sie auf der Informationsplattform <a href="https://onderzoektips.ugent.be/en/tips/00002267/" class="external-link" target="_blank">Research Tips der Universität Gent</a>.
+```{figure} /assets/zenodo_publish.png
+---
+align: center
+width: 100%
+---
+Screenshot des Feldes zum Speichern des Entwurfs ("Save draft") und zum Veröffentlichen ("Publish").
+```
+*Quellenangabe: Screenshot des des Feldes zum Speichern des Entwurfs ("Save draft") und zum Veröffentlichen ("Publish") bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+
+Eine ausführliche Schritt-für-Schritt-Anleitung auf Englisch zum Upload von Forschungsdaten auf Zenodo finden Sie bei den <a href="https://onderzoektips.ugent.be/en/tips/00002267/" class="external-link" target="_blank">(Re)Search Tips</a> auf der Webseite der Universität Gent.
 
 ## Beispielszenario 
 
