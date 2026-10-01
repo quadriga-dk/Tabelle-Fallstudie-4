@@ -4,11 +4,10 @@
 In diesem Abschnitt finden Sie Informationen zur Anwendung dieser Lerneinheit und zu technischen Voraussetzungen der eingesetzten Tools.
 
 
-
 ## Anwendung
 
 ```{admonition} Hinweis
-class: hinweis
+:class: hinweis
 Ein <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">Jupyter Book</a> ist ein Open-Source-Tool, das Text und Codeblöcke darstellen kann. Dazu werden aus Markdown- und Jupyter-Notebook-Dateien HTML-Seiten erstellt. Der Code und dessen Ausgaben sind direkt eingebettet und kann über Integrationen wie Binder oder Google Colab auch interaktiv ausgeführt werden.
 ```
 Diese OER ist wie alle im Datenkompetenzzentrum QUADRIGA erstellten Lerneinheiten als Jupyter Book angelegt. Sie umfasst vor allem erklärende Texte, praxisnah beschriebene Beispiele sowie Übungen und Assessments zur Selbstüberprüfung und Reflexion. Da es keinen ausführbare Code gibt, können Sie die OER im 📘 Book-Only Mode durchzugehen. Dabei lesen Sie die Inhalte einfach wie eine interaktive Webseite im Browser. 
