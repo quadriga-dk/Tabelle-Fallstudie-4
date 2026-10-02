@@ -2,7 +2,7 @@
 
 ## Autor:innen der Inhalte
 
-### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](..assets/ORCID-iD_icon-16x16.png)</a>
+### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
 
 <table style="margin-left: 0">
 <tr>
@@ -23,7 +23,7 @@
 </tr>
 </table>
 
-### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](..assets/ORCID-iD_icon-16x16.png)</a>
+### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
 
 <table style="margin-left: 0">
 <tr>
@@ -36,7 +36,7 @@
 </tr>
 </table>
 
-### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](..assets/ORCID-iD_icon-16x16.png)</a>
+### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
 
 <table style="margin-left: 0">
 <tr>
@@ -55,7 +55,7 @@
 
 ## sonstige beteiligte Personen
 
-### Lamia Islam <a href="https://orcid.org/0009-0001-1879-9880" target="_blank">![](/assets/ORCID-iD_icon-16x16.png)</a>
+### Lamia Islam <a href="https://orcid.org/0009-0001-1879-9880" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -71,7 +71,7 @@
 </tr>
 </table>
 
-### Ralf-Gabriel Porebski<a href="https://orcid.org/0009-0001-1879-9880" target="_blank">![](/assets/ORCID-iD_icon-16x16.png)</a>
+### Ralf-Gabriel Porebski
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>

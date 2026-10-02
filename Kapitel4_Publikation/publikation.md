@@ -35,7 +35,7 @@ Wenn Sie sich für <a href="https://zenodo.org/" class="external-link" target="_
 ```{figure} /assets/zenodo_login.png
 ---
 align: center
-width: 75%
+width: 60%
 ---
 Screenshot des Logins zu Zenodo.
 ```
@@ -46,7 +46,7 @@ Screenshot des Logins zu Zenodo.
 ```{figure} /assets/zenodo_newupload.png
 ---
 align: center
-width: 100%
+width: 60%
 ---
 Screenshot des Anlegens eines neuen Uploads.
 ```
@@ -57,7 +57,7 @@ Wenn Sie mehrere Uploads tätigen wollen, beachten Sie die Upload-Reihenfolge (b
 ```{figure} /assets/zenodo_data.png
 ---
 align: center
-width: 75%
+width: 80%
 ---
 Screenshot des Drag-and-Drop-Feldes.
 ```
@@ -68,7 +68,7 @@ Screenshot des Drag-and-Drop-Feldes.
 ```{figure} /assets/zenodo_metadata.png
 ---
 align: center
-width: 75%
+width: 80%
 ---
 Screenshot einiger Metadatenfelder.
 ```
@@ -81,7 +81,7 @@ Vergessen Sie nicht eine TOC (Table of Contents = Inhaltsverzeichnis) in der Bes
 ```{figure} /assets/zenodo_publish.png
 ---
 align: center
-width: 100%
+width: 70%
 ---
 Screenshot des Feldes zum Speichern des Entwurfs ("Save draft") und zum Veröffentlichen ("Publish").
 ```

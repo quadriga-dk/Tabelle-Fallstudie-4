@@ -17,17 +17,20 @@ chapters:
       - file: Kapitel2_Einarbeiten/qualitätsprüfung
       - file: Kapitel2_Einarbeiten/vorgaben
       - file: Kapitel2_Einarbeiten/resumee
+      - file: Kapitel2_Einarbeiten/assessment
   - file: Kapitel3_Datenmanagement/einleitung
     sections:
       - file: Kapitel3_Datenmanagement/organisation
       - file: Kapitel3_Datenmanagement/erschliessung
       - file: Kapitel3_Datenmanagement/resumee
+      - file: Kapitel3_Datenmanagement/assessment
   - file: Kapitel4_Publikation/einleitung
     sections:
       - file: Kapitel4_Publikation/aufbewahrung
       - file: Kapitel4_Publikation/publikation
       - file: Kapitel4_Publikation/kommunikation
       - file: Kapitel4_Publikation/resumee
+      - file: Kapitel4_Publikation/assessment
   - file: Kapitel5_Abschluss/toc
     sections:
       - file: Kapitel5_Abschluss/fragen_und_feedback
