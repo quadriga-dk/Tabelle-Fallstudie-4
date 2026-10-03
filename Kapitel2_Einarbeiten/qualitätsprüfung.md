@@ -1,7 +1,7 @@
 (einarbeiten:qualitätsprüfung)=
 # Qualitätsprüfung
 
-In einem ersten Schritt müssen die zu publizierenden Daten einer Qualitätsprüfung unterzogen werden: genügen die Daten in der Art und Weise wie sie vorliegen den Ansprüchen? Dies gilt in Bezug auf Vollständigkeit, Plausibilität und die Einhaltung der guten wissenschaftlichen Praxis (GWP) [Link].
+Nachdem der Projektkontext nachvollzogen wurde, müssen die zu publizierenden Daten einer Qualitätsprüfung unterzogen werden, um sicherzustellen, dass die Daten in der Art und Weise wie sie vorliegen den Ansprüchengengen. Dies gilt in Bezug auf Vollständigkeit, Plausibilität und die Einhaltung der guten wissenschaftlichen Praxis (<a href="https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp" class="external-link" target="_blank">GWP</a>).
 
 ```{figure} /assets/1.2_qualitaetssicherung.png
 ---

@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende (Forschungs-)Datenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks "Planung" (s. Abb. 2.1) und den Kompetenzen "1.2 Qualitätssicherung" sowie "1.3 Ethik und Recht". 
+Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende (Forschungs-)Datenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks "Planung" (s. Abb. 2.1) und die Kompetenzen "1.2 Qualitätssicherung" sowie "1.3 Ethik und Recht". 
 
 ```{figure} /assets/1_planung.png
 ---
@@ -30,8 +30,7 @@ Die 1. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 
 ---
 
-Dabei können folgende Lernziele erreicht werden:
-(Die Lernziele mit Bezug zur <a href="https://zenodo.org/records/15025246" class="external-link" target="_blank">Lernzielmatrix</a> zum Themenbereich Forschungsdatenmanagement (FDM) von Petersen et al. (Version 3, 2025) sind durch ihre dort vergebene ID (LZ-ID) kenntlich gemacht.)
+In diesem Kapitel können die unten stehenden Lernziele erreicht werden. Die Lernziele mit Bezug zur <a href="https://zenodo.org/records/15025246" class="external-link" target="_blank">Lernzielmatrix</a> zum Themenbereich Forschungsdatenmanagement (FDM) von Petersen et al. (Version 3, 2025) sind durch ihre dort vergebene ID (LZ-ID) kenntlich gemacht.
 
 ```{include} /Kapitel1_Einstieg/lernziele.md
 :start-after: "<!-- START: Einarbeiten -->"
@@ -40,8 +39,7 @@ Dabei können folgende Lernziele erreicht werden:
 
 ---
 
-
-Wie die folgende Abbildung 2.1 zeigt, ist dieses das 1. Kapitel bzw. der 1. Schritt dieses Lehrbuchs.
+Wie die folgende Abbildung 2.2 zeigt, ist dieses Kapitel der 1. von 3 Teilen dieser OER.
 
 ```{figure} /assets/steps_cs4-1.png
 ---
@@ -52,29 +50,22 @@ Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
 ```
 
 
-Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Arbeitsprozesses der "Planung". 
+Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Forschungsprozesses der "Planung". In Bezug auf ein nachträgliches Veröffentlichen von Forschungsdaten bedeutet das: Je nachdem, ob Sie die Forschungsdaten eines eigenen oder "fremden" Projektes publizieren wollen, müssen Sie sich einen Überblick über den Kontext verschaffen. In jedem Fall sollten Sie die zur Publikation vorgesehenen Daten einer Qualitätsprüfung unterziehen. Darüber hinaus gilt es, einige juristische Aspekte und Vorgaben zu beachten.
 
-In Bezug auf ein nachträgliches Veröffentlichen von Forschungsdaten bedeutet das: Je nachdem, ob Sie die Forschungsdaten eines eigenen oder "fremden" Projektes publizieren wollen, müssen Sie sich einen Überblick über den Kontext verschaffen. In jedem Fall sollten Sie die zur Publikation vorgesehenen Daten einer Qualitätsprüfung unterziehen. Darüber hinaus gilt es, einige juristische Aspekte und sonstige Vorgaben zu beachten.
-
-Dieses Kapitel ist dementsprechend in folgende 3 Unterkapitel sowie ein abschließendes Resümee unterteilt:
+Dieses Kapitel ist in 3 Unterkapitel, ein abschließendes Resümee sowie ein Assessment unterteilt:
 
 - [Überblick verschaffen](einarbeiten:einordnung)
 - [Qualitätsprüfung](einarbeiten:qualitätsprüfung)
 - [Vorgaben und Juristisches](einarbeiten:vorgaben)
 - [Resümee](einarbeiten:resumee)
+- [Assessment](einarbeiten:assessment)
 
 ---
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
-
-Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ... Minuten.
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 20 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
 ``` 
 
----
-
-**mögliche Literatur:**
-- LZM
