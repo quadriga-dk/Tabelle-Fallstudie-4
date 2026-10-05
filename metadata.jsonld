@@ -195,19 +195,13 @@
           "@type": "AlignmentObject",
           "targetName": "Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM 01_001_0008)",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Lernende können Qualitätskriterien für eine Datenpublikation benennen/erläutern (LZM 04_003_0852/53)",
+          "targetName": "Lernende können Qualitätskriterien für eine Datenpublikation benennen (LZM 04_003_0852)",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Lernenden können Datenqualität bewerten. (LZ-ID 02_012_0447)",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
+          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 1 Erinnern | Data Flow: 1 Planung"
         },
         {
           "@type": "AlignmentObject",
