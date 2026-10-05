@@ -11,7 +11,6 @@ In den zurückliegenden Kapiteln haben Sie erfahren, wie Sie:
 Wenn Sie alle Unterkapitel durchgegangen sind und die Übungen absolviert haben, sollten Sie nun:
 - Beispiele für Forschungsdaten benennen,
 - Qualitätskriterien für eine Datenpublikation benennen/erläutern,
-- die Qualität von Daten bewerten und
 - vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen können.
 
 Folgende wichtige Punkte sollten Sie mitnehmen:
