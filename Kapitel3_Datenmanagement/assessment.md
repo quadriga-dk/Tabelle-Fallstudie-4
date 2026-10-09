@@ -10,6 +10,7 @@ kernelspec:
   name: python3
 ---
 
+(datenmanagement:assessment)=
 # 🏆Selbsttest: Datenmanagement
 ````{admonition} Hinweis
 :class: hinweis, dropdown

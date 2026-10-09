@@ -52,19 +52,18 @@ Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 2. Schrittes.
 
 ---
 
-Entsprechend den Kompetenzen finden Sie hier folgende 2 Unterkapitel und ein Resümee:
+Entsprechend den Kompetenzen finden Sie hier 2 inhaltsvermittelnde Unterkapitel, ein Resümee und einen Selbsttest:
 
 - [Organisation](datenmanagement:organisation)
 - [Erschließung](datenmanagement:erschliessung)
 - [Resümee](datenmanagement:resümee)
+- [Assessment](datenmanagement:assessment)
 
 ---
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 20 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
 
-Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ... Minuten.
-
-Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann unterschiedlich ausfallen, zumal hier das Erstellen eines Datenmanagementplans nur beschrieben ist - das tatsächliche Ausfüllen dauert länger. Die angegebene Zeitangabe dient dementsprechend nur als Orientierungshilfe.
 ``` 
