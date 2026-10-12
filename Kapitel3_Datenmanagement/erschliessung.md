@@ -14,31 +14,29 @@ Die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks.
 
 ---
 
-Schritte sind u. a.:
-- Metadaten (Angabe von Metadaten nach Konventionen der Disziplin)
-- FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*) -> dazu auch FAIRification von FD-Objekten: https://datascience.codata.org/articles/dsj-2021-004 
-- README (README-Datei zur Dokumentation Anlegen)
-
 ## Ausgangslage
 
 Im Rahmen der Erschließung der Daten, müssen **Metadaten** vergeben werden, wenn das an anderer Stelle noch nicht geschehen ist. Dies sollte nach den Konventionen der Disziplin geschehen, aus der die Forschungsdaten stammen.  
-Die Daten und Metadaten sollten eine **FAIRifizierung** durchlaufen, d. h. möglichst vollständig beschrieben werden. Dazu sollte, wo es möglich ist, auf Standards zurückgegriffen werden.   
+Die Daten und Metadaten sollten eine **FAIRifizierung** durchlaufen, d. h. möglichst vollständig beschrieben werden. Dazu sollte, wo es möglich ist, auf Standards zurückgegriffen und Interoperabilität hergestellt werden.   
 Auch eine **README** gehört zu einer guten Datenbeschreibung. Darin sollten Sie alles dokumentieren, was Nachnutzende über die Daten wissen sollten.
 
 ## Vorgehen
 
 **Metadaten**
 
-Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt. Eine gute <a href="https://rdamsc.bath.ac.uk/" class="external-link" target="_blank">Übersicht</a> über Metadatenstandards hat die englische Universität Bath angelegt. 
+Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt. Ein Übersicht über internationale Standards finden Sie beispielsweise:
+- im <a href="https://rdamsc.bath.ac.uk/" class="external-link" target="_blank">Metadata Standards Catalog</a> der englischen Universität Bath 
+- auf der Webseite von <a href="https://fairsharing.org/" class="external-link" target="_blank">FAIRsharing</a>
 
 Die folgende Übersicht zeigt zudem beispielhaft einige etablierte Metadatenstandards verschiedener Fachdisziplinen.
 
 | Disziplin | Metadatenstandard | Organisation | Quelle |
 |---|---|---|---|
+| Fachübergreifend | DataCite Metadata Schema | DataCite | {cite}`datacite_2026` |
+|---|---|---|---|
 | Astronomie | IVOA Technical Specifications | IVOA | {cite}`ivoa_2026` |
 | Bauwesen/Stadtplanung | XPlanung (ergänzt durch XBau) | XLeitstelle | {cite}`xleitstelle_2018` |
 | Biodiversität | Darwin Core | TDWG | {cite}`wieczorek_et_al_2012` |
-| Fachübergreifend | DataCite Metadata Schema | DataCite | {cite}`datacite_2026` |
 | Geisteswissenschaften | TEI (Text Encoding Initiative) | TEI Consortium | {cite}`tei_consortium_2026` |
 | Geodaten | ISO 19115 | ISO | {cite}`iso_19115_2014` |
 | Klimaforschung | CF Conventions | CF Conventions Community | {cite}`cf_conventions_2026` |
@@ -46,21 +44,23 @@ Die folgende Übersicht zeigt zudem beispielhaft einige etablierte Metadatenstan
 | Medizin | CDISC (u. a. CDASH, SDTM, ODM) | CDISC | {cite}`cdisc_2026` |
 | Sozialwissenschaften | DDI (Data Documentation Initiative) | DDI Alliance | {cite}`ddi_alliance_2026` |
 
-Eine übergreifende Übersicht bietet zudem <a href="https://fairsharing.org" class="external-link" target="_blank">FAIRsharing</a> {cite}`sansone_et_al_2019`.
+
+Darüber hinaus finden Sie Informationen zu fachspezifischen Standards bei den Konsortien der Nationalen Forschungsdaten Infrastruktur (<a href="https://www.nfdi.de/konsortien/" class="external-link" target="_blank">NFDI</a>) sowie deren Sektion <a href="https://www.nfdi.de/section-metadata/" class="external-link" target="_blank">(Meta)data, Terminolgies, Provenance</a>.
 
 ---
 
 **FAIRifizierung**
 
-Prüfen Sie, ob die Beschreibung der Daten vollständig ist. Maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
+Für die FAIRifizierung von Daten ist vor allem die Vergabe eines Persistenten Identifikators (PID), beispielsweise eines Digital Object Identifiers (DOI) von Bedeutung. Diesen erhalten Sie in der Regel automatisch von dem Repositorium, in dem Sie Ihre Forschungsdaten veröffentlichen wollen (s. [Kapitel 4 Publikation](publikation:einleitung)). 
+Prüfen Sie darüber hinaus, ob die Beschreibung der Daten vollständig ist und maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
 
 `````{admonition} Weitere Informationen
 :class: tip
 
-Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und Reifegradmodellen als auch mit automatisierten Prüfwerkzeugen unterstützt werden. Eine ausführliche Einführung in die FAIR-Prinzipien sowie weitere Hintergrundinformationen finden Sie bereits in der <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">1. Fallstudie, Kapitel 3.1 „FAIR-Prinzipien“</a>. Dort werden unter anderem folgende Ansätze vorgestellt:
+Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und Reifegradmodellen als auch mit automatisierten Prüfwerkzeugen unterstützt werden. Eine ausführliche Einführung in die FAIR-Prinzipien sowie weitere Hintergrundinformationen finden Sie in dem <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Kapitel 3.1 „FAIR-Prinzipien“</a> der QUADRIGA-OER <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html" class="external-link" target="_blank">Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht</a>. Dort werden unter anderem folgende Ansätze vorgestellt:
 
-- **Checkliste:** die kompakte FAIR-Checkliste von Jones und Grootveld (2017)
-- **Webtool:** das deutschsprachige <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), basierend auf dem FAIR Assessment Tool der Australian Research Data Commons
+- **Checkliste:** eine kompakte <a href="https://zenodo.org/records/5111307" class="external-link" target="_blank">FAIR-Checkliste</a> von Jones und Grootveld (2017)
+- **Webtool:** das deutschsprachige <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), basierend auf dem FAIR Assessment Tool der <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/" class="external-link" target="_blank">Australian Research Data Commons</a>
 - **FAIR Data Maturity Model:** das detaillierte Reifegradmodell der <a href="https://www.rd-alliance.org/groups/fair-data-maturity-model-wg/outputs/?output=94549" target="_blank">Research Data Alliance</a> (RDA), auf <a href="https://zenodo.org/records/5834115" target="_blank">Deutsch</a> verfügbar über das Projekt <a href="https://www.ecodm.de/" target="_blank">EcoDM</a>
 
 Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Prüfwerkzeuge zur Verfügung. Diese bewerten die FAIRness eines Datensatzes anhand eines Persistent Identifiers (PID) oder einer URL und geben unmittelbar Rückmeldung darüber, welche FAIR-Kriterien bereits erfüllt sind und wo Verbesserungsbedarf besteht.
@@ -118,19 +118,9 @@ Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei di
 Als ergänzende Hilfestellung stellt <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Cornell Data Services</a> eine ausführliche Anleitung sowie eine frei verfügbare Vorlage für README-Dateien bereit.
 
 ```{admonition} Weitere Materialien
-class: seealso
+:class: seealso
 Vor allem die Methodischen Informationen variieren naturgemäß stark zwischen den Fachrichtungen. Einzelne NFDI-Konsortien haben daher eigene Tempaltes für READMEs erstellt, so zum Beispiel die <a href="https://zenodo.org/records/21619429" class="external-link" target="_blank">NFDI4Chem</a>. 
 ```
-
-
-## Beispiel Szenario Q-LCA 
-
-*Speziellen Fall unseres Szenarios schildern, z. B. In dem in diesem Szenario abgebildeten Fall ist eine Qualitätsprüfung nicht notwendig, weil die Daten bereits gut aufgearbeitet vorliegen.*
-
-## Learnings
-
-*können möglicherweise auch ins Resümee*
-*Ableitung von generischen Lösungen, die interdisziplinär oder wenigstens über das Beispielszenario hinaus Anwendung finden können.*
 
 ---
 
