@@ -14,6 +14,11 @@ Die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks.
 
 ---
 
+Schritte sind u. a.:
+- Metadaten (Angabe von Metadaten nach Konventionen der Disziplin)
+- FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*) -> dazu auch FAIRification von FD-Objekten: https://datascience.codata.org/articles/dsj-2021-004 
+- README (README-Datei zur Dokumentation Anlegen)
+
 ## Ausgangslage
 
 Im Rahmen der Erschließung der Daten, müssen **Metadaten** vergeben werden, wenn das an anderer Stelle noch nicht geschehen ist. Dies sollte nach den Konventionen der Disziplin geschehen, aus der die Forschungsdaten stammen.  

@@ -37,36 +37,27 @@ Das oben genannte Datenmanagement wird durch das Verfassen eines DMP erreicht. W
 *Nochmal eingehen auf Auswahl und clusterung der daten*
 *Eingehen auf Datenbenennung*
 
-Im Beispielszenario 'Q-LCA Forschungsdatenveröffentlichung' musste ein DMP nachträglich verfasst werden, weil während der Projektlaufzeit noch keiner angelegt wurde. Dazu wurde das Tool Research Data Management Organiser <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO</a> verwendet. Zu den Vorteilen von RDMO gehört, dass es in Deutschland entwickelt wurde und daher auf die spezifischen Förderbedingungen und die Rechtslage Bezug nehmen kann. Anhand eines Fragenkatalogs werden Aussagen über das Projekt und die darin entstandenen Forschungsdaten zusammengestellt und ein DMP angefertigt. Darüber hinaus können Werte importiert und der DMP in verschiedenen Formaten (darunter XML, CSV und JSON) exportiert werden (s. Abb. 3.4).
+Im Beispielszenario 'Q-LCA Forschungsdatenveröffentlichung' musste ein DMP nachträglich verfasst werden, weil während der Projektlaufzeit noch keiner angelegt wurde. Dazu wurde das Tool Research Data Management Organiser <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO</a> verwendet. Zu den Vorteilen von RDMO gehört, dass es in Deutschland entwickelt wurde und daher auf die spezifischen Förderbedingungen und die Rechtslage Bezug nehmen kann. Anhand eines Fragenkatalogs werden Aussagen über das Projekt und die darin entstandenen Forschungsdaten zusammengestellt und ein DMP angefertigt. Darüber hinaus können Werte importiert und der DMP in verschiedenen Formaten exportiert werden (s. weiter unten, Abb. 3.6).
 
-```{figure} /assets/dmp_export.png
----
-align: center
-width: 100%
----
-Exportmöglichkeiten eines DMP bei RDMO Brandenburg.
-```
-*Quellenangabe: Screenshot der Exportmöglichkeiten eines DMP bei <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO Brandenburg</a> vom 09.10.2026.*
+Dieses Unterkapitel führt Sie durch das Anlegen eines DMP am Beispiel des DMP für das Projekt Q-LCA. Bitte beachten Sie: Um selbst einen DMP anzulegen, müssen Sie sich registrieren - z. B. für den <a href="https://rdmo.fdm-bb.de/account/signup/" class="external-link" target="_blank">Brandenburger RDMO-Dienst</a>. Falls Sie sich nicht registrieren wollen oder können, werden Sie durch Beispielbilder trotzdem in der Lage sein, dem Erstellen eines Datenmanagementplans zu folgen.
 
-Dieses Unterkapitel führt Sie Schritt für Schritt durch das Anlegen eines DMP am Beispiel des DMP für das Projekt Q-LCA. Bitte beachten Sie: Um selbst einen DMP anzulegen, müssen Sie sich registrieren - z. B. für den <a href="https://rdmo.fdm-bb.de/account/signup/" class="external-link" target="_blank">Brandenburger RDMO-Dienst</a>. Falls Sie sich nicht registrieren wollen oder können, werden Sie durch Beispielbilder trotzdem in der Lage sein, dem Erstellen eines Datenmanagementplans zu folgen.
-
-Nach der Anmeldung erstellen Sie ein neues Projekt, indem Sie auf den entsprechenden Button klicken. Dieses muss benannt und ein Fragenkatalog ausgewählt werden (s. Abb. 3.5). Der Katalog DFG in der Version 5 sei dabei empfohlen, weil er die <a href="hhttps://www.dfg.de/resource/blob/172112/4ea861510ea369157afb499e96fb359a/leitlinien-forschungsdaten-data.pdf" class="external-link" target="_blank">Leitlinien zum Umgang mit Forschungsdaten</a> mit der <a href="https://www.dfg.de/de/grundlagen-themen/digitale-themen/forschungsdaten" class="external-link" target="_blank">Checkliste zum Umgang mit Forschungsdaten</a> der DFG verbindet. Optional können Sie das Projekt zusätzlich einem übergeordneten Projekt zuweisen.
+Nach der Anmeldung erstellen Sie ein neues Projekt, indem Sie auf den entsprechenden Button klicken. Dieses muss benannt und ein Fragenkatalog ausgewählt werden (s. Abb. 3.4). Der Katalog DFG in der Version 5 sei dabei empfohlen, weil er die <a href="hhttps://www.dfg.de/resource/blob/172112/4ea861510ea369157afb499e96fb359a/leitlinien-forschungsdaten-data.pdf" class="external-link" target="_blank">Leitlinien zum Umgang mit Forschungsdaten</a> mit der <a href="https://www.dfg.de/de/grundlagen-themen/digitale-themen/forschungsdaten" class="external-link" target="_blank">Checkliste zum Umgang mit Forschungsdaten</a> der DFG verbindet. Optional können Sie das Projekt zusätzlich einem übergeordneten Projekt zuweisen.
 
 ```{figure} /assets/dmp_neues_projekt.png
 ---
 align: center
-width: 33%
+width: 50%
 ---
 Eingabemaske zum Anlegen eines neuen Projektes bei RDMO Brandenburg.
 ```
 *Quellenangabe: Screenshot der Eingabemaske zum Anlegen eines neuen Projektes bei <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO Brandenburg</a> vom 09.10.2026.*
 
-Nachdem das Projekt angelegt wurde, müssen über den Button 'Fragen beantworten' Aussagen zum Projekt und den im Projekt erhobenen Daten eingegeben werden (s. Abb. 3.6).
+Nachdem das Projekt angelegt wurde, müssen über den Button 'Fragen beantworten' Aussagen zum Projekt und den im Projekt erhobenen Daten eingegeben werden (s. Abb. 3.5).
 
 ```{figure} /assets/dmp_fragen_beantworten.png
 ---
 align: center
-width: 33%
+width: 50%
 ---
 Projektansicht mit dem Button 'Fragen beantworten' oben rechts bei RDMO Brandenburg.
 ```
@@ -76,26 +67,27 @@ Anschließend fügen Sie die Datensätze hinzu, die im Projekt entstanden sind. 
 
 ```{admonition} Hinweis
 :class: hinweis
-Die Benennung der Forschungsdaten ist nicht trivial. Überlegen Sie sich eine sinnvolle Ordnung und Zusammenstellung und behalten Sie diese bei. Das im DMP als "FD3_Bilanzierungstool" bezeichnete Datum bzw. Datenpaket sollte auf der Veröffentlichungsplattform genauso heißen. Die Zusammenfassung von Forschungsdaten zu Paketen hat den Vorteil, dass Sie die Dateibenennung, die sich während des Projektes etabliert hat, nicht ändern zu müssen. So lassen sich beispielsweise verschiedene Screenshots in einem Paket "FD4_Screenshots" zusammenfassen. 
+Die Benennung der Forschungsdaten ist nicht trivial. Überlegen Sie sich eine sinnvolle Ordnung und Zusammenstellung und behalten Sie diese bei. Das im DMP als "FD3_Bilanzierungstool" bezeichnete Datum bzw. Datenpaket sollte auf der Veröffentlichungsplattform genauso heißen. Die Zusammenfassung von Forschungsdaten zu Paketen hat den Vorteil, dass Sie die Dateibenennung, die sich während des Projektes etabliert hat, nicht ändern müssen. So lassen sich beispielsweise verschiedene Screenshots in einem Paket "FD4_Screenshots" zusammenfassen. 
 ``` 
-
-Schritte sind u. a.:
-
-- Dateibenennung (Benennung der Forschungsdaten nach einem Schema) -> Hier gilt es mitzunehmen, dass die Dateibenennung im Nachhinein sehr mühsam ist und das aufzupassen ist, dass keine Verständigungsprobleme auftauchen
-- Metadaten (Angabe von Metadaten nach Konventionen der Disziplin)
-- FAIRifizierung/FAIRification (Vollständigkeit der Beschreibung, Maximierung der Interoperabilität (was kann standardisiert werden -> nach ISO), *hier u. a. auch Formate*) -> dazu auch FAIRification von FD-Objekten: https://datascience.codata.org/articles/dsj-2021-004 
-- README (README-Datei zur Dokumentation Anlegen)
 
 Übrigens: RDMO speichert Ihren Fortschritt. Sie müssen also nicht alles in einer Sitzung bearbeiten und fertigstellen.
 
+Am Ende liegt ein Überblick über Ihre Daten vor, der je nach Fragenkatalog verschieden beschrieben ist. Diese sind nun übersichtlich gegliedert und lassen sich u. a. als PDF, Office Dokument oder Markdown Datei exportieren (s. Abb. 3.6). 
+
+```{figure} /assets/dmp_export.png
+---
+align: center
+width: 50%
+---
+Exportmöglichkeiten eines DMP bei RDMO Brandenburg.
+```
+*Quellenangabe: Screenshot der Exportmöglichkeiten eines DMP bei <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO Brandenburg</a> vom 09.10.2026.*
+
 ## Learnings
 
-- Struktur soweit wie möglich aus dem Projekt übernehmen (Strukturen und Benennungen sind nicht ohne Grund entstanden und folgen einer Logik)
-- Für Quadriga mitnehmen: Dateibenennung im Nachhinein mühsam, aufpassen, dass keine Verständigungsprobleme entstehen.
-- Merke Quadriga: Benennung der Dateien schwierig, oft Anpassungen von Partnern, am Ende muss viel glatt gezogen werden
+Übernehmen Sie die Struktur der Daten soweit wie möglich aus dem Projekt. Diese ist in der Regel nicht ohne Grund entstanden und lässt sich durch eine Dokumentation auch nachvollziehen. Diese Struktur kann der Grundaufbau der Datenbereitstellung sein. Diese sollte egal ob als ZIP, Gesamt- oder Teil-ZIP eine logische Ordnung und Clusterung aufweisen.  
 
-- auch die Bereitstellung war ein Thema (als ZIP, Gesamt-ZIP, Teil-ZIP) -> logische Ordnung und Clusterung
-- Versionierung und Dateibenennung Kompetenzen, die gebraucht werden, wenn man nachträglich aufarbeitet
+In Bezug auf die Dateibenennung sollte beachtet werden, dass zwar einerseits eine verständliche Benennung sinnvoll ist, andererseits bei einer Umbenennung im Nachhinein Vorsicht geboten ist. Die Entwicklung von Dateibenennungen im Projekt folgt oft einer eigenen Logik und ein nachträgliches Umbenennen kann zu Verständigungsproblemen führen. Darüber hinaus ist diese sehr fehleranfällig. Es gilt also einen guten Mittelweg zu finden und eine einmal getroffene Entscheidung konsequent durchzuführen.
 
 ---
 
@@ -107,11 +99,6 @@ Schritte sind u. a.:
 - 5-minütiges Video "Datenmanagement nach Plan" von Schmitz et al. (2019) unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://publications.rwth-aachen.de/record/751109" class="external-link" target="_blank">RWTH Aachen</a>
 ```
 
----
+Im nächsten Unterkapitel stehen Metadaten, die FAIRifizierung von Datensätzen und das Anlegen einer README-Datei im Fokus. Diese Aspekte können zwar auch Teil des DMP sein, gehören aber zur Kompetenz "Erschließung".
 
-**Literatur**
-
-```{bibliography}
-:filter: docname in docnames
-```
 
