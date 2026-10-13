@@ -95,25 +95,15 @@ Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fi
 
 Die veröffentlichten Daten finden Sie hier: https://zenodo.org/records/17866716 
 
-- aus Cloud runterladen, alles durchgehen, ob alles richtig ist (Qualiprüfung); kontrollieren, ob alles geht (in diesem FAll gab es eine interaktive Tabelle und das Hin- und Herreichen der Tabelle führte zu Anzeigeproblemen (auch Mac/Windows-Problem) -> Prüfen, dass hochgeladene Version dem Original in seiner Interaktivität entspricht)
-- auch alles andere prüfen: FD-Bericht, Struktur und Ordnung des Uploads etc.
-- zudem: bei allen Dateien administrative Metadaten mitnehmen
-- Publikation aus Sicherheitsgründen zudem in RADAR (Zweitveröffentlichung; institutionelles Repo)
-- Paket benennen/beschreiben (Community Nachhaltige Quartiers- und Stadtentwicklung) -> mehrere Veröffentlichung, die zum Projekt gehören, mussten geordnet werden.
+## Zusammenfassung 
 
-## Learnings
+Legen Sie sich für den Upload bei Zenodo Dummie-Dateien an. Im Entwurfsmodus muss eine Datei eingestellt werden - sonst können Sie den Upload nicht (zwischen)speichern. Eine Dummie-Datei ermöglicht Ihnen also die Metadaten in Ruhe auszufüllen.
 
-**Zenodo-Upload**
-- Dummies angelegt, weil eine Datei im Entwurfsmodus eingestellt werden muss -> dann in Ruhe Metadaten ausgefüllt
-- Achten Sie auf die Reihenfolge des Uploads und die Benennung der Dateien, da dies Auswirkungen auf die Anzeigereihenfolge hat.
+Achten Sie auf die Reihenfolge des Uploads und die Benennung der Dateien, da dies Auswirkungen auf die Anzeigereihenfolge hat. Die meisten Repositorien sollten die Dateien nach der Benennung sortieren und nicht nach der Uploadreihenfolge.
+
+Achten Sie zudem auf die DOI-Vergabe. Da die Forschungsdaten einen DOI (bzw. einen anderen PID) erhalten, den Sie aber in einer README oder einem Forschungsdatenbericht nennen wollen, der Teil der Forschungsdatenpublikation ist, sollten Sie sich die benötigten DOIs vorher reservieren, damit Sie sie in die Dokumente eintragen können.
 
 ---
-
-
-In dem hier skizzierten Fall der nachträglichen Publikation von Forschungsdaten sind also folgende Aspekte zu beachten:
-- Wenn man Daten publiziert, muss man vielleicht alles andere nochmal publizieren, weil man für alles eine DOI braucht (Problem der Gleichzeitigkeit, s. auch Abschnitt ? DMP in Kapitel 4 Datenmanagment [Link]).
-
-*Die vom Projekt ausgemachten Qualitätskriterien zur Veröffentlichung sollten hier selbstverständlich Erwähnung finden:*
 
 ```{admonition} Zusätzliche Materialien
 :class: seealso
