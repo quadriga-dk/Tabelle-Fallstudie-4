@@ -230,18 +230,6 @@
           "targetName": "Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen. (LZ-ID 01_006_0109)",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern. (LZ-ID 01_006_0110)",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         }
       ]
     },

@@ -119,16 +119,6 @@ chapters:
     competency: 3.1 Organisation
     data-flow: 3 Management
     blooms-category: 2 Verstehen
-  - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung
-      von Datenmanagementplänen aus Sicht von Forschenden benennen. (LZ-ID 01_006_0109)
-    competency: 3.1 Organisation
-    data-flow: 3 Management
-    blooms-category: 1 Erinnern
-  - learning-objective: Lernende können Best Practice-Beispiele für die Verwendung
-      von Datenmanagementplänen aus Sicht von Forschenden erläutern. (LZ-ID 01_006_0110)
-    competency: 3.1 Organisation
-    data-flow: 3 Management
-    blooms-category: 2 Verstehen
 - title: Publikation
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
