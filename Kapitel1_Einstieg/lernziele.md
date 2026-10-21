@@ -21,7 +21,7 @@ Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. E
 2. Lernende können Qualitätskriterien für eine Datenpublikation benennen (LZM 04_003_0852)
 <!-- competency: 1.2 Qualitätssicherung | bloom: 1 Erinnern -->
 <!-- learning-goal: Prüfung von rechtlichen Vorgaben zur Datenveröffentlichung -->
-4. Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen. (LZM 04_003_0851)
+3. Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen. (LZM 04_003_0851)
 <!-- competency: 1.3 Ethik und Recht | bloom: 3 Anwenden -->
 ```
 <!-- END: Einarbeiten -->
@@ -33,10 +33,6 @@ Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. E
 1. Lernende können Bestandteile eines Datenmanagementplans benennen. (LZ-ID 01_006_0092)
 <!-- competency: 3.1 Organisation | bloom: 1 Erinnern -->
 2. Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)
-<!-- competency: 3.1 Organisation | bloom: 2 Verstehen -->
-3. Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden benennen. (LZ-ID 01_006_0109)
-<!-- competency: 3.1 Organisation | bloom: 1 Erinnern -->
-4. Lernende können Best Practice-Beispiele für die Verwendung von Datenmanagementplänen aus Sicht von Forschenden erläutern. (LZ-ID 01_006_0110)
 <!-- competency: 3.1 Organisation | bloom: 2 Verstehen -->
 ```
 <!-- END: Datenmanagement -->
