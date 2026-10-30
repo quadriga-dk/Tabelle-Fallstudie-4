@@ -1,0 +1,145 @@
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v2.0.0/schema.json
+title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten
+  für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.'
+authorLIST:
+- familyName: Walter
+  givenName: Paul
+  orcid: https://orcid.org/0000-0002-9236-3268
+  affiliation: Fachhochschule Potsdam
+  creditLIST:
+  - Conceptualization
+  - Methodology
+  - Validation
+  - Writing – original draft
+  - Writing – review & editing
+- familyName: Plomin
+  givenName: Jana
+  orcid: https://orcid.org/0000-0003-0127-7493
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+  creditLIST:
+  - Methodology
+  - Validation
+  - Writing – original draft
+  - Writing – review & editing
+- familyName: Neuroth
+  givenName: Heike
+  orcid: https://orcid.org/0000-0002-3637-3154
+  affiliation: Fachhochschule Potsdam
+  creditLIST:
+  - Conceptualization
+  - Methodology
+  - Funding acquisition
+keywordLIST:
+- de: Verwaltung
+- de: Verwaltungswissenschaft
+- en: Public Sector
+- de: Tabelle
+- de: Lerneinheit
+- en: Open Educational Resource
+- de: Forschungsdatenpublikation
+- de: FAIR
+- de: Datenfluss
+- de: Datenkompetenzframework
+description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das
+  nachträgliche Publizieren von (Forschungs-)Daten.
+tableOfContents: |-
+  - Einstieg
+  - Einarbeiten
+  - Datenmanagement
+  - Publikation
+  - Abschluss
+disciplineLIST:
+- übergreifend
+researchObjectTypeLIST:
+- Tabelle
+- übergreifend
+targetGroupLIST:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+timeRequired: TODO
+language: de
+contributorLIST:
+- familyName: Schnaitter
+  givenName: Hannes
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+  creditLIST:
+  - Software
+  - Validation
+  - Writing – review & editing
+identifier: TODO
+identifierGit: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
+identifierOER: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
+prerequisiteLIST:
+- keine
+usedToolLIST:
+- name: keine
+  url: keine
+chapterLIST:
+- title: Einarbeiten
+  description: TODO
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html
+  timeRequired: TODO
+  learningGoal: Forschungsdaten erkennen
+  learningObjectiveLIST:
+  - description: Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM 01_001_0008)
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 1 Erinnern
+  - description: Lernende können Qualitätskriterien für eine Datenpublikation benennen (LZM 04_003_0852)
+    competency: 1.2 Qualitätssicherung
+    dataFlow: 1 Planung
+    bloomsCategory: 1 Erinnern
+  - description: Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen.
+      (LZM 04_003_0851)
+    competency: 1.3 Ethik und Recht
+    dataFlow: 1 Planung
+    bloomsCategory: 3 Anwenden
+- title: Datenmanagement
+  description: TODO
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html
+  timeRequired: TODO
+  learningGoal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation, Datenmanagementpläne
+  learningObjectiveLIST:
+  - description: Lernende können Bestandteile eines Datenmanagementplans benennen. (LZ-ID 01_006_0092)
+    competency: 3.1 Organisation
+    dataFlow: 3 Management
+    bloomsCategory: 1 Erinnern
+  - description: Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)
+    competency: 3.1 Organisation
+    dataFlow: 3 Management
+    bloomsCategory: 2 Verstehen
+- title: Publikation
+  description: TODO
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
+  timeRequired: TODO
+  learningGoal: Kompetenz Aufbewahrung
+  learningObjectiveLIST:
+  - description: Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung, Publikation
+      oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
+    competency: 5.1 Aufbewahrung
+    dataFlow: 5 Publikation und Nachnutzung
+    bloomsCategory: 3 Anwenden
+  - description: Lernende können den Begriff Datenpublikation erläutern. (LZ-ID 04_003_0842)
+    competency: 5.2 Datenpublikation
+    dataFlow: 5 Publikation und Nachnutzung
+    bloomsCategory: 2 Verstehen
+  - description: Lernende können Beispiele der Wissenschaftskommunikation benennen.
+    competency: 5.3 Kommunikation
+    dataFlow: 5 Publikation und Nachnutzung
+    bloomsCategory: 1 Erinnern
+dateIssued: 2025-12-19
+dateModified: 2025-12-19
+version: 0.0.1
+contextOfCreation: |-
+  Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+
+  Förderkennzeichen: 16DKZ2034
+qualityAssurance:
+  description: https://doi.org/10.5281/zenodo.18953896
+  date: 2025-12-19
+learningResourceType: Jupyter Book
+schemaVersion: 2.0.0
+license: https://creativecommons.org/licenses/by/4.0/
