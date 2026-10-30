@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v2.0.0/schema.json
-title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten
-  für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.'
+title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
+  Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
+  Tabelle 4.'
 authorLIST:
 - familyName: Walter
   givenName: Paul
@@ -40,14 +41,17 @@ keywordLIST:
 - de: FAIR
 - de: Datenfluss
 - de: Datenkompetenzframework
-description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das
-  nachträgliche Publizieren von (Forschungs-)Daten.
-tableOfContents: |-
-  - Einstieg
+description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt
+  für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
+tableOfContents: '- Einstieg
+
   - Einarbeiten
+
   - Datenmanagement
+
   - Publikation
-  - Abschluss
+
+  - Abschluss'
 disciplineLIST:
 - übergreifend
 researchObjectTypeLIST:
@@ -84,16 +88,18 @@ chapterLIST:
   timeRequired: TODO
   learningGoal: Forschungsdaten erkennen
   learningObjectiveLIST:
-  - description: Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM 01_001_0008)
+  - description: Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM
+      01_001_0008)
     competency: Orientierungswissen
     dataFlow: übergreifend
     bloomsCategory: 1 Erinnern
-  - description: Lernende können Qualitätskriterien für eine Datenpublikation benennen (LZM 04_003_0852)
+  - description: Lernende können Qualitätskriterien für eine Datenpublikation benennen
+      (LZM 04_003_0852)
     competency: 1.2 Qualitätssicherung
     dataFlow: 1 Planung
     bloomsCategory: 1 Erinnern
-  - description: Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen.
-      (LZM 04_003_0851)
+  - description: Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation
+      umsetzen. (LZM 04_003_0851)
     competency: 1.3 Ethik und Recht
     dataFlow: 1 Planung
     bloomsCategory: 3 Anwenden
@@ -101,13 +107,16 @@ chapterLIST:
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html
   timeRequired: TODO
-  learningGoal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation, Datenmanagementpläne
+  learningGoal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation,
+    Datenmanagementpläne
   learningObjectiveLIST:
-  - description: Lernende können Bestandteile eines Datenmanagementplans benennen. (LZ-ID 01_006_0092)
+  - description: Lernende können Bestandteile eines Datenmanagementplans benennen.
+      (LZ-ID 01_006_0092)
     competency: 3.1 Organisation
     dataFlow: 3 Management
     bloomsCategory: 1 Erinnern
-  - description: Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)
+  - description: Lernende können Bestandteile eines Datenmanagementplans erläutern.
+      (LZ-ID 01_006_0093)
     competency: 3.1 Organisation
     dataFlow: 3 Management
     bloomsCategory: 2 Verstehen
@@ -117,8 +126,8 @@ chapterLIST:
   timeRequired: TODO
   learningGoal: Kompetenz Aufbewahrung
   learningObjectiveLIST:
-  - description: Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung, Publikation
-      oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
+  - description: Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung,
+      Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
     competency: 5.1 Aufbewahrung
     dataFlow: 5 Publikation und Nachnutzung
     bloomsCategory: 3 Anwenden
@@ -133,10 +142,11 @@ chapterLIST:
 dateIssued: 2025-12-19
 dateModified: 2025-12-19
 version: 0.0.1
-contextOfCreation: |-
-  Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum
+  QUADRIGA erstellt.
 
-  Förderkennzeichen: 16DKZ2034
+
+  Förderkennzeichen: 16DKZ2034'
 qualityAssurance:
   description: https://doi.org/10.5281/zenodo.18953896
   date: 2025-12-19

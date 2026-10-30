@@ -35,6 +35,12 @@ keywords: &id002
 - Datenfluss
 - Datenkompetenzframework
 license: CC-BY-4.0
+references:
+- title: Jupyter Book
+  type: software
+  authors:
+  - name: The Jupyter Book Community
+    website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
   year: '2025'
   authors: *id001
