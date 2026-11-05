@@ -199,7 +199,7 @@
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Lernende können Qualitätskriterien für eine Datenpublikation benennen (LZM 04_003_0852)",
+          "targetName": "Lernende können Grundlagen der Datenqualität benennen. (LZM 02_012_0445)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 1 Erinnern | Data Flow: 1 Planung"
         },
