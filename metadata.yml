@@ -92,8 +92,7 @@ chapters:
     competency: Orientierungswissen
     data-flow: übergreifend
     blooms-category: 1 Erinnern
-  - learning-objective: Lernende können Qualitätskriterien für eine Datenpublikation
-      benennen (LZM 04_003_0852)
+  - learning-objective: Lernende können Grundlagen der Datenqualität benennen. (LZM 02_012_0445)
     competency: 1.2 Qualitätssicherung
     data-flow: 1 Planung
     blooms-category: 1 Erinnern

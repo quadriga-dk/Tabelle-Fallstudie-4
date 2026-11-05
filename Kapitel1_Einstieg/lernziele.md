@@ -18,7 +18,7 @@ Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. E
 1. Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM 01_001_0008)
 <!-- competency: Orientierungswissen | bloom: 1 Erinnern  -->
 <!-- learning-goal: Qualitätssicherung von Daten -->
-2. Lernende können Qualitätskriterien für eine Datenpublikation benennen (LZM 04_003_0852)
+2. Lernende können Grundlagen der Datenqualität benennen. (LZM 02_012_0445)
 <!-- competency: 1.2 Qualitätssicherung | bloom: 1 Erinnern -->
 <!-- learning-goal: Prüfung von rechtlichen Vorgaben zur Datenveröffentlichung -->
 3. Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen. (LZM 04_003_0851)
