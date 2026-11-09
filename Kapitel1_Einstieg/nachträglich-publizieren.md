@@ -1,7 +1,7 @@
 (nachpub:einleitung)=
 # Nachträgliches Publizieren - Einleitung
 
-In dieser Open Educational Resource (OER) wird die nachträgliche Publikation von Forschungsdaten in den Blick genommen. Das zielt ab auf den häufig vorzufindenden Fall, dass die Ergebnisse eines Forschungsprojekts zwar in einer abschließenden Publikation zusammengefasst wurden, die Forschungsdaten der Community aber nicht zur Verfügung stehen. Aus Gründen der Reproduzierbarkeit, der FAIRness sowie der Guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_2025` sollten diese ebenfalls veröffentlicht werden.  
+In dieser Open Educational Resource (OER) wird die nachträgliche Publikation von Forschungsdaten in den Blick genommen. Das zielt ab auf den häufig vorzufindenden Fall, dass die Ergebnisse eines Forschungsprojekts zwar in einer abschließenden Publikation zusammengefasst werden, die Forschungsdaten der Community aber nicht zur Verfügung stehen. Aus Gründen der Reproduzierbarkeit, der FAIRness {cite}`Wilkinson_2016` sowie der Guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_2025` sollten diese ebenfalls veröffentlicht werden.  
 
 Eine einheitliche Definition für Forschungsdaten gibt es nicht, da die Methodiken und Ergebnisse stark nach wissenschaftlicher Disziplin variieren können. Grundsätzlich können aber alle Daten, die im Rahmen eines Forschungsprozesses entstehen oder ihr Ergebnis sind, als Forschungsdaten bezeichnet werden {cite}`Kindling_Schirmbacher_2013`.
 
@@ -9,7 +9,7 @@ Eine einheitliche Definition für Forschungsdaten gibt es nicht, da die Methodik
 
 Die Publikation von Forschungsdaten gehört, wie bereits erwähnt, zur Einhaltung der Guten wissenschaftlichen Praxis. In Leitlinie 13 wird die "Herstellung von öffentlichem Zugang zu Forschungsergebnissen" gefordert, wozu explizit auch "die den Ergebnissen zugrunde liegenden Forschungsdaten" gehören. Auch Leitlinie 17, die die Archivierung fokussiert, bezieht sich auf die öffentliche Zugänglichkeit von Forschungsdaten und -ergebnissen {cite}`deutsche_forschungsgemeinschaft_2025`.
 
-Die unabhängig von anderen Forschungsergebnissen publizierten Forschungsdaten sind einfacher nachzunutzen, da sie nicht aus Texten oder anderen Publikationsformen herauskopiert werden müssen und so zudem einfacher zu zitieren sind - beispielsweise durch einen eigenen PID. Die Forschung wird dadurch transparent, verifizier- und reproduzierbar, was die wissenschaftliche Integrität insgesamt erhöht. Die Daten können darüber hinaus für weitere Forschungsprojekte genutzt werden und müssen von diesen nicht mühsam neu erhoben werden {cite}`TIB_Forschungsdaten_o.J.`.
+Die unabhängig von anderen Forschungsergebnissen publizierten Forschungsdaten sind einfacher nachzunutzen, da sie nicht aus Texten oder anderen Publikationsformen herauskopiert werden müssen und so zudem einfacher zu zitieren sind - beispielsweise durch einen eigenen PID (s. Kap 4.2 [Publikation](publikation)). Die Forschung wird dadurch transparent sowie verifizier- und reproduzierbar, was die wissenschaftliche Integrität insgesamt erhöht. Die Daten können darüber hinaus für weitere Forschungsprojekte genutzt werden und müssen von diesen nicht mühsam neu erhoben werden {cite}`TIB_Forschungsdaten_o.J.`.
 
 ## Besonderheiten dieser OER 
 
@@ -25,7 +25,7 @@ Folgend finden Sie Materialien aufgelistet, die ebenfalls einen Bezug zum Thema 
 :class: seealso
 
 **Checklisten:**
-- Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> (Seite 6) der FH Potsdam (direkter Downloadlink)
+- Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> (Seite 6, direkter Downloadlink) der <a href="https://www.fh-potsdam.de/forschung-transfer/forschung/forschungsdatenmanagement" class="external-link" target="_blank">FH Potsdam</a> 
 - Checkliste <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> des niederländischen Netzwerks <a href="https://dans.knaw.nl/en/" class="external-link" target="_blank">DANS</a>, die hilft, Daten auf ihre FAIRness zu überprüfen (auf Englisch)
 - Der Fragebogen <a href="https://creativecommons.org/chooser/" class="external-link" target="_blank">Creative Commons Chooser</a> der internationalen Organisation <a href="https://creativecommons.org/" class="external-link" target="_blank">Creative Commons</a>, der bei der Wahl der richtigen Lizenz unterstützen kann (auf Englisch)
 
@@ -33,19 +33,19 @@ Folgend finden Sie Materialien aufgelistet, die ebenfalls einen Bezug zum Thema 
 - PARTHENOS Leitfaden zur <a href="https://zenodo.org/records/3363078" class="external-link" target="_blank">"FAIRifizierung" des Datenmanagements und der Ermöglichung der Nachnutzung von Daten</a> des gleichnamigen Projektes
 
 **OER/Module:**
-- Modul <a href="https://www.orca.nrw/moodle/mod/book/view.php?id=22027" class="external-link" target="_blank">Was braucht es für eine Datenpublikation</a> aus dem Kurs "Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis" von FDM@Studium.nrw via ORCA.nrw
+- Modul <a href="https://www.orca.nrw/moodle/mod/book/view.php?id=22027" class="external-link" target="_blank">Was braucht es für eine Datenpublikation</a> aus dem Kurs "Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis" von FDM@Studium.nrw via <a href="https://www.orca.nrw/" class="external-link" target="_blank">ORCA.nrw</a>
 
 **Videos:**
-- Video <a href="https://www.youtube.com/watch?v=GuIQO3cFIuw" class="external-link" target="_blank">Forschungsdaten zu Publikationen</a> von der RTHW Aachen
-- Video <a href="https://av.tib.eu/media/51995" class="external-link" target="_blank">10 Gründe für Open Access</a> von der TIB und dem open-access.network
+- Video <a href="https://www.youtube.com/watch?v=GuIQO3cFIuw" class="external-link" target="_blank">Forschungsdaten zu Publikationen</a> von der <a href="https://www.rwth-aachen.de/cms/root/forschung/angebote-fuer-forschende/forschungsdaten-und-information/~bpboai/forschungsdatenmanagement-fdm/" class="external-link" target="_blank">RTHW Aachen</a>
+- Video <a href="https://av.tib.eu/media/51995" class="external-link" target="_blank">10 Gründe für Open Access</a> von der Technischen Informationsbibliothek (<a href="https://www.tib.eu/de/" class="external-link" target="_blank">TIB</a>) und dem <a href="https://open-access.network/startseite" class="external-link" target="_blank">open-access.network</a>
 
-**Paper:**
-- Paper <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#d1e183" class="external-link" target="_blank">Data Organization in Spreadsheets</a> zur Erstellung maschinenlesbarer Tabellen
+**Artikel:**
+- Artikel <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#d1e183" class="external-link" target="_blank">Data Organization in Spreadsheets</a> als allgemeiner Leitfaden zur Datenorganisation in Tabellen
 ```
 
 ## Framework
 
-Das <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a> bildet (Daten-)Kompetenzen ab und verbindet sie mit dem Verlauf eines wissenschaftlichen Projekts.  
+Das <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a> bildet (Daten-)Kompetenzen ab und ordnet sie dem wissenschaftlichen Datenfluss zu. Es ist Voraussetzung und Basis für die Entstehung aller OER im QUADRIGA Datenkompetenzzentrum    
 Für die nachträgliche Publikation werden nicht alle Kompetenzen benötigt bzw. nicht alle Phasen des Datenflusses durchschritten, da das eigentliche Forschungsprojekt mit der Erhebung, Aufbereitung und Analyse von Daten bereits in der Vergangenheit liegt. Es werden nur Bereiche aus den Phasen *Planung (1)*, *Management (3)* sowie *Publikation und Nachnutzung (5)* angesprochen (s. Abb. 1.2). Dabei hängen die Kompetenzen *1.2 Qualitätssicherung* sowie *3.1 Organisation* und *3.2 Erschließung* als Arbeitsschritte zur nachträglichen Publikation in erheblichem Maße davon ab, wie gut diese bereits während des Projektes beachtet und umgesetzt wurden. Die Kompetenz *1.3 Ethik und Recht* bezieht sich ursprünglich auf das rechtssichere (Nach-)Nutzen von Daten, findet in diesem Szenario aber Anwendung auf das (nachträgliche) Publizieren von Daten.
 
 ```{figure} /assets/framework_phases.png

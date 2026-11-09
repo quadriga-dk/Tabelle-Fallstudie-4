@@ -140,7 +140,7 @@ chapterLIST:
     dataFlow: 5 Publikation und Nachnutzung
     bloomsCategory: 1 Erinnern
 dateIssued: 2025-12-19
-dateModified: 2025-12-19
+dateModified: 2026-11-12
 version: 0.0.1
 contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum
   QUADRIGA erstellt.
@@ -149,7 +149,7 @@ contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das
   Förderkennzeichen: 16DKZ2034'
 qualityAssurance:
   description: https://doi.org/10.5281/zenodo.18953896
-  date: 2025-12-19
+  date: 2026-11-12
 learningResourceType: Jupyter Book
 schemaVersion: 2.0.0
 license: https://creativecommons.org/licenses/by/4.0/
