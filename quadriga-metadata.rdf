@@ -170,7 +170,7 @@
         <schema:name>Hannes Schnaitter</schema:name>
       </schema:Person>
     </schema:contributor>
-    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-19</schema:dateModified>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-12</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-19</schema:datePublished>
     <schema:description>Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
