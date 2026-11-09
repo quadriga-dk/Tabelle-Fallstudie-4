@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende (Forschungs-)Datenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks "Planung" (s. Abb. 2.1) und die Kompetenzen "1.2 Qualitätssicherung" sowie "1.3 Ethik und Recht". 
+Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende Forschungsdatenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks *1. Planung* (s. Abb. 2.1) und die Kompetenzen *1.2 Qualitätssicherung* sowie *1.3 Ethik und Recht*. 
 
 ```{figure} /assets/1_planung.png
 ---
@@ -50,7 +50,7 @@ Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
 ```
 
 
-Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Forschungsprozesses der "Planung". In Bezug auf ein nachträgliches Veröffentlichen von Forschungsdaten bedeutet das: Je nachdem, ob Sie die Forschungsdaten eines eigenen oder "fremden" Projektes publizieren wollen, müssen Sie sich einen Überblick über den Kontext verschaffen. In jedem Fall sollten Sie die zur Publikation vorgesehenen Daten einer Qualitätsprüfung unterziehen. Darüber hinaus gilt es, einige juristische Aspekte und Vorgaben zu beachten.
+Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Forschungsprozesses der "Planung". In Bezug auf ein nachträgliches Veröffentlichen von Forschungsdaten bedeutet dies, dass Sie sich einen Überblick über den Kontext verschaffen müssen. Dazu sollten Sie die zur Publikation vorgesehenen Daten einer Qualitätsprüfung unterziehen. Darüber hinaus gilt es, einige juristische Aspekte und Vorgaben zu beachten.
 
 Dieses Kapitel ist in 3 Unterkapitel, ein abschließendes Resümee sowie ein Assessment unterteilt:
 
