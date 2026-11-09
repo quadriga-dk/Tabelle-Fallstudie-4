@@ -8,7 +8,7 @@
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 1.2 Qualitätssicherung | Bloom's: 1 Erinnern | Data Flow: 1 Planung</schema:targetDescription>
-    <schema:targetName>Lernende können Qualitätskriterien für eine Datenpublikation benennen (LZM 04_003_0852)</schema:targetName>
+    <schema:targetName>Lernende können Grundlagen der Datenqualität benennen. (LZM 02_012_0445)</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
