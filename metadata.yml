@@ -1,156 +1,72 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
-title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven
-  Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
-  Tabelle 4.'
-authors:
-- family-names: Walter
-  given-names: Paul
-  orcid: https://orcid.org/0000-0002-9236-3268
-  credit:
-  - Conceptualization
-  - Methodology
-  - Validation
-  - Writing – original draft
-  - Writing – review & editing
-  affiliation: Fachhochschule Potsdam
-- family-names: Plomin
-  given-names: Jana
-  orcid: https://orcid.org/0000-0003-0127-7493
-  credit:
-  - Methodology
-  - Validation
-  - Writing – original draft
-  - Writing – review & editing
-  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- family-names: Neuroth
-  given-names: Heike
-  orcid: https://orcid.org/0000-0002-3637-3154
-  credit:
-  - Conceptualization
-  - Methodology
-  - Funding acquisition
-  affiliation: Fachhochschule Potsdam
-keywords:
-- de: Verwaltung
-- de: Verwaltungswissenschaft
-- en: Public Sector
-- de: Tabelle
-- de: Lerneinheit
-- en: Open Educational Resource
-- de: Forschungsdatenpublikation
-- de: FAIR
-- de: Datenfluss
-- de: Datenkompetenzframework
+# Generated from quadriga-metadata.yml by quadriga/metadata/create_oersi_metadata.py. Do not edit manually.
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation
+  von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.'
 description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt
   für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
-table-of-contents: '- Einstieg
-
-  - Einarbeiten
-
-  - Datenmanagement
-
-  - Publikation
-
-  - Abschluss'
-discipline:
-- übergreifend
-research-object-type:
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
+creator:
+- givenName: Paul
+  familyName: Walter
+  name: Paul Walter
+  id: https://orcid.org/0000-0002-9236-3268
+  type: Person
+  affiliation:
+    name: Fachhochschule Potsdam
+    id: https://ror.org/012m9bp23
+    type: Organization
+- givenName: Jana
+  familyName: Plomin
+  name: Jana Plomin
+  id: https://orcid.org/0000-0003-0127-7493
+  type: Person
+  affiliation:
+    name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+    id: https://ror.org/00px80p03
+    type: Organization
+- givenName: Heike
+  familyName: Neuroth
+  name: Heike Neuroth
+  id: https://orcid.org/0000-0002-3637-3154
+  type: Person
+  affiliation:
+    name: Fachhochschule Potsdam
+    id: https://ror.org/012m9bp23
+    type: Organization
+contributor:
+- givenName: Hannes
+  familyName: Schnaitter
+  name: Hannes Schnaitter
+  id: https://orcid.org/0000-0002-1602-6032
+  type: Person
+  affiliation:
+    name: Humboldt-Universität zu Berlin
+    id: https://ror.org/01hcx6992
+    type: Organization
+keywords:
+- Verwaltung
+- Verwaltungswissenschaft
+- Public Sector
 - Tabelle
-- übergreifend
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
-- Hochschullehrende
-time-required: TODO
-language: de
-contributors:
-- family-names: Schnaitter
-  given-names: Hannes
-  orcid: https://orcid.org/0000-0002-1602-6032
-  credit:
-  - Software
-  - Validation
-  - Writing – review & editing
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-identifier: TODO
-git: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
-url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
-prerequisites:
-- keine
-used-tools:
-- keine
-chapters:
-- title: Einarbeiten
-  description: TODO
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html
-  learning-goal: Forschungsdaten erkennen
-  time-required: TODO
-  learning-objectives:
-  - learning-objective: Die Lernenden können Beispiele für Forschungsdaten benennen.
-      (LZM 01_001_0008)
-    competency: Orientierungswissen
-    data-flow: übergreifend
-    blooms-category: 1 Erinnern
-  - learning-objective: Lernende können Grundlagen der Datenqualität benennen. (LZM 02_012_0445)
-    competency: 1.2 Qualitätssicherung
-    data-flow: 1 Planung
-    blooms-category: 1 Erinnern
-  - learning-objective: Lernende können vorbereitende Maßnahmen für eine rechtssichere
-      Publikation umsetzen. (LZM 04_003_0851)
-    competency: 1.3 Ethik und Recht
-    data-flow: 1 Planung
-    blooms-category: 3 Anwenden
-- title: Datenmanagement
-  description: TODO
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html
-  learning-goal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation,
-    Datenmanagementpläne
-  time-required: TODO
-  learning-objectives:
-  - learning-objective: Lernende können Bestandteile eines Datenmanagementplans benennen.
-      (LZ-ID 01_006_0092)
-    competency: 3.1 Organisation
-    data-flow: 3 Management
-    blooms-category: 1 Erinnern
-  - learning-objective: Lernende können Bestandteile eines Datenmanagementplans erläutern.
-      (LZ-ID 01_006_0093)
-    competency: 3.1 Organisation
-    data-flow: 3 Management
-    blooms-category: 2 Verstehen
-- title: Publikation
-  description: TODO
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
-  learning-goal: Kompetenz Aufbewahrung
-  time-required: TODO
-  learning-objectives:
-  - learning-objective: Lernende können eigenständig geeignete Repositorien (z.B.
-      zur Archivierung, Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
-    competency: 5.1 Aufbewahrung
-    data-flow: 5 Publikation und Nachnutzung
-    blooms-category: 3 Anwenden
-  - learning-objective: Lernende können den Begriff Datenpublikation erläutern. (LZ-ID
-      04_003_0842)
-    competency: 5.2 Datenpublikation
-    data-flow: 5 Publikation und Nachnutzung
-    blooms-category: 2 Verstehen
-  - learning-objective: Lernende können Beispiele der Wissenschaftskommunikation benennen.
-    competency: 5.3 Kommunikation
-    data-flow: 5 Publikation und Nachnutzung
-    blooms-category: 1 Erinnern
-date-issued: 2025-12-19
-date-modified: 2025-12-19
+- Lerneinheit
+- Open Educational Resource
+- Forschungsdatenpublikation
+- FAIR
+- Datenfluss
+- Datenkompetenzframework
+inLanguage:
+- de
+about:
+- https://w3id.org/kim/hochschulfaechersystematik/n0
+educationalLevel:
+- https://w3id.org/kim/educationalLevel/level_8
+- https://w3id.org/kim/educationalLevel/level_A
+learningResourceType:
+- https://w3id.org/kim/hcrt/textbook
+duration: TODO
 version: 0.0.1
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt.
-
-
-  Förderkennzeichen: 16DKZ2034'
-quality-assurance:
-  description: https://doi.org/10.5281/zenodo.18953896
-  date: 2025-12-19
-schema-version: 1.0.0
-license:
-  content:
-    url: https://creativecommons.org/licenses/by/4.0/
-    name: CC BY 4.0
+datePublished: '2025-12-19'
+dateModified: '2026-11-12'
