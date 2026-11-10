@@ -26,7 +26,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: XX Minuten
+**Geschätzte Zeit**: 10 Minuten
 
 Viel Erfolg!
 ````
@@ -149,124 +149,8 @@ question3 = [
 display_quiz(question3, colors=colors.jupyterquiz, max_width=1000)
 ```
 
+
 ## Frage 4
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question4 = [
-    {
-        "question": "Welche der folgenden sind typische, automatisierbare Prüfungen zur Bewertung von Datenqualität? Wählen Sie alle zutreffenden Aussagen.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Bereichsprüfung: Kontrolle, ob numerische Werte innerhalb eines erwarteten Wertebereichs liegen.",
-                "correct": True,
-                "feedback": """✓ Richtig! Eine Bereichsprüfung erkennt Ausreißer, die außerhalb eines plausiblen Wertebereichs liegen, z. B. unrealistisch hohe oder niedrige Messwerte."""
-            },
-            {
-                "answer": "Nullwertprüfung: Kontrolle, ob und wie viele leere Felder in einer Spalte vorhanden sind.",
-                "correct": True,
-                "feedback": """✓ Richtig! Diese Prüfung stellt sicher, dass fehlende Werte erkannt werden – entweder, indem keine Nullwerte zugelassen werden, oder indem ein maximal akzeptabler Anteil definiert wird."""
-            },
-            {
-                "answer": "Datentypprüfung: Kontrolle, ob ein Feld den erwarteten Datentyp aufweist (z. B. Zahl statt Text).",
-                "correct": True,
-                "feedback": """✓ Richtig! Diese Prüfung ist besonders wichtig, wenn Daten ohne Spaltenüberschriften importiert werden, da sich dabei unbemerkt die Spaltenreihenfolge verschieben kann."""
-            },
-            {
-                "answer": "Stilprüfung: Kontrolle, ob eine einheitliche Zitierweise in der zugehörigen Publikation verwendet wurde.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Zitierweise einer Publikation betrifft nicht die Qualität des Datensatzes selbst, sondern die Textgestaltung eines begleitenden Artikels. Dies ist keine der im Data Engineering üblichen Datenqualitätsprüfungen."""
-            },
-            {
-                "answer": "Eindeutigkeitsprüfung: Kontrolle, ob Werte in einer ID-Spalte wirklich einzigartig sind.",
-                "correct": True,
-                "feedback": """✓ Richtig! Diese Prüfung stellt sicher, dass es z. B. in einer ID-Spalte keine doppelten Einträge gibt, was für die eindeutige Zuordnung von Datensätzen essenziell ist."""
-            }
-        ]
-    }
-]
-display_quiz(question4, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 5
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question5 = [
-    {
-        "question": "In einem Finanzdatensatz tauchen üblicherweise Transaktionen zwischen 10 und 2.000 Euro auf. Plötzlich erscheint ein einzelner Eintrag über 500.000 Euro. Welche Art von automatisierter Prüfung würde diese Abweichung am ehesten aufdecken?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Eine Bereichsprüfung, da der Wert deutlich außerhalb des üblichen, erwarteten Wertebereichs liegt.",
-                "correct": True,
-                "feedback": """✓ Richtig! Genau für solche Fälle ist die Bereichsprüfung gedacht: Werte, die den typischen Rahmen deutlich sprengen, werden markiert – unabhängig davon, ob es sich um einen Fehler oder einen tatsächlich besonderen Fall handelt, der genauer untersucht werden sollte."""
-            },
-            {
-                "answer": "Eine Kategorieprüfung, da ein neuer Betragstyp eingeführt wurde.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Kategorieprüfungen betreffen Werte, die zu einer festen, begrenzten Gruppe von zulässigen Einträgen gehören sollen (z. B. Länderkürzel), nicht numerische Ausreißer bei Beträgen."""
-            },
-            {
-                "answer": "Eine Nullwertprüfung, da ein fehlender Wert vorliegt.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. In diesem Fall liegt kein fehlender, sondern ein vorhandener, aber unplausibel hoher Wert vor. Eine Nullwertprüfung würde hier nicht greifen."""
-            },
-            {
-                "answer": "Eine Aktualitätsprüfung, da der Eintrag zu einem ungewöhnlichen Zeitpunkt erfolgte.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Aktualitätsprüfungen betreffen die Frage, wie lange die letzte Datenaktualisierung zurückliegt, nicht die Plausibilität einzelner Werte."""
-            }
-        ]
-    }
-]
-display_quiz(question5, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 6
-
-```{code-cell} ipython3
-:tags: [remove-input]
-import sys
-sys.path.append("../quadriga")
-from assessment import DragDropQuiz
-
-quiz2 = DragDropQuiz()
-
-quiz2.create_matching_quiz(
-    title="Ordnen Sie die folgenden Beschreibungen der passenden Stufe des Medaillon-Schemas zu:",
-    descriptions=[
-        "Die Daten werden möglichst unverändert aus der Originalquelle übernommen, um Nachvollziehbarkeit und Historie zu bewahren.",
-        "Fehlerhafte oder doppelte Einträge werden entfernt, Formate vereinheitlicht und erste Qualitätsprüfungen durchgeführt.",
-        "Die Daten werden gezielt aggregiert und für eine konkrete Analyse oder Visualisierung aufbereitet."
-    ],
-    options=[
-        "Bronze-Stufe",
-        "Silber-Stufe",
-        "Gold-Stufe"
-    ],
-    correct_mapping={
-        "Die Daten werden möglichst unverändert aus der Originalquelle übernommen, um Nachvollziehbarkeit und Historie zu bewahren.": "Bronze-Stufe",
-        "Fehlerhafte oder doppelte Einträge werden entfernt, Formate vereinheitlicht und erste Qualitätsprüfungen durchgeführt.": "Silber-Stufe",
-        "Die Daten werden gezielt aggregiert und für eine konkrete Analyse oder Visualisierung aufbereitet.": "Gold-Stufe"
-    }
-)
-```
-
-## Frage 7
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -307,7 +191,7 @@ question7 = [
 display_quiz(question7, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 8
+## Frage 5
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -353,7 +237,7 @@ question8 = [
 display_quiz(question8, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 9
+## Frage 6
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -394,7 +278,7 @@ question9 = [
 display_quiz(question9, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 10
+## Frage 7
 
 Die folgenden drei Fragen prüfen grundlegende rechtliche Aussagen zur Publikation von Forschungsdaten. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
 
@@ -485,7 +369,7 @@ question10c = [
 display_quiz(question10c, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 11
+## Frage 8
 
 **Frage:** Sie übernehmen einen alten, kaum dokumentierten Datensatz aus einem bereits abgeschlossenen Projekt, der nachträglich veröffentlicht werden soll.
 
@@ -508,8 +392,7 @@ create_answer_box('einarbeiten-1')
 
 - Zunächst den Projektkontext nachvollziehen: Aus welchem Projekt stammen die Daten, wer war beteiligt, in welchem Zeitraum wurden sie erhoben?
 - Zwischen Rohdaten und bereits aufbereiteten Forschungsdaten unterscheiden und für beide den Dokumentationsstand prüfen.
-- Die fünf zentralen Qualitätskriterien prüfen: Genauigkeit, Vollständigkeit, Konsistenz, Eindeutigkeit und Gültigkeit.
-- Typische automatisierte Prüfungen anwenden, soweit möglich: Bereichsprüfung, Nullwertprüfung, Datentypprüfung, Eindeutigkeitsprüfung.
+- Zentrale Qualitätskriterien prüfen: z. B. Genauigkeit, Vollständigkeit, Konsistenz, Verständlicihkeit und Fehlerfreiheit.
 - Prüfen, ob die Datenstruktur dem Tidy-Data-Prinzip entspricht (eine Variable pro Spalte, eine Beobachtung pro Zeile) und ob Rohdatensätze frei von Berechnungen oder rein visuellen Formatierungen sind.
 - Wenn möglich, eine für die Herkunft und Entstehung zuständige Person (z. B. ehemalige Projektleitung) einbeziehen, um Unklarheiten zu klären.
 

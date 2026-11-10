@@ -88,7 +88,7 @@ width: 75%
 ---
 Poster "Entscheidungshilfe Daten veröffentlichen" von M. Schleußinger und J. Rex. 
 ```
-Quellenangabe: Schleußinger, M. & Rex, J. (2020). Forschungsdaten veröffentlichen? Zenodo. <a href="https://doi.org/10.5281/zenodo.3368293" class="external-link" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
+Quellenangabe: Poster „Forschungsdaten veröffentlichen?” von M. Schleußinger und J. Rex unter der Lizenz <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="external-link" target="_blank">CC 0</a> via <a href="https://zenodo.org/records/3368293" class="external-link" target="_blank">Zenodo</a>
 
 Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können Sie sicher aus den ursrpünglichen Antragsunterlagen entnehmen. Bei Fragen wenden Sie sich an:
 - die Förderinstitution

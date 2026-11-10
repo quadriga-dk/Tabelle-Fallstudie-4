@@ -22,7 +22,7 @@ Die Daten müssen vor der Publikation geordnet und strukturiert werden. Zuerst m
 ## Vorgehen
 
 Es empfiehlt sich, die Daten so zu ordnen, dass sie auch interdisziplinär bzw. projekt-extern verstanden werden. Fügen Sie Daten zu sinnvollen Bündeln zusammen oder teilen Sie sie in solche auf. 
-Bei der Custerung kann auch schon die Zusammenfassung in ZIP-Paketen mitgedacht werden.
+Bei der Clusterung kann auch schon die Zusammenfassung in ZIP-Paketen mitgedacht werden.
 Diese Punkte müssen Sie bei der Anlage eines DMP ohnehin mitdenken.
 
 ```{admonition} Weitere Informationen

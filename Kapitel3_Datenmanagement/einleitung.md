@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-Dieses Kapitel widmet sich dem Management der zu veröffentlichenden (Forschungs-)Daten (s. Abb. 3.1) und bezieht sich damit auf die dritte Phase des Frameworks "Management" und die Kompetenzen "3.1 Organisation" und "3.2 Erschließung". 
+Dieses Kapitel widmet sich dem Management der zu veröffentlichenden (Forschungs-)Daten (s. Abb. 3.1) und bezieht sich damit auf die Phase *3. Management* des Frameworks und die Kompetenzen *3.1 Organisation* und *3.2 Erschließung*. 
 
 ```{figure} /assets/3_management.png
 ---
