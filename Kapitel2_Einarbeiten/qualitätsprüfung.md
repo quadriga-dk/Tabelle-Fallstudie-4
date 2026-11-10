@@ -40,28 +40,7 @@ Die Qualität der Forschungsdaten ist für deren Publikation entscheidend. In de
 
 Das Ziel der Prüfung der Datenqualität ist eine Entscheidung für oder gegen ihre Publikation, nicht ihre Aufarbeitung. Je nach Umfang der Daten ist beispielsweise das Prüfen einzelner Tabellenfelder nicht möglich und auch nicht sinnvoll. Schauen Sie stichprobenartig einzelne Werte an. Entsprechen diese den erwarteten Ergebnissen? Gibt es leere Felder? Werden Wertebereiche überschritten?  
 
-Die Datenstruktur sollte konsistent, Variablen einheitlich benannt und formatiert sein sowie eindeutige Identifikatoren verwendet werden. Orientieren Sie sich an der **Tidy-Data-Struktur**: Jede Variable wird in einer eigenen Spalte, jede Beobachtung in einer eigenen Zeile und jeder einzelne Wert eindeutig einer Variable und einer Beobachtung zugeordnet. Dadurch wird eine konsistente Weiterverarbeitung und Auswertung der Daten erleichtert. Insbesondere in Rohdatensätzen sollten zudem keine Berechnungen oder rein visuellen Formatierungen vorgenommen werden, da diese die maschinelle Weiterverarbeitung erschweren können. Weitere Informationen dazu finden Sie in der oben erwähnten OER im Unterkapitel <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/6_1_Datenstruktur.html" class="external-link" target="_blank">Datenstruktur</a>.
-
-### Praktische Umsetzung
-
-Weitergehende Qualitäts- und Strukturprüfungen können grundsätzlich als automatisierte Skripte implementiert werden. Besonders geeignet sind hierfür Programmiersprachen wie Python, mit denen beispielsweise Wertebereiche, Datentypen, fehlende Werte, Duplikate oder die Einhaltung bestimmter Formate systematisch überprüft werden können. Solche Prüfungen lassen sich wiederholt auf einen Datensatz anwenden und dadurch reproduzierbarer und weniger fehleranfällig gestalten als eine ausschließlich manuelle Kontrolle. Für viele Anwendungsfälle existieren darüber hinaus spezialisierte Werkzeuge, die solche Prüfungen vereinfachen oder um zusätzliche Funktionen ergänzen {cite}`wickham2014tidy,fowler2017frictionless`.
-
-Eine Übersicht verschiedener Werkzeuge für die Datenqualitätsprüfung bietet beispielsweise die Zusammenstellung von Tools for Data (s. Abb. 2.5). Die dort aufgeführten Werkzeuge lassen sich unter anderem den Bereichen Data Testing, Data Observability, Data Lineage und Data Catalog zuordnen.
-
-```{figure} /assets/data-quality-tools-market-landscape.png
----
-align: center
-width: 75%
-name: data-quality-tools
----
-Übersicht von Datenqualitätstools auf dem Markt (Quelle: https://toolsfordata.com/lists/data-quality-tools/ abgerufen am 02.09.2026)
-```
-- Unter **Data Testing** werden Werkzeuge zusammengefasst, mit denen konkrete Regeln und Erwartungen an Daten überprüft werden, beispielsweise ob eine Spalte ausschließlich gültige Werte enthält oder keine Duplikate aufweist. 
-- **Data Observability** erweitert diesen Ansatz um die fortlaufende Überwachung von Daten und die Erkennung von Anomalien, beispielsweise ungewöhnlichen Veränderungen in Datenbeständen. 
-- **Data Lineage** beschreibt hingegen die Nachverfolgung, aus welchen Quellen Daten stammen und welche Verarbeitungsschritte zwischen den verschiedenen Datenständen durchgeführt wurden. 
-- Ein **Data Catalog** dient schließlich dazu, Datenbestände und die zugehörigen Metadaten systematisch zu erfassen, auffindbar zu machen und zu dokumentieren {cite}`toolsfordata2026`.
-
-Ein Beispiel für ein Open-Source-Werkzeug aus dem Bereich Data Testing ist <a href="https://greatexpectations.io/" class="external-link" target="_blank">Great Expectations</a>. Dabei handelt es sich um eine Python-Bibliothek, mit der Erwartungen an die Struktur und den Inhalt von Daten formuliert und automatisiert überprüft werden können. So lässt sich beispielsweise festlegen, dass eine Spalte einen bestimmten Datentyp besitzen, keine fehlenden Werte enthalten oder nur Werte innerhalb eines vorgegebenen Bereichs aufweisen darf. Great Expectations kann dabei unter anderem auf Dateien, Datenbanken und DataFrames angewendet werden {cite}`gxgreatexpectations`.
+Die Datenstruktur sollte konsistent, Variablen einheitlich benannt und formatiert sein sowie eindeutige Identifikatoren verwendet werden. Orientieren Sie sich an der <a href="https://data.europa.eu/apps/data-visualisation-guide/intro-to-tidy-data" class="external-link" target="_blank">Tidy-Data-Struktur</a>: Jede Variable wird in einer eigenen Spalte, jede Beobachtung in einer eigenen Zeile und jeder einzelne Wert eindeutig einer Variable und einer Beobachtung zugeordnet. Dadurch wird eine konsistente Weiterverarbeitung und Auswertung der Daten erleichtert. Insbesondere in Rohdatensätzen sollten zudem keine Berechnungen oder rein visuellen Formatierungen vorgenommen werden, da diese die maschinelle Weiterverarbeitung erschweren können. Weitere Informationen dazu finden Sie in der oben erwähnten OER im Unterkapitel <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/6_1_Datenstruktur.html" class="external-link" target="_blank">Datenstruktur</a>.
 
 ## Zusammenfassung
 

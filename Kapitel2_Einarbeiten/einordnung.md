@@ -39,7 +39,7 @@ Es ist hilfreich, sich dazu eine Excel-Tabelle zur Provenienz der Daten anzulege
 
 In dem Beispielszenario konnten die Hintergründe des Projekts mit einem der Projektleitenden besprochen werden, wodurch der Kontext des Projektes und der Entstehung der Forschungsdaten schnell nachvollzogen werden konnte. Da nicht mehr alle Projektmitarbeitenden noch an den beteiligten Institutionen arbeiteten, waren persönliche Aufzeichnungen und bestehende Kontakte der Projektleitung zu den ehemaligen Mitarbeitenden ein Schlüssel zum Verständnis der Forschungsdaten. Daraus lässt sich ableiten, dass die Einbeziehung eines Verantwortlichen oder einer Person mit sämtlichen Zugangsberechtigungen ein entscheidender Vorteil, wenn nicht Voraussetzung, in der nachträglichen Datenpublikation ist. 
 
-## Learnings
+## Zusammenfassung
 
 Wie umfangreich das Einarbeiten ausfällt, hängt maßgeblich davon ab, wie gut die Forschungsdaten im Projekt geordnet und beschrieben wurden, über welche fachliche Nähe Sie zu dem Projekt verfügen und ob eine Ansprechperson zur Verfügung steht, die Unklarheiten ausräumen kann. Ein alleiniges Durcharbeiten durch ungeordnete Hinterlassenschaften eines Projektes aus einer anderen Disziplin ist sehr anspruchsvoll und zeitaufwendig. Wahrscheinlicher ist der Fall, dass Sie eigene Forschungsdaten publizieren wollen. In diesem Fall gilt es vor allem, sich erneut in den Projektkontext einzuarbeiten. 
 
