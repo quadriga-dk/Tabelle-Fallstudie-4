@@ -224,12 +224,6 @@
           "targetName": "Lernende können Bestandteile eines Datenmanagementplans benennen. (LZ-ID 01_006_0092)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 3.1 Organisation | Bloom's: 1 Erinnern | Data Flow: 3 Management"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 3.1 Organisation | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         }
       ]
     },

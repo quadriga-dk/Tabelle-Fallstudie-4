@@ -114,11 +114,6 @@ chapterLIST:
     competency: 3.1 Organisation
     dataFlow: 3 Management
     bloomsCategory: 1 Erinnern
-  - description: Lernende können Bestandteile eines Datenmanagementplans erläutern.
-      (LZ-ID 01_006_0093)
-    competency: 3.1 Organisation
-    dataFlow: 3 Management
-    bloomsCategory: 2 Verstehen
 - title: Publikation
   description: TODO
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
