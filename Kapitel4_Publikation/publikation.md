@@ -17,12 +17,36 @@ Die Kompetenz '5.2 Publikation' des QUADRIGA Datenkompetenzframeworks.
 
 Die Forschungsdaten für die im vorherigen Unterkapitel ein Repositorium ausgewählt wurde, müssen nun final geprüft und hochgeladen werden. Die Plattform für das Publizieren und Teilen von Daten entspricht in dem hier geschilderten Fall dem Auswählen eines Repositoriums.
 
-Die hier zu beachtenden Punkte lassen sich in 3 Teile gliedern. Diese sind zum größten Teil Prüfschritte, da Sie, wenn Sie dieser Anleitung gefolgt sind, alle Aspekte bereits erledigt haben sollten. 
+Die hier zu beachtenden Punkte lassen sich in 3 Teile gliedern. Wenn Sie diesem Szenario gefolgt sind, haben Sie sich im Kapitel [3.2 Erschließung](datenmanagement:erschliessung) bereits mit Metadaten befasst. Die hier genannten Metadaten beziehen sich auf die Beschreibung der Forschungsdaten, die das zur Veröffentlichung gewählte Repositorium erfasst. Diese sind generisch und i. d. R. weniger umfangreich als die Metadaten, die Sie Ihren Forschungsdaten
 
 1. Metadaten und PID (inkl. Dokumentation)
 2. FAIR-Assessment und GwP (inkl. Zitationshinweis)
 3. Versionierung und Upload
 
+Die Daten und Metadaten sollten eine **FAIRifizierung** durchlaufen, d. h. möglichst vollständig beschrieben werden. Dazu sollte, wo es möglich ist, auf Standards zurückgegriffen und Interoperabilität hergestellt werden.   
+
+**FAIRifizierung**
+
+Für die FAIRifizierung von Daten ist vor allem die Vergabe eines Persistenten Identifikators (PID), beispielsweise eines Digital Object Identifiers (DOI) von Bedeutung. Diesen erhalten Sie in der Regel automatisch von dem Repositorium, in dem Sie Ihre Forschungsdaten veröffentlichen wollen (s. [Kapitel 4 Publikation](publikation:einleitung)). 
+Prüfen Sie darüber hinaus, ob die Beschreibung der Daten vollständig ist und maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
+
+`````{admonition} Weitere Informationen
+:class: tip
+
+Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und Reifegradmodellen als auch mit automatisierten Prüfwerkzeugen unterstützt werden. Eine ausführliche Einführung in die FAIR-Prinzipien sowie weitere Hintergrundinformationen finden Sie in dem <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Kapitel 3.1 „FAIR-Prinzipien“</a> der QUADRIGA-OER <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html" class="external-link" target="_blank">Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht</a>. Dort werden unter anderem folgende Ansätze vorgestellt:
+
+- **Checkliste:** eine kompakte <a href="https://zenodo.org/records/5111307" class="external-link" target="_blank">FAIR-Checkliste</a> von Jones und Grootveld (2017)
+- **Webtool:** das deutschsprachige <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), basierend auf dem FAIR Assessment Tool der <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/" class="external-link" target="_blank">Australian Research Data Commons</a>
+- **FAIR Data Maturity Model:** das detaillierte Reifegradmodell der <a href="https://www.rd-alliance.org/groups/fair-data-maturity-model-wg/outputs/?output=94549" target="_blank">Research Data Alliance</a> (RDA), auf <a href="https://zenodo.org/records/5834115" target="_blank">Deutsch</a> verfügbar über das Projekt <a href="https://www.ecodm.de/" target="_blank">EcoDM</a>
+
+Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Prüfwerkzeuge zur Verfügung. Diese bewerten die FAIRness eines Datensatzes anhand eines Persistent Identifiers (PID) oder einer URL und geben unmittelbar Rückmeldung darüber, welche FAIR-Kriterien bereits erfüllt sind und wo Verbesserungsbedarf besteht.
+
+- <a href="https://www.f-uji.net/" class="external-link" target="_blank">F-UJI</a> – automatische FAIR-Bewertung anhand eines PID oder einer URL
+- <a href="https://fair-checker.france-bioinformatique.fr/" class="external-link" target="_blank">FAIR-Checker</a> – automatische Analyse der FAIR-Metadaten eines Datensatzes
+- <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> – unterstützt Forschende bei der Selbstbewertung anhand eines kurzen Fragenkatalogs
+`````
+
+---
 
 ### 3. Upload und Veröffentlichung auf Zenodo
 

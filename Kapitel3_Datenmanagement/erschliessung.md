@@ -1,7 +1,7 @@
 (datenmanagement:erschliessung)=
 # Erschließung
 
-Dieses Unterkapitel fokussiert die Kompetenz "3.2 Erschließung" des QUADRIGA Datenkompetenzframeworks. Dies umfasst die an Standards orientierte Auszeichnung bzw. Beschreibung von Daten.
+Dieses Unterkapitel fokussiert die Kompetenz *3.2 Erschließung* des QUADRIGA Datenkompetenzframeworks. Dies umfasst die an Standards orientierte Auszeichnung bzw. Beschreibung von Daten.
 
 ```{figure} /assets/3.2_erschliessung.png
 ---
@@ -16,59 +16,25 @@ Die Kompetenz 3.2 Erschließung des QUADRIGA Datenkompetenzframeworks.
 
 ## Ausgangslage
 
-Im Rahmen der Erschließung der Daten, müssen **Metadaten** vergeben werden, wenn das an anderer Stelle noch nicht geschehen ist. Dies sollte nach den Konventionen der Disziplin geschehen, aus der die Forschungsdaten stammen.  
-Die Daten und Metadaten sollten eine **FAIRifizierung** durchlaufen, d. h. möglichst vollständig beschrieben werden. Dazu sollte, wo es möglich ist, auf Standards zurückgegriffen und Interoperabilität hergestellt werden.   
+Im Rahmen der Erschließung der Daten, müssen **Metadaten** vergeben werden, wenn das an anderer Stelle noch nicht geschehen ist. Dies sollte möglichst umfangreich und standardisiert sowie unter Beachtung der Konventionen der Disziplin erfolgen, aus der die Forschungsdaten stammen.  
 Auch eine **README** gehört zu einer guten Datenbeschreibung. Darin sollten Sie alles dokumentieren, was Nachnutzende über die Daten wissen sollten.
 
 ## Vorgehen
 
 **Metadaten**
 
-Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt. Ein Übersicht über internationale Standards finden Sie beispielsweise:
+Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt. Ein Übersicht über etablierte Standards finden Sie beispielsweise:
 - im <a href="https://rdamsc.bath.ac.uk/" class="external-link" target="_blank">Metadata Standards Catalog</a> der englischen Universität Bath 
-- auf der Webseite von <a href="https://fairsharing.org/" class="external-link" target="_blank">FAIRsharing</a>
+- und auf der Webseite von <a href="https://fairsharing.org/" class="external-link" target="_blank">FAIRsharing</a>.
 
-Die folgende Übersicht zeigt zudem beispielhaft einige etablierte Metadatenstandards verschiedener Fachdisziplinen.
-
-| Disziplin | Metadatenstandard | Organisation | Quelle |
-|---|---|---|---|
-| Fachübergreifend | DataCite Metadata Schema | DataCite | {cite}`datacite_2026` |
-|---|---|---|---|
-| Astronomie | IVOA Technical Specifications | IVOA | {cite}`ivoa_2026` |
-| Bauwesen/Stadtplanung | XPlanung (ergänzt durch XBau) | XLeitstelle | {cite}`xleitstelle_2018` |
-| Biodiversität | Darwin Core | TDWG | {cite}`wieczorek_et_al_2012` |
-| Geisteswissenschaften | TEI (Text Encoding Initiative) | TEI Consortium | {cite}`tei_consortium_2026` |
-| Geodaten | ISO 19115 | ISO | {cite}`iso_19115_2014` |
-| Klimaforschung | CF Conventions | CF Conventions Community | {cite}`cf_conventions_2026` |
-| Kulturerbe | CIDOC CRM | CIDOC CRM SIG / ISO | {cite}`iso_21127_2023` |
-| Medizin | CDISC (u. a. CDASH, SDTM, ODM) | CDISC | {cite}`cdisc_2026` |
-| Sozialwissenschaften | DDI (Data Documentation Initiative) | DDI Alliance | {cite}`ddi_alliance_2026` |
-
+Fachübergreifende Metadatenstandards sind beispielsweise:
+- das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite Schema</a> von DataCite
+- die <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link" target="_blank">Dublin Core</a> genannten Schemata (terms/namespace und elements/1.1/namespace) der Dublin Core Metadata Initiative (DCMI)
+- das Vokabular von <a href="https://schema.org/" class="external-link" target="_blank">schema.org</a>
 
 Darüber hinaus finden Sie Informationen zu fachspezifischen Standards bei den Konsortien der Nationalen Forschungsdaten Infrastruktur (<a href="https://www.nfdi.de/konsortien/" class="external-link" target="_blank">NFDI</a>) sowie deren Sektion <a href="https://www.nfdi.de/section-metadata/" class="external-link" target="_blank">(Meta)data, Terminolgies, Provenance</a>.
 
----
-
-**FAIRifizierung**
-
-Für die FAIRifizierung von Daten ist vor allem die Vergabe eines Persistenten Identifikators (PID), beispielsweise eines Digital Object Identifiers (DOI) von Bedeutung. Diesen erhalten Sie in der Regel automatisch von dem Repositorium, in dem Sie Ihre Forschungsdaten veröffentlichen wollen (s. [Kapitel 4 Publikation](publikation:einleitung)). 
-Prüfen Sie darüber hinaus, ob die Beschreibung der Daten vollständig ist und maximieren Sie nach Möglichkeit die Interoperabilität der Daten. Recherchieren Sie, was standardisiert beschrieben werden kann (z. B. nach ISO). 
-
-`````{admonition} Weitere Informationen
-:class: tip
-
-Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und Reifegradmodellen als auch mit automatisierten Prüfwerkzeugen unterstützt werden. Eine ausführliche Einführung in die FAIR-Prinzipien sowie weitere Hintergrundinformationen finden Sie in dem <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Kapitel 3.1 „FAIR-Prinzipien“</a> der QUADRIGA-OER <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html" class="external-link" target="_blank">Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht</a>. Dort werden unter anderem folgende Ansätze vorgestellt:
-
-- **Checkliste:** eine kompakte <a href="https://zenodo.org/records/5111307" class="external-link" target="_blank">FAIR-Checkliste</a> von Jones und Grootveld (2017)
-- **Webtool:** das deutschsprachige <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), basierend auf dem FAIR Assessment Tool der <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/" class="external-link" target="_blank">Australian Research Data Commons</a>
-- **FAIR Data Maturity Model:** das detaillierte Reifegradmodell der <a href="https://www.rd-alliance.org/groups/fair-data-maturity-model-wg/outputs/?output=94549" target="_blank">Research Data Alliance</a> (RDA), auf <a href="https://zenodo.org/records/5834115" target="_blank">Deutsch</a> verfügbar über das Projekt <a href="https://www.ecodm.de/" target="_blank">EcoDM</a>
-
-Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Prüfwerkzeuge zur Verfügung. Diese bewerten die FAIRness eines Datensatzes anhand eines Persistent Identifiers (PID) oder einer URL und geben unmittelbar Rückmeldung darüber, welche FAIR-Kriterien bereits erfüllt sind und wo Verbesserungsbedarf besteht.
-
-- <a href="https://www.f-uji.net/" class="external-link" target="_blank">F-UJI</a> – automatische FAIR-Bewertung anhand eines PID oder einer URL
-- <a href="https://fair-checker.france-bioinformatique.fr/" class="external-link" target="_blank">FAIR-Checker</a> – automatische Analyse der FAIR-Metadaten eines Datensatzes
-- <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> – unterstützt Forschende bei der Selbstbewertung anhand eines kurzen Fragenkatalogs
-`````
+Einen Überblick über das Thema Metadaten und -standards finden Sie zudem auf der Informationsseite <a href="https://forschungsdaten.info/fdm-allgemein/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards" class="external-link" target="_blank">forschungsdaten.info</a>
 
 ---
 
@@ -76,7 +42,7 @@ Neben manuellen Checklisten und Reifegradmodellen stehen auch automatisierte Pr�
 
 Eine README-Datei ist die einfachste Form der Datendokumentation und soll sicherstellen, dass Daten auch später oder von anderen Personen korrekt interpretiert werden können {cite}`hassenstein_jung_2025`. Sie sollte einer Datenpublikation als einfache Datei im Format .txt beigelegt werden. Alternativ können Sie die Daten im Repositorium beschreiben, wenn das möglich ist.
 
-Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei dienen.
+Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei dienen. Es ist die aus dem Englischen übersetzte und gekürzte Version eines README Templates der USBC (s. Lizenzhinweis unter dem Kasten) {cite}`ucsb_library_2024`.
 
 ```{admonition} Beispiel: Vorlage für eine README-Datei
 :class: hinweis, dropdown
@@ -113,9 +79,12 @@ Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei di
 - Fehlende Werte
 - Besonderheiten
 ```
-*Vorlage aus dem Englischen übersetzt und gekürzt nach* {cite}`ucsb_library_2024` *(CC BY 4.0).*
 
-Als ergänzende Hilfestellung stellt <a href="https://data.research.cornell.edu/data-management/sharing/readme/" class="external-link" target="_blank">Cornell Data Services</a> eine ausführliche Anleitung sowie eine frei verfügbare Vorlage für README-Dateien bereit.
+---
+
+Lizenzhinweis: Vorlage „README template” des Research Data Services (<a href="https://www.library.ucsb.edu/research-data-services" class="external-link" target="_blank">RDS</a>) der University of California, Santa Barbara (UCSB)  unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/10828379" class="external-link" target="_blank">Zenodo</a>.
+
+---
 
 ```{admonition} Weitere Materialien
 :class: seealso

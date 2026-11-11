@@ -32,8 +32,6 @@ Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. E
 <!-- learning-goal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation, Datenmanagementpläne -->
 1. Lernende können Bestandteile eines Datenmanagementplans benennen. (LZ-ID 01_006_0092)
 <!-- competency: 3.1 Organisation | bloom: 1 Erinnern -->
-2. Lernende können Bestandteile eines Datenmanagementplans erläutern. (LZ-ID 01_006_0093)
-<!-- competency: 3.1 Organisation | bloom: 2 Verstehen -->
 ```
 <!-- END: Datenmanagement -->
 
