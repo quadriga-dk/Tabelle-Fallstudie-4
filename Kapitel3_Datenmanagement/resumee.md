@@ -9,10 +9,9 @@ Die Beschreibung der Daten mit Metadaten und die Erstellung einer README-Datei s
 
 **Datenorganisation**
 - Forschungsdaten müssen vor der Publikation geordnet, geclustert und in einem Datenmanagementplan (DMP) dokumentiert werden. Ziel ist, dass die Daten auch projektextern und interdisziplinär verständlich sind. Für das Erstellen eines DMP stehen Tools wie RDMO zur Verfügung.
-- Die Dateibenennung und Struktur sollte konsequent vom Projekt übernommen werden statt nachträglich umzubenennen. Die im Projekt gewachsene Struktur und Namenslogik ist meist sinnvoll und nachträgliches Umbenennen ist zudem fehleranfällig.
+- Die Dateibenennung sollte konsequent sein und nach Möglichkeit vom Projekt übernommen werden. Die im Projekt gewachsene Struktur ist meist sinnvoll und logisch. Eine Veröffentlichung von Forschungsdaten in "Paketen" die der Struktur folgen ist daher zu empfehlen.
 
 **Erschließung**
-- Metadaten sollten nach disziplinspezifischen Standards vergeben werden. Wenden Sie die etablierten Metadaten- und Communitystandards.
+- Metadaten sollten disziplinspezifischen Standards folgen. Wenden Sie zudem die etablierten Konventionen der Fachcommunity an.
 - Legen Sie eine README-Datei als einfachste Form der Datendokumentation an. Diese stellt sicher, dass Dritte die Daten und deren Entstehungskontext korrekt einordnen können. 
-
 ```

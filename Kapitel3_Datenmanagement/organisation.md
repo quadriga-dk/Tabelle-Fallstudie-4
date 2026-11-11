@@ -1,8 +1,7 @@
 (datenmanagement:organisation)=
 # Organisation
 
-Dieses Unterkapitel bezieht sich auf die Kompetenz *3.1 Organisation* des QUADRIGA Datenkompetenzframeworks - wie Abb. 3.3 zeigt.  
-Das bedeutet, dass die im Projekt entstandenen Forschungsdaten an dieser Stelle geordnet und organisiert werden müssen, sodass sie auch projektextern bzw. interdisziplinär verstanden werden. Wenn im Lauf des Projektes noch kein Datenmanagementplan (DMP) begonnen wurde, muss nun einer angelegt werden.
+Dieses Unterkapitel bezieht sich auf die Kompetenz *3.1 Organisation* des QUADRIGA Datenkompetenzframeworks - wie Abb. 3.3 zeigt. Das bedeutet, dass die im Projekt entstandenen Forschungsdaten an dieser Stelle geordnet und organisiert werden müssen, sodass sie auch projektextern bzw. interdisziplinär verstanden werden. Wenn im Lauf des Projektes noch kein Datenmanagementplan (DMP) begonnen wurde, muss nun einer angelegt werden.
 
 ```{figure} /assets/3.1_organisation.png
 ---
@@ -17,7 +16,7 @@ Die Kompetenz 3.1 Organisation des QUADRIGA Datenkompetenzframeworks.
 
 ## Ausgangslage
 
-Die Daten müssen vor der Publikation geordnet und strukturiert werden. Zuerst müssen dazu jene Daten ausgewählt werden, die veröffentlicht werden sollen. Je nach Umfang sollten diese zudem geclustert werden. Darüber hinaus muss die Benennung der Daten und Dateien geprüft werden. Sind sie bereits nach einem (erkennbaren) Schema benannt? Wenn nicht, sollte das erwogen werden. Zudem sollten die Dateiformate geprüft werden: Liegen sie in proprietären Formaten vor oder nicht? Ist es sinnvoll, sie zu konvertieren, wenn sie in proprietären Formaten vorliegen? Dabei ist es hilfreich sich zu fragen, ob die Daten so strukturiert und benannt sind, dass sie für Außenstehende verständlich sind.
+Die Daten müssen vor der Publikation geordnet und strukturiert werden. Zuerst müssen dazu jene Daten ausgewählt werden, die veröffentlicht werden sollen. Je nach Umfang sollten diese zudem geclustert werden. Darüber hinaus muss die Benennung der Daten und Dateien geprüft werden. Sind sie bereits nach einem (erkennbaren) Schema benannt? Zudem sollten die Dateiformate geprüft werden: Liegen sie in proprietären Formaten vor oder nicht? Ist es sinnvoll, sie zu konvertieren, wenn sie in proprietären Formaten vorliegen? Dabei ist es hilfreich sich zu fragen, ob die Daten so strukturiert und benannt sind, dass sie für Außenstehende verständlich sind.
 
 ## Vorgehen
 
@@ -76,7 +75,7 @@ Projektansicht mit dem Button 'Fragen beantworten' oben rechts bei RDMO Brandenb
 ```
 *Quellenangabe: Screenshot der Projektansicht bei <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO Brandenburg</a> vom 09.10.2026.*
 
-Anschließend fügen Sie die Datensätze hinzu, die im Projekt entstanden sind. Spätestens bei diesem Schritt kommt die Auswahl und Clusterung der Forschungsdaten zum Tragen. Es ist sinnvoll, sich bereits bei diesem Schritt zu überlegen, wie die Daten bereitgestellt werden sollen (z. B. als Gesamt-ZIP, in ZIP-"Paketen" oder einzeln). Das hängt sehr stark von der Art der Forschungsdaten ab. Im Beispielszenario wurde sich für 4 Forschungsdatensätze entschieden, die auch so benannt wurden ("FD1_..." bis "FD4_..."). Diese Datensätze erscheinen in RDMO als Registerkarten bzw. Tabellenreiter. Praktischerweise ermöglicht das Tool RDMO die Übernahme von einmal eingegebenen Informationen zu anderen Datensätzen. Sie müssen also projektrelevante Informationen nicht mehrfach eingeben!
+Anschließend fügen Sie die Datensätze hinzu, die im Projekt entstanden sind. Spätestens bei diesem Schritt kommt die Auswahl und Clusterung der Forschungsdaten zum Tragen. Es ist sinnvoll, sich bereits bei diesem Schritt zu überlegen, wie die Daten bereitgestellt werden sollen (z. B. als Gesamt-ZIP, in ZIP-"Paketen" oder einzeln). Das hängt sehr stark von der Art der Forschungsdaten ab. Im Beispielszenario wurde sich für 4 Forschungsdatensätze entschieden, die auch so benannt wurden ("FD1_..." bis "FD4_..."). Diese Datensätze erscheinen in RDMO als Registerkarten bzw. Tabellenreiter. Praktischerweise ermöglicht das Tool RDMO die Übernahme von einmal eingegebenen Informationen zu anderen Datensätzen. Sie müssen also projektrelevante oder sich wiederholende Informationen nicht mehrfach eingeben!
 
 ```{admonition} Hinweis
 :class: hinweis
@@ -85,7 +84,7 @@ Die Benennung der Forschungsdaten ist nicht trivial. Überlegen Sie sich eine si
 
 Übrigens: RDMO speichert Ihren Fortschritt. Sie müssen also nicht alles in einer Sitzung bearbeiten und fertigstellen.
 
-Am Ende liegt ein Überblick über Ihre Daten vor, der je nach Fragenkatalog verschieden beschrieben ist. Diese sind nun übersichtlich gegliedert und lassen sich u. a. als PDF, Office Dokument oder Markdown Datei exportieren (s. Abb. 3.6). 
+Haben Sie alle Fragen beantwortet, liegt am Ende ein Überblick über Ihre Daten vor, der je nach Fragenkatalog verschieden beschrieben ist. Diese sind nun übersichtlich gegliedert und lassen sich u. a. als PDF, Office Dokument oder Markdown Datei exportieren (s. Abb. 3.6). 
 
 ```{figure} /assets/dmp_export.png
 ---
@@ -98,9 +97,9 @@ Exportmöglichkeiten eines DMP bei RDMO Brandenburg.
 
 ## Zusammenfassung
 
-Übernehmen Sie die Struktur der Daten soweit wie möglich aus dem Projekt. Diese ist in der Regel nicht ohne Grund entstanden und lässt sich durch eine Dokumentation auch nachvollziehen. Diese Struktur kann der Grundaufbau der Datenbereitstellung sein. Diese sollte egal eine logische Ordnung und Clusterung aufweisen.  
+Übernehmen Sie die Struktur der Daten soweit wie möglich aus dem Projekt. Diese ist in der Regel nicht ohne Grund entstanden und lässt sich durch eine Dokumentation auch nachvollziehen. Diese Struktur kann der Grundaufbau der Datenbereitstellung sein. Diese sollte eine logische Ordnung und Clusterung aufweisen.  
 
-In Bezug auf die Dateibenennung sollte beachtet werden, dass zwar einerseits eine verständliche Benennung sinnvoll ist, andererseits bei einer Umbenennung im Nachhinein Vorsicht geboten ist. Die Entwicklung von Dateibenennungen im Projekt folgt oft einer eigenen Logik und ein nachträgliches Umbenennen kann zu Verständnisproblemen führen. Darüber hinaus ist diese sehr fehleranfällig. Es gilt also einen guten Mittelweg zu finden und eine einmal getroffene Entscheidung konsequent beizubehalten.
+In Bezug auf die Dateibenennung sollte beachtet werden, dass zwar einerseits eine verständliche Benennung sinnvoll ist, andererseits bei einer Umbenennung im Nachhinein Vorsicht geboten ist. Die Entwicklung von Dateibenennungen im Projekt folgt oft einer eigenen Logik und ein nachträgliches Umbenennen kann zu Verständnisproblemen führen. Darüber hinaus ist diese sehr fehleranfällig. Es gilt also einen guten Mittelweg zu finden und eine einmal getroffene Entscheidung konsequent beizubehalten. Dies kann beispielsweise sein, die Forschungsdaten in "Paketen" zusammenzustellen, die dann einer Publikation entsprechend neu benannt werden können.
 
 ---
 
@@ -108,11 +107,11 @@ In Bezug auf die Dateibenennung sollte beachtet werden, dass zwar einerseits ein
 :class: seealso
 
 - allgemeine Übersicht über DMP mit Hinweisen zu Bestandteilen, Tools zur Umsetzung und Nutzen für Forschende auf der Informationsplattform <a href="https://forschungsdaten.info/fdm-allgemein/informieren-und-planen/datenmanagementplan" class="external-link" target="_blank">forschungsdaten.info</a> 
-- Übersicht zu DMP mit Beispielen aus der Forschungspraxis, Tool zur Erstellung und Video-Tutorials von der <a href="https://www.cms.hu-berlin.de/de/dl/dataman/mitdmparbeiten/dmp_erstellen" class="external-link" target="_blank">Humboldt-Universitä zu Berlin</a>
+- Übersicht zu DMP mit Beispielen aus der Forschungspraxis, Tool zur Erstellung und Video-Tutorials von der <a href="https://www.cms.hu-berlin.de/de/dl/dataman/mitdmparbeiten/dmp_erstellen" class="external-link" target="_blank">Humboldt-Universität zu Berlin</a>
 - 20-minütiges Video (Coffee Lecture) zur Erstellung eines DMP vom Thüringer Kompetenznetzwerks Forschungsdatenmanagement <a href="https://www.forschungsdaten-thueringen.de/home.html" class="external-link" target="_blank">(TKFDM)</a> via <a href="https://youtu.be/xM67MO5tJoI?si=rykjHucyyPjHvAWf" class="external-link" target="_blank">Youtube</a>.
 - 5-minütiges Video "Datenmanagement nach Plan" von Schmitz et al. (2019) unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://publications.rwth-aachen.de/record/751109" class="external-link" target="_blank">RWTH Aachen</a>
 ```
 
-Im nächsten Unterkapitel stehen Metadaten, die FAIRifizierung von Datensätzen und das Anlegen einer README-Datei im Fokus. Diese Aspekte sind zwar auch Teil des DMP, gehören im QUADRIGA Datenkompetenzframework aber zur Kompetenz *3.2 Erschließung*.
+Im nächsten Unterkapitel stehen Metadaten und das Anlegen einer README-Datei im Fokus. Diese Aspekte sind zwar auch Teil des DMP, gehören im QUADRIGA Datenkompetenzframework aber zur Kompetenz *3.2 Erschließung*.
 
 

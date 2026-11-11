@@ -27,9 +27,9 @@ Recherchieren Sie, ob es disziplinspezifische Vorgaben für Metadaten gibt. Ein 
 - im <a href="https://rdamsc.bath.ac.uk/" class="external-link" target="_blank">Metadata Standards Catalog</a> der englischen Universität Bath 
 - und auf der Webseite von <a href="https://fairsharing.org/" class="external-link" target="_blank">FAIRsharing</a>.
 
-Fachübergreifende Metadatenstandards sind beispielsweise:
+Fachübergreifende Metadatenstandards sind z. B.:
 - das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite Schema</a> von DataCite
-- die <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link" target="_blank">Dublin Core</a> genannten Schemata (terms/namespace und elements/1.1/namespace) der Dublin Core Metadata Initiative (DCMI)
+- die <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link" target="_blank">Dublin Core</a> genannten Schemata ("terms/namespace" und "elements/1.1/namespace") der Dublin Core Metadata Initiative (DCMI)
 - das Vokabular von <a href="https://schema.org/" class="external-link" target="_blank">schema.org</a>
 
 Darüber hinaus finden Sie Informationen zu fachspezifischen Standards bei den Konsortien der Nationalen Forschungsdaten Infrastruktur (<a href="https://www.nfdi.de/konsortien/" class="external-link" target="_blank">NFDI</a>) sowie deren Sektion <a href="https://www.nfdi.de/section-metadata/" class="external-link" target="_blank">(Meta)data, Terminolgies, Provenance</a>.
@@ -42,7 +42,7 @@ Einen Überblick über das Thema Metadaten und -standards finden Sie zudem auf d
 
 Eine README-Datei ist die einfachste Form der Datendokumentation und soll sicherstellen, dass Daten auch später oder von anderen Personen korrekt interpretiert werden können {cite}`hassenstein_jung_2025`. Sie sollte einer Datenpublikation als einfache Datei im Format .txt beigelegt werden. Alternativ können Sie die Daten im Repositorium beschreiben, wenn das möglich ist.
 
-Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei dienen. Es ist die aus dem Englischen übersetzte und gekürzte Version eines README Templates der USBC (s. Lizenzhinweis unter dem Kasten) {cite}`ucsb_library_2024`.
+Die folgende Vorlage kann als Orientierung für den Aufbau einer README-Datei dienen. Es ist die aus dem Englischen übersetzte und gekürzte Version eines README Templates der UCSB (s. Lizenzhinweis unter dem Kasten) {cite}`ucsb_library_2024`.
 
 ```{admonition} Beispiel: Vorlage für eine README-Datei
 :class: hinweis, dropdown
