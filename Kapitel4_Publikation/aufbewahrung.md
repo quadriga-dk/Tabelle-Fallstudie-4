@@ -80,6 +80,12 @@ Zenodo wird vom <a href="https://home.cern/" class="external-link" target="_blan
 
 Einen Vergleich verschiedener generischer Repositorien finden Sie im Dokument <a href="https://zenodo.org/records/17315963" class="external-link" target="_blank">Generalist Repository Comparison Chart</a> von {cite}`stall_2025`. 
 
+## Beispielszenario 
+
+Im Beispielszenario der Publikation der Forschungsdaten aus dem Projekt Q-LCA fiel die Entscheidung auf das Repositorium <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> - u. a. weil es kein fachspezifisches Repositorium gab (s. Unterkapitel [4.1 Aufbewahrung](publikation:aufbewahrung)). Entsprechend der Leitlinie 17 der Guten wissenschaftlichen Praxis sollen Forschungsdaten an der Einrichtung, an der sie entstanden sind oder in "standortübergreifenden Repositorien" öffentlich zugänglich gemacht werden {cite}`deutsche_forschungsgemeinschaft_2025`.
+
+Die veröffentlichten Forschungsdaten des Projekts Q-LCA können Sie sich als Beispiel bei <a href="https://zenodo.org/records/17866716" class="external-link" target="_blank">Zenodo</a> ansehen. 
+
 ---
 
 **Literatur**
