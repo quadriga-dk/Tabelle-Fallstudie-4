@@ -26,52 +26,13 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 25 Minuten
+**Geschätzte Zeit**: 30 Minuten
 
 Viel Erfolg!
 ````
 
+
 ## Frage 1
-
-```{code-cell} ipython3
-:tags: [remove-input]
-import sys
-sys.path.append("../quadriga")
-from assessment import DragDropQuiz
-
-quiz = DragDropQuiz()
-
-quiz.create_matching_quiz(
-    title="Ordnen Sie jedes Szenario dem Qualitätsmerkmal zu, das dadurch in erster Linie beeinträchtigt wird:",
-    descriptions=[
-        "Ein Messdatensatz gibt die Bodenfeuchte nur noch in ganzen Zahlen an, weil beim Export alle Nachkommastellen abgeschnitten wurden.",
-        "Die Metadaten nennen 150 Teilnehmende, in der zugehörigen Datentabelle finden sich jedoch nur 120 Datensätze.",
-        "In einer Datei erscheinen alle Umlaute als unlesbare Sonderzeichen, weil die Zeichenkodierung nicht dem fachüblichen Standard entspricht.",
-        "Eine Datei wurde nachträglich verändert, aber es gibt weder eine Versionsnummer noch einen anderen Hinweis, was sich wann geändert hat.",
-        "Ein Großteil der Datenfelder ist leer, und nirgends wird darauf hingewiesen, dass die Daten unvollständig sind.",
-        "Der in den Metadaten angegebene Link zum Datensatz führt ins Leere und ist nicht dauerhaft (permanent) gesetzt."
-    ],
-    options=[
-        "Aktualität",
-        "Genauigkeit",
-        "Konformität",
-        "Konsistenz",
-        "Transparenz",
-        "Vollständigkeit",
-        "Zugänglichkeit"
-    ],
-    correct_mapping={
-        "Ein Messdatensatz gibt die Bodenfeuchte nur noch in ganzen Zahlen an, weil beim Export alle Nachkommastellen abgeschnitten wurden.": "Genauigkeit",
-        "Die Metadaten nennen 150 Teilnehmende, in der zugehörigen Datentabelle finden sich jedoch nur 120 Datensätze.": "Konsistenz",
-        "In einer Datei erscheinen alle Umlaute als unlesbare Sonderzeichen, weil die Zeichenkodierung nicht dem fachüblichen Standard entspricht.": "Konformität",
-        "Eine Datei wurde nachträglich verändert, aber es gibt weder eine Versionsnummer noch einen anderen Hinweis, was sich wann geändert hat.": "Transparenz",
-        "Ein Großteil der Datenfelder ist leer, und nirgends wird darauf hingewiesen, dass die Daten unvollständig sind.": "Vollständigkeit",
-        "Der in den Metadaten angegebene Link zum Datensatz führt ins Leere und ist nicht dauerhaft (permanent) gesetzt.": "Zugänglichkeit"
-    }
-)
-```
-
-## Frage 2
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -112,7 +73,7 @@ question3 = [
 display_quiz(question3, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 3
+## Frage 2
 
 Wählen Sie **alle** zutreffenden Aussagen.
 
@@ -165,7 +126,7 @@ question4 = [
 display_quiz(question4, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 4
+## Frage 3
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -206,7 +167,7 @@ question5 = [
 display_quiz(question5, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 5
+## Frage 4
 
 Wählen Sie **alle** zutreffenden Aussagen.
 
@@ -259,7 +220,7 @@ question6 = [
 display_quiz(question6, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 6
+## Frage 5
 
 Die folgenden vier Aussagen betreffen Vorgaben und rechtliche Vorbereitung einer Datenpublikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
 
@@ -379,7 +340,7 @@ question7d = [
 display_quiz(question7d, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 7
+## Frage 6
 
 **Szenario:** Sie übernehmen die Aufgabe, die Daten eines abgeschlossenen Drittmittelprojekts aus einer Ihnen fachfremden Disziplin nachträglich in einem Repositorium zu veröffentlichen. Mehrere Projektmitarbeitende haben die Einrichtung bereits verlassen; die Projektleitung steht Ihnen jedoch zur Verfügung. Es liegen weder eine README noch ein Datenmanagementplan vor.
 
