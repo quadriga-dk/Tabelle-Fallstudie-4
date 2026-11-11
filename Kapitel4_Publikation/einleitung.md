@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-Dieses Kapitel nimmt Bezug auf die in Abb. 4.1 dargestellte 5. Phase des Datenflusses im QUADRIGA Datenkompetenzframework "Publikation und Nachnutzung" mit den Kompetenzen "5.1 Aufbewahrung", "5.2 Datenpublikation" und "5.3 Kommunikation". 
+Dieses Kapitel nimmt Bezug auf die in Abb. 4.1 dargestellte 5. Phase des Datenflusses im QUADRIGA Datenkompetenzframework *Publikation und Nachnutzung* mit den Kompetenzen *5.1 Aufbewahrung*, *5.2 Datenpublikation* und *5.3 Kommunikation*. 
 
 ```{figure} /assets/5_publikation-nachnutzung.png
 ---
@@ -50,21 +50,20 @@ width: 75%
 Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 3. Schrittes.
 ```
 
-Im Fokus stehen hier die Methoden und Plattformen für das Publizieren und Teilen von Daten für die Nachnutzung. 
+Im Fokus stehen hier die Methoden und Plattformen für das Aufbewahren, Publizieren und Teilen von Daten für die Nachnutzung sowie die Kommunikation von Ergebnissen. 
 
-Das Kapitel ist entsprechend den Kompetenzen in 3 Unterkapitel und ein zusammenfassendes Resümee gegliedert:
+Das Kapitel ist entsprechend den Kompetenzen in 3 Unterkapitel, ein abschließendes Resümee und einen Selbsttest gegliedert:
 - [Aufbewahrung](publikation:aufbewahrung)
 - [Publikation](publikation:publikation)
 - [Kommunikation](publikation:kommunikation)
 - [Resümee](publikation:resumee)
+- [Selbsttest](publikation:assessment)
 
 ---
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
-
-Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ... Minuten.
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 20 Minuten. 
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
 ``` 

@@ -10,6 +10,7 @@ kernelspec:
   name: python3
 ---
 
+(publikation:assessment)=
 # 🏆Selbsttest: Publikation
 ````{admonition} Hinweis
 :class: hinweis, dropdown

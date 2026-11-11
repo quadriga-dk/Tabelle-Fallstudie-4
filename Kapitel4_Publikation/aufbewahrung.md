@@ -12,40 +12,43 @@ Die Kompetenz 5.1 Aufbewahrung des QUADRIGA Datenkompetenzframeworks.
 ```
 *Quellenangabe: Ausschnitt aus dem Modell "QUADRIGA Datenkompetenzframework" von Petras et al. unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a>.*
 
+## Ausgangslage
+
 Nachdem die Daten geordnet, dokumentiert und beschrieben wurden, sollen diese nun veröffentlicht werden. Dies geschieht üblicherweise in sogenannten <i>Repositorien</i>. 
 In diesem Unterkapitel erfahren Sie:
 <ul>
-  <li>Was ein Repositorium genau ist;</li>
+  <li>was ein Repositorium ist,</li>
   <li>Welche Arten von Repositorien es gibt;</li>
   <li>Wo Sie Repositorien finden können;</li>
   <li>Und nach welchen Kriterien Sie ein für Ihr Projekt passendes Repositorium auswählen.</li>
 </ul>
 
-## Repositorien im Überblick
+### Repositorien im Überblick
 
-Der Begriff "Repositorium" stammt aus dem lateinischen und bedeutet so viel wie 'Lager'. Ursprünglich wurde der Begriff synonym mit Büchergestell oder Aktenschrank verwendet {cite}`ujkani2023`. Während ein digitales Archiv primär auf die langfristige Sicherung und den Erhalt von Daten im Hintergrund ausgelegt ist, dient ein Repositorium als Plattform für die Organisation, den öffentlichen Zugriff und die aktive Bereitstellung oder Publikation dieser Inhalte {cite}`nfdi4culture2023`.
-Heutzutage ist mit Repositorium (und seiner englischen Übersetzung <i>Repository</i>, welche in der Informatik sehr verbreitet ist) primär ein Ort zur (geordneten) Speicherung von Daten gemeint. Im informatischen Bereich ist damit ein Verwaltungssystem gemeint, welches i.d.R. auf einem Server hinterlegt ist. Auf diese Weise können Programmierer ggf. parallel und effizient an demselben Projekt arbeiten, den Quellcode bearbeiten oder die Inhalte als Endprodukt der Zielgruppe oder der Öffentlichkeit zur Verfügung stellen {cite}`borges2016understanding`. 
-Im Bibliothekswesen und <a href="https://forschungsdaten.info/fdm-allgemein/informieren-und-planen/was-ist-forschungsdatenmanagement" class="external-link" target="_blank">Forschungsdatenmanagement (FDM)</a> hingegen wird unter einem Repositorium in der Regel ein Dokumentenserver verstanden, auf welchem Daten, u.a. mithilfe von Metadaten, wiederauffindbar hinterlegt werden können. Oft wird dieser auch Publikationserver oder Online-Archiv genannt {cite}`nfdi4culture2023`. In dieser Fallstudie sind letztere relevant.
+Ein Repositorium ist eine Plattform für die Publikation und Speicherung von Forschungsdaten, die damit entweder der Öffentlichkeit oder auch nur einer ausgewählten Nutzer:innengruppe zur vVerfügung gestellt werden {cite}`nfdi4culture2023`. 
 
-Die Informationsplattform <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a> unterteilt Repositorien in die folgenden 3 Kategorien:
-
+Dabei werden 3 Kategorien an Repositorien unterschieden:
 <ol>
-  <li><b>Institutionelle Repositorien:</b> Diese Art von Repositorien werden von Institutionen (z.B. von Universitäten betrieben). Die Thematik der Datensätze sind demnach ähnlich vielseitig wie die Ausrichtung der Institution selbst. Institutionelle Repositorien sind auf die Bedürfnisse ihrer Mitglieder ausgelegt und für Dritte und die Öffentlichkeit oft nur eingeschränkt oder sogar gar nicht zugänglich.</li>
-  <li><b>Fachspezifische Repositorien</b> beinhalten, wie ihr Name bereits vermuten lässt, Informationen aus einer spezifischen Disziplin und sind dementsprechend homogen. Des Weiteren sind sie zugeschnitten auf die Bedarfe und Anforderungen der entsprechenden Wissenschaftscommunity.</li>
-  <li><b>Generische Repositorien</b> sind allgemeine Repositorien ohne spezifische Fachrichtung, welche oft keine direkte Verbindung zu wissenschaftlichen Institutionen haben. Hierzu gehört zum Beispiel <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a></li>
+  <li><b>Institutionelle Repositorien</b> werden von Institutionen (z.B. von Universitäten und Forschungseinrichtungen) betrieben. Die dort publizierten Daten spiegeln i. d. R. die thematische Vielfalt der Institution selbst. Institutionelle Repositorien sind auf die Bedürfnisse ihrer Mitarbeitenden ausgelegt und für Dritte und die Öffentlichkeit oft nur eingeschränkt oder sogar gar nicht zugänglich.</li>
+  <li><b>Fachspezifische Repositorien</b> sind auf eine Fachdisziplin ausgelegt und thematisch entsprechend homogen. Sie sind zugeschnitten auf die Bedarfe und Anforderungen der entsprechenden Fachcommunity.</li>
+  <li><b>Generische Repositorien</b> sind allgemeine Plattformen ohne spezifische Fachausrichtung. Hierzu gehört zum Beispiel <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a></li>
 </ol>
 
-Vielleicht haben Sie schon mit Repositorien interagiert. Sei es mit dem Datenserver Ihrer Institution, einem fachspezifischen Repositorium oder vielleicht mit dem in der Privatwirtschaft weit verbreiteten Kollaborationstool <a href="https://de.wikipedia.org/wiki/Confluence_(Atlassian)" class="external-link" target="_blank">Confluence</a>, was ebenfalls im weiteren Sinne als Repositorium verstanden werden kann.
-Allerdings werden derartige Kollaborationstools nicht den Prinzipien des FDM gerecht. Deswegen sind in dieser Fallstudie mit Repositorien stets Verzeichnisse gemeint, die gewisse wissenschaftliche Qualitätsstandards erfüllen. 
+Einen kurzen Überblick zum Thema bietet das Video "„Open Science: Von Daten zu Publikationen“: Repositorien" der Universität Konstanz:
 
-## Passende Repositorien finden 
-Bevor Sie sich entscheiden Ihre Forschungsdaten in einem Repositorium hinterlegen beziehungsweise selber Forschungsdaten anderer aus einem Repositorium beziehen, sollten Sie erstmal geeignete Repositorien finden und entscheiden, mit welchem Sie interagieren möchten.
+<iframe width="930" height="523" src="https://www.youtube.com/embed/N8EN6HHS-PU" title="„Open Science: Von Daten zu Publikationen“: Repositorien" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Erste Anlaufstellen
-Eine mögliche erste Anlaufstelle hierfür wäre die Institution, deren Mitglied Sie gegebenenfalls sind. Hierfür lohnt sich mit der Abteilung in Verbindung zu setzen, welche auch für Publikationen verantwortlich ist. Im Fall von Universitäten und anderen Hochschulen wäre das in den meisten Fällen die Bibliothek.
-Diese kann Sie am besten darüber aufklären, über welche Repositorien und Datenarchive Ihre Institution verfügt und wofür diese bestimmt sind. Oft können Sie sich dort auch zu institutsfremden Repositorien beraten lassen.
+---
 
-Das <a href="https://www.dfg.de/de/ueber-uns/ueber-die-dfg/was-ist-die-dfg" class="external-link" target="_blank">DFG</a>-geförderte Projekt <a href="https://www.re3data.org/" class="external-link" target="_blank">r3data</a> ist ein globales Register für Forschungsdatenrepositorien, das aktuell mehr als 3500 Repositorien verzeichnet (<i>Stand: Juni 2026</i>).
+Lizenzhinweis: Video "„Open Science: Von Daten zu Publikationen“: Repositorien" vom <a href="https://www.kim.uni-konstanz.de/openscience/open-science-im-kim/team/" class="external-link" target="_blank">Team Open Science</a> der Universität Konstanz unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a>.
+
+---
+
+## Vorgehen
+
+Um ein geeignetes Repositorium zu finden, kann Ihre Institution eine erste Anlaufstelle sein. Die Bibliothek oder ein Forschungsdatenmanagement-Team können Sie am besten darüber aufklären, welche Optionen an Ihrer Institution zur Verfügung stehen. Oft können Sie sich dort auch zu externen Repositorien beraten lassen.
+
+Über die Plattform <a href="https://www.re3data.org/" class="external-link" target="_blank">re3data</a> (s. Abb. 4.4) können Sie selbst nach passenden Repositorien suchen. Das <a href="https://www.dfg.de/de/ueber-uns/ueber-die-dfg/was-ist-die-dfg" class="external-link" target="_blank">DFG</a>-geförderte Projekt re3data ist ein globales Register für Forschungsdatenrepositorien, das aktuell mehr als 3500 Repositorien verzeichnet (<i>Stand: Juni 2026</i>).
 
 ```{figure} /assets/r3data-startseite.png
 ---
@@ -54,12 +57,9 @@ width: 50%
 ---
 Startseite von r3data
 ```
-*Quellenangabe: Screenshot der Startseite von r3data vom xx.xx.xxxx.*
+*Quellenangabe: Screenshot der Startseite von <a href="https://www.re3data.org/" class="external-link" target="_blank">re3data</a> vom 24.06.2026.*
 
-r3data funktioniert wie eine Art Suchmaschine für Forschungsdatenrepositorien, allerdings nur für Repositorien, welche auch im Register vorhanden sind. Ein besonderes Merkmal sind jedoch die Filtermöglichkeiten und die Stöberfunktion.
-Über den Reiter "Search" werden Sie direkt zu einer Liste mit allen Repositorien geleitet, wo Sie die Einträge nach 30 (<i>Stand: Juni 2026</i>) Kategorien filtern können. Dazu gehören beispielsweise die für das Repositorium relevanten Metadatenstandards.
-Was <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/dcat_ap/DCAT_AP_Recap.html" class="external-link" target="_blank">Metadaten</a> sind, wurde bereits in einer vergangenen <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html" class="external-link" target="_blank">Fallstudie</a> thematisiert.
-Über den Reiter "Browse" können Sie wahlweise über eine Weltkarte oder über ein sogenanntes <a href="https://datavizcatalogue.com/methods/sunburst_diagram.html" class="external-link" target="_blank">Sunburst-Diagramm</a> in wissenschaftlichen Fachdisziplinen stöbern und zielgenau fachspezifische oder regionale Repositorien finden {cite}`nfdi4culture2023`.
+re3data funktioniert wie eine Suchmaschine für Forschungsdatenrepositorien. Über den Reiter "Search" werden Sie direkt zu einer Liste mit allen Repositorien geleitet, wo Sie die Einträge nach 30 (<i>Stand: Juni 2026</i>) Kategorien filtern können. Dazu gehören beispielsweise die für das Repositorium relevanten Metadatenstandards. Über den Reiter "Browse" können Sie wahlweise über eine Weltkarte oder ein sogenanntes <a href="https://datavizcatalogue.com/methods/sunburst_diagram.html" class="external-link" target="_blank">Sunburst-Diagramm</a> (s. Abb. 4.5) Fachdisziplinen durchsuchen und spezifische Repositorien finden.
 
 ```{figure} /assets/r3data-sunburst.png
 ---
@@ -68,79 +68,19 @@ width: 50%
 ---
 Sunburst Diagramm von r3data
 ```
-*Quellenangabe: Screenshot des Sunburst Diagramms von r3data vom xx.xx.xxxx, das die Fachgebiete ud Fachdisziplinen zeigt, für die Repositorien verfügbar sind.*
-
-Auch Journals und Verlage verweisen oft auf Repositorien, welche Sie empfehlen oder sogar voraussetzen, um später bei ihnen publizieren zu dürfen. Ein Beispiel hierfür ist <a href="https://www.springernature.com/gp/authors/research-data-policy/repositories-mandates/19540364?utm_source=chatgpt.com" class="external-link" target="_blank">SpringerNature</a>. 
-
-### Nationale und internationale Initiativen
-
-Auch staatliche Instanzen haben erkannt, dass es im Bereich Forschungsdatenmanagement ein weitflächiges und relativ ungeordnetes Cluster aus Standards, Repositorien und Forschungsinfrastrukturen gibt. Deshalb nahm auf Initiative der Europäischen Kommission im Jahr 2015 die Idee der <a href="https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science/european-open-science-cloud-eosc_en" class="external-link" target="_blank">European Open Science Cloud (EOSC)</a> Gestalt an, welche durch die <a href="https://eosc.eu/" class="external-link" target="_blank">EOSC Association</a> implementiert werden soll. Ziel ist es, europäischen Wissenschaftler:innen den Zugang zu wissenschaftlichen Daten, Datenverarbeitungsplattformen und Dienstleistungen für die Datenverarbeitung in einem gemeinsamen virtuellen Umfeld zu erleichtern {cite}`popescu2017eosc`. Die EOSC ist dabei dezentral über ein föderiertes Netzwerk von Knotenpunkten (*Nodes*) organisiert, bei dem der zentrale <a href="https://open-science-cloud.ec.europa.eu/support/getting-started-eosc-eu-node" class="external-link" target="_blank">EU Node</a> als Referenzpunkt dient und die Verknüpfung der nationalen Knotenpunkte unterstützt. Dieser bietet seinen Nutzenden viele für Forscher:innen nützliche Services {cite}`eosc_official`. 
-
-Für Deutschland ist der <a href="https://www.nfdi.de/" class="external-link" target="_blank">Verein für Nationale Forschungsdateninfrastruktur (NFDI) e.V.</a> zuständig, welcher Deutschland auch als mandatiertes Mitglied in der EOSC vertritt und am Aufbau des nationalen Knotens (EOSC Node Germany) arbeitet. Eine Liste der beauftragten Organisationen in anderen Teilnehmerstaaten finden Sie <a href="https://eosc.eu/eosc-association/mandated-organisations" class="external-link" target="_blank">hier</a>. Die FDM-Landschaft in Deutschland ist breit gefächert und erstreckt sich als bundesweit verteiltes Netzwerk über zahlreiche Universitäten und außeruniversitäre Forschungseinrichtungen {cite}`nfdi_ev,forschungsdaten_info_nfdi`. 
-
-Die NFDI hat sich zum Ziel gesetzt, das FDM in Deutschland kooperativ und effizient zu organisieren, sodass Forschungsdaten mit den <a href="https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/our-digital-future/open-science/european-open-science-cloud-eosc_en" class="external-link" target="_blank">FAIR-Prinzipien</a> im Einklang stehen. Die NFDI selbst ist in erster Linie über sogenannte Konsortien organisiert. Jedes Konsortium widmet sich einer wissenschaftlichen Fachrichtung, vernetzt die beteiligten Einrichtungen und richtet seine Methoden sowie disziplinspezifischen Dienste nach den Bedürfnissen des Fachpublikums aus. Darunter kann auch die Bereitstellung eines offenen oder zugangsbeschränkten Repositoriums fallen. Weitere Informationen und Links zu den aktuellen Konsortien finden Sie kompakt und präzise zusammengefasst auf der Plattform <a href="https://forschungsdaten.info/fdm-im-deutschsprachigen-raum/deutschland/nationale-forschungsdateninfrastruktur-nfdi" class="external-link" target="_blank">forschungsdaten.info</a>. Oft arbeiten Universitäten und andere Einrichtungen hierzulande direkt mit dem richtigen NFDI-Konsortium und/oder der EU-Node der EOSC zusammen, um die Interoperabilität zu fördern {cite}`forschungsdaten_info_nfdi,dfg_nfdi, nfdi_ev`.
+*Quellenangabe: Screenshot des Sunburst Diagramms von r3data vom 24.06.2026, das die Fachgebiete ud Fachdisziplinen zeigt, für die Repositorien verfügbar sind.*
 
 ### Generische Repositorien
 
-Generische Repositorien sind disziplinübergreifend und bieten eine unkomplizierte Lösung für Forschende, für deren spezifisches Feld (noch) kein dediziertes Fachrepositorium existiert oder deren Heimatinstitution keine eigene Infrastruktur anbietet. Zwei bekannte Beispiele hierfür sind <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> und  <a href="https://figshare.com/" class="external-link" target="_blank">Figshare</a> {cite}`publikation_forschungsdaten_bbaw`.
+Generische Repositorien sind disziplinübergreifend und bieten eine unkomplizierte Lösung für Wissenschaftler:innen, für deren Forschungsfeld (noch) kein Fachrepositorium existiert oder deren Heimatinstitution keine eigene Infrastruktur anbietet. Zwei bekannte Beispiele für generische Repositorien sind <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> und <a href="https://figshare.com/" class="external-link" target="_blank">Figshare</a>.
 
 Zenodo wird vom <a href="https://home.cern/" class="external-link" target="_blank">CERN</a> betrieben und entstand im Rahmen des europäischen <a href="https://www.openaire.eu/" class="external-link" target="_blank">OpenAIRE-Projekts</a>. Die Plattform ermöglicht die kostenfreie Veröffentlichung unterschiedlicher Forschungsoutputs, darunter Forschungsdaten, Software, Publikationen und weitere digitale Materialien. Stand Juli 2026 können Datensätze mit einer Größe von bis zu 50 GB hochgeladen werden. Für alle veröffentlichten Datensätze wird automatisch ein <a href="https://projects.tib.eu/pid-service/persistent-identifiers/digital-object-identifiers-dois/" class="external-link" target="_blank">Digital Object Identifier (DOI)</a> vergeben.
 
 <a href="https://figshare.com/" class="external-link" target="_blank">Figshare</a> ist ein kommerziell betriebenes Repositorium, das in einer kostenfreien Basisversion zur Verfügung steht. Es unterstützt die Veröffentlichung verschiedener Forschungsoutputs und bietet eine Vorschaufunktion für eine große Anzahl unterschiedlicher Dateiformate. Dadurch können viele Datentypen (beispielsweise Tabellen, Videos oder 3D-Modelle) direkt im Browser betrachtet werden, ohne dass sie zuvor heruntergeladen werden müssen.
 
-Einen Vergleich verschiedener generischer Repositorien finden Sie  <a href="https://zenodo.org/records/17315963" class="external-link" target="_blank">hier</a> {cite}`generalist_repository_comparison_chart_pdf`. 
-
-Eine weitere Möglichkeit bieten spezialisierte Datenjournale (Data Journals), die sogenannte Datenartikel (Data Papers) veröffentlichen und meist im Open Access zur Verfügung stellen. Im Gegensatz zu klassischen Zeitschriftenartikeln enthalten sie keine eigenen Forschungsergebnisse oder Interpretationen, sondern konzentrieren sich ausschließlich auf eine detaillierte, qualitätsgeprüfte Beschreibung von Datensätzen (inklusive der angewandten Erhebungsmethoden, Bearbeitungsschritte und Datenbeschaffenheit). Das Hauptziel dieser meist disziplinspezifischen Journals besteht darin, den raschen Zugang zu verlässlichen Forschungsdaten zu sichern, deren Sichtbarkeit und Auffindbarkeit zu maximieren und ihre wissenschaftliche Wiederverwendung zu erleichtern {cite}`ku_fdm`.
-
-### Qualitätsmerkmale
-
-Um Ihre Datensätze nachhaltig und wiederauffindbar zu hinterlegen, sollten Sie darauf achten, dass das von Ihnen präferierte Repositorium von hoher Qualität ist. Die <a href="https://www.coretrustseal.org/" class="external-link" target="_blank">CoreTrustSeal</a>- und <a href="https://www.langzeitarchivierung.de/Webs/nestor/DE/Services/nestor_Siegel/nestor_siegel_node.html" class="external-link" target="_blank">nestor</a>-Siegel sind beispielsweise zwei Zertifikate, welche sich zum Ziel gesetzt haben, diese sicherzustellen. Beide Zertifizierungsverfahren basieren auf einem zweistufigen Prozess: Die Verantwortlichen für die Repositorien führen zunächst eine detaillierte, evidenzbasierte Selbstevaluierung durch. Diese Selbsteinschätzung wird anschließend von unabhängigen Fachexperten in einem formellen Begutachtungsprozess überprüft. Die Kriterien hierfür sind vielfältig und auf den Websites der Zertifikatsgeber beschrieben. Im Allgemeinen lassen sich die Prüfkriterien dieser Siegel jedoch in drei zentrale Säulen zusammenfassen: Erstens muss das Repositorium über eine verlässliche organisatorische Infrastruktur verfügen, die langfristige Finanzierung, qualifiziertes Personal sowie rechtliche Konformität und Krisenplanung sicherstellt. Zweitens wird das professionelle Management der digitalen Objekte bewertet, was voraussetzt, dass Daten zielgruppengerecht aufbereitet, durch aktive Erhaltungsmaßnahmen interpretierbar gehalten sowie nachweisbar authentisch und auffindbar sind. Drittens wird eine stabile und geschützte IT-Infrastruktur gefordert, die Datensicherheit, Integrität durch regelmäßige Systemprüfungen und Schutz vor Ausfällen garantiert {cite}`coretrustseal_requirements_2026,nestor_siegel_2024`. 
-
-
-```{figure} /assets/3_säulen.png
----
-align: center
-width: 100%
-name: 3_säulen
----
-Eigenschaften, welche die Zertifikate als gut einstufen. Eigene Darstellung der Merkmale eines vertrauenswürdigen Repositoriums. Grafische Aufarbeitung mithilfe von <a href="https://gemini.google/de/overview/image-generation/?hl=de-DE" class="external-link" target="_blank">Gemeni Nano Banana 2</a>
-```
-
-Allerdings ist das Fehlen eines solchen Siegels keineswegs ein Zeichen, dass die Qualität eines Repositoriums unbedingt mangelhaft ist. Derartige Zertifikate sind kostenpflichtig und nur begrenzt Standard im deutschsprachigen Raum und darüber hinaus. Das oben erwähnte generische Repositorium <i>Zenodo</i> ist beispielsweise ein nichtzertifiziertes Repositorium, welches aufgrund seines renommierten Trägers (CERN) voraussichtlich langfristig betrieben wird, was es grundsätzlich zu einem attraktiven generischen Repositorium macht.
-
-Überprüfen Sie also auch selbstständig, ob ein Repositorium Ihren Ansprüchen bzw. den Ansprüchen Ihres Fachgebietes entspricht. Das bereits erwähnte Suchtool <a href="https://www.re3data.org/" class="external-link" target="_blank">r3data</a> bietet im Übrigen auch die Möglichkeit nach bestimmten Qualitätsmerkmalen wie Identifiervergabe, Open Access oder Zertifizierung zu filtern.
-
-### Einschränkungen und Interessenkonflikte
-
-Neben der Qualität und Eignung der von Ihnen inspizierten Repositorien sollten Sie auch die Interessen der jeweiligen Betreiber berücksichtigen und abwägen, ob diese mit Ihren persönlichen Zielen vereinbar sind. Die Interessen können dabei unterschiedlicher Natur sein. Institutionelle Repositorien können beispielsweise dazu beitragen, die Forschung einer Einrichtung sichtbar und auffindbar zu machen. Auch die von einer Institution bereitgestellte Forschungsdateninfrastruktur kann daher Teil ihrer eigenen wissenschaftlichen und organisatorischen Zielsetzungen sein.
-
-Auch Verlage und Journale können Vorgaben zur Ablage von Forschungsdaten machen. Je nach Journal kann die Veröffentlichung von Forschungsdaten lediglich empfohlen oder verpflichtend sein. Für bestimmte Datentypen kann zudem die Ablage in einem fachlich anerkannten oder anderweitig vorgegebenen Repositorium verpflichtend sein  {cite}`elsevier_research_data_guidelines`. 
-
-Bei der Auswahl eines solchen Repositoriums sollten deshalb auch die mit der Veröffentlichung verbundenen Nutzungs- und Lizenzbedingungen geprüft werden. Je nach den eingeräumten Rechten und den bereits bestehenden Vereinbarungen kann eine weitere Veröffentlichung der Daten in einem anderen Repositorium erschwert oder ausgeschlossen sein {cite}`springer_nature_licensing_guide`.
-
-Allerdings ist dies in jedem Fall keine übliche Praxis. Das Hinterlegen von identischen Daten in unterschiedlichen Repositorien birgt nämlich auch in Fällen, in denen es ethisch und rechtlich korrekt ist, das Risiko, dass in den Datensätzen Inkonsistenzen auftreten. Ein Beispiel hierfür wäre eine Aktualisierung oder sonstige Modifikation der Daten in Repositorium A ohne dieselbe Anpassung in Repositorium B vorzunehmen. Wenn Sie derartige Ungenauheiten verhindern möchten, jedoch dabei trotzdem in mehreren Repositorien Forschungsdaten veröffentlichen möchten (z.B. um sie einer breiteren Gruppe an Menschen zur Verfügung zu stellen), sollten Sie mit persistenten Identifikatoren (wie etwa dem DOI) arbeiten. <i>Zenodo</i> beispielsweise fragt beim Hinterlegen von Daten explizit nach einem DOI und erstellt ggf. einen für Sie. Auf diese Weise kann auf den Speicherort der von Ihnen bereits anderswo publizierten Forschungsdaten verwiesen werden. 
-
-Trotz der zunehmenden Verbreitung von Open-Access-Modellen und offenen Lizenzen bei großen Verlegern lässt sich eine problematische Verschiebung in deren Geschäftsmodellen vom reinen Verkauf von Inhalten („Content“) hin zur systematischen Erfassung und Analyse von Nutzerdaten, dem sogenannten Wissenschaftlertracking (oder Science Tracking), beobachten {cite}`lauer2022datentracking,gehring2021wissenschaftlertracking,knoche2021datenkraken`. Große Verlage agieren zunehmend als Datenanalyse-Konzerne, die das digitale Verhalten von Forschenden überwachen {cite}`gehring2021wissenschaftlertracking, knoche2021datenkraken`. Auf diese Weise wird der gesamte intellektuelle Zyklus freier, öffentlich finanzierter Forschung privatwirtschaftlich abgeschöpft, analysiert und als gewinnträchtiges Produkt vermarktet {cite}gehring2021wissenschaftlertracking. Ein Rückzug der Großverlage aus dem traditionellen Content-Verkauf ist daher keineswegs als Sieg für die Open-Science-Bewegung zu werten {cite}`knoche2021datenkraken`. Ohne vertragliche Riegel und strenge technische Schutzklauseln droht Open Access zu einer „Lebendfalle“ zu werden, in der die informationelle Selbstbestimmung und letztlich die verfassungsrechtlich geschützte Wissenschaftsfreiheit auf dem Spiel stehen {cite}`gehring2021wissenschaftlertracking,knoche2021datenkraken`.
-
-Darüber hinaus können auch wissenschafts-, förder- oder forschungspolitische Zielsetzungen von nationalen und internationalen Initiativen bei der Auswahl eines Repositoriums eine Rolle spielen. Sofern Sie bei bestimmten Repositorien oder Infrastrukturen solche Zielsetzungen erkennen, können Sie diese mit Ihren eigenen Anforderungen und Prioritäten abgleichen.
-
-Eine weitere Überlegung betrifft die Frage, wer Zugriff auf Ihre Forschungsdaten erhalten soll. Je nach Repositorium können unterschiedliche Möglichkeiten für die Veröffentlichung und den Zugang zu Daten bestehen. So können Daten beispielsweise öffentlich zugänglich gemacht oder der Zugang aufgrund rechtlicher, ethischer oder datenschutzrechtlicher Anforderungen eingeschränkt werden. Entsprechende Einschränkungen sind auch in den Richtlinien großer Verlage vorgesehen. Sie sollten daher prüfen, ob die jeweiligen Vorgaben des Repositoriums mit Ihren persönlichen Präferenzen und den für Ihr Forschungsprojekt geltenden Anforderungen vereinbar sind.
-
-Dies ist nur eine Auswahl möglicher Überlegungen bei der Suche nach einem geeigneten Repositorium. Das nachfolgende Diagramm ({numref}entscheidungshilfe) kann dabei als Hilfestellung dienen. Um die Übersichtlichkeit zu bewahren, werden darin nicht alle zuvor genannten Aspekte berücksichtigt. Sowohl das Diagramm als auch die Auswahlkriterien können je nach Einzelfall erweitert werden, beispielsweise um die verfügbare Speicherkapazität oder den Umfang der Moderation durch die Repositoriumsbetreiber.
-
-
-```{figure} /assets/Entscheidungsbaum_Repo.png
----
-align: center
-width: 100%
-name: entscheidungshilfe
----
-Entscheidungshilfe zum Auswählen eines Repositoriums
-```
-*Quellenangabe: Eigene Darstellung eines Entscheidungsbaums. Grafische Aufbereitung mithilfe von xxx.*
+Einen Vergleich verschiedener generischer Repositorien finden Sie im Dokument <a href="https://zenodo.org/records/17315963" class="external-link" target="_blank">Generalist Repository Comparison Chart</a> von {cite}`stall_2025`. 
 
 ---
-
 
 **Literatur**
 
