@@ -26,53 +26,12 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 10 Minuten
+**Geschätzte Zeit**: 25 Minuten
 
 Viel Erfolg!
 ````
 
 ## Frage 1
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question1 = [
-    {
-        "question": "Warum ist es bei der Einarbeitung in ein (fremdes) Forschungsprojekt sinnvoll, zwischen Rohdaten und (aufbereiteten) Forschungsdaten zu unterscheiden?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Weil für beide Datenarten unterschiedliche Fragen zu Format, Entstehung und Dokumentationsstand beantwortet werden müssen, was eine strukturierte Übersicht über den gesamten Datenbestand ermöglicht.",
-                "correct": True,
-                "feedback": """✓ Richtig! Da Rohdaten und bereits aufbereitete Forschungsdaten unterschiedliche Entstehungs- und Bearbeitungsstadien durchlaufen haben, hilft die getrennte Betrachtung dabei, systematisch zu klären, was überhaupt vorliegt, wie es entstanden ist und was davon bereits dokumentiert oder publiziert ist."""
-            },
-            {
-                "answer": "Weil Rohdaten grundsätzlich nicht veröffentlicht werden dürfen, Forschungsdaten aber immer.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Ob eine Veröffentlichung möglich ist, hängt nicht von dieser Unterscheidung ab, sondern von rechtlichen und inhaltlichen Kriterien wie Rechteinhaberschaft, Datenschutz und Qualität."""
-            },
-            {
-                "answer": "Weil nur Forschungsdaten, nicht aber Rohdaten, eine Provenienz besitzen.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Auch Rohdaten haben eine nachvollziehbare Herkunft (Provenienz), die dokumentiert werden sollte – unabhängig davon, ob sie bereits weiterverarbeitet wurden."""
-            },
-            {
-                "answer": "Weil diese Unterscheidung gesetzlich vorgeschrieben ist.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Es handelt sich um eine praktische, arbeitsorganisatorische Empfehlung zur besseren Strukturierung der Einarbeitung, nicht um eine rechtliche Pflicht."""
-            }
-        ]
-    }
-]
-display_quiz(question1, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 2
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -83,32 +42,36 @@ from assessment import DragDropQuiz
 quiz = DragDropQuiz()
 
 quiz.create_matching_quiz(
-    title="Ordnen Sie die folgenden Beispiele dem jeweils verletzten Qualitätskriterium zu:",
+    title="Ordnen Sie jedes Szenario dem Qualitätsmerkmal zu, das dadurch in erster Linie beeinträchtigt wird:",
     descriptions=[
-        "Eine Exceltabelle zu Messwerten eines chemischen Experiments enthält plötzlich einen durch einen Softwarefehler verzerrten Wert, der nicht der realen Messung entspricht.",
-        "In einem Datensatz zu Studienteilnehmenden sind bei vielen Personen die Angaben zum höchsten Bildungsabschluss leer geblieben, da dieses Feld optional war.",
-        "Dieselbe Versuchsperson wurde in zwei unterschiedlichen Teilerhebungen einmal mit Großbuchstaben und einmal mit Kleinbuchstaben im Namensfeld erfasst, sodass beim Zusammenführen zwei getrennte Profile entstehen.",
-        "Durch ein technisches Problem beim Datenexport wurde derselbe Interviewdatensatz versehentlich doppelt in die Tabelle übernommen.",
-        "Ein Feld für das Erhebungsdatum enthält den Eintrag '31.14.2024', der kein gültiges Kalenderdatum darstellt."
+        "Ein Messdatensatz gibt die Bodenfeuchte nur noch in ganzen Zahlen an, weil beim Export alle Nachkommastellen abgeschnitten wurden.",
+        "Die Metadaten nennen 150 Teilnehmende, in der zugehörigen Datentabelle finden sich jedoch nur 120 Datensätze.",
+        "In einer Datei erscheinen alle Umlaute als unlesbare Sonderzeichen, weil die Zeichenkodierung nicht dem fachüblichen Standard entspricht.",
+        "Eine Datei wurde nachträglich verändert, aber es gibt weder eine Versionsnummer noch einen anderen Hinweis, was sich wann geändert hat.",
+        "Ein Großteil der Datenfelder ist leer, und nirgends wird darauf hingewiesen, dass die Daten unvollständig sind.",
+        "Der in den Metadaten angegebene Link zum Datensatz führt ins Leere und ist nicht dauerhaft (permanent) gesetzt."
     ],
     options=[
+        "Aktualität",
         "Genauigkeit",
-        "Vollständigkeit",
+        "Konformität",
         "Konsistenz",
-        "Eindeutigkeit",
-        "Gültigkeit"
+        "Transparenz",
+        "Vollständigkeit",
+        "Zugänglichkeit"
     ],
     correct_mapping={
-        "Eine Exceltabelle zu Messwerten eines chemischen Experiments enthält plötzlich einen durch einen Softwarefehler verzerrten Wert, der nicht der realen Messung entspricht.": "Genauigkeit",
-        "In einem Datensatz zu Studienteilnehmenden sind bei vielen Personen die Angaben zum höchsten Bildungsabschluss leer geblieben, da dieses Feld optional war.": "Vollständigkeit",
-        "Dieselbe Versuchsperson wurde in zwei unterschiedlichen Teilerhebungen einmal mit Großbuchstaben und einmal mit Kleinbuchstaben im Namensfeld erfasst, sodass beim Zusammenführen zwei getrennte Profile entstehen.": "Konsistenz",
-        "Durch ein technisches Problem beim Datenexport wurde derselbe Interviewdatensatz versehentlich doppelt in die Tabelle übernommen.": "Eindeutigkeit",
-        "Ein Feld für das Erhebungsdatum enthält den Eintrag '31.14.2024', der kein gültiges Kalenderdatum darstellt.": "Gültigkeit"
+        "Ein Messdatensatz gibt die Bodenfeuchte nur noch in ganzen Zahlen an, weil beim Export alle Nachkommastellen abgeschnitten wurden.": "Genauigkeit",
+        "Die Metadaten nennen 150 Teilnehmende, in der zugehörigen Datentabelle finden sich jedoch nur 120 Datensätze.": "Konsistenz",
+        "In einer Datei erscheinen alle Umlaute als unlesbare Sonderzeichen, weil die Zeichenkodierung nicht dem fachüblichen Standard entspricht.": "Konformität",
+        "Eine Datei wurde nachträglich verändert, aber es gibt weder eine Versionsnummer noch einen anderen Hinweis, was sich wann geändert hat.": "Transparenz",
+        "Ein Großteil der Datenfelder ist leer, und nirgends wird darauf hingewiesen, dass die Daten unvollständig sind.": "Vollständigkeit",
+        "Der in den Metadaten angegebene Link zum Datensatz führt ins Leere und ist nicht dauerhaft (permanent) gesetzt.": "Zugänglichkeit"
     }
 )
 ```
 
-## Frage 3
+## Frage 2
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -120,28 +83,28 @@ from quadriga import colors
 
 question3 = [
     {
-        "question": "Ein Datensatz zur Körpergröße von erwachsenen Studienteilnehmenden ist technisch korrekt formatiert (Zahl, keine Sonderzeichen, richtige Spalte), enthält jedoch einen Eintrag von '3,50 Metern'. Um welche Art von Qualitätsproblem handelt es sich hierbei vor allem?",
+        "question": "Sie sollen für ein Institut entscheiden, ob ein umfangreicher Datensatz aus einem fachfremden, abgeschlossenen Projekt (mehrere zehntausend Tabellenzeilen) veröffentlicht werden kann. Wie gehen Sie bei der Qualitätsprüfung am besten vor?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Ein semantisches Problem: Der Wert ist zwar syntaktisch korrekt formatiert, aber inhaltlich unmöglich bzw. unplausibel.",
+                "answer": "Sie nutzen Ihr im Einarbeiten gewonnenes Verständnis des Projekts und prüfen stichprobenartig, ob Werte den Erwartungen entsprechen, ob Felder leer sind und ob Wertebereiche überschritten werden – am Ende steht eine Entscheidung für oder gegen die Publikation.",
                 "correct": True,
-                "feedback": """✓ Richtig! Syntax und Semantik sind zwei unterschiedliche Qualitätsebenen: Syntaktisch ist der Wert einwandfrei (eine gültige Zahl im richtigen Format), aber inhaltlich ist er nicht plausibel, da kein erwachsener Mensch 3,50 Meter groß ist. Genau solche Fälle zeigen, dass korrekte Formatierung allein nicht ausreicht, um Datenqualität zu gewährleisten."""
+                "feedback": "✓ Richtig! Das Ziel der Prüfung ist laut Kapitel eine Publikationsentscheidung. Bei großen Datenmengen ist eine Prüfung jedes einzelnen Feldes weder möglich noch sinnvoll; Stichproben anhand allgemeiner Qualitätskriterien sind der vorgesehene Weg."
             },
             {
-                "answer": "Ein syntaktisches Problem, da die Maschinenlesbarkeit des Datensatzes beeinträchtigt ist.",
+                "answer": "Sie prüfen jede einzelne Tabellenzelle, denn nur eine lückenlose Kontrolle erfüllt die Anforderungen der Guten Wissenschaftlichen Praxis.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Maschinenlesbarkeit ist hier nicht beeinträchtigt – der Wert lässt sich technisch problemlos verarbeiten. Das Problem liegt auf der inhaltlichen, nicht auf der formalen Ebene."""
+                "feedback": "× Nicht korrekt. Das Kapitel hält ausdrücklich fest, dass das Prüfen einzelner Tabellenfelder bei großem Umfang nicht möglich und auch nicht sinnvoll ist. Die Gute Wissenschaftliche Praxis wird als Maßstab genannt, verlangt aber keine Vollkontrolle jeder Zelle."
             },
             {
-                "answer": "Es handelt sich um kein Qualitätsproblem, da der Wert korrekt formatiert vorliegt.",
+                "answer": "Sie korrigieren gefundene Fehler und vereinheitlichen die Struktur, sodass der Datensatz anschließend in einwandfreiem Zustand vorliegt.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Korrekte Formatierung schützt nicht automatisch vor inhaltlich unplausiblen Werten. Auch formal einwandfreie Daten können ein ernstzunehmendes Qualitätsproblem darstellen."""
+                "feedback": "× Nicht korrekt. Die Aufarbeitung der Daten ist nicht das Ziel der Qualitätsprüfung – schon gar nicht bei einem fachfremden Projekt. Geprüft wird, ob die Daten in guter Qualität vorliegen und damit einen Mehrwert für die wissenschaftliche Community bieten können."
             },
             {
-                "answer": "Ein Problem der Lizenzierung, da unklare Werte rechtlich nicht veröffentlicht werden dürfen.",
+                "answer": "Sie verzichten auf eine eigene Prüfung, da Daten aus einem Forschungsprojekt einer Institution ohnehin als qualitätsgesichert gelten.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Lizenzfragen betreffen die rechtliche Nutzbarkeit von Daten, nicht die inhaltliche Plausibilität einzelner Werte. Dieses Problem ist ein Datenqualitäts-, kein Lizenzproblem."""
+                "feedback": "× Nicht korrekt. Das Kapitel verlangt vor der Publikation ausdrücklich eine Qualitätsprüfung (Vollständigkeit, Plausibilität, Gute Wissenschaftliche Praxis). Auch ein Hinweis auf die Herkunft allein ersetzt sie nicht – die Vertrauenswürdigkeit ist nur eines von zehn Merkmalen."
             }
         ]
     }
@@ -149,6 +112,58 @@ question3 = [
 display_quiz(question3, colors=colors.jupyterquiz, max_width=1000)
 ```
 
+## Frage 3
+
+Wählen Sie **alle** zutreffenden Aussagen.
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question4 = [
+    {
+        "question": "Welche Aussagen zur Struktur eines Datensatzes entsprechen den Empfehlungen des Kapitels (Tidy-Data-Struktur)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Jede Variable steht in einer eigenen Spalte, jede Beobachtung in einer eigenen Zeile.",
+                "correct": True,
+                "feedback": "✓ Richtig! Das ist der Kern der Tidy-Data-Struktur: Variablen bilden Spalten, Beobachtungen bilden Zeilen."
+            },
+            {
+                "answer": "Jeder einzelne Wert ist eindeutig genau einer Variable und einer Beobachtung zugeordnet.",
+                "correct": True,
+                "feedback": "✓ Richtig! Genau das macht die Struktur eindeutig und erleichtert eine konsistente Weiterverarbeitung und Auswertung."
+            },
+            {
+                "answer": "In Rohdatensätzen sollten keine Berechnungen oder rein visuellen Formatierungen enthalten sein.",
+                "correct": True,
+                "feedback": "✓ Richtig! Berechnungen und rein optische Gestaltung können die maschinelle Weiterverarbeitung erschweren, besonders in Rohdaten."
+            },
+            {
+                "answer": "Variablen sollten einheitlich benannt und formatiert sein, und es sollten eindeutige Identifikatoren verwendet werden.",
+                "correct": True,
+                "feedback": "✓ Richtig! Auch dies gehört laut Kapitel zu einer konsistenten Datenstruktur."
+            },
+            {
+                "answer": "Farbliche Markierungen auffälliger Werte erhöhen die Nachnutzbarkeit, da Auffälligkeiten so sofort erkennbar sind.",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Rein visuelle Formatierungen sind für Menschen hilfreich, für die maschinelle Weiterverarbeitung aber ein Hindernis – gerade in Rohdatensätzen sollten sie vermieden werden."
+            },
+            {
+                "answer": "Es ist unproblematisch, mehrere Werte in einer Zelle zusammenzufassen, solange sie durch ein Trennzeichen getrennt sind.",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Tidy Data verlangt, dass jeder einzelne Wert eindeutig einer Variable und einer Beobachtung zugeordnet ist. Zusammengefasste Werte widersprechen dem und erschweren die Auswertung."
+            }
+        ]
+    }
+]
+display_quiz(question4, colors=colors.jupyterquiz, max_width=1000)
+```
 
 ## Frage 4
 
@@ -160,39 +175,41 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question7 = [
+question5 = [
     {
-        "question": "Ein Datensatz zu Pflanzenwachstum enthält eine Tabelle, in der für jede Pflanze eine eigene Spalte existiert und die gemessenen Werte (Höhe, Woche, Behandlungsgruppe) in den Zeilen darunter vermischt eingetragen sind. Was müsste verändert werden, damit die Tabelle dem Tidy-Data-Prinzip entspricht?",
+        "question": "Ein Forschungsteam hat über Jahre hinweg mit erheblichem Aufwand eine umfangreiche Datenbank mit Beobachtungsdaten aufgebaut und strukturiert. Welche Aussage zum rechtlichen Schutz trifft nach dem Kapitel am ehesten zu?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Die Tabelle müsste so umstrukturiert werden, dass jede Variable (z. B. Pflanze, Woche, Höhe, Behandlungsgruppe) eine eigene Spalte bildet und jede Beobachtung eine eigene Zeile.",
+                "answer": "Wegen der wesentlichen Investition in Erstellung und Strukturierung kann das Datenbankherstellerrecht greifen – geschützt wäre die Zusammenstellung der Daten, nicht die einzelnen Datenwerte.",
                 "correct": True,
-                "feedback": """✓ Richtig! Das Tidy-Data-Prinzip verlangt, dass jede Variable in einer eigenen Spalte steht, jede Beobachtung eine eigene Zeile bildet und jeder Wert eindeutig einer Variable und einer Beobachtung zugeordnet werden kann. Wenn stattdessen jede Pflanze eine eigene Spalte bildet, sind Variablen und Beobachtungen vermischt, was die maschinelle Weiterverarbeitung erschwert."""
+                "feedback": "✓ Richtig! Das Datenbankherstellerrecht knüpft an die wesentliche Investition in die Datenbank an und schützt deren Zusammenstellung. Einzelne Daten sind dadurch nicht geschützt."
             },
             {
-                "answer": "Die Tabelle müsste in ein Bildformat statt eines Tabellenformats umgewandelt werden.",
+                "answer": "Das Team besitzt automatisch ein umfassendes Eigentum an den Daten, da es sie erhoben hat; über jeden einzelnen Wert kann es allein verfügen.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das Tidy-Data-Prinzip betrifft die interne Struktur einer Tabelle, nicht das Dateiformat. Ein Bildformat wäre für die maschinelle Weiterverarbeitung sogar deutlich ungeeigneter."""
+                "feedback": "× Nicht korrekt. Im deutschen Recht existiert laut Kapitel kein allgemeines Eigentum an Daten. Rechte ergeben sich nur aus spezifischen Schutzrechten, und auch das Datenbankherstellerrecht schützt nicht die einzelnen Werte."
             },
             {
-                "answer": "Es müssten zusätzliche Farbmarkierungen eingefügt werden, um besondere Werte hervorzuheben.",
+                "answer": "Da die Daten in einem Forschungsverhältnis entstanden sind, liegen die Rechte ausschließlich bei den Urheber:innen; die Institutionen haben keine Ansprüche.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Rein visuelle Formatierungen wie Farbmarkierungen werden beim Tidy-Data-Prinzip sogar ausdrücklich vermieden, da sie die maschinelle Weiterverarbeitung erschweren können."""
+                "feedback": "× Nicht korrekt. Werden Daten im Rahmen eines Arbeits- oder Forschungsverhältnisses erzeugt, können zusätzlich Nutzungsrechte der beteiligten Institutionen bestehen. Bei Drittmittelprojekten kann zudem der Bewilligungsantrag Aufschluss über die Rechteinhaber geben."
             },
             {
-                "answer": "Es müsste eine zusätzliche Berechnungsspalte mit dem Durchschnittswert aller Pflanzen ergänzt werden.",
+                "answer": "Solange die Datenbank keine personenbezogenen Daten enthält, ist keine weitere Rechteprüfung nötig.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Berechnungen sollten gerade nicht direkt im Rohdatensatz vorgenommen werden, da dies die spätere maschinelle Weiterverarbeitung erschweren kann. Solche Auswertungen gehören eher in einen separaten Analyseschritt."""
+                "feedback": "× Nicht korrekt. Personenbezug ist nur ein Aspekt. Zu prüfen sind außerdem vertragliche Vereinbarungen, Geheimhaltungspflichten, Rechte Dritter sowie mögliche Schutzrechte wie Urheber- und Datenbankherstellerrecht."
             }
         ]
     }
 ]
-display_quiz(question7, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question5, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ## Frage 5
 
+Wählen Sie **alle** zutreffenden Aussagen.
+
 ```{code-cell} ipython3
 :tags: [remove-input]
 from jupyterquiz import display_quiz
@@ -201,44 +218,51 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question8 = [
+question6 = [
     {
-        "question": "Welche Aspekte sollten vor der Veröffentlichung von Forschungsdaten rechtlich bzw. organisatorisch geprüft werden? Wählen Sie alle zutreffenden Aussagen.",
-        "type": "multiple_choice",
+        "question": "Ein Team möchte seine Forschungsdaten zusammen mit einem Fachartikel veröffentlichen. Welche Aussagen zu Policies von Journals und Verlagen treffen laut Kapitel zu?",
+        "type": "many_choice",
         "answers": [
             {
-                "answer": "Wer die Rechte an den Daten innehat (z. B. Urheberrecht oder Datenbankherstellerrecht).",
+                "answer": "Manche Verlage schreiben die Hinterlegung der Daten in einem anerkannten Repositorium als Voraussetzung für die Artikelpublikation vor, andere empfehlen das Datenteilen nur.",
                 "correct": True,
-                "feedback": """✓ Richtig! Da es in Deutschland kein allgemeines Eigentum an Daten gibt, muss im Einzelfall geprüft werden, welche Schutzrechte (Urheberrecht, Datenbankherstellerrecht) bestehen und bei wem diese liegen."""
+                "feedback": "✓ Richtig! Die Policies reichen von bloßer Empfehlung bis zur verbindlichen Hinterlegungspflicht."
             },
             {
-                "answer": "Ob Vorgaben von Förderorganisationen zum Umgang mit den Forschungsdaten bestehen.",
+                "answer": "Verpflichtende Archivierungsrichtlinien erhöhen die tatsächliche Verfügbarkeit von Daten deutlich stärker als unverbindliche Empfehlungen.",
                 "correct": True,
-                "feedback": """✓ Richtig! Förderorganisationen wie die DFG oder europäische Programme stellen eigene Anforderungen an Dokumentation, Archivierung und Veröffentlichung, die auch nachträglich noch relevant sein können."""
+                "feedback": "✓ Richtig! Empirische Untersuchungen zeigen, dass unverbindliche Empfehlungen kaum Wirkung entfalten."
             },
             {
-                "answer": "Ob die Daten personenbezogene Informationen enthalten.",
+                "answer": "Die Joint Data Archiving Policy (JDAP) erlaubt ein Embargo von bis zu einem Jahr sowie Ausnahmen für sensible Daten, etwa bei personenbezogenen Informationen.",
                 "correct": True,
-                "feedback": """✓ Richtig! Enthaltene personenbezogene Daten können einer Veröffentlichung entgegenstehen oder zusätzliche Schutzmaßnahmen erfordern, weshalb dies frühzeitig geprüft werden sollte."""
+                "feedback": "✓ Richtig! Das JDAP-Standardtextmuster sieht diese Flexibilität ausdrücklich vor."
             },
             {
-                "answer": "Wie viele Wörter das zugehörige Abstract der geplanten Publikation umfasst.",
+                "answer": "Anforderungen an Metadaten, Dateiformate, DOI-Vergabe oder Lizenzierung unterscheiden sich erheblich zwischen einzelnen Journals und Repositorien.",
+                "correct": True,
+                "feedback": "✓ Richtig! Deshalb muss vorab geprüft werden, ob die vorhandenen Datensätze den Anforderungen des gewählten Journals oder Repositoriums genügen."
+            },
+            {
+                "answer": "Inzwischen verfügen praktisch alle Journale über eine explizite Datenpolicy, sodass sich Policies zentral und einheitlich katalogisieren lassen.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Wortanzahl eines Abstracts ist keine rechtliche oder organisatorische Voraussetzung für die Veröffentlichung von Forschungsdaten."""
+                "feedback": "× Nicht korrekt. Das Kapitel beschreibt die Policy-Landschaft als weiterhin uneinheitlich: Viele Journale haben noch keine explizite Datenpolicy, und die fehlende Standardisierung erschwert eine zentrale Katalogisierung."
             },
             {
-                "answer": "Ob Vorgaben des Zieljournals oder -repositoriums zu Format, Metadaten und Lizenzierung erfüllt sind.",
-                "correct": True,
-                "feedback": """✓ Richtig! Journale und Repositorien stellen unterschiedliche Anforderungen an Datenformat, Metadaten und Lizenzierung, die vor einer Veröffentlichung abgeglichen werden sollten."""
+                "answer": "Ein Data Availability Statement (DAS) verpflichtet Autor:innen, die Daten ohne Einschränkung öffentlich zugänglich zu machen.",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Ein DAS gibt lediglich Auskunft darüber, wo und unter welchen Bedingungen die Daten verfügbar sind – es ist keine Pflicht zur uneingeschränkten Veröffentlichung."
             }
         ]
     }
 ]
-display_quiz(question8, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question6, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ## Frage 6
 
+Die folgenden vier Aussagen betreffen Vorgaben und rechtliche Vorbereitung einer Datenpublikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
+
 ```{code-cell} ipython3
 :tags: [remove-input]
 from jupyterquiz import display_quiz
@@ -247,134 +271,121 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question9 = [
+question7a = [
     {
-        "question": "Für die Lizenzierung von Forschungsdaten wird häufig zwischen reinen Datensätzen/Datenbanken und Daten mit Werkqualität unterschieden. Welche Zuordnung von empfohlenen Lizenzen ist korrekt?",
+        "question": "Eine Creative-Commons-Lizenz, die bei der Veröffentlichung vergeben wurde, kann bei veränderten Nachnutzungswünschen in der Regel jederzeit geändert oder zurückgenommen werden.",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Für reine Datensätze/Datenbanken wird häufig eine Public-Domain-Widmung wie CC0 empfohlen, für Daten mit Werkqualität eine Namensnennungslizenz wie CC BY 4.0.",
+                "answer": "Richtig",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Eine einmal vergebene Lizenz kann in der Regel nicht nachträglich geändert oder widerrufen werden. Deshalb sollte die Lizenzwahl vor der Veröffentlichung sorgfältig und in Abstimmung mit allen Rechteinhaber:innen erfolgen."
+            },
+            {
+                "answer": "Falsch",
                 "correct": True,
-                "feedback": """✓ Richtig! Diese Unterscheidung wird u. a. von der DFG empfohlen: Reine Datensätze profitieren von einer möglichst unkomplizierten Public-Domain-Widmung (CC0), während bei Daten mit Werkqualität eine Namensnennung (CC BY 4.0) sinnvoll ist, um die Urheberschaft kenntlich zu machen."""
-            },
-            {
-                "answer": "Für reine Datensätze/Datenbanken wird eine Namensnennungslizenz wie CC BY 4.0 empfohlen, für Daten mit Werkqualität CC0.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Zuordnung ist genau umgekehrt: CC0 eignet sich eher für reine Datensätze, CC BY 4.0 eher für Daten mit Werkqualität."""
-            },
-            {
-                "answer": "Für beide Datenarten wird ausschließlich eine kommerzielle Lizenz empfohlen.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Sowohl CC0 als auch CC BY 4.0 sind offene, nicht-kommerzielle Lizenzmodelle. Eine kommerzielle Lizenz wird in diesem Kontext nicht empfohlen."""
-            },
-            {
-                "answer": "Die Art der Lizenz spielt keine Rolle, solange die Daten überhaupt veröffentlicht werden.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Lizenzwahl ist entscheidend für die rechtssichere Nachnutzung der Daten durch Dritte und sollte daher bewusst und passend zur Art der Daten getroffen werden."""
+                "feedback": "✓ Richtig! Eine einmal vergebene Lizenz kann in der Regel nicht nachträglich geändert oder widerrufen werden. Deshalb sollte die Lizenzwahl vor der Veröffentlichung sorgfältig und in Abstimmung mit allen Rechteinhaber:innen erfolgen."
             }
         ]
     }
 ]
-display_quiz(question9, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question7a, colors=colors.jupyterquiz, max_width=1000)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question7b = [
+    {
+        "question": "Bei einem Drittmittelprojekt kann der Bewilligungsantrag Aufschluss darüber geben, bei wem die Rechte an den erhobenen Daten liegen.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Richtig",
+                "correct": True,
+                "feedback": "✓ Richtig! Der Bewilligungsantrag bzw. die Antragsunterlagen sind laut Kapitel die erste Anlaufstelle; auch Förderanforderungen sind in der Regel dort formuliert."
+            },
+            {
+                "answer": "Falsch",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Die Aussage ist richtig. Der Bewilligungsantrag bzw. die Antragsunterlagen sind laut Kapitel die erste Anlaufstelle; auch Förderanforderungen sind in der Regel dort formuliert."
+            }
+        ]
+    }
+]
+display_quiz(question7b, colors=colors.jupyterquiz, max_width=1000)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question7c = [
+    {
+        "question": "Die DFG empfiehlt, Forschungsdaten gemäß den Regeln der Guten Wissenschaftlichen Praxis für mindestens fünf Jahre zu archivieren.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Richtig",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Empfohlen werden mindestens zehn Jahre. Zudem sollen Daten – sofern keine rechtlichen oder vertraglichen Einschränkungen bestehen – möglichst zeitnah und nachnutzbar veröffentlicht werden."
+            },
+            {
+                "answer": "Falsch",
+                "correct": True,
+                "feedback": "✓ Richtig! Empfohlen werden mindestens zehn Jahre. Zudem sollen Daten – sofern keine rechtlichen oder vertraglichen Einschränkungen bestehen – möglichst zeitnah und nachnutzbar veröffentlicht werden."
+            }
+        ]
+    }
+]
+display_quiz(question7c, colors=colors.jupyterquiz, max_width=1000)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question7d = [
+    {
+        "question": "Gibt es für ein Veröffentlichungsvorhaben keine Vorgaben des Förderers, entfällt die Prüfung institutioneller Vorgaben, da diese nur ergänzend zu Förderervorgaben gelten.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Richtig",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Institutionelle Vorgaben (z. B. Forschungsdaten-Leitlinien der Hochschulen) sowie Vereinbarungen mit weiteren Beteiligten wirken eigenständig und müssen gesondert geprüft werden. Im Beispielszenario gab es keine Förderervorgaben, dennoch waren die Hochschulpolicies relevant."
+            },
+            {
+                "answer": "Falsch",
+                "correct": True,
+                "feedback": "✓ Richtig! Institutionelle Vorgaben (z. B. Forschungsdaten-Leitlinien der Hochschulen) sowie Vereinbarungen mit weiteren Beteiligten wirken eigenständig und müssen gesondert geprüft werden. Im Beispielszenario gab es keine Förderervorgaben, dennoch waren die Hochschulpolicies relevant."
+            }
+        ]
+    }
+]
+display_quiz(question7d, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ## Frage 7
 
-Die folgenden drei Fragen prüfen grundlegende rechtliche Aussagen zur Publikation von Forschungsdaten. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
+**Szenario:** Sie übernehmen die Aufgabe, die Daten eines abgeschlossenen Drittmittelprojekts aus einer Ihnen fachfremden Disziplin nachträglich in einem Repositorium zu veröffentlichen. Mehrere Projektmitarbeitende haben die Einrichtung bereits verlassen; die Projektleitung steht Ihnen jedoch zur Verfügung. Es liegen weder eine README noch ein Datenmanagementplan vor.
 
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question10 = [
-    {
-        "question": "In Deutschland existiert ein allgemeines gesetzliches Eigentumsrecht an Daten.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Im deutschen Recht gibt es kein allgemeines Eigentum an Daten. Stattdessen können Forschungsdaten unterschiedlichen, spezifischeren Schutzrechten unterliegen, etwa dem Urheberrecht oder dem Datenbankherstellerrecht."""
-            },
-            {
-                "answer": "Falsch",
-                "correct": True,
-                "feedback": """✓ Richtig! Die Aussage ist falsch. Ein allgemeines Eigentum an Daten existiert im deutschen Recht nicht. Stattdessen muss im Einzelfall geprüft werden, ob und welche spezifischen Schutzrechte (z. B. Urheberrecht, Datenbankherstellerrecht) an den jeweiligen Daten bestehen."""
-            }
-        ]
-    }
-]
-display_quiz(question10, colors=colors.jupyterquiz, max_width=1000)
-```
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question10b = [
-    {
-        "question": "Eine einmal vergebene Lizenz für veröffentlichte Forschungsdaten lässt sich in der Regel problemlos nachträglich ändern oder widerrufen.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Genau das Gegenteil ist der Fall: Eine einmal vergebene Lizenz lässt sich in der Regel nicht nachträglich ändern oder widerrufen. Deshalb sollte die Lizenzwahl sorgfältig und in Abstimmung mit allen Rechteinhaber:innen erfolgen, bevor die Daten veröffentlicht werden."""
-            },
-            {
-                "answer": "Falsch",
-                "correct": True,
-                "feedback": """✓ Richtig! Die Aussage ist falsch. Eine einmal vergebene Lizenz kann in der Regel nicht nachträglich geändert oder widerrufen werden, da Dritte die Daten bereits unter den ursprünglichen Bedingungen genutzt haben könnten. Die Lizenzwahl sollte daher vor der Veröffentlichung sorgfältig abgestimmt werden."""
-            }
-        ]
-    }
-]
-display_quiz(question10b, colors=colors.jupyterquiz, max_width=1000)
-```
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question10c = [
-    {
-        "question": "Empirische Untersuchungen zeigen, dass verpflichtende Archivierungsrichtlinien von Journalen die tatsächliche Verfügbarkeit von Forschungsdaten deutlich stärker erhöhen als unverbindliche Empfehlungen.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": True,
-                "feedback": """✓ Richtig! Studien zeigen, dass verpflichtende Richtlinien (wie die Joint Data Archiving Policy) die tatsächliche Bereitstellung von Forschungsdaten deutlich erhöhen, während rein unverbindliche Empfehlungen kaum Wirkung zeigen. Dies verdeutlicht, wie wichtig verbindliche Vorgaben für die tatsächliche Umsetzung von Open-Data-Prinzipien sind."""
-            },
-            {
-                "answer": "Falsch",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Aussage ist richtig: Verpflichtende Archivierungsrichtlinien zeigen nachweislich eine deutlich stärkere Wirkung auf die tatsächliche Datenverfügbarkeit als unverbindliche Empfehlungen."""
-            }
-        ]
-    }
-]
-display_quiz(question10c, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 8
-
-**Frage:** Sie übernehmen einen alten, kaum dokumentierten Datensatz aus einem bereits abgeschlossenen Projekt, der nachträglich veröffentlicht werden soll.
-
-1. Welche Schritte würden Sie zur Prüfung der Datenqualität unternehmen, bevor Sie den Datensatz für publikationsreif halten?
-2. Welche rechtlichen bzw. organisatorischen Fragen müssten Sie vorher klären, bevor eine Veröffentlichung überhaupt möglich ist?
+1. Wie verschaffen Sie sich zunächst einen Überblick über Projekt und Daten?
+2. Wie gehen Sie bei der Qualitätsprüfung vor und was ist deren Ziel?
+3. Welche rechtlichen und organisatorischen Aspekte klären Sie vor der Veröffentlichung, und an wen wenden Sie sich bei offenen Fragen?
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -388,22 +399,23 @@ create_answer_box('einarbeiten-1')
 ````{admonition} Reflexionshinweise
 :class: solution, dropdown
 
-**1. Schritte zur Qualitätsprüfung:**
+**1. Überblick verschaffen:**
 
-- Zunächst den Projektkontext nachvollziehen: Aus welchem Projekt stammen die Daten, wer war beteiligt, in welchem Zeitraum wurden sie erhoben?
-- Zwischen Rohdaten und bereits aufbereiteten Forschungsdaten unterscheiden und für beide den Dokumentationsstand prüfen.
-- Zentrale Qualitätskriterien prüfen: z. B. Genauigkeit, Vollständigkeit, Konsistenz, Verständlicihkeit und Fehlerfreiheit.
-- Prüfen, ob die Datenstruktur dem Tidy-Data-Prinzip entspricht (eine Variable pro Spalte, eine Beobachtung pro Zeile) und ob Rohdatensätze frei von Berechnungen oder rein visuellen Formatierungen sind.
-- Wenn möglich, eine für die Herkunft und Entstehung zuständige Person (z. B. ehemalige Projektleitung) einbeziehen, um Unklarheiten zu klären.
+- Ursprungskontext nachvollziehen: Aus welchem Projekt stammen die Daten, wer war beteiligt, wann und über welchen Zeitraum wurden sie erhoben, welche Daten liegen in welcher Form vor?
+- Die Projektleitung als Ansprechperson einbeziehen; deren Aufzeichnungen und Kontakte zu ehemaligen Mitarbeitenden sind ein Schlüssel zum Verständnis. Bei fachfremden, ungeordneten Hinterlassenschaften ist der Aufwand besonders hoch.
+- Zwischen Roh- und Forschungsdaten unterscheiden und für beide Format, Entstehung (Methodik) und Dokumentations-/Publikationsstand klären, z. B. in einer Tabelle zur Provenienz (Name, Beschreibung, Ergebnis der Untersuchung, Dateiformat).
+- Fehlende README und Datenmanagementplan müssen von Ihnen angelegt werden.
 
-**2. Zu klärende rechtliche/organisatorische Fragen:**
+**2. Qualitätsprüfung:**
 
-- Wer die Rechte an den Daten hält (Urheberrecht, Datenbankherstellerrecht, Nutzungsrechte der Institution).
-- Ob personenbezogene Daten enthalten sind und ob diese anonymisiert oder ausgeschlossen werden müssen.
-- Ob Vorgaben des ursprünglichen Förderers (z. B. zu Archivierungsdauer oder Repositoriumswahl) noch gelten und erfüllt sind.
-- Ob institutionelle Vorgaben oder Kooperationsvereinbarungen die Veröffentlichung regeln.
-- Ob fachspezifische Standards oder Repositorien für die jeweilige Disziplin existieren und genutzt werden sollten.
-- Unter welcher Lizenz die Daten veröffentlicht werden sollen – diese Entscheidung sollte vor der Veröffentlichung sorgfältig und abgestimmt getroffen werden, da sie i. d. R. nicht nachträglich revidierbar ist.
+- Orientierung an den allgemeinen Qualitätsmerkmalen (z. B. Fehlerfreiheit, Genauigkeit, Konformität, Konsistenz, Vollständigkeit) und der Guten Wissenschaftlichen Praxis.
+- Stichprobenartig prüfen: Entsprechen Werte den Erwartungen? Gibt es leere Felder? Werden Wertebereiche überschritten? Struktur nach Tidy-Data-Prinzip, keine Berechnungen/visuellen Formatierungen in Rohdaten.
+- Ziel ist die Entscheidung für oder gegen die Publikation, nicht die Aufarbeitung der Daten. Geprüft wird, ob die Daten einen Mehrwert für die wissenschaftliche Community bieten können.
 
-Da mehrere dieser Fragen nicht allein von einer einzelnen Person zu klären sind, kann die frühzeitige Einbindung von FDM-Services, Rechtsabteilung oder (ehemaligen) Projektverantwortlichen die nachträgliche Veröffentlichung erheblich erleichtern.
+**3. Rechtliches und Organisatorisches:**
+
+- Rechte an den Daten (Urheberrecht, Nutzungsrechte der Institutionen, Datenbankherstellerrecht; kein allgemeines Dateneigentum), Personenbezug, vertragliche Vereinbarungen, Geheimhaltungspflichten, Rechte Dritter.
+- Vorgaben (ehemaliger) Förderer aus den Antragsunterlagen, institutionelle Leitlinien, Empfehlungen der Fachcommunity sowie Policies des Zielrepositoriums/Journals (Metadaten, Formate, Lizenz).
+- Lizenzwahl vorab und in Abstimmung mit allen Rechteinhaber:innen, da sie später in der Regel nicht geändert oder widerrufen werden kann (reine Datensätze häufig CC0, Daten mit Werkqualität häufig CC BY 4.0).
+- Bei offenen Fragen: Förderinstitution, Rechtsabteilung oder FDM-Service der eigenen Institution.
 ````

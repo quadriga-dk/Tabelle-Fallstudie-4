@@ -12,20 +12,21 @@ kernelspec:
 
 (datenmanagement:assessment)=
 # 🏆Selbsttest: Datenmanagement
+
 ````{admonition} Hinweis
 :class: hinweis
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
 
-Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach versuchen. 
+Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach versuchen.
 
 **So funktioniert es:**
 - Wählen Sie bei jeder Frage die Antwort(en), die Sie für richtig halten
 - Lesen Sie das Feedback zu den einzelnen Antwortoptionen sorgfältig durch
-- Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten 
+- Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten
 
-Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
+Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: XX Minuten
+**Geschätzte Zeit**: 20 Minuten
 
 Viel Erfolg!
 ````
@@ -35,54 +36,41 @@ Viel Erfolg!
 
 ```{code-cell} ipython3
 :tags: [remove-input]
-from jupyterquiz import display_quiz
-
 import sys
-sys.path.append("..")
-from quadriga import colors
+sys.path.append("../quadriga")
+from assessment import DragDropQuiz
 
-question1 = [
-    {
-        "question": "Welche der folgenden Bestandteile gehören zur Erstellung eines Datenmanagementplans (DMP) im Rahmen einer nachträglichen Datenpublikation? Wählen Sie alle zutreffenden Aussagen.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Auswahl und Clusterung der zu veröffentlichenden Forschungsdaten.",
-                "correct": True,
-                "feedback": """✓ Richtig! Zunächst muss entschieden werden, welche Daten überhaupt veröffentlicht und wie sie sinnvoll gebündelt werden (z. B. als Gesamt-ZIP oder in einzelnen Paketen)."""
-            },
-            {
-                "answer": "Eine einheitliche Dateibenennung nach einem erkennbaren Schema.",
-                "correct": True,
-                "feedback": """✓ Richtig! Die Prüfung und ggf. Anpassung der Dateibenennung ist ein zentraler Bestandteil, damit Daten auch projekt-extern verständlich bleiben."""
-            },
-            {
-                "answer": "Die Vergabe von Metadaten nach den Konventionen der jeweiligen Fachdisziplin.",
-                "correct": True,
-                "feedback": """✓ Richtig! Metadaten müssen vergeben werden, sofern dies nicht bereits geschehen ist – möglichst orientiert an etablierten disziplinspezifischen Standards."""
-            },
-            {
-                "answer": "Die FAIRifizierung der Daten und Metadaten zur Maximierung der Interoperabilität.",
-                "correct": True,
-                "feedback": """✓ Richtig! Daten und Metadaten sollten möglichst vollständig beschrieben werden, wobei nach Möglichkeit auf Standards zurückgegriffen wird, um die Interoperabilität zu erhöhen."""
-            },
-            {
-                "answer": "Die Erstellung eines Marketingkonzepts zur Bewerbung der Datenpublikation.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Ein Marketingkonzept ist kein Bestandteil eines Datenmanagementplans. Die DMP-Bestandteile betreffen die Organisation, Beschreibung und Dokumentation der Daten selbst, nicht deren Vermarktung."""
-            },
-            {
-                "answer": "Das Anlegen einer README-Datei zur Dokumentation der Daten.",
-                "correct": True,
-                "feedback": """✓ Richtig! Eine README-Datei gehört ebenfalls zu den Bestandteilen, da sie als einfache, grundlegende Form der Datendokumentation dient."""
-            }
-        ]
+quiz = DragDropQuiz()
+
+quiz.create_matching_quiz(
+    title="Ordnen Sie jede Angabe dem Bestandteil eines Datenmanagementplans zu, in dem sie üblicherweise gemacht wird:",
+    descriptions=[
+        "Wie die Daten im Projekt entstehen, um welche Datentypen es sich handelt und welches Datenvolumen zu erwarten ist.",
+        "Welche Metadatenstandards zur Beschreibung der Daten genutzt werden und welche Werkzeuge man braucht, um die Daten zu nutzen.",
+        "Wer im Projekt für das Datenmanagement verantwortlich ist, welche Projektpartner beteiligt sind und wer das Vorhaben fördert.",
+        "Wo die Daten während der Projektlaufzeit liegen, wie Backups erfolgen und wer Zugriff darauf hat.",
+        "Ob personenbezogene Daten enthalten sind, welche Lizenzen gelten und welche Urheber- und Schutzrechte zu beachten sind."
+    ],
+    options=[
+        "Projektkontext",
+        "Datenbeschreibung",
+        "Dokumentation",
+        "Speicherung",
+        "Rechtliche Aspekte"
+    ],
+    correct_mapping={
+        "Wer im Projekt für das Datenmanagement verantwortlich ist, welche Projektpartner beteiligt sind und wer das Vorhaben fördert.": "Projektkontext",
+        "Wie die Daten im Projekt entstehen, um welche Datentypen es sich handelt und welches Datenvolumen zu erwarten ist.": "Datenbeschreibung",
+        "Welche Metadatenstandards zur Beschreibung der Daten genutzt werden und welche Werkzeuge man braucht, um die Daten zu nutzen.": "Dokumentation",
+        "Wo die Daten während der Projektlaufzeit liegen, wie Backups erfolgen und wer Zugriff darauf hat.": "Speicherung",
+        "Ob personenbezogene Daten enthalten sind, welche Lizenzen gelten und welche Urheber- und Schutzrechte zu beachten sind.": "Rechtliche Aspekte"
     }
-]
-display_quiz(question1, colors=colors.jupyterquiz, max_width=1000)
+)
 ```
 
 ## Frage 2
+
+Wählen Sie **alle** zutreffenden Aussagen.
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -92,35 +80,45 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question2 = [
+question3 = [
     {
-        "question": "Was unterscheidet eine README-Datei am ehesten von der FAIRifizierung eines Datensatzes?",
-        "type": "multiple_choice",
+        "question": "Welche Aussagen zu Datenmanagementplänen (DMP) treffen laut Kapitel zu?",
+        "type": "many_choice",
         "answers": [
             {
-                "answer": "Die README ist eine einfache, frei formulierte Dokumentationsdatei für menschliche Leser:innen, während die FAIRifizierung eine systematischere, standardbasierte Beschreibung zur Maximierung der maschinellen Interoperabilität anstrebt.",
+                "answer": "Ein DMP dokumentiert Verfahrensweisen, Arbeitsschritte und Zuständigkeiten in Bezug auf die Forschungsdaten eines Projekts.",
                 "correct": True,
-                "feedback": """✓ Richtig! Die README gilt als die einfachste Form der Datendokumentation und dient vor allem dem Verständnis durch Menschen. Die FAIRifizierung geht darüber hinaus: Sie zielt auf eine möglichst vollständige, standardisierte Beschreibung ab, die auch die maschinelle Verarbeitung und Verknüpfung der Daten erleichtert."""
+                "feedback": "✓ Richtig! Neben der Beschreibung der Daten selbst gehört auch das „Wer macht was und wie“ in den DMP."
             },
             {
-                "answer": "Beide Begriffe bezeichnen exakt denselben Arbeitsschritt und können synonym verwendet werden.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Es handelt sich um zwei unterschiedliche, sich ergänzende Schritte: Eine README ersetzt nicht die standardisierte, disziplinspezifische Beschreibung, die im Rahmen der FAIRifizierung angestrebt wird."""
+                "answer": "Weil ein DMP aktualisiert werden kann, lassen sich damit auch Änderungen im Projektablauf festhalten.",
+                "correct": True,
+                "feedback": "✓ Richtig! Diese Aktualisierbarkeit macht den DMP zugleich zu einem Werkzeug des Projektmanagements."
             },
             {
-                "answer": "Die README betrifft nur Rohdaten, während die FAIRifizierung nur für bereits publizierte Forschungsdaten gilt.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Diese Unterscheidung wird im Kapitel nicht getroffen. Beide Maßnahmen können grundsätzlich auf denselben Datensatz angewendet werden, unabhängig von seinem Publikationsstatus."""
+                "answer": "Drittmittelgeber erwarten zunehmend Aussagen darüber, wie in einem Forschungsprojekt mit Daten umgegangen wird.",
+                "correct": True,
+                "feedback": "✓ Richtig! Genau deshalb ist der DMP für viele Projekte ein fester Bestandteil der Planung."
             },
             {
-                "answer": "Die FAIRifizierung ist ausschließlich eine rechtliche Anforderung, die README hingegen eine rein technische.",
+                "answer": "Der DMP wird gemeinsam mit den Forschungsdaten veröffentlicht.",
+                "correct": True,
+                "feedback": "✓ Richtig! Er ist damit Teil dessen, was Nachnutzende zu den Daten zu sehen bekommen."
+            },
+            {
+                "answer": "Wurde während der Projektlaufzeit kein DMP angelegt, kann bei einer nachträglichen Veröffentlichung darauf verzichtet werden.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Weder die README noch die FAIRifizierung sind primär rechtliche Anforderungen – beide dienen der besseren Dokumentation und Nachnutzbarkeit von Forschungsdaten."""
+                "feedback": "× Nicht korrekt. Das Kapitel hält fest: Wenn im Lauf des Projekts noch kein DMP begonnen wurde, muss jetzt einer angelegt werden. Im Beispielprojekt wurde er nachträglich verfasst."
+            },
+            {
+                "answer": "Ein DMP beschränkt sich auf die Beschreibung der Datenformate und des Datenvolumens.",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Formate und Volumen gehören zur Datenbeschreibung, sie sind aber nur einer von sechs Bestandteilen. Hinzu kommen u. a. Projektkontext, Dokumentation, Speicherung, rechtliche Aspekte und Aufbewahrung."
             }
         ]
     }
 ]
-display_quiz(question2, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question3, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ## Frage 3
@@ -133,112 +131,30 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question3 = [
-    {
-        "question": "Warum wird empfohlen, bei der Vergabe von Metadaten die Konventionen der jeweiligen Fachdisziplin zu beachten, anstatt einen einzigen allgemeinen Standard für alle Fachrichtungen zu verwenden?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Weil sich in verschiedenen Fachdisziplinen bereits etablierte, spezialisierte Metadatenstandards entwickelt haben, die die jeweiligen fachspezifischen Informationsbedürfnisse und Interoperabilitätsanforderungen besser abbilden als ein allgemeiner Standard.",
-                "correct": True,
-                "feedback": """✓ Richtig! Fachdisziplinen wie die Sozialwissenschaften oder die Biodiversitätsforschung haben eigene Standards entwickelt (z. B. DDI oder Darwin Core), die auf die jeweiligen fachlichen Anforderungen zugeschnitten sind. Die Verwendung dieser etablierten Standards erleichtert den fachspezifischen Austausch und die Nachnutzung innerhalb der jeweiligen Community."""
-            },
-            {
-                "answer": "Weil allgemeine, fachübergreifende Metadatenstandards grundsätzlich nicht existieren.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Es gibt durchaus fachübergreifende Standards wie das DataCite Metadata Schema. Die Empfehlung zur disziplinspezifischen Orientierung schließt solche übergreifenden Standards nicht aus, sondern ergänzt sie um fachspezifische Tiefe, wo sinnvoll."""
-            },
-            {
-                "answer": "Weil fachspezifische Metadatenstandards gesetzlich vorgeschrieben sind.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Nutzung disziplinspezifischer Standards ist eine fachliche Empfehlung zur besseren Nachnutzbarkeit, keine gesetzliche Pflicht."""
-            },
-            {
-                "answer": "Weil allgemeine Standards technisch nicht mit Repositorien kompatibel sind.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Technische Inkompatibilität wird im Kapitel nicht als Grund genannt. Der Kerngedanke ist, dass fachspezifische Standards die besonderen inhaltlichen Anforderungen einer Disziplin präziser abbilden können."""
-            }
-        ]
-    }
-]
-display_quiz(question3, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 4
-
-```{code-cell} ipython3
-:tags: [remove-input]
-import sys
-sys.path.append("../quadriga")
-from assessment import DragDropQuiz
-
-quiz = DragDropQuiz()
-
-quiz.create_matching_quiz(
-    title="Ordnen Sie jedem Bestandteil eines Datenmanagementplans die passende Beschreibung zu:",
-    descriptions=[
-        "Festlegen, welche Daten veröffentlicht werden sollen und wie sie sinnvoll zu Paketen gebündelt werden",
-        "Ein einheitliches, nachvollziehbares Schema zur Benennung von Dateien festlegen",
-        "Beschreibung der Daten nach den Konventionen der jeweiligen Fachdisziplin",
-        "Möglichst vollständige, standardisierte Beschreibung zur Maximierung der Interoperabilität",
-        "Eine einfache Dokumentationsdatei, die Nachnutzenden das Verständnis der Daten ermöglicht"
-    ],
-    options=[
-        "Auswahl und Clusterung",
-        "Dateibenennung",
-        "Metadaten",
-        "FAIRifizierung",
-        "README"
-    ],
-    correct_mapping={
-        "Festlegen, welche Daten veröffentlicht werden sollen und wie sie sinnvoll zu Paketen gebündelt werden": "Auswahl und Clusterung",
-        "Ein einheitliches, nachvollziehbares Schema zur Benennung von Dateien festlegen": "Dateibenennung",
-        "Beschreibung der Daten nach den Konventionen der jeweiligen Fachdisziplin": "Metadaten",
-        "Möglichst vollständige, standardisierte Beschreibung zur Maximierung der Interoperabilität": "FAIRifizierung",
-        "Eine einfache Dokumentationsdatei, die Nachnutzenden das Verständnis der Daten ermöglicht": "README"
-    }
-)
-```
-
-## Frage 5
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
 question5 = [
     {
-        "question": "Welche der folgenden Empfehlungen gelten als Best Practice bei der nachträglichen Erstellung eines Datenmanagementplans aus Sicht von Forschenden? Wählen Sie alle zutreffenden Aussagen.",
+        "question": "Ein Forschungsprojekt hat über Jahre eine eigene Dateibenennung entwickelt, die zwar etwas eigenwillig, aber in sich logisch ist. Für die nachträgliche Veröffentlichung schlägt ein Teammitglied vor, alle Dateien nach einem neuen, einheitlichen Schema umzubenennen. Welche Empfehlung gibt das Kapitel?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Bestehende Projektstrukturen und Benennungslogiken sollten möglichst übernommen werden, statt sie komplett neu zu erfinden.",
+                "answer": "Die im Projekt gewachsene Benennung nach Möglichkeit übernehmen und die Daten stattdessen zu sinnvollen „Paketen“ bündeln, die dann der Publikation entsprechend benannt werden können.",
                 "correct": True,
-                "feedback": """✓ Richtig! Strukturen und Benennungen, die im Projekt bereits entstanden sind, folgen in der Regel einer eigenen Logik. Diese möglichst zu übernehmen, spart Aufwand und erhält die Nachvollziehbarkeit."""
+                "feedback": "✓ Richtig! Die im Projekt entstandene Struktur ist meist nicht ohne Grund so gewachsen. Pakete erlauben es, die etablierte Dateibenennung beizubehalten und trotzdem eine verständliche, publikationsgerechte Ordnung anzubieten."
             },
             {
-                "answer": "Die Dateibenennung sollte frühzeitig und sorgfältig festgelegt werden, da nachträgliche Anpassungen mühsam sind und zu Verständigungsproblemen führen können.",
-                "correct": True,
-                "feedback": """✓ Richtig! Eine zentrale Erfahrung ist, dass eine spätere Anpassung der Dateibenennung sehr aufwendig ist. Wird früh auf ein einheitliches Schema geachtet, lassen sich solche Probleme vermeiden."""
-            },
-            {
-                "answer": "Überlegungen zur Bereitstellungsform (z. B. als Gesamt-ZIP oder in Teil-Paketen) sollten bereits frühzeitig mitgedacht werden.",
-                "correct": True,
-                "feedback": """✓ Richtig! Die Entscheidung über die Form der Bereitstellung (einzeln, als Gesamt-ZIP oder in Teil-Paketen) hängt eng mit der Auswahl und Clusterung der Daten zusammen und sollte daher früh bedacht werden."""
-            },
-            {
-                "answer": "Versionierung und Dateibenennung sind nur bei der Erstveröffentlichung eines Datensatzes relevant, nicht aber bei einer nachträglichen Aufarbeitung.",
+                "answer": "Alle Dateien nach einem neuen Schema umbenennen, da nur eine einheitliche Benennung für Außenstehende verständlich ist.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Im Gegenteil: Gerade bei einer nachträglichen Aufarbeitung sind Versionierung und Dateibenennung besonders gefragte Kompetenzen, da hier oft uneinheitliche oder unvollständige Ausgangsstrukturen vorliegen."""
+                "feedback": "× Nicht korrekt. Verständliche Benennung ist zwar sinnvoll, aber nachträgliches Umbenennen ist sehr fehleranfällig und kann das Nachvollziehen von Zusammenhängen erschweren. Es gilt, einen guten Mittelweg zu finden."
             },
             {
-                "answer": "Es ist unproblematisch, wenn verschiedene Projektpartner Dateien völlig unabhängig voneinander und ohne Abstimmung benennen.",
+                "answer": "Die Benennung spielt für die Veröffentlichung keine Rolle, da Nachnutzende ohnehin den DMP lesen.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Unterschiedliche, nicht abgestimmte Benennungen durch mehrere Partner führen in der Praxis häufig dazu, dass am Ende viel nachträglich vereinheitlicht werden muss – ein Umstand, der durch frühzeitige Absprache vermeidbar wäre."""
+                "feedback": "× Nicht korrekt. Das Kapitel sieht die Benennung ausdrücklich als nicht trivial an. Die Frage, ob Daten und Dateien nach einem erkennbaren Schema benannt sind, gehört zu den Dingen, die vor der Publikation geprüft werden."
+            },
+            {
+                "answer": "Die Benennung wird erst auf der Veröffentlichungsplattform festgelegt und kann von der Benennung im DMP abweichen.",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Im Gegenteil: Ein im DMP benanntes Datenpaket (z. B. „FD3_Bilanzierungstool“) sollte auf der Veröffentlichungsplattform genauso heißen. Eine einmal getroffene Entscheidung ist konsequent beizubehalten."
             }
         ]
     }
@@ -246,7 +162,9 @@ question5 = [
 display_quiz(question5, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 6
+## Frage 4
+
+Wählen Sie **alle** zutreffenden Aussagen.
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -258,28 +176,38 @@ from quadriga import colors
 
 question6 = [
     {
-        "question": "Ein Forschungsteam möchte mehrere Jahre nach Projektende Daten nachträglich veröffentlichen und stellt fest, dass verschiedene ehemalige Projektpartner ihre Dateien jeweils nach eigenen, unterschiedlichen Schemata benannt haben. Was legt die im Kapitel vermittelte Praxiserfahrung nahe?",
-        "type": "multiple_choice",
+        "question": "Sie ordnen die Daten eines abgeschlossenen Projekts vor der Veröffentlichung. Was gehört nach dem Kapitel dazu?",
+        "type": "many_choice",
         "answers": [
             {
-                "answer": "Solche uneinheitlichen Benennungen müssen in der Regel nachträglich mühsam vereinheitlicht werden – ein Aufwand, der durch eine frühzeitige, abgestimmte Namenskonvention vermeidbar gewesen wäre.",
+                "answer": "Zuerst festlegen, welche Daten überhaupt veröffentlicht werden sollen.",
                 "correct": True,
-                "feedback": """✓ Richtig! Genau diese Erfahrung wird im Kapitel beschrieben: Wenn mehrere Partner unabhängig voneinander Dateien benennen, muss am Ende oft viel 'glattgezogen' werden. Diese Problematik unterstreicht, wie wichtig eine früh abgestimmte Benennungslogik für spätere Publikationsvorhaben ist."""
+                "feedback": "✓ Richtig! Die Auswahl der zu veröffentlichenden Daten ist der erste Schritt der Ordnung."
             },
             {
-                "answer": "Uneinheitliche Dateibenennungen verschiedener Partner stellen in der Praxis kein nennenswertes Problem dar.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Das Gegenteil wird beschrieben: Uneinheitliche Benennungen durch verschiedene Partner erfordern typischerweise einen hohen nachträglichen Abstimmungs- und Korrekturaufwand."""
+                "answer": "Je nach Umfang Daten zu sinnvollen Bündeln zusammenfügen oder aufteilen und dabei auch eine Zusammenfassung in ZIP-Paketen mitdenken.",
+                "correct": True,
+                "feedback": "✓ Richtig! Die Clusterung wird schon beim Anlegen des DMP mitgedacht und hängt stark von der Art der Daten ab."
             },
             {
-                "answer": "In einem solchen Fall sollte auf die Erstellung eines Datenmanagementplans grundsätzlich verzichtet werden.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Gerade in einem solchen Fall ist ein DMP hilfreich, um die Organisation und Vereinheitlichung der Daten strukturiert anzugehen, anstatt ihn deswegen auszulassen."""
+                "answer": "Prüfen, ob Daten und Dateien bereits nach einem erkennbaren Schema benannt sind.",
+                "correct": True,
+                "feedback": "✓ Richtig! Ob Benennungen ein erkennbares Schema haben, ist eine der Prüffragen vor der Publikation."
             },
             {
-                "answer": "Die Dateibenennung sollte in diesem Fall komplett den einzelnen Partnern überlassen bleiben, ohne eine gemeinsame Lösung anzustreben.",
+                "answer": "Prüfen, ob Dateien in proprietären Formaten vorliegen, und abwägen, ob eine Konvertierung sinnvoll ist.",
+                "correct": True,
+                "feedback": "✓ Richtig! Das Kapitel formuliert dies als Abwägung, nicht als Automatismus."
+            },
+            {
+                "answer": "Alle im Projekt entstandenen Dateien müssen unverändert veröffentlicht werden; eine Auswahl entfällt.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die vermittelte Erfahrung spricht gerade dafür, eine gemeinsame, abgestimmte Lösung anzustreben, um Verständigungsprobleme zu vermeiden."""
+                "feedback": "× Nicht korrekt. Das Kapitel nennt die Auswahl der zu veröffentlichenden Daten ausdrücklich als ersten Schritt."
+            },
+            {
+                "answer": "Die Struktur richtet sich vor allem an der eigenen Fachdisziplin aus; die Verständlichkeit für Außenstehende ist zweitrangig.",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Die Daten sollen so geordnet werden, dass sie auch projektextern bzw. interdisziplinär verstanden werden."
             }
         ]
     }
@@ -287,9 +215,9 @@ question6 = [
 display_quiz(question6, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 7
+## Frage 5
 
-Die folgenden drei Fragen prüfen grundlegende Aussagen zum Management von Forschungsdaten. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
+Die folgenden vier Aussagen betreffen Datenmanagementplan, Dateibenennung und Metadaten. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -299,25 +227,25 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question7 = [
+question7a = [
     {
-        "question": "Es ist eine sinnvolle Praxis, bei der nachträglichen Organisation von Forschungsdaten bereits bestehende Projektstrukturen möglichst zu nutzen, anstatt sie komplett zu verwerfen.",
+        "question": "Ein DMP wird einmal zu Projektbeginn geschrieben und anschließend nicht mehr verändert, damit er verlässlich bleibt.",
         "type": "multiple_choice",
         "answers": [
             {
                 "answer": "Richtig",
-                "correct": True,
-                "feedback": """✓ Richtig! Bestehende Strukturen und Benennungen sind in der Regel nicht willkürlich entstanden, sondern folgen einer eigenen, projektinternen Logik. Diese möglichst zu übernehmen, spart Aufwand und erhält die Nachvollziehbarkeit für alle Beteiligten."""
+                "correct": False,
+                "feedback": "× Nicht korrekt. Gerade die Aktualisierbarkeit ist ein Vorteil des DMP: So lassen sich Änderungen im Projektablauf festhalten, und er dient dem Projektmanagement."
             },
             {
                 "answer": "Falsch",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Aussage ist richtig: Es wird empfohlen, bestehende Strukturen soweit wie möglich zu übernehmen, da sie bereits einer sinnvollen, projektinternen Logik folgen."""
+                "correct": True,
+                "feedback": "✓ Richtig! Gerade die Aktualisierbarkeit ist ein Vorteil des DMP: So lassen sich Änderungen im Projektablauf festhalten, und er dient dem Projektmanagement."
             }
         ]
     }
 ]
-display_quiz(question7, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question7a, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ```{code-cell} ipython3
@@ -328,25 +256,25 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question8 = [
+question7b = [
     {
-        "question": "Laut den im Kapitel beschriebenen Praxiserfahrungen lässt sich eine nachträgliche Anpassung der Dateibenennung in der Regel schnell und unkompliziert durchführen.",
+        "question": "Bei der Vergabe von Metadaten sind disziplinspezifische Konventionen optional, solange irgendein Standard verwendet wird.",
         "type": "multiple_choice",
         "answers": [
             {
                 "answer": "Richtig",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das Gegenteil wird beschrieben: Eine nachträgliche Anpassung der Dateibenennung gilt als mühsam und ist eine der zentralen Herausforderungen bei der retrospektiven Datenaufbereitung."""
+                "feedback": "× Nicht korrekt. Metadaten sollen möglichst umfangreich und standardisiert sowie unter Beachtung der Konventionen der Disziplin vergeben werden, aus der die Forschungsdaten stammen."
             },
             {
                 "answer": "Falsch",
                 "correct": True,
-                "feedback": """✓ Richtig! Die Aussage ist falsch. Eine nachträgliche Anpassung der Dateibenennung wird als mühsam beschrieben, insbesondere wenn mehrere Partner unterschiedliche Schemata verwendet haben. Dies unterstreicht den Wert einer frühzeitigen, einheitlichen Benennungskonvention."""
+                "feedback": "✓ Richtig! Metadaten sollen möglichst umfangreich und standardisiert sowie unter Beachtung der Konventionen der Disziplin vergeben werden, aus der die Forschungsdaten stammen."
             }
         ]
     }
 ]
-display_quiz(question8, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question7b, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ```{code-cell} ipython3
@@ -357,33 +285,63 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question9 = [
+question7c = [
     {
-        "question": "Eine README-Datei ersetzt vollständig die Notwendigkeit, Metadaten nach disziplinspezifischen Standards zu vergeben.",
+        "question": "Die Bündelung von Forschungsdaten zu Paketen hat den Vorteil, dass die im Projekt etablierte Dateibenennung nicht geändert werden muss.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Richtig",
+                "correct": True,
+                "feedback": "✓ Richtig! Beispielsweise lassen sich verschiedene Screenshots in einem Paket zusammenfassen, ohne einzelne Dateien umzubenennen."
+            },
+            {
+                "answer": "Falsch",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Die Aussage ist richtig. Beispielsweise lassen sich verschiedene Screenshots in einem Paket zusammenfassen, ohne einzelne Dateien umzubenennen."
+            }
+        ]
+    }
+]
+display_quiz(question7c, colors=colors.jupyterquiz, max_width=1000)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question7d = [
+    {
+        "question": "Der Name eines Datenpakets im DMP und auf der Veröffentlichungsplattform kann unabhängig voneinander gewählt werden.",
         "type": "multiple_choice",
         "answers": [
             {
                 "answer": "Richtig",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Eine README-Datei ist zwar eine wichtige, aber nur die einfachste Form der Datendokumentation. Sie ersetzt nicht die Vergabe von Metadaten nach etablierten, disziplinspezifischen Standards – beide Maßnahmen ergänzen sich."""
+                "feedback": "× Nicht korrekt. Die Bezeichnung im DMP und auf der Plattform sollte übereinstimmen. Man sollte sich eine sinnvolle Ordnung überlegen und diese beibehalten."
             },
             {
                 "answer": "Falsch",
                 "correct": True,
-                "feedback": """✓ Richtig! Die Aussage ist falsch. README und disziplinspezifische Metadaten erfüllen unterschiedliche, sich ergänzende Funktionen: Die README bietet eine einfache, menschenlesbare Übersicht, während strukturierte Metadaten nach Fachstandards die systematische Auffindbarkeit und maschinelle Verarbeitung ermöglichen."""
+                "feedback": "✓ Richtig! Die Bezeichnung im DMP und auf der Plattform sollte übereinstimmen. Man sollte sich eine sinnvolle Ordnung überlegen und diese beibehalten."
             }
         ]
     }
 ]
-display_quiz(question9, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question7d, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 8
+## Frage 6
 
-**Frage:** Sie erstellen rückwirkend einen Datenmanagementplan für ein abgeschlossenes Forschungsprojekt, an dem mehrere Partnerinstitutionen beteiligt waren.
+**Szenario:** Sie sollen die Daten eines abgeschlossenen Projekts nachträglich veröffentlichen. Während der Projektlaufzeit wurde weder ein Datenmanagementplan noch eine README-Datei angelegt. Die Daten liegen als Tabellen, Texte und Bilddateien in uneinheitlich benannten Ordnern vor.
 
-1. Welche Bestandteile müsste Ihr Datenmanagementplan mindestens umfassen?
-2. Welche zwei Best-Practice-Hinweise aus Sicht von Forschenden würden Sie dabei besonders beachten, und warum?
+1. Wie gehen Sie bei der Ordnung der Daten und der Dateibenennung vor?
+2. Welche Aspekte muss der Datenmanagementplan enthalten, den Sie nachträglich anlegen?
+3. Wie beschreiben Sie die Daten darüber hinaus, damit Dritte sie später korrekt interpretieren können?
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -397,18 +355,25 @@ create_answer_box('datenmanagement-1')
 ````{admonition} Reflexionshinweise
 :class: solution, dropdown
 
-**1. Notwendige Bestandteile des DMP:**
+**1. Ordnung und Benennung:**
 
-- **Auswahl und Clusterung:** Festlegen, welche Daten veröffentlicht werden sollen und wie sie sinnvoll gebündelt werden (z. B. als Gesamt-ZIP oder in Teil-Paketen).
-- **Dateibenennung:** Prüfung bzw. Festlegung eines einheitlichen, nachvollziehbaren Benennungsschemas.
-- **Metadaten:** Beschreibung der Daten nach den Konventionen der jeweiligen Fachdisziplin.
-- **FAIRifizierung:** Möglichst vollständige, standardisierte Beschreibung zur Maximierung der Interoperabilität.
-- **README:** Eine einfache Dokumentationsdatei, die Nachnutzenden das grundlegende Verständnis der Daten ermöglicht.
+- Auswählen, welche Daten veröffentlicht werden sollen; je nach Umfang zu sinnvollen Bündeln zusammenfügen oder aufteilen (ggf. als ZIP-Pakete).
+- Prüfen, ob die Benennung einem erkennbaren Schema folgt und ob proprietäre Formate vorliegen (Konvertierung abwägen).
+- Ziel: Die Daten sollen auch projektextern bzw. interdisziplinär verständlich sein.
+- Die im Projekt gewachsene Struktur und Benennung nach Möglichkeit übernehmen; nachträgliches Umbenennen ist fehleranfällig. Pakete können der Publikation entsprechend benannt werden. Die einmal gewählte Benennung konsequent beibehalten, auch im DMP und auf der Plattform.
 
-**2. Mögliche Best-Practice-Hinweise:**
+**2. Bestandteile des DMP:**
 
-- **Bestehende Strukturen übernehmen:** Da mehrere Partnerinstitutionen beteiligt waren, lohnt es sich, so weit wie möglich auf bereits vorhandene Projektstrukturen und Logiken zurückzugreifen, anstatt bei null zu beginnen. Das spart Aufwand und erhält Nachvollziehbarkeit.
-- **Frühzeitige Abstimmung der Dateibenennung:** Da verschiedene Partner oft unterschiedliche Benennungsschemata verwenden, sollte möglichst früh eine gemeinsame Konvention abgestimmt werden. Eine nachträgliche Vereinheitlichung ist erfahrungsgemäß mühsam und zeitaufwendig, besonders bei mehreren beteiligten Institutionen.
+- Projektkontext (Verantwortlichkeiten, Datenmanagement, Projektpartner, Förderer)
+- Datenbeschreibung (Entstehung, Datentypen, Formate, Datenvolumen)
+- Dokumentation (Metadatenstandards, Qualitätssicherung, erforderliche Werkzeuge)
+- Speicherung (Speicherung während des Projekts, Backups, Zugriffsrechte, Datensicherheit)
+- Rechtliche Aspekte (personenbezogene und sensible Daten, Genehmigungen, Zugänglichkeit, Lizenzen, Urheber- und Schutzrechte, Leitlinien der Institutionen und Förderer)
+- Aufbewahrung (Auswahl, Nachnutzung, Infrastruktur, Sperrfristen)
+- Der DMP wird gemeinsam mit den Daten veröffentlicht und kann aktualisiert werden; ein Tool wie RDMO kann beim Erstellen helfen.
 
-Beide Hinweise sind besonders relevant bei Projekten mit mehreren Partnerinstitutionen, da hier das Risiko uneinheitlicher, nicht abgestimmter Vorgehensweisen deutlich höher ist als bei Einzelprojekten.
+**3. Beschreibung der Daten:**
+
+- Metadaten möglichst umfangreich und standardisiert vergeben, nach den Konventionen der Disziplin (z. B. fachübergreifend DataCite, Dublin Core, schema.org; fachspezifisch über NFDI-Konsortien).
+- Eine README-Datei (einfache .txt-Datei) als einfachste Form der Dokumentation beilegen, mit allgemeinen Informationen, Weitergabe und Zugang (z. B. Lizenz, Zitierweise), Daten- und Dateiübersicht, methodischen Informationen und dateispezifischen Informationen (z. B. Variablen, fehlende Werte).
 ````
