@@ -26,7 +26,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 45 Minuten
+**Geschätzte Zeit**: 10 Minuten
 
 Viel Erfolg!
 ````
@@ -43,13 +43,13 @@ from quadriga import colors
 
 question1 = [
     {
-        "question": "Eine Linguistin möchte ihre Korpusdaten veröffentlichen. Für ihr kleines Forschungsfeld gibt es (noch) kein eigenes Repositorium, und ihre Hochschule betreibt keine eigene Infrastruktur dafür. Welche Art von Repositorium kommt für sie am ehesten in Frage?",
+        "question": "Eine Linguistin möchte ihre Korpusdaten veröffentlichen. Für ihr kleines Forschungsfeld gibt es kein eigenes Repositorium, und ihre Hochschule betreibt keine eigene Infrastruktur dafür. Welche Art von Repositorium kommt für sie am ehesten in Frage?",
         "type": "multiple_choice",
         "answers": [
             {
                 "answer": "Ein generisches Repositorium, das disziplinübergreifend arbeitet und keine fachliche Ausrichtung voraussetzt (z. B. Zenodo oder Figshare).",
                 "correct": True,
-                "feedback": "✓ Richtig! Generische Repositorien sind genau für diese Situation gedacht: Sie bieten eine unkomplizierte Lösung, wenn für das Forschungsfeld (noch) kein Fachrepositorium existiert oder die Heimatinstitution keine eigene Infrastruktur anbietet."
+                "feedback": "✓ Richtig! In diesem Fall ist ein generische Repositorien die richtige Wahl. Sie bieten eine unkomplizierte Lösung, wenn für das Forschungsfeld kein Fachrepositorium existiert oder die Heimatinstitution keine eigene Infrastruktur anbietet."
             },
             {
                 "answer": "Ein institutionelles Repositorium, da jede Forschende ihre Daten grundsätzlich bei der eigenen Hochschule ablegt.",
@@ -122,7 +122,7 @@ question3 = [
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Daten und Metadaten werden nach den FAIR-Prinzipien gestaltet: möglichst vollständig beschrieben, wo immer möglich nach Standards, mit hergestellter Interoperabilität und einem Persistenten Identifikator (PID).",
+                "answer": "Daten und Metadaten werden nach den FAIR-Prinzipien gestaltet: möglichst vollständig beschrieben, wo immer möglich nach Standards, und einem Persistenten Identifikator (PID).",
                 "correct": True,
                 "feedback": "✓ Richtig! FAIRifizierung bedeutet die Anwendung der FAIR-Prinzipien auf Daten und Metadaten, bevor sie veröffentlicht werden. Der PID ist dabei besonders wichtig, aber nur ein Baustein."
             },
@@ -134,7 +134,7 @@ question3 = [
             {
                 "answer": "Die Daten werden in ein Repositorium hochgeladen; die Plattform sorgt danach selbst dafür, dass sie den FAIR-Prinzipien entsprechen.",
                 "correct": False,
-                "feedback": "× Nicht korrekt. Laut Kapitel sollen bereits die hochzuladenden Daten und Metadaten eine FAIRifizierung durchlaufen. Das Repositorium liefert zwar oft automatisch den DOI, nimmt Ihnen die Beschreibung und die Nutzung von Standards aber nicht ab."
+                "feedback": "× Nicht korrekt. Laut Kapitel sollen bereits die hochzuladenden Daten und Metadaten eine FAIRifizierung durchlaufen. Das Repositorium liefert zwar oft automatisch den DOI, nimmt Ihnen die Beschreibung aber nicht ab."
             },
             {
                 "answer": "Ein automatisiertes Prüfwerkzeug wird ausgeführt, das die Daten dann entsprechend den FAIR-Kriterien anpasst.",
@@ -170,11 +170,6 @@ question4 = [
                 "feedback": "✓ Richtig! Ein Konto lässt sich auf mehreren Wegen erstellen; ORCID wird wegen der eindeutigen Identifizierbarkeit der Urheber:innen empfohlen."
             },
             {
-                "answer": "Soll eine hierarchische Ordnerstruktur erhalten bleiben, können die Dateien als ZIP-Archiv hochgeladen werden.",
-                "correct": True,
-                "feedback": "✓ Richtig! Das ZIP-Archiv bewahrt die Ordnerstruktur und ist zugleich die vorgeschlagene Variante, das ganze Datenpaket bereitzustellen."
-            },
-            {
                 "answer": "Der Beschreibung sollte ein Inhaltsverzeichnis (TOC) hinzugefügt werden, da es einen schnellen Überblick über die Dateien ermöglicht.",
                 "correct": True,
                 "feedback": "✓ Richtig! Das ist nicht nur bei großen Datenpaketen hilfreich."
@@ -192,7 +187,7 @@ question4 = [
             {
                 "answer": "Innerhalb eines Uploads werden die Dateien nach ihrer Upload-Zeit angezeigt, sodass die Benennung der Dateien keine Rolle spielt.",
                 "correct": False,
-                "feedback": "× Nicht korrekt. Innerhalb eines Uploads wird nach Namen sortiert. Deshalb empfiehlt das Kapitel, mit Nummern zu arbeiten oder das ganze Datenpaket als ZIP bereitzustellen. Nur die Reihenfolge mehrerer Uploads richtet sich bei Zenodo nach dem Datum."
+                "feedback": "× Nicht korrekt. Innerhalb eines Uploads wird nach Namen sortiert. Deshalb empfiehlt das Kapitel, mit Nummern zu arbeiten. Nur die Reihenfolge mehrerer Uploads richtet sich bei Zenodo nach dem Datum."
             }
         ]
     }
@@ -263,11 +258,6 @@ question7 = [
                 "feedback": "✓ Richtig! Klassische Formate wie die Pressemitteilung kommen auch für Datenpublikationen in Betracht. Neue Wege wie Data Stories ergänzen sie, indem sie die Publikation visuell hervorheben. Je nach Zielgruppe kann die Kommunikation auf mehreren Ebenen sinnvoll sein."
             },
             {
-                "answer": "Es genügt ein einziger Social-Media-Beitrag, da er alle relevanten Zielgruppen gleichermaßen erreicht.",
-                "correct": False,
-                "feedback": "× Nicht korrekt. Social-Media-Beiträge richten sich laut Übersicht vor allem an die interessierte Öffentlichkeit. Die Fachcommunity erreicht man z. B. über Mailinglisten oder den Informationsdienst Wissenschaft."
-            },
-            {
                 "answer": "Data Stories ersetzen klassische Mitteilungen, da diese für Daten nicht vorgesehen sind.",
                 "correct": False,
                 "feedback": "× Nicht korrekt. Die klassischen Optionen gelten nicht ausschließlich für Datenpublikationen, können aber auch dafür genutzt werden. Data Stories sind eine zusätzliche, sich erst entwickelnde Möglichkeit."
@@ -287,34 +277,6 @@ display_quiz(question7, colors=colors.jupyterquiz, max_width=1000)
 
 Die folgenden vier Aussagen betreffen Repositorien, den Upload und die Kommunikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
 
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question8a = [
-    {
-        "question": "Nach der Leitlinie 17 der Guten wissenschaftlichen Praxis sollen Forschungsdaten ausschließlich in fachspezifischen Repositorien öffentlich zugänglich gemacht werden.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": False,
-                "feedback": "× Nicht korrekt. Die Leitlinie nennt zwei Orte: die Einrichtung, an der die Daten entstanden sind, oder „standortübergreifende Repositorien“. Eine Beschränkung auf fachspezifische Repositorien nennt das Kapitel nicht."
-            },
-            {
-                "answer": "Falsch",
-                "correct": True,
-                "feedback": "✓ Richtig! Die Leitlinie nennt zwei Orte: die Einrichtung, an der die Daten entstanden sind, oder „standortübergreifende Repositorien“. Eine Beschränkung auf fachspezifische Repositorien nennt das Kapitel nicht."
-            }
-        ]
-    }
-]
-display_quiz(question8a, colors=colors.jupyterquiz, max_width=1000)
-```
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -426,19 +388,19 @@ create_answer_box('publikation-1')
 **1. Repositorium finden und auswählen:**
 
 - Erste Anlaufstelle: Bibliothek oder FDM-Team der Institution, auch für die Beratung zu externen Repositorien.
-- Selbst suchen über re3data (Register mit Filtern, z. B. nach Metadatenstandards, und „Browse“ über Weltkarte oder Sunburst-Diagramm nach Fachdisziplinen).
-- Drei Arten: institutionell, fachspezifisch, generisch. Gibt es kein Fachrepositorium oder keine Infrastruktur der Institution, bietet sich ein generisches Repositorium an (z. B. Zenodo, Figshare). Nach Leitlinie 17 der Guten wissenschaftlichen Praxis sollen Daten an der Einrichtung oder in standortübergreifenden Repositorien öffentlich zugänglich gemacht werden.
+- Selbst suchen über re3data.
+- Drei Arten: institutionell, fachspezifisch, generisch. Gibt es kein Fachrepositorium oder keine Infrastruktur der Institution, bietet sich ein generisches Repositorium an (z. B. Zenodo, Figshare).
 
 **2. Vorbereitung, Upload, Veröffentlichung:**
 
 - FAIRifizierung: Daten und Metadaten möglichst vollständig beschreiben, Standards nutzen, Interoperabilität herstellen, PID/DOI vergeben (Checklisten, Reifegradmodelle oder automatisierte Werkzeuge wie F-UJI können unterstützen).
-- Datenpaket (Daten, Metadaten, Dokumentation, DMP) zusammenstellen; Konto anlegen (ORCID empfohlen); als ZIP hochladen, wenn die Ordnerstruktur erhalten bleiben soll; auf Reihenfolge und Dateibenennung achten.
+- Datenpaket (Daten, Metadaten, Dokumentation, DMP) zusammenstellen; Konto anlegen (ORCID empfohlen); auf Reihenfolge und Dateibenennung achten.
 - Metadatenfelder möglichst vollständig ausfüllen, TOC ergänzen, Sichtbarkeit („öffentlich“ als Standard) festlegen. Dummy-Datei für den Entwurf nutzen, Eintrag prüfen, dann veröffentlichen.
 - DOI vorab reservieren, wenn er in README oder Forschungsdatenbericht genannt werden soll.
 
 **3. Kommunikation:**
 
-- Zielgruppen klären (Fachcommunity, interessierte Öffentlichkeit) und verfügbare Wege prüfen.
+- Zielgruppen klären und verfügbare Wege prüfen.
 - Klassische Wege: Pressemitteilung, Mailinglisten, idw, Social Media. Neue Wege für Daten: Data Stories, Datenhighlights. Ergänzend Blogbeitrag oder Podcast.
 - Gegebenenfalls auf mehreren Ebenen kommunizieren.
 ````
