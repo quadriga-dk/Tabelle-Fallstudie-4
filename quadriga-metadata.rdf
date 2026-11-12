@@ -38,7 +38,7 @@
   <schema:Book rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/">
     <dc:type>Jupyter Book</dc:type>
     <dcterms:tableOfContents>- Einstieg
-- Einarbeiten
+- Planung
 - Datenmanagement
 - Publikation
 - Abschluss</dcterms:tableOfContents>
@@ -147,15 +147,6 @@
         <schema:name>Jana Plomin</schema:name>
       </schema:Person>
     </schema:author>
-    <schema:author>
-      <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2">
-        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_org" />
-        <schema:familyName>Neuroth</schema:familyName>
-        <schema:givenName>Heike</schema:givenName>
-        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_orcid" />
-        <schema:name>Heike Neuroth</schema:name>
-      </schema:Person>
-    </schema:author>
     <schema:contributor>
       <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0">
         <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_org" />
@@ -163,6 +154,24 @@
         <schema:givenName>Hannes</schema:givenName>
         <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_orcid" />
         <schema:name>Hannes Schnaitter</schema:name>
+      </schema:Person>
+    </schema:contributor>
+    <schema:contributor>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_1">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_1_org" />
+        <schema:familyName>Neuroth</schema:familyName>
+        <schema:givenName>Heike</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_1_orcid" />
+        <schema:name>Heike Neuroth</schema:name>
+      </schema:Person>
+    </schema:contributor>
+    <schema:contributor>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_2">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_2_org" />
+        <schema:familyName>Prytula</schema:familyName>
+        <schema:givenName>Michael</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_2_orcid" />
+        <schema:name>Michael Prytula</schema:name>
       </schema:Person>
     </schema:contributor>
     <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-12</schema:dateModified>
@@ -177,10 +186,10 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#chapter_0_objective_2" />
-        <schema:name>Einarbeiten</schema:name>
+        <schema:name>Planung</schema:name>
         <schema:teaches>Forschungsdaten erkennen</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Planung/einleitung.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
@@ -242,11 +251,14 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
   <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_1_org">
     <schema:name>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</schema:name>
   </schema:Organization>
-  <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_org">
-    <schema:name>Fachhochschule Potsdam</schema:name>
-  </schema:Organization>
   <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_org">
     <schema:name>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_1_org">
+    <schema:name>Fachhochschule Potsdam</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_2_org">
+    <schema:name>Fachhochschule Potsdam</schema:name>
   </schema:Organization>
   <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_0_orcid">
     <schema:propertyID>ORCID</schema:propertyID>
@@ -258,14 +270,19 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:url rdf:resource="https://orcid.org/0000-0003-0127-7493" />
     <schema:value>0000-0003-0127-7493</schema:value>
   </schema:PropertyValue>
-  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#author_2_orcid">
-    <schema:propertyID>ORCID</schema:propertyID>
-    <schema:url rdf:resource="https://orcid.org/0000-0002-3637-3154" />
-    <schema:value>0000-0002-3637-3154</schema:value>
-  </schema:PropertyValue>
   <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_0_orcid">
     <schema:propertyID>ORCID</schema:propertyID>
     <schema:url rdf:resource="https://orcid.org/0000-0002-1602-6032" />
     <schema:value>0000-0002-1602-6032</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_1_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0002-3637-3154" />
+    <schema:value>0000-0002-3637-3154</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#contributor_2_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0001-7738-7627" />
+    <schema:value>0000-0001-7738-7627</schema:value>
   </schema:PropertyValue>
 </rdf:RDF>

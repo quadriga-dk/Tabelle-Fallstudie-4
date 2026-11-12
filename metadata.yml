@@ -28,6 +28,15 @@ creator:
     id: https://ror.org/00px80p03
     type: Organization
 contributor:
+- givenName: Hannes
+  familyName: Schnaitter
+  name: Hannes Schnaitter
+  id: https://orcid.org/0000-0002-1602-6032
+  type: Person
+  affiliation:
+    name: Humboldt-Universität zu Berlin
+    id: https://ror.org/01hcx6992
+    type: Organization
 - givenName: Heike
   familyName: Neuroth
   name: Heike Neuroth
@@ -37,14 +46,14 @@ contributor:
     name: Fachhochschule Potsdam
     id: https://ror.org/012m9bp23
     type: Organization
-- givenName: Hannes
-  familyName: Schnaitter
-  name: Hannes Schnaitter
-  id: https://orcid.org/0000-0002-1602-6032
+- givenName: Michael
+  familyName: Prytula
+  name: Michael Prytula
+  id: https://orcid.org/0000-0001-7738-7627
   type: Person
   affiliation:
-    name: Humboldt-Universität zu Berlin
-    id: https://ror.org/01hcx6992
+    name: Fachhochschule Potsdam
+    id: https://ror.org/012m9bp23
     type: Organization
 keywords:
 - Verwaltung

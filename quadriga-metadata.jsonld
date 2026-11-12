@@ -55,22 +55,6 @@
         "@type": "Organization",
         "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
       }
-    },
-    {
-      "@type": "Person",
-      "givenName": "Heike",
-      "familyName": "Neuroth",
-      "name": "Heike Neuroth",
-      "identifier": {
-        "@type": "PropertyValue",
-        "propertyID": "ORCID",
-        "value": "0000-0002-3637-3154",
-        "url": "https://orcid.org/0000-0002-3637-3154"
-      },
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Fachhochschule Potsdam"
-      }
     }
   ],
   "contributor": [
@@ -88,6 +72,38 @@
       "affiliation": {
         "@type": "Organization",
         "name": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Heike",
+      "familyName": "Neuroth",
+      "name": "Heike Neuroth",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-3637-3154",
+        "url": "https://orcid.org/0000-0002-3637-3154"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Michael",
+      "familyName": "Prytula",
+      "name": "Michael Prytula",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0001-7738-7627",
+        "url": "https://orcid.org/0000-0001-7738-7627"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
       }
     }
   ],
@@ -185,9 +201,9 @@
   "hasPart": [
     {
       "@type": "LearningResource",
-      "name": "Einarbeiten",
+      "name": "Planung",
       "description": "TODO",
-      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Planung/einleitung.html",
       "timeRequired": "TODO",
       "teaches": "Forschungsdaten erkennen",
       "educationalAlignment": [
@@ -256,7 +272,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Einstieg\n- Einarbeiten\n- Datenmanagement\n- Publikation\n- Abschluss",
+  "dcterms:tableOfContents": "- Einstieg\n- Planung\n- Datenmanagement\n- Publikation\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",
