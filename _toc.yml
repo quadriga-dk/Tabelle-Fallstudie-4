@@ -11,13 +11,13 @@ chapters:
       - file: Kapitel1_Einstieg/lernziele
       - file: Kapitel1_Einstieg/technische_voraussetzungen
       - file: Kapitel1_Einstieg/nachträglich-publizieren
-  - file: Kapitel2_Einarbeiten/einleitung
+  - file: Kapitel2_Planung/einleitung
     sections:
-      - file: Kapitel2_Einarbeiten/einordnung
-      - file: Kapitel2_Einarbeiten/qualitätsprüfung
-      - file: Kapitel2_Einarbeiten/vorgaben
-      - file: Kapitel2_Einarbeiten/resumee
-      - file: Kapitel2_Einarbeiten/assessment
+      - file: Kapitel2_Planung/einordnung
+      - file: Kapitel2_Planung/qualitätsprüfung
+      - file: Kapitel2_Planung/vorgaben
+      - file: Kapitel2_Planung/resumee
+      - file: Kapitel2_Planung/assessment
   - file: Kapitel3_Datenmanagement/einleitung
     sections:
       - file: Kapitel3_Datenmanagement/organisation

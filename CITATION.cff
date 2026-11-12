@@ -17,10 +17,6 @@ authors: &id001
   family-names: Plomin
   orcid: https://orcid.org/0000-0003-0127-7493
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- given-names: Heike
-  family-names: Neuroth
-  orcid: https://orcid.org/0000-0002-3637-3154
-  affiliation: Fachhochschule Potsdam
 repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
 keywords: &id002

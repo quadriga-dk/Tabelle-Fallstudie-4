@@ -1,4 +1,4 @@
-(einarbeiten:einordnung)=
+(planung:einordnung)=
 # Überblick verschaffen
 
 Zuerst gilt es, sich einen Überblick über die zu veröffentlichenden Forschungsdaten zu verschaffen. Dies gilt vor allem, wenn es sich um fremde Daten handelt. Überlegen Sie sich eine Arbeitsstruktur zur Publikation: Wer arbeitet an dieser nachträglichen Publikation mit und wie lässt sich das organisieren?

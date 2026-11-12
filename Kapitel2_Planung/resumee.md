@@ -1,4 +1,4 @@
-(einarbeiten:resumee)=
+(planung:resumee)=
 # Resümee
 
 Im zurückliegenden Kapitel wurden Schritte erläutert, die zur Planung einer Forschungsdatenpublikation behilflich sein können. 

@@ -10,8 +10,8 @@ kernelspec:
   name: python3
 ---
 
-(einarbeiten:assessment)=
-# 🏆Selbsttest: Einarbeiten
+(planung:assessment)=
+# 🏆Selbsttest: Planung
 
 ````{admonition} Hinweis
 :class: hinweis

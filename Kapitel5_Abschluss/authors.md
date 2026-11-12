@@ -23,19 +23,6 @@
 </tr>
 </table>
 
-### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
-
-<table style="margin-left: 0">
-<tr>
-<td><b>Beitrag zu dieser Fallstudie:</b></td>
-<td>Conceptualization, Funding acquisition</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fachhochschule Potsdam</td>
-</tr>
-</table>
-
 ### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
 
 <table style="margin-left: 0">
@@ -53,7 +40,33 @@
 </tr>
 </table>
 
-## sonstige beteiligte Personen
+## weitere beteiligte Personen
+
+### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
+
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Konzeptionierung Fallstudien Datentyp Tabelle</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fachhochschule Potsdam</td>
+</tr>
+</table>
+
+### Michael Prytula <a href="https://orcid.org/0000-0001-7738-7627" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
+
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Forschungsdaten</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fachhochschule Potsdam</td>
+</tr>
+</table>
 
 ### Lamia Islam <a href="https://orcid.org/0009-0001-1879-9880" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
 <table style="margin-left: 0">

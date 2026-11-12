@@ -63,7 +63,7 @@ Visualisierung der 3 Schritte dieses Lehrbuchs.
 
 In dieser OER werden die folgenden Schritte durchlaufen, die als elementar in der nachträglichen Datenpublikation bezeichnet werden können und die mit den Datenflussphasen und Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen (s. Kap. 1.3 {ref}`Nachträgliches Publizieren<nachpub:einleitung>`).
 
-- Im **1. Schritt** gilt es, sich in das Projekt einzuarbeiten und den Ablauf zur Publikation zu planen (Datenflussphase *1. Planung*). Dazu wird eine Qualitätsprüfung durchgeführt, um sicherzustellen, dass die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen sowie (mögliche) Vorgaben und juristische Aspekte beleuchtet (s. Kap. 2 {ref}`Einarbeiten<einarbeiten:einleitung>`).
+- Im **1. Schritt** gilt es, sich in das Projekt einzuarbeiten und den Ablauf zur Publikation zu planen (Datenflussphase *1. Planung*). Dazu wird eine Qualitätsprüfung durchgeführt, um sicherzustellen, dass die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen sowie (mögliche) Vorgaben und juristische Aspekte beleuchtet (s. Kap. 2 {ref}`Planung<eplanung:einleitung>`).
 - Im **2. Schritt** folgt mit dem Datenmanagement die Datenflussphase *3. Organisation und Erschließung*. Dabei werden die Daten für eine Publikation geordnet und ein Datenmanagementplan angelegt (s. Kap. 3 {ref}`Datenmanagement<datenmanagement:einleitung>`). 
 - Im **3. Schritt** werden die Kompetenzen *5.1 Aufbewahrung*, *5.2 Publikation* und *5.3 Kommunikation* von Forschungsdaten behandelt, indem u. a. ein Repositorium zur Datenveröffentlichung ausgewählt wird und Kommunikationskanäle vorgestellt werden (s. Kap. 4 {ref}`Publikation<publikation:einleitung>`).
 

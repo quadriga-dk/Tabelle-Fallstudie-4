@@ -1,4 +1,4 @@
-(einarbeiten:vorgaben)=
+(planung:vorgaben)=
 # Vorgaben und Juristisches
 
 Dieses Kapitel nimmt juristische und andere Vorgaben in den Blick, die es bei der Publikation von Daten zu beachten gilt. Dabei geht es darum, ob Rechte eingeholt und Vorgaben beachtet werden müssen und wie es sich mit der Lizenzierung verhält.

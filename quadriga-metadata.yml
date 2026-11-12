@@ -22,14 +22,6 @@ authorLIST:
   - Validation
   - Writing – original draft
   - Writing – review & editing
-- familyName: Neuroth
-  givenName: Heike
-  orcid: https://orcid.org/0000-0002-3637-3154
-  affiliation: Fachhochschule Potsdam
-  creditLIST:
-  - Conceptualization
-  - Methodology
-  - Funding acquisition
 keywordLIST:
 - de: Verwaltung
 - de: Verwaltungswissenschaft
@@ -73,6 +65,19 @@ contributorLIST:
   - Software
   - Validation
   - Writing – review & editing
+- familyName: Neuroth
+  givenName: Heike
+  orcid: https://orcid.org/0000-0002-3637-3154
+  affiliation: Fachhochschule Potsdam
+  creditLIST:
+  - Conceptualization
+  - Funding acquisition
+- familyName: Prytula
+  givenName: Michael
+  orcid: https://orcid.org/0000-0001-7738-7627
+  affiliation: Fachhochschule Potsdam
+  creditLIST:
+  - Resources
 identifier: TODO
 identifierGit: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
 identifierOER: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
@@ -82,9 +87,9 @@ usedToolLIST:
 - name: keine
   url: keine
 chapterLIST:
-- title: Einarbeiten
+- title: Planung
   description: TODO
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Einarbeiten/einleitung.html
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Planung/einleitung.html
   timeRequired: TODO
   learningGoal: Forschungsdaten erkennen
   learningObjectiveLIST:

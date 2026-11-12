@@ -27,6 +27,7 @@ creator:
     name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
     id: https://ror.org/00px80p03
     type: Organization
+contributor:
 - givenName: Heike
   familyName: Neuroth
   name: Heike Neuroth
@@ -36,7 +37,6 @@ creator:
     name: Fachhochschule Potsdam
     id: https://ror.org/012m9bp23
     type: Organization
-contributor:
 - givenName: Hannes
   familyName: Schnaitter
   name: Hannes Schnaitter

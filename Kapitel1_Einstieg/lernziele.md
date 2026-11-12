@@ -11,8 +11,8 @@ Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. E
 
 ## Lernziele
 
-<!-- START: Einarbeiten -->
-```{admonition} [Lernziel: Einarbeiten in Forschungsdaten](einarbeiten:einleitung)
+<!-- START: Planung -->
+```{admonition} [Lernziel: Planung einer Forschungsdatenspublikation](planung:einleitung)
 :class: lernziele
 <!-- learning-goal: Forschungsdaten erkennen -->
 1. Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM 01_001_0008)
@@ -24,7 +24,7 @@ Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. E
 3. Lernende können vorbereitende Maßnahmen für eine rechtssichere Publikation umsetzen. (LZM 04_003_0851)
 <!-- competency: 1.3 Ethik und Recht | bloom: 3 Anwenden -->
 ```
-<!-- END: Einarbeiten -->
+<!-- END: Planung -->
 
 <!-- START: Datenmanagement -->
 ```{admonition} [Lernziel: Management von Forschungsdaten](datenmanagement:einleitung)

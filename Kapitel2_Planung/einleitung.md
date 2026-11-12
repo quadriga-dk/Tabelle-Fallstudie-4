@@ -1,5 +1,5 @@
-(einarbeiten:einleitung)=
-# Einarbeiten
+(planung:einleitung)=
+# Planung
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-Dieses Kapitel widmet sich dem Einarbeiten in eine anstehende Forschungsdatenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks *1. Planung* (s. Abb. 2.1) und die Kompetenzen *1.2 Qualitätssicherung* sowie *1.3 Ethik und Recht*. 
+Dieses Kapitel widmet sich der Planung einer Forschungsdatenveröffentlichung und bezieht sich damit auf die erste Phase des Frameworks *1. Planung* (s. Abb. 2.1) und die Kompetenzen *1.2 Qualitätssicherung* sowie *1.3 Ethik und Recht*. 
 
 ```{figure} /assets/1_planung.png
 ---
@@ -33,8 +33,8 @@ Die 1. Phase des QUADRIGA Datenkompetenzframeworks und die ihr zugeordneten Komp
 In diesem Kapitel können die unten stehenden Lernziele erreicht werden. Die Lernziele mit Bezug zur <a href="https://zenodo.org/records/15025246" class="external-link" target="_blank">Lernzielmatrix</a> zum Themenbereich Forschungsdatenmanagement (FDM) von Petersen et al. (Version 3, 2025) sind durch ihre dort vergebene ID (LZ-ID) kenntlich gemacht.
 
 ```{include} /Kapitel1_Einstieg/lernziele.md
-:start-after: "<!-- START: Einarbeiten -->"
-:end-before: "<!-- END: Einarbeiten -->"
+:start-after: "<!-- START: Planung -->"
+:end-before: "<!-- END: Planung -->"
 ```
 
 ---
@@ -54,11 +54,11 @@ Dieses Kapitel entspricht in der Verortung eines wissenschaftlichen Forschungspr
 
 Dieses Kapitel ist in 3 Unterkapitel, ein abschließendes Resümee sowie ein Assessment unterteilt:
 
-- [Überblick verschaffen](einarbeiten:einordnung)
-- [Qualitätsprüfung](einarbeiten:qualitätsprüfung)
-- [Vorgaben und Juristisches](einarbeiten:vorgaben)
-- [Resümee](einarbeiten:resumee)
-- [Assessment](einarbeiten:assessment)
+- [Überblick verschaffen](planung:einordnung)
+- [Qualitätsprüfung](planung:qualitätsprüfung)
+- [Vorgaben und Juristisches](planung:vorgaben)
+- [Resümee](planung:resumee)
+- [Assessment](planung:assessment)
 
 ---
 
