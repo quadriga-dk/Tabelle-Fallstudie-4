@@ -19,7 +19,7 @@ Folgende wichtige Punkte sollten Sie darüber hinaus mitnehmen:
 - Die Dateibenennung sollte konsequent sein und nach Möglichkeit vom Projekt übernommen werden. Die im Projekt gewachsene Struktur ist meist sinnvoll und logisch. Eine Veröffentlichung von Forschungsdaten in "Paketen" die der Struktur folgen ist daher zu empfehlen.
 
 **Erschließung**
-- Metadaten sollten disziplinspezifischen Standards bzw. den etablierten Konventionen der Fachcommunity folgen.
+- Metadaten sollten üblichen Standards und den etablierten Konventionen der Fachcommunity folgen.
 - Legen Sie eine README-Datei als einfachste Form der Datendokumentation an. Diese stellt sicher, dass Dritte die Daten und deren Entstehungskontext korrekt einordnen können. 
 ```
 

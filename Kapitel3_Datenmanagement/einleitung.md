@@ -46,7 +46,7 @@ Dieses ist das 3. Kapitel dieses Lehrbuchs bzw. der 2. Schritt im Szenario einer
 ```{figure} /assets/steps_cs4-2.png
 ---
 align: left
-width: 75%
+width: 80%
 ---
 Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 2. Schrittes.
 ```
@@ -58,7 +58,7 @@ Entsprechend den Kompetenzen finden Sie hier 2 inhaltsvermittelnde Unterkapitel,
 - [Organisation](datenmanagement:organisation)
 - [Erschließung](datenmanagement:erschliessung)
 - [Resümee](datenmanagement:resümee)
-- [Assessment](datenmanagement:assessment)
+- [Selbsttest](datenmanagement:assessment)
 
 ---
 

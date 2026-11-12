@@ -1,7 +1,7 @@
 (datenmanagement:organisation)=
 # Organisation
 
-Dieses Unterkapitel bezieht sich auf die Kompetenz *3.1 Organisation* des QUADRIGA Datenkompetenzframeworks - wie Abb. 3.3 zeigt. Das bedeutet, dass die im Projekt entstandenen Forschungsdaten an dieser Stelle geordnet und organisiert werden müssen, sodass sie auch projektextern bzw. interdisziplinär verstanden werden. Wenn im Lauf des Projektes noch kein Datenmanagementplan (DMP) begonnen wurde, muss nun einer angelegt werden.
+Dieses Unterkapitel bezieht sich auf die Kompetenz *3.1 Organisation* des QUADRIGA Datenkompetenzframeworks - wie Abb. 3.3 zeigt. Das bedeutet, dass die im Projekt entstandenen Forschungsdaten an dieser Stelle geordnet und organisiert werden müssen, sodass sie auch projektextern verstanden werden. Wenn im Lauf des Projektes noch kein Datenmanagementplan (DMP) begonnen wurde, muss nun einer angelegt werden.
 
 ```{figure} /assets/3.1_organisation.png
 ---
@@ -20,7 +20,7 @@ Die Daten müssen vor der Publikation geordnet und strukturiert werden. Zuerst m
 
 ## Vorgehen
 
-Es empfiehlt sich, die Daten so zu ordnen, dass sie auch interdisziplinär bzw. projektextern verstanden werden. Fügen Sie Daten zu sinnvollen Bündeln zusammen oder teilen Sie sie in solche auf. 
+Es empfiehlt sich, die Daten so zu ordnen, dass sie auch projektextern verstanden werden. Fügen Sie Daten zu sinnvollen Bündeln zusammen oder teilen Sie sie in solche auf. 
 Bei der Clusterung kann auch schon die Zusammenfassung in ZIP-Paketen mitgedacht werden.
 Diese Punkte müssen Sie bei der Anlage eines DMP ohnehin mitdenken.
 
@@ -58,28 +58,28 @@ Sie können das "Neue Projekt" darüber hinaus einem übergeordneten Projekt zuw
 ```{figure} /assets/dmp_neues_projekt.png
 ---
 align: center
-width: 66%
+width: 80%
 ---
 Eingabemaske zum Anlegen eines neuen Projektes bei RDMO Brandenburg.
 ```
 *Quellenangabe: Screenshot der Eingabemaske zum Anlegen eines neuen Projektes bei <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO Brandenburg</a> vom 09.10.2026.*
 
-Nachdem das Projekt angelegt wurde, müssen über den Button ``Fragen beantworten`` Aussagen zum Projekt und den im Projekt erhobenen Daten eingegeben werden (s. Abb. 3.5).
+Nachdem das Projekt angelegt wurde, müssen über den Button ``Fragen beantworten`` Aussagen zum Projekt und den im Projekt erhobenen Daten eingegeben werden (s. Abb. 3.5). Der Umfang der thematisch dortierten Fragen variiert dabei je nach gewähltem Fragenkatalog. 
 
 ```{figure} /assets/dmp_fragen_beantworten.png
 ---
 align: center
-width: 66%
+width: 80%
 ---
 Projektansicht mit dem Button 'Fragen beantworten' oben rechts bei RDMO Brandenburg.
 ```
 *Quellenangabe: Screenshot der Projektansicht bei <a href="https://rdmo.fdm-bb.de/" class="external-link" class="external-link" target="_blank">RDMO Brandenburg</a> vom 09.10.2026.*
 
-Anschließend fügen Sie die Datensätze hinzu, die im Projekt entstanden sind. Spätestens bei diesem Schritt kommt die Auswahl und Clusterung der Forschungsdaten zum Tragen. Es ist sinnvoll, sich bereits bei diesem Schritt zu überlegen, wie die Daten bereitgestellt werden sollen (z. B. als Gesamt-ZIP, in ZIP-"Paketen" oder einzeln). Das hängt sehr stark von der Art der Forschungsdaten ab. Im Beispielszenario wurde sich für 4 Forschungsdatensätze entschieden, die auch so benannt wurden ("FD1_..." bis "FD4_..."). Diese Datensätze erscheinen in RDMO als Registerkarten bzw. Tabellenreiter. Praktischerweise ermöglicht das Tool RDMO die Übernahme von einmal eingegebenen Informationen zu anderen Datensätzen. Sie müssen also projektrelevante oder sich wiederholende Informationen nicht mehrfach eingeben!
+Anschließend fügen Sie die Datensätze hinzu, die im Projekt entstanden sind. Spätestens bei diesem Schritt kommt die Auswahl und Clusterung der Forschungsdaten zum Tragen. Es ist sinnvoll, sich bereits bei diesem Schritt zu überlegen, wie die Daten bereitgestellt werden sollen (z. B. als Gesamt-ZIP, in ZIP-"Paketen" oder einzeln). Das hängt sehr stark von der Art der Forschungsdaten ab. Im Beispielszenario wurde sich für 4 Forschungsdatensätze entschieden, die auch so benannt wurden ("FD1_Siedlungsdaten", "FD2_Oekobilanzkennwerte", "FD3_Bilanzierungstool" und "FD4_Dashboards_Informationsvisualisierung"). Diese Datensätze erscheinen in RDMO als Registerkarten bzw. Tabellenreiter. Praktischerweise ermöglicht das Tool RDMO die Übernahme von einmal eingegebenen Informationen zu anderen Datensätzen. Sie müssen also projektrelevante oder sich wiederholende Informationen nicht mehrfach eingeben!
 
 ```{admonition} Hinweis
 :class: hinweis
-Die Benennung der Forschungsdaten ist nicht trivial. Überlegen Sie sich eine sinnvolle Ordnung und Zusammenstellung und behalten Sie diese bei. Das im DMP als "FD3_Bilanzierungstool" bezeichnete Datum bzw. Datenpaket sollte auf der Veröffentlichungsplattform genauso heißen. Die Zusammenfassung von Forschungsdaten zu Paketen hat den Vorteil, dass Sie die Dateibenennung, die sich während des Projektes etabliert hat, nicht ändern müssen. So lassen sich beispielsweise verschiedene Screenshots in einem Paket "FD4_Screenshots" zusammenfassen. 
+Die Benennung der Forschungsdaten ist nicht trivial. Überlegen Sie sich eine sinnvolle Ordnung und Zusammenstellung und behalten Sie diese bei. Das im DMP als "FD3_Bilanzierungstool" bezeichnete Datum bzw. Datenpaket sollte auf der Veröffentlichungsplattform genauso heißen. Die Zusammenfassung von Forschungsdaten zu Paketen hat den Vorteil, dass Sie die Dateibenennung, die sich während des Projektes etabliert hat, nicht ändern müssen. So lassen sich beispielsweise verschiedene Untersuchungen mit einem Messgerät A in einem Paket "Untersuchungen_A" zusammenfassen. 
 ``` 
 
 Übrigens: RDMO speichert Ihren Fortschritt. Sie müssen also nicht alles in einer Sitzung bearbeiten und fertigstellen.
@@ -112,6 +112,6 @@ In Bezug auf die Dateibenennung sollte beachtet werden, dass zwar einerseits ein
 - 5-minütiges Video "Datenmanagement nach Plan" von Schmitz et al. (2019) unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://publications.rwth-aachen.de/record/751109" class="external-link" target="_blank">RWTH Aachen</a>
 ```
 
-Im nächsten Unterkapitel stehen Metadaten und das Anlegen einer README-Datei im Fokus. Diese Aspekte sind zwar auch Teil des DMP, gehören im QUADRIGA Datenkompetenzframework aber zur Kompetenz *3.2 Erschließung*.
+Im nächsten Unterkapitel stehen Metadaten und das Anlegen einer README-Datei im Fokus.
 
 

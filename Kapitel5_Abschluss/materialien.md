@@ -17,5 +17,3 @@ Kapitel 3. Datenmanagement:
 
 Kapitel 4. Publikation:
 - Video "„Open Science: Von Daten zu Publikationen“: Repositorien" vom <a href="https://www.kim.uni-konstanz.de/openscience/open-science-im-kim/team/" class="external-link" target="_blank">Team Open Science</a> der Universität Konstanz unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a>.
-
-Alle Materialien, die nicht explizit als extern ausgewiesen sind, sind eigene Erstellungen. Dies bezieht sich vor allem auf Abbildungen.
