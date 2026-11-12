@@ -26,7 +26,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: 40 Minuten
+**Geschätzte Zeit**: 10 Minuten
 
 Viel Erfolg!
 ````
@@ -106,14 +106,14 @@ question3 = [
                 "feedback": "✓ Richtig! Er ist damit Teil dessen, was Nachnutzende zu den Daten zu sehen bekommen."
             },
             {
-                "answer": "Wurde während der Projektlaufzeit kein DMP angelegt, kann bei einer nachträglichen Veröffentlichung darauf verzichtet werden.",
+                "answer": "Wurde während der Projektlaufzeit kein DMP angelegt, kann bei einer nachträglichen Veröffentlichung von Forschungsdaten darauf verzichtet werden.",
                 "correct": False,
-                "feedback": "× Nicht korrekt. Das Kapitel hält fest: Wenn im Lauf des Projekts noch kein DMP begonnen wurde, muss jetzt einer angelegt werden. Im Beispielprojekt wurde er nachträglich verfasst."
+                "feedback": "× Nicht korrekt. Das Kapitel hält fest: Wenn im Lauf des Projekts noch kein DMP begonnen wurde, muss spätestens zur nachträglichen Forschungsdatenpublikation einer angelegt werden. Im Beispielprojekt wurde er nachträglich verfasst."
             },
             {
                 "answer": "Ein DMP beschränkt sich auf die Beschreibung der Datenformate und des Datenvolumens.",
                 "correct": False,
-                "feedback": "× Nicht korrekt. Formate und Volumen gehören zur Datenbeschreibung, sie sind aber nur einer von sechs Bestandteilen. Hinzu kommen u. a. Projektkontext, Dokumentation, Speicherung, rechtliche Aspekte und Aufbewahrung."
+                "feedback": "× Nicht korrekt. Formate und Volumen gehören zur Datenbeschreibung, sie sind aber nur einer von mehreren Bestandteilen. Hinzu kommen u. a. Projektkontext, Speicherung, rechtliche Aspekte und Aufbewahrung."
             }
         ]
     }
@@ -122,47 +122,6 @@ display_quiz(question3, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ## Frage 3
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question5 = [
-    {
-        "question": "Ein Forschungsprojekt hat über Jahre eine eigene Dateibenennung entwickelt, die zwar etwas eigenwillig, aber in sich logisch ist. Für die nachträgliche Veröffentlichung schlägt ein Teammitglied vor, alle Dateien nach einem neuen, einheitlichen Schema umzubenennen. Welche Empfehlung gibt das Kapitel?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Die im Projekt gewachsene Benennung nach Möglichkeit übernehmen und die Daten stattdessen zu sinnvollen „Paketen“ bündeln, die dann der Publikation entsprechend benannt werden können.",
-                "correct": True,
-                "feedback": "✓ Richtig! Die im Projekt entstandene Struktur ist meist nicht ohne Grund so gewachsen. Pakete erlauben es, die etablierte Dateibenennung beizubehalten und trotzdem eine verständliche, publikationsgerechte Ordnung anzubieten."
-            },
-            {
-                "answer": "Alle Dateien nach einem neuen Schema umbenennen, da nur eine einheitliche Benennung für Außenstehende verständlich ist.",
-                "correct": False,
-                "feedback": "× Nicht korrekt. Verständliche Benennung ist zwar sinnvoll, aber nachträgliches Umbenennen ist sehr fehleranfällig und kann das Nachvollziehen von Zusammenhängen erschweren. Es gilt, einen guten Mittelweg zu finden."
-            },
-            {
-                "answer": "Die Benennung spielt für die Veröffentlichung keine Rolle, da Nachnutzende ohnehin den DMP lesen.",
-                "correct": False,
-                "feedback": "× Nicht korrekt. Das Kapitel sieht die Benennung ausdrücklich als nicht trivial an. Die Frage, ob Daten und Dateien nach einem erkennbaren Schema benannt sind, gehört zu den Dingen, die vor der Publikation geprüft werden."
-            },
-            {
-                "answer": "Die Benennung wird erst auf der Veröffentlichungsplattform festgelegt und kann von der Benennung im DMP abweichen.",
-                "correct": False,
-                "feedback": "× Nicht korrekt. Im Gegenteil: Ein im DMP benanntes Datenpaket (z. B. „FD3_Bilanzierungstool“) sollte auf der Veröffentlichungsplattform genauso heißen. Eine einmal getroffene Entscheidung ist konsequent beizubehalten."
-            }
-        ]
-    }
-]
-display_quiz(question5, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 4
 
 Wählen Sie **alle** zutreffenden Aussagen.
 
@@ -203,11 +162,6 @@ question6 = [
                 "answer": "Alle im Projekt entstandenen Dateien müssen unverändert veröffentlicht werden; eine Auswahl entfällt.",
                 "correct": False,
                 "feedback": "× Nicht korrekt. Das Kapitel nennt die Auswahl der zu veröffentlichenden Daten ausdrücklich als ersten Schritt."
-            },
-            {
-                "answer": "Die Struktur richtet sich vor allem an der eigenen Fachdisziplin aus; die Verständlichkeit für Außenstehende ist zweitrangig.",
-                "correct": False,
-                "feedback": "× Nicht korrekt. Die Daten sollen so geordnet werden, dass sie auch projektextern bzw. interdisziplinär verstanden werden."
             }
         ]
     }
@@ -215,7 +169,7 @@ question6 = [
 display_quiz(question6, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 5
+## Frage 4
 
 Die folgenden vier Aussagen betreffen Datenmanagementplan, Dateibenennung und Metadaten. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
 
@@ -235,12 +189,12 @@ question7a = [
             {
                 "answer": "Richtig",
                 "correct": False,
-                "feedback": "× Nicht korrekt. Gerade die Aktualisierbarkeit ist ein Vorteil des DMP: So lassen sich Änderungen im Projektablauf festhalten, und er dient dem Projektmanagement."
+                "feedback": "× Nicht korrekt. Gerade die Aktualisierbarkeit ist ein Vorteil des DMP: So lassen sich Änderungen im Projektablauf festhalten."
             },
             {
                 "answer": "Falsch",
                 "correct": True,
-                "feedback": "✓ Richtig! Gerade die Aktualisierbarkeit ist ein Vorteil des DMP: So lassen sich Änderungen im Projektablauf festhalten, und er dient dem Projektmanagement."
+                "feedback": "✓ Richtig! Gerade die Aktualisierbarkeit ist ein Vorteil des DMP: So lassen sich Änderungen im Projektablauf festhalten."
             }
         ]
     }
@@ -293,12 +247,12 @@ question7c = [
             {
                 "answer": "Richtig",
                 "correct": True,
-                "feedback": "✓ Richtig! Beispielsweise lassen sich verschiedene Screenshots in einem Paket zusammenfassen, ohne einzelne Dateien umzubenennen."
+                "feedback": "✓ Richtig! Beispielsweise lassen sich verschiedene Untersuchungen mit einem Messgerät A in einem Paket A zusammenfassen, ohne einzelne Dateien umzubenennen."
             },
             {
                 "answer": "Falsch",
                 "correct": False,
-                "feedback": "× Nicht korrekt. Die Aussage ist richtig. Beispielsweise lassen sich verschiedene Screenshots in einem Paket zusammenfassen, ohne einzelne Dateien umzubenennen."
+                "feedback": "× Nicht korrekt. Die Aussage ist richtig. Beispielsweise lassen sich verschiedene Untersuchungen mit einem Messgerät A in einem Paket A zusammenfassen, ohne einzelne Dateien umzubenennen."
             }
         ]
     }
@@ -335,7 +289,7 @@ question7d = [
 display_quiz(question7d, colors=colors.jupyterquiz, max_width=1000)
 ```
 
-## Frage 6
+## Frage 5
 
 **Szenario:** Sie sollen die Daten eines abgeschlossenen Projekts nachträglich veröffentlichen. Während der Projektlaufzeit wurde weder ein Datenmanagementplan noch eine README-Datei angelegt. Die Daten liegen als Tabellen, Texte und Bilddateien in uneinheitlich benannten Ordnern vor.
 
@@ -359,7 +313,7 @@ create_answer_box('datenmanagement-1')
 
 - Auswählen, welche Daten veröffentlicht werden sollen; je nach Umfang zu sinnvollen Bündeln zusammenfügen oder aufteilen (ggf. als ZIP-Pakete).
 - Prüfen, ob die Benennung einem erkennbaren Schema folgt und ob proprietäre Formate vorliegen (Konvertierung abwägen).
-- Ziel: Die Daten sollen auch projektextern bzw. interdisziplinär verständlich sein.
+- Ziel: Die Daten sollen auch projektextern verständlich sein.
 - Die im Projekt gewachsene Struktur und Benennung nach Möglichkeit übernehmen; nachträgliches Umbenennen ist fehleranfällig. Pakete können der Publikation entsprechend benannt werden. Die einmal gewählte Benennung konsequent beibehalten, auch im DMP und auf der Plattform.
 
 **2. Bestandteile des DMP:**
