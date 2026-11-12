@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: "Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4."
-author: Paul Walter, Heike Neuroth, Jana Plomin
+author: Paul Walter, Jana Plomin
 logo: assets/Tabelle4.png
 copyright: "2026, QUADRIGA"
 exclude_patterns:

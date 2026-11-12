@@ -24,7 +24,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Walter, P., Neuroth, H. & Plomin, J. (2026). _Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
+Walter, P. & Plomin, J. (2026). _Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4._ 
 
 ````
 `````
@@ -49,7 +49,7 @@ Die Lerneinheiten des Datentyps Tabelle sind für alle wissenschaftlichen Diszip
 
 ## Struktur der OER
 
-Anders als andere im Datenkompetenzzentrum QUADRIGA entworfenen <a href="https://quadriga-dk.github.io/fallstudien/" class="external-link" target="_blank">Lerneinheiten</a>, handelt es sich bei dieser OER um ein Szenario und nicht um eine Fallstudie, da dieser Lerneinheit keine spezifische Forschungsfrage zugrunde liegt. Thematischer Fokus ist hier, wie Forschungsdaten aus früheren Projekten nachträglich und entsprechend den <a href="https://zenodo.org/records/6247015" class="external-link" target="_blank">FAIR-Prinzipien</a> publiziert werden können. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt (vgl. Abb. 2) durch die Vorbereitungen zur Veröffentlichung führt, Fallstricke identifiziert und Lösungen anbietet.
+Anders als andere im Datenkompetenzzentrum QUADRIGA entworfenen <a href="https://quadriga-dk.github.io/fallstudien/" class="external-link" target="_blank">Lerneinheiten</a>, handelt es sich bei dieser OER um ein Szenario und nicht um eine Fallstudie, da dieser Lerneinheit keine spezifische Forschungsfrage zugrunde liegt. Thematischer Fokus ist hier, wie Forschungsdaten aus früheren Projekten nachträglich und entsprechend den <a href="https://www.gofair.foundation/fair-principles" class="external-link" target="_blank">FAIR-Prinzipien</a> publiziert werden können. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt (vgl. Abb. 2) durch die Vorbereitungen zur Veröffentlichung führt, Fallstricke identifiziert und Lösungen anbietet.
 
 Die folgende Abbildung zeigt die 3 Schritte dieses Szenarios, die den Hauptkapiteln entsprechen.
 
@@ -63,7 +63,7 @@ Visualisierung der 3 Schritte dieses Lehrbuchs.
 
 In dieser OER werden die folgenden Schritte durchlaufen, die als elementar in der nachträglichen Datenpublikation bezeichnet werden können und die mit den Datenflussphasen und Kompetenzen aus dem QUADRIGA Datenkompetenzframework übereinstimmen (s. Kap. 1.3 {ref}`Nachträgliches Publizieren<nachpub:einleitung>`).
 
-- Im **1. Schritt** gilt es, sich in das Projekt einzuarbeiten und den Ablauf zur Publikation zu planen (Datenflussphase *1. Planung*). Dazu wird eine Qualitätsprüfung durchgeführt, um sicherzustellen, dass die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen sowie (mögliche) Vorgaben und juristische Aspekte beleuchtet (s. Kap. 2 {ref}`Planung<eplanung:einleitung>`).
+- Im **1. Schritt** gilt es, sich in das Projekt einzuarbeiten und den Ablauf zur Publikation zu planen (Datenflussphase *1. Planung*). Dazu wird eine Qualitätsprüfung durchgeführt, um sicherzustellen, dass die Daten in der Art und Weise wie sie vorliegen, den Ansprüchen genügen sowie (mögliche) Vorgaben und juristische Aspekte beleuchtet (s. Kap. 2 {ref}`Planung<planung:einleitung>`).
 - Im **2. Schritt** folgt mit dem Datenmanagement die Datenflussphase *3. Organisation und Erschließung*. Dabei werden die Daten für eine Publikation geordnet und ein Datenmanagementplan angelegt (s. Kap. 3 {ref}`Datenmanagement<datenmanagement:einleitung>`). 
 - Im **3. Schritt** werden die Kompetenzen *5.1 Aufbewahrung*, *5.2 Publikation* und *5.3 Kommunikation* von Forschungsdaten behandelt, indem u. a. ein Repositorium zur Datenveröffentlichung ausgewählt wird und Kommunikationskanäle vorgestellt werden (s. Kap. 4 {ref}`Publikation<publikation:einleitung>`).
 

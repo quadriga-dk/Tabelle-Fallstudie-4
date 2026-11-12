@@ -40,7 +40,7 @@
 </tr>
 </table>
 
-## weitere beteiligte Personen
+## Weitere Beteiligte
 
 ### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](/assets/ORCID-iD_icon_24x24.png)</a>
 
@@ -72,7 +72,7 @@
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
-<td>Technische Unterstützung (WHK)</td>
+<td>Technische Unterstützung</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
@@ -87,11 +87,53 @@
 ### Ralf-Gabriel Porebski
 <table style="margin-left: 0">
 <tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Technische Unterstützung (WHK)</td>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Umsetzung Fallstudie</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
 <td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+</table>
+
+### Saba Esfandiar
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Umsetzung Fallstudie</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+</table>
+
+### Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Konzeptionierung und Umsetzung Fallstudien Datentyp Tabelle</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+<tr>
+<td><b>Website:</b></td>
+<td><a href="https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
+</tr>
+</table>
+
+### Vivien Petras <a href="https://orcid.org/0000-0002-8113-1509" target="_blank">![](/assets/ORCID-iD_icon-16x16.png)</a>
+
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Projektleitung</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</td>
 </tr>
 </table>
