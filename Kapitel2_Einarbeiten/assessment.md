@@ -44,7 +44,7 @@ from quadriga import colors
 
 question3 = [
     {
-        "question": "Sie sollen für ein Institut entscheiden, ob ein umfangreicher Datensatz aus einem fachfremden, abgeschlossenen Projekt (mehrere zehntausend Tabellenzeilen) veröffentlicht werden kann. Wie gehen Sie bei der Qualitätsprüfung am besten vor?",
+        "question": "Sie sollen für ein Institut entscheiden, ob ein umfangreicher Datensatz aus einem fachfremden, abgeschlossenen Projekt (mehrere tausend Tabellenzeilen) veröffentlicht werden kann. Wie gehen Sie bei der Qualitätsprüfung am besten vor?",
         "type": "multiple_choice",
         "answers": [
             {
@@ -147,14 +147,14 @@ question5 = [
                 "feedback": "✓ Richtig! Das Datenbankherstellerrecht knüpft an die wesentliche Investition in die Datenbank an und schützt deren Zusammenstellung. Einzelne Daten sind dadurch nicht geschützt."
             },
             {
-                "answer": "Das Team besitzt automatisch ein umfassendes Eigentum an den Daten, da es sie erhoben hat; über jeden einzelnen Wert kann es allein verfügen.",
+                "answer": "Das Team besitzt automatisch ein umfassendes Eigentum an den Daten, da es sie erhoben hat. Über jeden einzelnen Wert kann es allein verfügen.",
                 "correct": False,
                 "feedback": "× Nicht korrekt. Im deutschen Recht existiert laut Kapitel kein allgemeines Eigentum an Daten. Rechte ergeben sich nur aus spezifischen Schutzrechten, und auch das Datenbankherstellerrecht schützt nicht die einzelnen Werte."
             },
             {
                 "answer": "Da die Daten in einem Forschungsverhältnis entstanden sind, liegen die Rechte ausschließlich bei den Urheber:innen; die Institutionen haben keine Ansprüche.",
                 "correct": False,
-                "feedback": "× Nicht korrekt. Werden Daten im Rahmen eines Arbeits- oder Forschungsverhältnisses erzeugt, können zusätzlich Nutzungsrechte der beteiligten Institutionen bestehen. Bei Drittmittelprojekten kann zudem der Bewilligungsantrag Aufschluss über die Rechteinhaber geben."
+                "feedback": "× Nicht korrekt. Werden Daten im Rahmen eines Arbeits- oder Forschungsverhältnisses erzeugt, können zusätzlich Nutzungsrechte der beteiligten Institutionen bestehen. Bei Drittmittelprojekten können zudem die Antragsunterlagen Aufschluss über die Rechteinhaber geben."
             },
             {
                 "answer": "Solange die Datenbank keine personenbezogenen Daten enthält, ist keine weitere Rechteprüfung nötig.",
@@ -263,35 +263,6 @@ from quadriga import colors
 
 question7b = [
     {
-        "question": "Bei einem Drittmittelprojekt kann der Bewilligungsantrag Aufschluss darüber geben, bei wem die Rechte an den erhobenen Daten liegen.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": True,
-                "feedback": "✓ Richtig! Der Bewilligungsantrag bzw. die Antragsunterlagen sind laut Kapitel die erste Anlaufstelle; auch Förderanforderungen sind in der Regel dort formuliert."
-            },
-            {
-                "answer": "Falsch",
-                "correct": False,
-                "feedback": "× Nicht korrekt. Die Aussage ist richtig. Der Bewilligungsantrag bzw. die Antragsunterlagen sind laut Kapitel die erste Anlaufstelle; auch Förderanforderungen sind in der Regel dort formuliert."
-            }
-        ]
-    }
-]
-display_quiz(question7b, colors=colors.jupyterquiz, max_width=1000)
-```
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question7c = [
-    {
         "question": "Die DFG empfiehlt, Forschungsdaten gemäß den Regeln der Guten Wissenschaftlichen Praxis für mindestens fünf Jahre zu archivieren.",
         "type": "multiple_choice",
         "answers": [
@@ -308,7 +279,7 @@ question7c = [
         ]
     }
 ]
-display_quiz(question7c, colors=colors.jupyterquiz, max_width=1000)
+display_quiz(question7b, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ```{code-cell} ipython3
@@ -363,7 +334,7 @@ create_answer_box('einarbeiten-1')
 **1. Überblick verschaffen:**
 
 - Ursprungskontext nachvollziehen: Aus welchem Projekt stammen die Daten, wer war beteiligt, wann und über welchen Zeitraum wurden sie erhoben, welche Daten liegen in welcher Form vor?
-- Die Projektleitung als Ansprechperson einbeziehen; deren Aufzeichnungen und Kontakte zu ehemaligen Mitarbeitenden sind ein Schlüssel zum Verständnis. Bei fachfremden, ungeordneten Hinterlassenschaften ist der Aufwand besonders hoch.
+- Die Projektleitung als Ansprechperson einbeziehen; deren Aufzeichnungen und Kontakte zu ehemaligen Mitarbeitenden sind ein Schlüssel zum Verständnis.
 - Zwischen Roh- und Forschungsdaten unterscheiden und für beide Format, Entstehung (Methodik) und Dokumentations-/Publikationsstand klären, z. B. in einer Tabelle zur Provenienz (Name, Beschreibung, Ergebnis der Untersuchung, Dateiformat).
 - Fehlende README und Datenmanagementplan müssen von Ihnen angelegt werden.
 
