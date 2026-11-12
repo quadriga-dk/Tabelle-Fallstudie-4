@@ -24,7 +24,7 @@ Publizieren Sie Ihre Daten nach Möglichkeit in einem fachspezifischen Repositor
 
 Zur FAIRifizierung Ihrer Forschungsdaten können Sie Checklisten und Tools verwenden und das Ergebnis automatisiert prüfen lassen, um die Nachnutzungsmöglichkeit der Daten zu optimieren.
 
-Für die **Kommunikation** der Veröffentlichung von Forschungsdaten kommen neben klassischen Mitteilungskanälen (Pressemitteilung, Social-Media-Post) auch spezielle Formate in Betracht (Data Stories). Es gilt zu prüfen, welche Zielgruppen erreicht werden sollen. Möglicherweise ist es sinnvoll, mehrere Kommunikationskanäle zu bedienen.
+Für die Kommunikation der Veröffentlichung von Forschungsdaten kommen neben klassischen Mitteilungskanälen (Pressemitteilung, Social-Media-Post) auch spezielle Formate in Betracht (Data Stories). Es gilt zu prüfen, welche Zielgruppen erreicht werden sollen. Möglicherweise ist es sinnvoll, mehrere Kommunikationskanäle zu bedienen.
 ```
 
 Im folgenden Selbsttest können Sie das in diesem Kapitel Gelernte rekapitulieren.

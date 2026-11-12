@@ -48,7 +48,7 @@ Dieses ist das 3. Kapitel dieses Lehrbuchs bzw. der 2. Schritt im Szenario einer
 align: left
 width: 80%
 ---
-Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 2. Schrittes.
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 2. Schrittes (eigene Darstellung).
 ```
 
 ---

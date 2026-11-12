@@ -45,9 +45,9 @@ Wie Abbildung 4.2 zeigt, befinden wir uns im finalen Teil dieses Lehrbuchs:
 ```{figure} /assets/steps_cs4-3.png
 ---
 align: left
-width: 75%
+width: 80%
 ---
-Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 3. Schrittes.
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 3. Schrittes (eigene Darstellung).
 ```
 
 Im Fokus stehen hier die Methoden und Plattformen für das Aufbewahren, Publizieren und Teilen von Daten für die Nachnutzung sowie die Kommunikation von Ergebnissen. 

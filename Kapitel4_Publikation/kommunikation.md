@@ -75,9 +75,3 @@ In dem Szenario, das diese Lerneinheit begleitet, fanden folgende Kommunikations
 
 Zur Kommunikation einer Datenpublikation kommen klassische Formate (Pressemitteilung) in Betracht, die Sie bereits von der Publikation üblicher Forschungsergebnisse kennen. Zusätzlich entwickeln sich aktuell neue Wege wie Data Stories, die eine Datenpublikation visuell hervorheben können. 
 Es gilt zu prüfen, welche Zielgruppe Sie erreichen wollen und welche Kommunikationswege zur Verfügung stehen. Unter Umständen ist das kommunizieren der Publikation auf mehreren Ebenen sinnvoll.
-
-## Literatur
-
-```{bibliography}
-:filter: docname in docnames
-```

@@ -15,7 +15,7 @@ Die Kompetenz '5.2 Publikation' des QUADRIGA Datenkompetenzframeworks.
 
 ## Ausgangslage 
 
-Die Forschungsdaten müssen in diesem Abschnitt final geprüft und hochgeladen werden. Die Plattform für das Publizieren und Teilen von Daten ist das bereits vorgestellte Repositorium Zenodo. Die hochzuladenden Daten und Metadaten sollten eine **FAIRifizierung** durchlaufen, d. h. nach den <a href="https://www.gofair.foundation/fair-principles" class="external-link" target="_blank">FAIR-Prinzipien</a> (deutsche <a href="https://zenodo.org/records/6247015" class="external-link" target="_blank">Übersetzung</a> des Projekts <a href="https://www.ecodm.de/" target="_blank">EcoDM</a>) gestaltet werden. Sie sollten möglichst vollständig beschrieben, wo immer möglich auf Standards zurückgegriffen und Interoperabilität hergestellt werden.
+Die Forschungsdaten müssen in diesem Abschnitt final geprüft und hochgeladen werden. Die Plattform für das Publizieren und Teilen von Daten ist das bereits vorgestellte Repositorium Zenodo. Die hochzuladenden Daten und Metadaten sollten eine **FAIRifizierung** durchlaufen, d. h. nach den <a href="https://www.gofair.foundation/fair-principles" class="external-link" target="_blank">FAIR-Prinzipien</a> (deutsche <a href="https://zenodo.org/records/6247015" class="external-link" target="_blank">Übersetzung</a> des Projekts <a href="https://www.ecodm.de/" target="_blank">EcoDM</a>) gestaltet werden. 
 
 ## Vorgehen
 
@@ -51,7 +51,7 @@ Wenn Sie sich für <a href="https://zenodo.org/" class="external-link" target="_
 ```{figure} /assets/zenodo_login.png
 ---
 align: center
-width: 75%
+width: 80%
 ---
 Screenshot des Zenodo Logins.
 ```
@@ -68,12 +68,12 @@ Screenshot des Anlegens eines neuen Uploads.
 ```
 *Quellenangabe: Screenshot des Anlegens eines neuen Uploads bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
 
-Wenn Sie mehrere Uploads tätigen wollen, beachten Sie die Upload-Reihenfolge (bei Zenodo z. B. nach Datum, d.h. der erste Upload steht später unten). Innerhalb eines Uploads wird nach Namen sortiert, d. h. hier agieren Sie am besten mit Nummern oder stellen, wie vorgeschlagen, das ganze Datenpaket als ZIP zur Verfügung. Die Daten(pakete) können einfach per Drag-and-Drop hinzugefügt werden.
+Wenn Sie mehrere Uploads tätigen wollen, beachten Sie die Upload-Reihenfolge (bei Zenodo z. B. nach Datum, d.h. der erste Upload steht später unten). Innerhalb eines Uploads wird nach Namen sortiert, d. h. hier agieren Sie am besten mit Nummern. Die Daten(pakete) können dann einfach per Drag-and-Drop hinzugefügt werden.
 
 ```{figure} /assets/zenodo_data.png
 ---
 align: center
-width: 80%
+width: 90%
 ---
 Screenshot des Drag-and-Drop-Feldes.
 ```
@@ -84,7 +84,7 @@ Screenshot des Drag-and-Drop-Feldes.
 ```{figure} /assets/zenodo_metadata.png
 ---
 align: center
-width: 80%
+width: 90%
 ---
 Screenshot einiger Metadatenfelder.
 ```

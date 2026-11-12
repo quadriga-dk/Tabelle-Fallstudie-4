@@ -44,9 +44,9 @@ Wie die folgende Abbildung 2.2 zeigt, ist dieses Kapitel der 1. von 3 Teilen die
 ```{figure} /assets/steps_cs4-1.png
 ---
 align: left
-width: 75%
+width: 80%
 ---
-Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes.
+Visualisierung der Struktur dieses Lehrbuchs mit Hervorhebung des 1. Schrittes (eigene Darstellung).
 ```
 
 
