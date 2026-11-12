@@ -1,7 +1,7 @@
 (planung:vorgaben)=
 # Vorgaben und Juristisches
 
-Dieses Kapitel nimmt juristische und andere Vorgaben in den Blick, die es bei der Publikation von Daten zu beachten gilt. Dabei geht es darum, ob Rechte eingeholt und Vorgaben beachtet werden müssen und wie es sich mit der Lizenzierung verhält.
+Dieses Kapitel nimmt juristische und andere Vorgaben in den Blick, die es bei der Publikation von Daten zu beachten gilt. Dabei geht es darum, ob Rechte eingeholt und Vorgaben beachtet werden müssen und welche Lizenz gewählt werden sollte.
 
 ```{figure} /assets/1.3_ethik-recht.png
 ---
@@ -31,8 +31,6 @@ Darüber hinaus kann das Datenbankherstellerrecht relevant sein, wenn eine wesen
 
 Vor einer Veröffentlichung sollte außerdem geprüft werden, ob personenbezogene Daten enthalten sind oder ob vertragliche Vereinbarungen, Geheimhaltungspflichten oder Rechte Dritter einer Veröffentlichung entgegenstehen {cite}`kuschel_2018,baumann_2023`.
 
-Bei Drittmittelprojekten sollte der Bewilligungsantrag klären können, bei wem die Rechte an im Projekt erhobenen Daten liegen.
-
 ### Vorgaben von (ehem.) Förderern
     
 Förderorganisationen stellen zunehmend Anforderungen an den Umgang mit Forschungsdaten und erwarten, dass Forschungsdaten systematisch dokumentiert, gesichert und für eine spätere Nachnutzung vorbereitet werden. In der Regel werden diese Anforderungen in den Antragsunterlagen formuliert. Bereits in der Planungs- und Antragsphase eines Projekts sollte festgelegt werden, welche Forschungsdaten entstehen, wie diese dokumentiert, gesichert und für eine spätere Nachnutzung bereitgestellt werden können. Darüber hinaus sollen Angaben zu Datentypen, fachspezifischen Standards, geeigneten Repositorien, möglichen Rechten Dritter sowie zum zeitlichen Rahmen einer Datenveröffentlichung gemacht werden {cite}`dfg_leitlinien_2015`.
@@ -41,13 +39,13 @@ Die Deutsche Forschungsgemeinschaft (DFG) empfiehlt, Forschungsdaten, sofern kei
 
 ### Vorgaben von Dritten
 
-Neben den Anforderungen von Förderorganisationen können auch institutionelle Vorgaben und Vereinbarungen mit weiteren Beteiligten den Umgang mit Forschungsdaten beeinflussen. Hochschulen und Forschungseinrichtungen veröffentlichen i. d. R. <a href="https://www.fh-potsdam.de/sites/default/files/2025-03/FDM-Leitlinie_Handlungsempfehlung_250331_V2.pdf" class="external-link" target="_blank">Handlungsempfehlungen zum Umgang mit Forschungsdaten</a>, die diesbezüglich zu beachten sind. Darüber hinaus stellen viele Forschungseinrichtungen Unterstützungsangebote für das Forschungsdatenmanagement bereit. Dazu gehören beispielsweise Forschungsdatenmanagement-Teams, Bibliotheken, IT-Abteilungen, Datenschutzbeauftragte oder Ethikkommissionen, die Forschende bei rechtlichen, technischen und organisatorischen Fragestellungen beraten.
+Neben den Anforderungen von Förderorganisationen können auch institutionelle Vorgaben und Vereinbarungen mit weiteren Beteiligten den Umgang mit Forschungsdaten beeinflussen. Hochschulen und Forschungseinrichtungen veröffentlichen i. d. R. Handlungsempfehlungen zum Umgang mit Forschungsdaten (s. ebendiese der <a href="https://www.fh-potsdam.de/sites/default/files/2025-03/FDM-Leitlinie_Handlungsempfehlung_250331_V2.pdf" class="external-link" target="_blank">Fachhochschule Potsdam</a>), die diesbezüglich zu beachten sind. Darüber hinaus stellen viele Forschungseinrichtungen Unterstützungsangebote für das Forschungsdatenmanagement bereit. Dazu gehören beispielsweise Forschungsdatenmanagement-Teams, Bibliotheken, IT-Abteilungen, Datenschutzbeauftragte oder Ethikkommissionen, die Forschende bei rechtlichen, technischen und organisatorischen Fragestellungen beraten.
 
 Für die retrospektive Veröffentlichung älterer Forschungsdaten bedeutet dies, dass zunächst geprüft werden sollte, ob institutionelle Richtlinien oder andere Vereinbarungen existieren, die Verantwortlichkeiten, Nutzungsrechte oder Einschränkungen der Veröffentlichung regeln. Fehlende Dokumentation und unklare Zuständigkeiten können die Nachnutzung und Veröffentlichung älterer Datensätze erheblich erschweren.
 
 ### Fachcommunity
 
-Die einzelnen Wissenschaftsdisziplinen haben teilweise unterschiedliche Regeln und Standards für das Datenmanagement entwickelt. Für die Veröffentlichung von Forschungsdaten wird empfohlen, sich frühzeitig an fachspezifischen Empfehlungen sowie an den Angeboten der jeweiligen Fachcommunity zu orientieren. Für einzelne Fachbereiche gibt es spezialisierte Konsortien der Nationalen Forschungsdateninfrastruktur (NFDI), die zum Beispiel über fachspezifische Metadatenstandards und Datenjournale informieren.
+Die einzelnen Wissenschaftsdisziplinen haben teilweise unterschiedliche Regeln und Standards für das Datenmanagement entwickelt. Für die Veröffentlichung von Forschungsdaten wird empfohlen, sich frühzeitig an fachspezifischen Empfehlungen sowie an den Angeboten der jeweiligen Fachcommunity zu orientieren. Für einzelne Fachbereiche gibt es spezialisierte <a href="https://www.nfdi.de/konsortien/" class="external-link" target="_blank">Konsortien</a> der Nationalen Forschungsdateninfrastruktur (NFDI), die zum Beispiel über fachspezifische Metadatenstandards und Datenjournale informieren.
 
 ### Verlags- o. Journalpolicies
 
@@ -61,7 +59,7 @@ Dementsprechend gilt es zu prüfen, ob das ausgewählte Journal oder Repositoriu
 
 ### Lizenz(en)
 
-Bereits vor der Veröffentlichung von Forschungsdaten sollte geklärt werden, unter welcher Lizenz die Daten bereitgestellt werden (können). Dabei wird üblicherweise zwischen reinen Datensätzen bzw. Datenbanken und Daten mit Werkqualität unterschieden: Für Erstere wird häufig eine Public-Domain-Widmung wie CC0 empfohlen, für Zweitere eine Namensnennungslizenz wie CC BY 4.0 {cite}`brettschneider_et_al_2021`.
+Bereits vor der Veröffentlichung von Forschungsdaten sollte geklärt werden, unter welcher Lizenz die Daten bereitgestellt werden können. Dabei wird üblicherweise zwischen reinen Datensätzen bzw. Datenbanken und Daten mit Werkqualität unterschieden: Für Erstere wird häufig eine Public-Domain-Widmung wie CC0 empfohlen, für Zweitere eine Namensnennungslizenz wie CC BY 4.0 {cite}`brettschneider_et_al_2021`.
 
 Die Deutsche Forschungsgemeinschaft (DFG) empfiehlt, mit der Vergabe einer offenen Lizenz die Zustimmung zu potenziellen Nachnutzungsszenarien zu dokumentieren, und spricht sich dabei insbesondere für Creative Commons Namensnennung (CC BY) oder eine Public Domain Dedication (CC0) aus. Begründet wird dies nicht mit einer inhaltlichen Überlegenheit dieser Lizenzen, sondern mit ihrer weltweiten Verbreitung {cite}`brettschneider_et_al_2021`. Aus rechtlicher Sicht spricht zudem für Creative-Commons-Lizenzen, dass ihre Lizenztexte im Hinblick auf die Problematik der sogenannten Schutzrechtsberühmung – also der Lizenzvergabe, obwohl unklar ist, ob überhaupt Schutzrechte bestehen – besonders sorgfältig ausgearbeitet sind {cite}`brettschneider_et_al_2021`.
 
@@ -88,9 +86,9 @@ width: 75%
 ---
 Poster "Entscheidungshilfe Daten veröffentlichen" von M. Schleußinger und J. Rex. 
 ```
-Quellenangabe: Poster „Forschungsdaten veröffentlichen?” von M. Schleußinger und J. Rex unter der Lizenz <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="external-link" target="_blank">CC 0</a> via <a href="https://zenodo.org/records/3368293" class="external-link" target="_blank">Zenodo</a>
+Quellenangabe: Poster „Forschungsdaten veröffentlichen?” von M. Schleußinger und J. Rex unter der Lizenz <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="external-link" target="_blank">CC 0</a> via <a href="https://zenodo.org/records/3368293" class="external-link" target="_blank">Zenodo</a>.
 
-Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können Sie sicher aus den ursrpünglichen Antragsunterlagen entnehmen. Bei Fragen wenden Sie sich an:
+Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können Sie wahrscheinlich aus den ursrpünglichen Antragsunterlagen bzw. dem Zuwendungsbescheid entnehmen. Bei Fragen wenden Sie sich an:
 - die Förderinstitution
 - die Rechtsabteilung Ihrer Institution
 - den FDM-Service an Ihrer Institution
