@@ -12,20 +12,21 @@ kernelspec:
 
 (publikation:assessment)=
 # 🏆Selbsttest: Publikation
+
 ````{admonition} Hinweis
-:class: hinweis, dropdown
+:class: hinweis
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
 
-Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach versuchen. 
+Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach versuchen.
 
 **So funktioniert es:**
 - Wählen Sie bei jeder Frage die Antwort(en), die Sie für richtig halten
 - Lesen Sie das Feedback zu den einzelnen Antwortoptionen sorgfältig durch
-- Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten 
+- Die Erklärungen helfen Ihnen, Ihr Verständnis zu vertiefen – auch bei korrekten Antworten
 
-Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
+Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten.
 
-**Geschätzte Zeit**: XX Minuten
+**Geschätzte Zeit**: 10 Minuten
 
 Viel Erfolg!
 ````
@@ -42,28 +43,28 @@ from quadriga import colors
 
 question1 = [
     {
-        "question": "Was unterscheidet ein fachspezifisches Repositorium am ehesten von einem generischen Repositorium wie Zenodo?",
+        "question": "Eine Linguistin möchte ihre Korpusdaten veröffentlichen. Für ihr kleines Forschungsfeld gibt es kein eigenes Repositorium, und ihre Hochschule betreibt keine eigene Infrastruktur dafür. Welche Art von Repositorium kommt für sie am ehesten in Frage?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Ein fachspezifisches Repositorium ist auf die Standards und Bedarfe einer bestimmten wissenschaftlichen Disziplin zugeschnitten, während ein generisches Repositorium disziplinübergreifend und ohne fachliche Spezialisierung nutzbar ist.",
+                "answer": "Ein generisches Repositorium, das disziplinübergreifend arbeitet und keine fachliche Ausrichtung voraussetzt (z. B. Zenodo oder Figshare).",
                 "correct": True,
-                "feedback": """✓ Richtig! Fachspezifische Repositorien richten sich an eine bestimmte Wissenschaftscommunity und orientieren sich an deren Standards. Generische Repositorien wie Zenodo bieten hingegen eine disziplinunabhängige Lösung, die besonders dann sinnvoll ist, wenn kein passendes Fachrepositorium existiert."""
+                "feedback": "✓ Richtig! In diesem Fall ist ein generische Repositorien die richtige Wahl. Sie bieten eine unkomplizierte Lösung, wenn für das Forschungsfeld kein Fachrepositorium existiert oder die Heimatinstitution keine eigene Infrastruktur anbietet."
             },
             {
-                "answer": "Ein fachspezifisches Repositorium ist immer kostenpflichtig, ein generisches Repositorium immer kostenlos.",
+                "answer": "Ein institutionelles Repositorium, da jede Forschende ihre Daten grundsätzlich bei der eigenen Hochschule ablegt.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Kostenstruktur hängt vom jeweiligen Anbieter ab und wird nicht pauschal nach Repositorientyp unterschieden. Zenodo ist beispielsweise als generisches Repositorium kostenfrei, während auch manche Fachrepositorien kostenfrei nutzbar sind."""
+                "feedback": "× Nicht korrekt. Institutionelle Repositorien werden von der Institution betrieben und sind auf die Bedürfnisse ihrer Mitarbeitenden ausgelegt. Betreibt die Hochschule keine solche Infrastruktur, steht diese Option nicht zur Verfügung."
             },
             {
-                "answer": "Nur fachspezifische Repositorien vergeben persistente Identifikatoren wie DOIs.",
+                "answer": "Ein fachspezifisches Repositorium, das auf die Anforderungen der Fachcommunity zugeschnitten ist.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Auch generische Repositorien wie Zenodo vergeben automatisch DOIs für veröffentlichte Datensätze. Die Vergabe von PIDs ist kein unterscheidendes Merkmal zwischen den beiden Repositorientypen."""
+                "feedback": "× Nicht korrekt. Fachspezifische Repositorien sind zwar auf eine Disziplin zugeschnitten und thematisch homogen – im Szenario existiert für das Forschungsfeld aber gerade keines."
             },
             {
-                "answer": "Nur generische Repositorien erfüllen wissenschaftliche Qualitätsstandards.",
+                "answer": "re3data, weil dort die Daten dauerhaft gespeichert und veröffentlicht werden.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Sowohl fachspezifische als auch generische Repositorien können wissenschaftliche Qualitätsstandards erfüllen. Die fachliche Spezialisierung, nicht die Qualität, ist der zentrale Unterschied."""
+                "feedback": "× Nicht korrekt. re3data ist ein globales Register, das wie eine Suchmaschine für Forschungsdatenrepositorien funktioniert. Es hilft beim Finden eines Repositoriums, speichert oder publiziert aber selbst keine Daten."
             }
         ]
     }
@@ -82,21 +83,25 @@ from assessment import DragDropQuiz
 quiz = DragDropQuiz()
 
 quiz.create_matching_quiz(
-    title="Ordnen Sie die folgenden Beschreibungen dem passenden Repositorientyp zu:",
+    title="Ordnen Sie jede Beschreibung der passenden Repositorienart bzw. Plattform zu:",
     descriptions=[
-        "Wird von einer einzelnen Institution (z. B. einer Universität) betrieben und ist für Externe oft nur eingeschränkt zugänglich",
-        "Ist auf eine bestimmte wissenschaftliche Disziplin zugeschnitten und orientiert sich an deren fachspezifischen Standards",
-        "Ist disziplinübergreifend nutzbar und eignet sich besonders, wenn kein passendes Fachrepositorium existiert"
+        "Ist auf eine Fachdisziplin ausgerichtet, thematisch homogen und auf die Anforderungen der jeweiligen Fachcommunity zugeschnitten.",
+        "Globales, DFG-gefördertes Register, in dem sich Forschungsdatenrepositorien wie in einer Suchmaschine finden und nach Kategorien filtern lassen.",
+        "Wird vom CERN betrieben, entstand im Rahmen des OpenAIRE-Projekts und vergibt für alle veröffentlichten Datensätze automatisch einen DOI.",
+        "Kommerziell betriebenes Repositorium mit kostenfreier Basisversion, das viele Dateiformate direkt im Browser als Vorschau anzeigt.",
     ],
     options=[
-        "Institutionelles Repositorium",
         "Fachspezifisches Repositorium",
-        "Generisches Repositorium"
+        "re3data",
+        "Zenodo",
+        "Figshare",
+        "Informationsdienst Wissenschaft (idw)"
     ],
     correct_mapping={
-        "Wird von einer einzelnen Institution (z. B. einer Universität) betrieben und ist für Externe oft nur eingeschränkt zugänglich": "Institutionelles Repositorium",
-        "Ist auf eine bestimmte wissenschaftliche Disziplin zugeschnitten und orientiert sich an deren fachspezifischen Standards": "Fachspezifisches Repositorium",
-        "Ist disziplinübergreifend nutzbar und eignet sich besonders, wenn kein passendes Fachrepositorium existiert": "Generisches Repositorium"
+        "Ist auf eine Fachdisziplin ausgerichtet, thematisch homogen und auf die Anforderungen der jeweiligen Fachcommunity zugeschnitten.": "Fachspezifisches Repositorium",
+        "Globales, DFG-gefördertes Register, in dem sich Forschungsdatenrepositorien wie in einer Suchmaschine finden und nach Kategorien filtern lassen.": "re3data",
+        "Wird vom CERN betrieben, entstand im Rahmen des OpenAIRE-Projekts und vergibt für alle veröffentlichten Datensätze automatisch einen DOI.": "Zenodo",
+        "Kommerziell betriebenes Repositorium mit kostenfreier Basisversion, das viele Dateiformate direkt im Browser als Vorschau anzeigt.": "Figshare"
     }
 )
 ```
@@ -113,28 +118,28 @@ from quadriga import colors
 
 question3 = [
     {
-        "question": "Ein interdisziplinäres Forschungsteam möchte Daten veröffentlichen, findet jedoch kein passendes fachspezifisches Repositorium für sein Fachgebiet. Welche Option bietet sich am ehesten an?",
+        "question": "Ein Team will seine Forschungsdaten „FAIRifizieren“. Welche Beschreibung trifft den Kern dieses Schritts am besten?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Ein generisches Repositorium wie Zenodo oder Figshare, da diese disziplinübergreifend nutzbar sind.",
+                "answer": "Daten und Metadaten werden nach den FAIR-Prinzipien gestaltet: möglichst vollständig beschrieben, wo immer möglich nach Standards, und einem Persistenten Identifikator (PID).",
                 "correct": True,
-                "feedback": """✓ Richtig! Generische Repositorien bieten genau für solche Fälle eine unkomplizierte Lösung: Sie eignen sich für Forschende, für deren spezifisches Feld kein dediziertes Fachrepositorium existiert oder deren Institution keine eigene Infrastruktur bereitstellt."""
+                "feedback": "✓ Richtig! FAIRifizierung bedeutet die Anwendung der FAIR-Prinzipien auf Daten und Metadaten, bevor sie veröffentlicht werden. Der PID ist dabei besonders wichtig, aber nur ein Baustein."
             },
             {
-                "answer": "Die Veröffentlichung sollte in diesem Fall unterbleiben, bis ein passendes Fachrepositorium entsteht.",
+                "answer": "Die Daten erhalten einen DOI; sobald dieser vergeben ist, gelten sie als FAIR.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das Fehlen eines fachspezifischen Repositoriums ist kein Hinderungsgrund für eine Veröffentlichung. Generische Repositorien bieten gerade für solche Fälle eine praktikable Alternative."""
+                "feedback": "× Nicht korrekt. Die Vergabe eines PID (z. B. eines DOI) ist für die FAIRifizierung zwar von besonderer Bedeutung, doch darüber hinaus muss die Beschreibung vollständig sein, und die Interoperabilität sollte maximiert werden."
             },
             {
-                "answer": "Die Daten sollten stattdessen ausschließlich in einem privaten Cloud-Speicher ohne Qualitätsstandards abgelegt werden.",
+                "answer": "Die Daten werden in ein Repositorium hochgeladen; die Plattform sorgt danach selbst dafür, dass sie den FAIR-Prinzipien entsprechen.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Private Cloud-Speicher ohne wissenschaftliche Qualitätsstandards erfüllen nicht die Anforderungen an ein Repositorium im Sinne des Forschungsdatenmanagements."""
+                "feedback": "× Nicht korrekt. Laut Kapitel sollen bereits die hochzuladenden Daten und Metadaten eine FAIRifizierung durchlaufen. Das Repositorium liefert zwar oft automatisch den DOI, nimmt Ihnen die Beschreibung aber nicht ab."
             },
             {
-                "answer": "Es sollte zwingend ein neues, eigenes Fachrepositorium für das betreffende Gebiet aufgebaut werden.",
+                "answer": "Ein automatisiertes Prüfwerkzeug wird ausgeführt, das die Daten dann entsprechend den FAIR-Kriterien anpasst.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Der Aufbau eines komplett neuen Repositoriums ist weder notwendig noch im Kapitel als Lösung vorgesehen. Bestehende generische Repositorien bieten eine deutlich praktikablere Option."""
+                "feedback": "× Nicht korrekt. Automatisierte Werkzeuge wie F-UJI bewerten die FAIRness eines Datensatzes anhand eines PID oder einer URL und melden zurück, welche Kriterien erfüllt sind und wo Verbesserungsbedarf besteht. Die Verbesserung selbst bleibt Aufgabe der Forschenden."
             }
         ]
     }
@@ -143,6 +148,8 @@ display_quiz(question3, colors=colors.jupyterquiz, max_width=1000)
 ```
 
 ## Frage 4
+
+Wählen Sie **alle** zutreffenden Aussagen.
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -154,33 +161,33 @@ from quadriga import colors
 
 question4 = [
     {
-        "question": "Welche Aspekte sollten bei der Auswahl eines geeigneten Repositoriums berücksichtigt werden? Wählen Sie alle zutreffenden Aussagen.",
-        "type": "multiple_choice",
+        "question": "Sie bereiten den Upload eines Datenpakets bei Zenodo vor. Welche Aussagen treffen laut Kapitel zu?",
+        "type": "many_choice",
         "answers": [
             {
-                "answer": "Ob das Repositorium über anerkannte Qualitätszertifikate wie CoreTrustSeal oder das nestor-Siegel verfügt.",
+                "answer": "Eine Anmeldung über ORCID wird empfohlen, weil die Ersteller:innen eines Eintrags dadurch eindeutig identifiziert werden können.",
                 "correct": True,
-                "feedback": """✓ Richtig! Solche Zertifikate stellen die organisatorische Verlässlichkeit, das professionelle Datenmanagement und eine sichere IT-Infrastruktur eines Repositoriums sicher."""
+                "feedback": "✓ Richtig! Ein Konto lässt sich auf mehreren Wegen erstellen; ORCID wird wegen der eindeutigen Identifizierbarkeit der Urheber:innen empfohlen."
             },
             {
-                "answer": "Ob Verlage oder Journale, bei denen eine Publikation geplant ist, bestimmte Repositorien vorschreiben oder empfehlen.",
+                "answer": "Der Beschreibung sollte ein Inhaltsverzeichnis (TOC) hinzugefügt werden, da es einen schnellen Überblick über die Dateien ermöglicht.",
                 "correct": True,
-                "feedback": """✓ Richtig! Journale können die Ablage von Forschungsdaten in einem bestimmten, fachlich anerkannten Repositorium vorschreiben oder zumindest empfehlen, was die Auswahl beeinflussen sollte."""
+                "feedback": "✓ Richtig! Das ist nicht nur bei großen Datenpaketen hilfreich."
             },
             {
-                "answer": "Welche Nutzungs- und Lizenzbedingungen mit der Veröffentlichung im jeweiligen Repositorium verbunden sind.",
+                "answer": "Ein Eintrag kann zunächst als Entwurf gespeichert und vor der Veröffentlichung noch einmal auf korrekt hochgeladene Dateien und vollständige Angaben geprüft werden.",
                 "correct": True,
-                "feedback": """✓ Richtig! Je nach eingeräumten Rechten und bestehenden Vereinbarungen kann eine weitere Veröffentlichung in einem anderen Repositorium erschwert oder ausgeschlossen sein, weshalb dies vorab geprüft werden sollte."""
+                "feedback": "✓ Richtig! Der Entwurfsmodus („Save draft“) erlaubt es, Eintrag und Metadaten in Ruhe zu prüfen, bevor „Publish“ gewählt wird."
             },
             {
-                "answer": "Wie viele Mitarbeitende das Unternehmen bzw. die Institution hinter dem Repositorium insgesamt beschäftigt.",
+                "answer": "Für den Upload ist ausschließlich ein Konto möglich, das mit einer E-Mail-Adresse erstellt wurde.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Mitarbeiterzahl wird im Kapitel nicht als Auswahlkriterium genannt. Relevanter sind Aspekte wie Qualitätszertifikate, Zugänglichkeit, Lizenzbedingungen und die langfristige Verlässlichkeit des Trägers."""
+                "feedback": "× Nicht korrekt. Das Konto kann mit einer E-Mail-Adresse, über GitHub, ORCID oder OpenAIRE erstellt werden."
             },
             {
-                "answer": "Ob persistente Identifikatoren wie DOIs vergeben werden, um Inkonsistenzen bei einer Mehrfachveröffentlichung zu vermeiden.",
-                "correct": True,
-                "feedback": """✓ Richtig! Persistente Identifikatoren wie DOIs ermöglichen es, auf bereits anderswo veröffentlichte Daten zu verweisen und so Inkonsistenzen zwischen mehreren Repositorien zu vermeiden."""
+                "answer": "Innerhalb eines Uploads werden die Dateien nach ihrer Upload-Zeit angezeigt, sodass die Benennung der Dateien keine Rolle spielt.",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Innerhalb eines Uploads wird nach Namen sortiert. Deshalb empfiehlt das Kapitel, mit Nummern zu arbeiten. Nur die Reihenfolge mehrerer Uploads richtet sich bei Zenodo nach dem Datum."
             }
         ]
     }
@@ -200,34 +207,35 @@ from quadriga import colors
 
 question5 = [
     {
-        "question": "Warum bedeutet das Fehlen eines CoreTrustSeal- oder nestor-Siegels nicht automatisch, dass ein Repositorium von geringer Qualität ist?",
+        "question": "Ein Team veröffentlicht einen Datensatz zusammen mit einer README-Datei und einem Forschungsdatenbericht. In beiden Dokumenten soll der DOI des Datensatzes selbst genannt werden. Beide Dokumente sind Teil der Veröffentlichung. Wie sollte das Team vorgehen?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Weil solche Zertifizierungen kostenpflichtig und im deutschsprachigen Raum sowie darüber hinaus noch nicht flächendeckend etabliert sind, sodass auch qualitativ hochwertige Repositorien ohne Zertifikat existieren können.",
+                "answer": "Den benötigten DOI vor der Veröffentlichung reservieren und in die Dokumente eintragen, bevor diese hochgeladen werden.",
                 "correct": True,
-                "feedback": """✓ Richtig! Zertifizierungen wie CoreTrustSeal oder nestor sind mit Kosten verbunden und bislang kein verbreiteter Standard. Zenodo ist beispielsweise nicht zertifiziert, gilt aber aufgrund seines renommierten, langfristig stabilen Trägers (CERN) dennoch als attraktives und verlässliches generisches Repositorium."""
+                "feedback": "✓ Richtig! Weil der DOI in Dokumenten genannt werden soll, die selbst Teil der Publikation sind, empfiehlt das Kapitel, sich die benötigten DOIs vorher zu reservieren. Für den Eintrag kann ein neuer DOI generiert oder ein bereits zugewiesener DOI angegeben werden."
             },
             {
-                "answer": "Weil diese Zertifizierungen ausschließlich für fachspezifische, nicht aber für generische Repositorien vergeben werden.",
+                "answer": "Den Datensatz zunächst ohne DOI-Angabe veröffentlichen und den DOI später in einem separaten Schritt in die Dokumente einarbeiten.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Diese Einschränkung wird im Kapitel nicht genannt. Grundsätzlich können sowohl fachspezifische als auch generische Repositorien zertifiziert werden – es ist lediglich kein verbreiteter Standard."""
+                "feedback": "× Nicht korrekt. Dann wären die veröffentlichten Dokumente zum Zeitpunkt der Publikation unvollständig. Das Kapitel empfiehlt stattdessen, den DOI im Voraus zu reservieren, damit er direkt in die Dokumente eingetragen werden kann."
             },
             {
-                "answer": "Weil diese Zertifikate inzwischen durch eine automatische, kostenlose Prüfung ersetzt wurden.",
+                "answer": "Auf die Nennung des DOI in den Dokumenten verzichten, da der Datensatz über das Repositorium ohnehin auffindbar ist.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Eine solche automatische Ersatzprüfung wird im Kapitel nicht erwähnt. Die Zertifizierung erfolgt weiterhin über einen Selbstevaluierungs- und Begutachtungsprozess."""
+                "feedback": "× Nicht korrekt. Der DOI ist ein Persistenter Identifikator und wichtiger Bestandteil der FAIRifizierung. Er soll in README bzw. Forschungsdatenbericht genannt werden können, weshalb er vorab reserviert werden sollte."
             },
             {
-                "answer": "Weil die Qualität eines Repositoriums ausschließlich von der Menge der dort gespeicherten Datensätze abhängt.",
+                "answer": "Den DOI eines anderen, bereits veröffentlichten Datensatzes des Repositoriums als Platzhalter verwenden.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Datenmenge wird im Kapitel nicht als Qualitätsindikator genannt. Relevanter sind organisatorische Verlässlichkeit, professionelles Datenmanagement und eine stabile IT-Infrastruktur."""
+                "feedback": "× Nicht korrekt. Ein DOI identifiziert genau ein Objekt. Der Platzhalter würde auf einen anderen Datensatz verweisen. Erforderlich ist ein für diesen Datensatz reservierter DOI."
             }
         ]
     }
 ]
 display_quiz(question5, colors=colors.jupyterquiz, max_width=1000)
 ```
+
 
 ## Frage 6
 
@@ -239,71 +247,25 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 
-question6 = [
-    {
-        "question": "Was versteht man unter dem Begriff 'Datenpublikation' in Abgrenzung zur bloßen Aufbewahrung von Forschungsdaten in einem Repositorium?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Datenpublikation bezeichnet den aktiven Prozess der finalen Prüfung, Dokumentation und Bereitstellung von Daten (inkl. Metadaten, PID und Lizenz), damit diese formal auffindbar und nachnutzbar werden – nicht nur die reine Speicherung.",
-                "correct": True,
-                "feedback": """✓ Richtig! Während die Aufbewahrung in einem Repositorium die technische Grundlage schafft, umfasst die Datenpublikation den aktiven Prozess der Fertigstellung: Metadaten und persistente Identifikatoren vergeben, FAIR-Konformität und gute wissenschaftliche Praxis prüfen sowie die finale Version hochladen und veröffentlichen."""
-            },
-            {
-                "answer": "Datenpublikation bedeutet, dass Daten irgendwo auf einem Server gespeichert werden, unabhängig davon, ob sie für andere auffindbar oder nutzbar sind.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Reine Speicherung ohne Auffindbarkeit und Nachnutzbarkeit entspricht eher einer Archivierung im Hintergrund, nicht einer Publikation. Eine Datenpublikation zielt explizit auf öffentliche Zugänglichkeit und Nachnutzung ab."""
-            },
-            {
-                "answer": "Datenpublikation ist ein rein rechtlicher Begriff, der sich ausschließlich auf die Vergabe einer Lizenz bezieht.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Lizenzvergabe ist nur ein Teilaspekt. Datenpublikation umfasst darüber hinaus auch Metadaten, Dokumentation, Qualitätsprüfung und den eigentlichen Upload-Prozess."""
-            },
-            {
-                "answer": "Datenpublikation beschreibt ausschließlich die Kommunikation der Veröffentlichung in sozialen Medien.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Die Kommunikation einer bereits erfolgten Veröffentlichung ist ein nachgelagerter, separater Schritt. Die Datenpublikation selbst bezieht sich auf die Fertigstellung und das eigentliche Veröffentlichen der Daten im Repositorium."""
-            }
-        ]
-    }
-]
-display_quiz(question6, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 7
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
 question7 = [
     {
-        "question": "In welche drei Teilbereiche lässt sich die Fertigstellung einer Datenpublikation gliedern, bevor Forschungsdaten final in einem Repositorium veröffentlicht werden?",
+        "question": "Ein Institut hat Messdaten veröffentlicht, die sowohl für Fachkolleg:innen als auch für die interessierte Öffentlichkeit relevant sind. Welches Vorgehen entspricht dem Kapitel am besten?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Metadaten und PID (inkl. Dokumentation), FAIR-Assessment und gute wissenschaftliche Praxis (inkl. Zitationshinweis), sowie Versionierung und Upload.",
+                "answer": "Zielgruppen festlegen, prüfen, welche Kommunikationswege zur Verfügung stehen, und gegebenenfalls auf mehreren Ebenen informieren, z. B. durch eine Pressemitteilung und zusätzlich durch Wege wie eine Data Story.",
                 "correct": True,
-                "feedback": """✓ Richtig! Diese drei Teilbereiche fassen zusammen, was vor der eigentlichen Veröffentlichung geprüft werden muss: eine vollständige Beschreibung mit Metadaten und PID, die Einhaltung von FAIR-Prinzipien und guter wissenschaftlicher Praxis sowie die korrekte Versionierung und der eigentliche Upload."""
+                "feedback": "✓ Richtig! Klassische Formate wie die Pressemitteilung kommen auch für Datenpublikationen in Betracht. Neue Wege wie Data Stories ergänzen sie, indem sie die Publikation visuell hervorheben. Je nach Zielgruppe kann die Kommunikation auf mehreren Ebenen sinnvoll sein."
             },
             {
-                "answer": "Marketingplanung, Budgetierung und interne Freigabe durch die Geschäftsführung.",
+                "answer": "Data Stories ersetzen klassische Mitteilungen, da diese für Daten nicht vorgesehen sind.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Diese Begriffe stammen nicht aus dem im Kapitel beschriebenen Prozess der Datenpublikation, der sich auf Metadaten, FAIR-Konformität und den technischen Upload konzentriert."""
+                "feedback": "× Nicht korrekt. Die klassischen Optionen gelten nicht ausschließlich für Datenpublikationen, können aber auch dafür genutzt werden. Data Stories sind eine zusätzliche, sich erst entwickelnde Möglichkeit."
             },
             {
-                "answer": "Datenerhebung, Datenanalyse und Dateninterpretation.",
+                "answer": "Eine eigene Kommunikation ist nicht nötig, weil die Daten im Repositorium dauerhaft auffindbar sind.",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Diese Schritte gehören zum ursprünglichen Forschungsprozess, nicht zur nachgelagerten Fertigstellung der Datenpublikation, die in diesem Kapitel behandelt wird."""
-            },
-            {
-                "answer": "Pressemitteilung, Social-Media-Post und Blogbeitrag.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Diese Formate gehören zur anschließenden Kommunikation einer bereits veröffentlichten Datenpublikation, nicht zur Fertigstellung der Publikation selbst."""
+                "feedback": "× Nicht korrekt. Das Kapitel betont, dass die Publikation den Kolleg:innen und der wissenschaftlichen Community bekannt gemacht werden sollte. Je nach Art der Daten kann auch die interessierte Öffentlichkeit informiert werden."
             }
         ]
     }
@@ -311,145 +273,105 @@ question7 = [
 display_quiz(question7, colors=colors.jupyterquiz, max_width=1000)
 ```
 
+## Frage 7
+
+Die folgenden vier Aussagen betreffen Repositorien, den Upload und die Kommunikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
+
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question8b = [
+    {
+        "question": "Bei Zenodo muss im Entwurfsmodus mindestens eine Datei eingestellt sein; eine Dummy-Datei erlaubt es, die Metadaten in Ruhe auszufüllen.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Richtig",
+                "correct": True,
+                "feedback": "✓ Richtig! Ohne Datei lässt sich der Upload nicht (zwischen)speichern. Eine Dummy-Datei löst dieses Problem."
+            },
+            {
+                "answer": "Falsch",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Die Aussage ist richtig. Ohne Datei lässt sich der Upload nicht (zwischen)speichern. Eine Dummy-Datei löst dieses Problem."
+            }
+        ]
+    }
+]
+display_quiz(question8b, colors=colors.jupyterquiz, max_width=1000)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question8c = [
+    {
+        "question": "Formate wie Blogbeitrag oder Podcast dienen exklusiv der Veröffentlichung von Forschungsdaten.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Richtig",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Diese Formate dienen nicht exklusiv der Datenveröffentlichung, lassen sich aber als Plattformen nutzen, um sie zu kommunizieren."
+            },
+            {
+                "answer": "Falsch",
+                "correct": True,
+                "feedback": "✓ Richtig! Diese Formate dienen nicht exklusiv der Datenveröffentlichung, lassen sich aber als Plattformen nutzen, um sie zu kommunizieren."
+            }
+        ]
+    }
+]
+display_quiz(question8c, colors=colors.jupyterquiz, max_width=1000)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question8d = [
+    {
+        "question": "Automatisierte FAIR-Prüfwerkzeuge können einen Datensatz bereits anhand seines Persistent Identifiers oder einer URL bewerten.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Richtig",
+                "correct": True,
+                "feedback": "✓ Richtig! Werkzeuge wie F-UJI bewerten die FAIRness anhand eines PID oder einer URL und geben unmittelbar Rückmeldung, welche Kriterien erfüllt sind."
+            },
+            {
+                "answer": "Falsch",
+                "correct": False,
+                "feedback": "× Nicht korrekt. Die Aussage ist richtig. Werkzeuge wie F-UJI bewerten die FAIRness anhand eines PID oder einer URL und geben unmittelbar Rückmeldung, welche Kriterien erfüllt sind."
+            }
+        ]
+    }
+]
+display_quiz(question8d, colors=colors.jupyterquiz, max_width=1000)
+```
+
 ## Frage 8
 
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
+**Szenario:** Sie haben die Daten eines abgeschlossenen Projekts geordnet und dokumentiert und sollen sie nun veröffentlichen. Für das Forschungsfeld des Projekts gibt es kein eigenes Repositorium; Ihre Institution kann Ihnen nur eingeschränkt weiterhelfen.
 
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question8 = [
-    {
-        "question": "Ein Forschungsteam möchte seine neu veröffentlichten Daten sowohl der eigenen Fachcommunity als auch einer breiteren, nicht-wissenschaftlichen Öffentlichkeit bekannt machen. Welche Kombination an Kommunikationswegen eignet sich dafür am ehesten?",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Eine Mitteilung über fachspezifische Mailinglisten oder den Informationsdienst Wissenschaft (idw) für die Fachcommunity, kombiniert mit einer Pressemitteilung oder Social-Media-Beiträgen für die interessierte Öffentlichkeit.",
-                "correct": True,
-                "feedback": """✓ Richtig! Mailinglisten und der idw richten sich gezielt an die Fach- und wissenschaftliche Community, während Pressemitteilungen und Social-Media-Beiträge eher die interessierte Öffentlichkeit erreichen. Die Kombination beider Wege deckt somit beide Zielgruppen ab."""
-            },
-            {
-                "answer": "Ausschließlich eine einzelne Mailingliste, da diese automatisch auch die breite Öffentlichkeit erreicht.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Mailinglisten richten sich laut Kapitel primär an die Fachcommunity, nicht an die breite, nicht-wissenschaftliche Öffentlichkeit. Für Letztere eignen sich andere Formate wie Pressemitteilungen oder Social Media besser."""
-            },
-            {
-                "answer": "Ausschließlich eine Data Story, da diese alle denkbaren Zielgruppen gleichermaßen optimal erreicht.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Data Stories sind ein sinnvoller Kommunikationsweg, decken aber laut Kapitel nicht automatisch alle Zielgruppen gleichermaßen ab. Eine Kombination verschiedener, zielgruppenspezifischer Formate ist meist wirkungsvoller."""
-            },
-            {
-                "answer": "Keine gesonderte Kommunikation ist notwendig, da die Veröffentlichung im Repositorium automatisch alle relevanten Zielgruppen erreicht.",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Das Kapitel betont ausdrücklich, dass die Publikation der Daten aktiv kommuniziert werden sollte, damit Kolleg:innen und ggf. die interessierte Öffentlichkeit überhaupt davon erfahren."""
-            }
-        ]
-    }
-]
-display_quiz(question8, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 9
-
-Die folgenden drei Fragen prüfen grundlegende Aussagen zur Kommunikation von Datenpublikationen. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question9 = [
-    {
-        "question": "Data Stories sind in der Regel lange, rein textbasierte Zusammenfassungen ohne Visualisierungen.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Data Stories sind gerade das Gegenteil: relativ kurze Zusammenfassungen, die komplexe Zusammenhänge unter Einbindung prägnanter Visualisierungen verständlich vermitteln."""
-            },
-            {
-                "answer": "Falsch",
-                "correct": True,
-                "feedback": """✓ Richtig! Die Aussage ist falsch. Data Stories zeichnen sich gerade durch ihre Kürze und die Einbindung prägnanter Visualisierungen aus, um komplexe Erkenntnisse verständlich zu vermitteln."""
-            }
-        ]
-    }
-]
-display_quiz(question9, colors=colors.jupyterquiz, max_width=1000)
-```
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question9b = [
-    {
-        "question": "Mailinglisten richten sich in erster Linie an die breite, nicht-wissenschaftliche Öffentlichkeit.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Mailinglisten erreichen laut Kapitel primär die Fachcommunity, nicht die breite, nicht-wissenschaftliche Öffentlichkeit. Für Letztere eignen sich eher Formate wie Pressemitteilungen oder Social-Media-Beiträge."""
-            },
-            {
-                "answer": "Falsch",
-                "correct": True,
-                "feedback": """✓ Richtig! Die Aussage ist falsch. Mailinglisten richten sich in erster Linie an die Fachcommunity, während die interessierte Öffentlichkeit eher über Pressemitteilungen oder Social Media erreicht wird."""
-            }
-        ]
-    }
-]
-display_quiz(question9b, colors=colors.jupyterquiz, max_width=1000)
-```
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-question9c = [
-    {
-        "question": "Es kann sinnvoll sein, eine Datenpublikation über mehrere Kommunikationswege gleichzeitig bekannt zu machen.",
-        "type": "multiple_choice",
-        "answers": [
-            {
-                "answer": "Richtig",
-                "correct": True,
-                "feedback": """✓ Richtig! Je nachdem, welche Zielgruppen erreicht werden sollen, kann es sinnvoll sein, die Publikation auf mehreren Ebenen gleichzeitig zu kommunizieren – etwa über fachspezifische und öffentlichkeitswirksame Kanäle parallel."""
-            },
-            {
-                "answer": "Falsch",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Das Kapitel empfiehlt ausdrücklich, zu prüfen, welche Zielgruppen erreicht werden sollen, und weist darauf hin, dass eine Kommunikation auf mehreren Ebenen unter Umständen sinnvoll ist."""
-            }
-        ]
-    }
-]
-display_quiz(question9c, colors=colors.jupyterquiz, max_width=1000)
-```
-
-## Frage 10
-
-**Frage:** Sie veröffentlichen Forschungsdaten aus einem interdisziplinären Projekt, für das kein fachspezifisches Repositorium existiert.
-
-1. Welchen Repositorientyp würden Sie wählen und warum?
-2. Was müssten Sie noch zusätzlich tun, damit die Daten als vollständig "publiziert" gelten – und nicht nur hochgeladen sind?
-3. Über welche zwei Kommunikationswege würden Sie die Veröffentlichung bekannt machen, und welche Zielgruppen würden Sie damit jeweils erreichen?
+1. Wie finden Sie ein geeignetes Repositorium, und welche Art von Repositorium kommt in Frage?
+2. Was beachten Sie bei Vorbereitung, Upload und Veröffentlichung der Daten?
+3. Wie machen Sie die Veröffentlichung bekannt?
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -463,22 +385,22 @@ create_answer_box('publikation-1')
 ````{admonition} Reflexionshinweise
 :class: solution, dropdown
 
-**1. Wahl des Repositorientyps:**
+**1. Repositorium finden und auswählen:**
 
-Da kein fachspezifisches Repositorium existiert, bietet sich ein generisches Repositorium wie Zenodo oder Figshare an. Diese sind disziplinübergreifend nutzbar und eignen sich besonders für Fälle, in denen kein dediziertes Fachrepositorium zur Verfügung steht. Bei der Auswahl sollte zusätzlich auf Aspekte wie Qualitätszertifikate (sofern vorhanden), die Vergabe persistenter Identifikatoren (DOI) sowie etwaige Vorgaben von Journalen oder Verlagen geachtet werden.
+- Erste Anlaufstelle: Bibliothek oder FDM-Team der Institution, auch für die Beratung zu externen Repositorien.
+- Selbst suchen über re3data.
+- Drei Arten: institutionell, fachspezifisch, generisch. Gibt es kein Fachrepositorium oder keine Infrastruktur der Institution, bietet sich ein generisches Repositorium an (z. B. Zenodo, Figshare).
 
-**2. Notwendige Schritte zur vollständigen Publikation:**
+**2. Vorbereitung, Upload, Veröffentlichung:**
 
-Reines Hochladen reicht nicht aus. Zusätzlich sollten:
-- vollständige Metadaten vergeben und ein persistenter Identifikator (PID/DOI) zugewiesen werden,
-- die Einhaltung der FAIR-Prinzipien und der guten wissenschaftlichen Praxis geprüft werden (inkl. Zitationshinweis),
-- eine korrekte Versionierung sichergestellt und der finale Upload durchgeführt werden,
-- die Zugriffsrechte (z. B. "öffentlich") bewusst festgelegt werden.
+- FAIRifizierung: Daten und Metadaten möglichst vollständig beschreiben, Standards nutzen, Interoperabilität herstellen, PID/DOI vergeben (Checklisten, Reifegradmodelle oder automatisierte Werkzeuge wie F-UJI können unterstützen).
+- Datenpaket (Daten, Metadaten, Dokumentation, DMP) zusammenstellen; Konto anlegen (ORCID empfohlen); auf Reihenfolge und Dateibenennung achten.
+- Metadatenfelder möglichst vollständig ausfüllen, TOC ergänzen, Sichtbarkeit („öffentlich“ als Standard) festlegen. Dummy-Datei für den Entwurf nutzen, Eintrag prüfen, dann veröffentlichen.
+- DOI vorab reservieren, wenn er in README oder Forschungsdatenbericht genannt werden soll.
 
-**3. Mögliche Kommunikationswege:**
+**3. Kommunikation:**
 
-- Eine Mitteilung über eine fachspezifische Mailingliste oder den Informationsdienst Wissenschaft (idw), um die eigene Fach- und Wissenschaftscommunity zu erreichen.
-- Eine Pressemitteilung auf der Institutionswebseite oder ein Social-Media-Beitrag, um zusätzlich die interessierte, nicht-wissenschaftliche Öffentlichkeit zu informieren.
-
-Je nach Zielsetzung kann auch eine kurze Data Story sinnvoll sein, um zentrale Erkenntnisse visuell aufbereitet sowohl der Fachcommunity als auch einer breiteren Öffentlichkeit zugänglich zu machen.
+- Zielgruppen klären und verfügbare Wege prüfen.
+- Klassische Wege: Pressemitteilung, Mailinglisten, idw, Social Media. Neue Wege für Daten: Data Stories, Datenhighlights. Ergänzend Blogbeitrag oder Podcast.
+- Gegebenenfalls auf mehreren Ebenen kommunizieren.
 ````
