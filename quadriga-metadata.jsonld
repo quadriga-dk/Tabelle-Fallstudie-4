@@ -13,7 +13,7 @@
   ],
   "name": "Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.",
   "description": "Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von Forschungsdaten.",
-  "version": "0.0.1",
+  "version": "1.0.0-beta",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/",
   "workExample": {

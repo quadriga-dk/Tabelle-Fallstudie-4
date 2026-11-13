@@ -292,7 +292,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>2.0.0</schema:schemaVersion>
     <schema:timeRequired>PT1H45M</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/" />
-    <schema:version>0.0.1</schema:version>
+    <schema:version>1.0.0-beta</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Tabelle-Fallstudie-4" />
