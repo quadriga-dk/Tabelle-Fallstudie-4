@@ -22,7 +22,7 @@ Dieses interaktive Lehrbuch vermittelt Kenntnisse über die nachträgliche Publi
 
 Informationen zu den anvisierten Lernzielen erhalten Sie im Abschnitt <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel1_Einstieg/lernziele.html" class="external-link" target="_blank">1.1 Vorkenntnisse und Lernziele</a> sowie in den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/blob/main/quadriga-metadata.yml" class="external-link" target="_blank">Metadaten</a>, wo sie eindeutig den Stufen der Bloom'schen Taxonomie zugeordnet sind.  
 
-Die angesprochenen Kompetenzen, die Sie ebenfalls den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/blob/main/quadriga-metadata.yml" class="external-link" target="_blank">Metadaten</a> entnehmen können, basieren auf dem <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, das wie alle anderen Materialien des Projekts, in der <a href="https://zenodo.org/communities/quadriga/records?q=&l=list&p=1&s=10&sort=newest" class="external-link" target="_blank">Zenodo-Community</a> von QUADRIGA gefunden werden kann.
+Die angesprochenen Kompetenzen, die Sie ebenfalls den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/blob/main/quadriga-metadata.yml" class="external-link" target="_blank">Metadaten</a> entnehmen können, basieren auf dem <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, das wie alle anderen Materialien des Projekts in der <a href="https://zenodo.org/communities/quadriga/records?q=&l=list&p=1&s=10&sort=newest" class="external-link" target="_blank">Zenodo-Community</a> von QUADRIGA gefunden werden kann.
 
 ## Ansprechpartner:innen
 
