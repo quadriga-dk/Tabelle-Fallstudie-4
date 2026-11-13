@@ -156,7 +156,7 @@ chapterLIST:
   timeRequired: PT20M
   learningGoal: Kompetenz Aufbewahrung
   learningObjectiveLIST:
-  - description: Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung,
+  - description: Lernende können eigenständig geeignete Repositorien (z. B. zur Archivierung,
       Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
     competency: 5.1 Aufbewahrung
     dataFlow: 5 Publikation und Nachnutzung
