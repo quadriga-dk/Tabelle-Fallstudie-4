@@ -25,12 +25,12 @@ Folgend finden Sie Materialien aufgelistet, die ebenfalls einen Bezug zum Thema 
 :class: seealso
 
 **Checklisten:**
-- Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> (Seite 6, direkter Downloadlink) der <a href="https://www.fh-potsdam.de/forschung-transfer/forschung/forschungsdatenmanagement" class="external-link" target="_blank">FH Potsdam</a> 
+- Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> (Seite 6, direkter Downloadlink) der <a href="https://www.fh-potsdam.de/forschung-transfer/forschung/forschungsdatenmanagement" class="external-link" target="_blank">FH Potsdam</a>
 - Checkliste <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> des niederländischen Netzwerks <a href="https://dans.knaw.nl/en/" class="external-link" target="_blank">DANS</a>, die hilft, Daten auf ihre FAIRness zu überprüfen (auf Englisch)
 - Der Fragebogen <a href="https://creativecommons.org/chooser/" class="external-link" target="_blank">Creative Commons Chooser</a> der internationalen Organisation <a href="https://creativecommons.org/" class="external-link" target="_blank">Creative Commons</a>, der bei der Wahl der richtigen Lizenz unterstützen kann (auf Englisch)
 
 **Leitfäden:**
-- PARTHENOS Leitfaden zur <a href="https://zenodo.org/records/3363078" class="external-link" target="_blank">FAIRifizierung des Datenmanagements und der Ermöglichung der Nachnutzung von Daten</a> des gleichnamigen Projektes
+- PARTHENOS Leitfaden zur <a href="https://zenodo.org/records/3363078" class="external-link" target="_blank">"FAIRifizierung" des Datenmanagements und der Ermöglichung der Nachnutzung von Daten</a> des gleichnamigen Projektes
 
 **OER/Module:**
 - Modul <a href="https://www.orca.nrw/moodle/mod/book/view.php?id=22027" class="external-link" target="_blank">Was braucht es für eine Datenpublikation</a> aus dem Kurs "Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis" von FDM@Studium.nrw via <a href="https://www.orca.nrw/" class="external-link" target="_blank">ORCA.nrw</a>
