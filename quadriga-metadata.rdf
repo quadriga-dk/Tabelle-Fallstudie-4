@@ -268,6 +268,13 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html" />
       </schema:LearningResource>
     </schema:hasPart>
+    <schema:identifier>
+      <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-4/#doi">
+        <schema:propertyID>DOI</schema:propertyID>
+        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.24189329" />
+        <schema:value>10.5281/zenodo.24189329</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
     <schema:inLanguage>de</schema:inLanguage>
     <schema:keywords>Datenkompetenzframework</schema:keywords>
     <schema:keywords>Datenmanagementplan</schema:keywords>

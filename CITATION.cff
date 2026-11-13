@@ -17,6 +17,10 @@ authors: &id001
   family-names: Plomin
   orcid: https://orcid.org/0000-0003-0127-7493
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.24189329
+  description: Zenodo
 repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
 keywords: &id002
@@ -46,6 +50,7 @@ preferred-citation:
     Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
     Tabelle 4.'
   type: book
+  doi: 10.5281/zenodo.24189329
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
   repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
   license: CC-BY-4.0
