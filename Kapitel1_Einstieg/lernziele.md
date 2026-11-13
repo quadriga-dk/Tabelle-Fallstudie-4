@@ -7,7 +7,7 @@ In diesem Abschnitt erfahren Sie, welche Vorkenntnisse Sie zum Absolvieren des L
 
 Für dieses Lehrbuch sind keine Vorkenntnisse vonnöten. Hilfreich ist allerdings ein Grundverständnis von Datenmanagement sowie eine positive Haltung zum Thema Open Science und Datennachnutzung.
 
-Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. Einige Lernziele decken sich direkt mit der <a href="https://zenodo.org/records/15025246" class="external-link" target="_blank">Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM)</a> von Petersen et al. (Version 3, 2025). Diese sind durch ihre dort vergebene ID (LZ-ID) kenntlich gemacht.
+Beim Durchgehen dieser OER können Sie die unten genannten Lernziele erreichen. Einige Lernziele decken sich direkt mit der <a href="https://zenodo.org/records/15025246" class="external-link" target="_blank">Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM)</a> von Petersen et al. (Version 3, 2025). Diese sind durch ihre dort vergebene ID (LZ-ID) kenntlich gemacht.
 
 ## Lernziele
 
@@ -39,7 +39,7 @@ Beim Durchgehen dieser OER können Sie die unten genannte Lernziele erreichen. E
 ```{admonition} [Lernziel: Publikation von Forschungsdaten](publikation:einleitung)
 :class: lernziele
 <!-- learning-goal: Kompetenz Aufbewahrung -->
-1. Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung, Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
+1. Lernende können eigenständig geeignete Repositorien (z. B. zur Archivierung, Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
 <!-- competency: 5.1 Aufbewahrung | bloom: 3 Anwenden -->
 <!-- learning-goal: Kompetenz Publikation -->
 2. Lernende können den Begriff Datenpublikation erläutern. (LZ-ID 04_003_0842)

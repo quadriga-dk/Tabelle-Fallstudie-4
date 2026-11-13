@@ -27,7 +27,7 @@ Um sich einen Überblick über den Projektkontext zu verschaffen und später ein
 - Wann und über welchen Zeitraum wurden die Daten erhoben?
 - Welche Daten liegen überhaupt vor und wie liegen sie vor? 
 
-Hier hilft es zwischen Roh- und Forschungsdaten zu unterscheiden. Für beide müssen sie ähnliche Fragen beantworten:
+Hier hilft es zwischen Roh- und Forschungsdaten zu unterscheiden. Für beide müssen Sie ähnliche Fragen beantworten:
 - Welche Rohdaten und welche Forschungsdaten liegen vor?
 - Wie und in welchen Formaten liegen sie vor? 
 - Wie sind sie entstanden? (Methodik) 

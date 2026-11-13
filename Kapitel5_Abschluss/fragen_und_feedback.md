@@ -4,10 +4,10 @@
 Wir freuen uns auf Ihre Rückmeldungen!
 Fragen oder Feedback?
 
-<a href="https://github.com/quadriga-dk/Book_Template/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
     Stellen Sie eine Frage
 </a> <br>
-<a href="https://github.com/quadriga-dk/Book_Template/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-4/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
     Geben Sie uns Feedback
 </a>
 

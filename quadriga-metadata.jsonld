@@ -331,7 +331,7 @@
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung, Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)",
+          "targetName": "Lernende können eigenständig geeignete Repositorien (z. B. zur Archivierung, Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 5.1 Aufbewahrung | Bloom's: 3 Anwenden | Data Flow: 5 Publikation und Nachnutzung"
         },

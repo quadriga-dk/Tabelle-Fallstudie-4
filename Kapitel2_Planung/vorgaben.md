@@ -14,7 +14,7 @@ Die Kompetenz 1.3 Ethik und Recht des QUADRIGA Datenkompetenzframeworks.
 
 ## Ausgangslage
 
-Im Rahmen der Veröffentlichung von Forschungsdaten können sich juristische Frage ergeben, z. B. zu den: 
+Im Rahmen der Veröffentlichung von Forschungsdaten können sich juristische Fragen ergeben, z. B. zu den: 
 - Rechten an Daten (Bei wem liegen die Rechte an der Forschung/ den Daten? Müssen die Rechte eingeholt werden?)
 - Vorgaben von (ehem.) Förderern (Gab es Bestimmungen während der Datenerhebung in den Projekten?)
 - Vorgaben von Dritten (Gibt es Vorgaben von anderen involvierten Akteuren, Stakeholdern o. ä.?)
@@ -67,13 +67,13 @@ Hinsichtlich der nachträglichen Publikation von Forschungsdaten sollte frühzei
 
 ## Beispielszenario
 
-In Bezug auf das in dieser OER verwendeten Beispielszenario der Veröffentlichung der Forschungsdaten aus dem Projekt Q-LCA wurden die o. g. Aspekte folgendermaßen berücksichtigt: 
-- Die Rechte an den Daten lag laut Zuwendungsbescheid des Fördermittelgebers bei der Projektleitung. Da eine direkte Abstimmung mit der Projektleitung möglich war, gab es in diesem Zusammenhang keine Probleme.
+In Bezug auf das in dieser OER verwendete Beispielszenario der Veröffentlichung der Forschungsdaten aus dem Projekt Q-LCA wurden die o. g. Aspekte folgendermaßen berücksichtigt: 
+- Die Rechte an den Daten lagen laut Zuwendungsbescheid des Fördermittelgebers bei der Projektleitung. Da eine direkte Abstimmung mit der Projektleitung möglich war, gab es in diesem Zusammenhang keine Probleme.
 - Vorgaben von (ehem.) Förderern gab es nicht. In der Antragsbestätigung wurde eine öffentliche Bereitstellung von weiteren Forschungsinhalten allerdings begrüßt. 
 - Beide am Projekt beteiligten Hochschulen haben Forschungsdaten-Policies verabschiedet. Die FHP ermutigt in ihrer <a href="https://www.fh-potsdam.de/sites/default/files/2024-02/466-forschungsdaten-leitlinie-abk-fhpotsdam-24-02-07.pdf" class="external-link" target="_blank">Forschungsdatenleitlinie</a> dazu, Forschungsdaten "so offen wie möglich" bereitzustellen. Die Leibniz Universität Hannover beruft sich in ihrer <a href="https://www.uni-hannover.de/fileadmin/luh/content/dezernat4/FDM/260928_RichtlinieForschungsdatenLUH_v4.pdf" class="external-link" target="_blank">Richtlinie</a> zum Umgang mit Forschungsdaten auf die Gute wissenschaftliche Praxis (<a href="https://www.dfg.de/de/grundlagen-themen/grundlagen-und-prinzipien-der-foerderung/gwp" class="external-link" target="_blank">GWP</a>) und ruft zur nachhaltigen Bereitstellung von Forschungsdaten unter Einhaltung der <a href="https://www.gofair.foundation/fair-principles" class="external-link" target="_blank">FAIR-Prinzipien</a> auf.
 - Empfehlungen der Fachcommunity lagen im Beispielszenario nicht vor.
-- Verlags- oder Journalpolicies lagen ebenfalls nicht vor, da eine Veröffentlichung der Daten nicht in einem Journal erfolgte sondern in einem Repositorium.
-- Hinsichtlich der Lizenzierung der Forschungsdaten wurde sich aus den oben ausgeführten Gründen für eine <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="external-link" target="_blank">CC BY 4.0</a> Lizenz entschieden.
+- Verlags- oder Journalpolicies lagen ebenfalls nicht vor, da eine Veröffentlichung der Daten nicht in einem Journal erfolgte, sondern in einem Repositorium.
+- Hinsichtlich der Lizenzierung der Forschungsdaten entschied man sich aus den oben ausgeführten Gründen für eine <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="external-link" target="_blank">CC BY 4.0</a> Lizenz entschieden.
 
 ## Zusammenfassung
 
@@ -86,9 +86,9 @@ width: 75%
 ---
 Poster "Entscheidungshilfe Daten veröffentlichen" von M. Schleußinger und J. Rex. 
 ```
-Quellenangabe: Poster „Forschungsdaten veröffentlichen?” von M. Schleußinger und J. Rex unter der Lizenz <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="external-link" target="_blank">CC 0</a> via <a href="https://zenodo.org/records/3368293" class="external-link" target="_blank">Zenodo</a>.
+Quellenangabe: Poster "Forschungsdaten veröffentlichen?" von M. Schleußinger und J. Rex unter der Lizenz <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="external-link" target="_blank">CC0</a> via <a href="https://zenodo.org/records/3368293" class="external-link" target="_blank">Zenodo</a>
 
-Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können Sie wahrscheinlich aus den ursrpünglichen Antragsunterlagen bzw. dem Zuwendungsbescheid entnehmen. Bei Fragen wenden Sie sich an:
+Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können Sie wahrscheinlich aus den ursprünglichen Antragsunterlagen bzw. dem Zuwendungsbescheid entnehmen. Bei Fragen wenden Sie sich an:
 - die Förderinstitution
 - die Rechtsabteilung Ihrer Institution
 - den FDM-Service an Ihrer Institution
@@ -97,8 +97,8 @@ Juristische Vorgaben sollten Sie nicht abschrecken. Die meisten Fragen können S
 ```{admonition} Zusätzliche Materialien
 :class: seealso
 
-- eine Übersichtliche Zusammenstellung rechtlicher Themen im Forschungsdatenmanagement hat die Landesinitiative Forschungsdatenmanagement Brandenburg <a href="https://fdm-bb.de/rechtlich-ethischer-kontaktpunkt/rechtliche-aspekte-im-fdm/" class="external-link" target="_blank">(FDM-BB)</a> zusammengestellt
-- ein Video (Coffee Lecture) zu Rechten an Forschungsdaten hat das Thüringer Kompetenznetzwerk Forschungsdatenmanagement <a href="https://www.forschungsdaten-thueringen.de/home.html" class="external-link" target="_blank">(TKFDM)</a> auf <a href="https://youtu.be/s1uCwLW-IGU?si=7vx3gCx9QCiLiMUG" class="external-link" target="_blank">Youtube</a> veröffentlicht.
+- eine übersichtliche Zusammenstellung rechtlicher Themen im Forschungsdatenmanagement hat die Landesinitiative Forschungsdatenmanagement Brandenburg <a href="https://fdm-bb.de/rechtlich-ethischer-kontaktpunkt/rechtliche-aspekte-im-fdm/" class="external-link" target="_blank">(FDM-BB)</a> zusammengestellt
+- ein Video (Coffee Lecture) zu Rechten an Forschungsdaten hat das Thüringer Kompetenznetzwerk Forschungsdatenmanagement <a href="https://www.forschungsdaten-thueringen.de/home.html" class="external-link" target="_blank">(TKFDM)</a> auf <a href="https://youtu.be/s1uCwLW-IGU?si=7vx3gCx9QCiLiMUG" class="external-link" target="_blank">YouTube</a> veröffentlicht.
 ```
 
 **Literatur**

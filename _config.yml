@@ -83,6 +83,7 @@ sphinx:
     - sphinx_apa_references
   config:
     language: de
+    smartquotes: true
     numfig: true
     html_show_copyright: false
     html_static_path: ["_static"]

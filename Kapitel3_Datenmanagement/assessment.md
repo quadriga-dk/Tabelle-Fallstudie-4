@@ -11,8 +11,7 @@ kernelspec:
 ---
 
 (datenmanagement:assessment)=
-# 🏆Selbsttest: Datenmanagement
-
+# 🏆 Selbsttest: Datenmanagement
 ````{admonition} Hinweis
 :class: hinweis
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.

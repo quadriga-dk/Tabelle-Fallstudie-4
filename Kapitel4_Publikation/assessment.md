@@ -11,8 +11,7 @@ kernelspec:
 ---
 
 (publikation:assessment)=
-# 🏆Selbsttest: Publikation
-
+# 🏆 Selbsttest: Publikation
 ````{admonition} Hinweis
 :class: hinweis
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
@@ -49,7 +48,7 @@ question1 = [
             {
                 "answer": "Ein generisches Repositorium, das disziplinübergreifend arbeitet und keine fachliche Ausrichtung voraussetzt (z. B. Zenodo oder Figshare).",
                 "correct": True,
-                "feedback": "✓ Richtig! In diesem Fall ist ein generische Repositorien die richtige Wahl. Sie bieten eine unkomplizierte Lösung, wenn für das Forschungsfeld kein Fachrepositorium existiert oder die Heimatinstitution keine eigene Infrastruktur anbietet."
+                "feedback": "✓ Richtig! In diesem Fall ist ein generisches Repositorium die richtige Wahl. Es bietet eine unkomplizierte Lösung, wenn für das Forschungsfeld kein Fachrepositorium existiert oder die Heimatinstitution keine eigene Infrastruktur anbietet."
             },
             {
                 "answer": "Ein institutionelles Repositorium, da jede Forschende ihre Daten grundsätzlich bei der eigenen Hochschule ablegt.",
@@ -275,7 +274,7 @@ display_quiz(question7, colors=colors.jupyterquiz, max_width=1000)
 
 ## Frage 7
 
-Die folgenden vier Aussagen betreffen Repositorien, den Upload und die Kommunikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
+Die folgenden drei Aussagen betreffen Repositorien, den Upload und die Kommunikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
 
 
 ```{code-cell} ipython3
@@ -395,7 +394,7 @@ create_answer_box('publikation-1')
 
 - FAIRifizierung: Daten und Metadaten möglichst vollständig beschreiben, Standards nutzen, Interoperabilität herstellen, PID/DOI vergeben (Checklisten, Reifegradmodelle oder automatisierte Werkzeuge wie F-UJI können unterstützen).
 - Datenpaket (Daten, Metadaten, Dokumentation, DMP) zusammenstellen; Konto anlegen (ORCID empfohlen); auf Reihenfolge und Dateibenennung achten.
-- Metadatenfelder möglichst vollständig ausfüllen, TOC ergänzen, Sichtbarkeit („öffentlich“ als Standard) festlegen. Dummy-Datei für den Entwurf nutzen, Eintrag prüfen, dann veröffentlichen.
+- Metadatenfelder möglichst vollständig ausfüllen, TOC ergänzen, Sichtbarkeit ("öffentlich" als Standard) festlegen. Dummy-Datei für den Entwurf nutzen, Eintrag prüfen, dann veröffentlichen.
 - DOI vorab reservieren, wenn er in README oder Forschungsdatenbericht genannt werden soll.
 
 **3. Kommunikation:**

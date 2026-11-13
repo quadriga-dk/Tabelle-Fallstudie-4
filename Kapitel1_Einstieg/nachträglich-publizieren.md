@@ -9,7 +9,7 @@ Eine einheitliche Definition für Forschungsdaten gibt es nicht, da die Methodik
 
 Die Publikation von Forschungsdaten gehört, wie bereits erwähnt, zur Einhaltung der Guten wissenschaftlichen Praxis. In Leitlinie 13 wird die "Herstellung von öffentlichem Zugang zu Forschungsergebnissen" gefordert, wozu explizit auch "die den Ergebnissen zugrunde liegenden Forschungsdaten" gehören. Auch Leitlinie 17, die die Archivierung fokussiert, bezieht sich auf die öffentliche Zugänglichkeit von Forschungsdaten und -ergebnissen {cite}`deutsche_forschungsgemeinschaft_2025`.
 
-Die unabhängig von anderen Forschungsergebnissen publizierten Forschungsdaten sind einfacher nachzunutzen, da sie nicht aus Texten oder anderen Publikationsformen herauskopiert werden müssen und so zudem einfacher zu zitieren sind - beispielsweise durch einen eigenen PID (s. Kap [4.2 Publikation](publikation)). Die Forschung wird dadurch transparent sowie verifizier- und reproduzierbar, was die wissenschaftliche Integrität insgesamt erhöht. Die Daten können darüber hinaus für weitere Forschungsprojekte genutzt werden und müssen von diesen nicht mühsam neu erhoben werden {cite}`TIB_Forschungsdaten_o.J.`.
+Die unabhängig von anderen Forschungsergebnissen publizierten Forschungsdaten sind einfacher nachzunutzen, da sie nicht aus Texten oder anderen Publikationsformen herauskopiert werden müssen und so zudem einfacher zu zitieren sind - beispielsweise durch einen eigenen PID (s. Kap. [4.2 Publikation](publikation)). Die Forschung wird dadurch transparent sowie verifizier- und reproduzierbar, was die wissenschaftliche Integrität insgesamt erhöht. Die Daten können darüber hinaus für weitere Forschungsprojekte genutzt werden und müssen von diesen nicht mühsam neu erhoben werden {cite}`TIB_Forschungsdaten_o.J.`.
 
 ## Besonderheiten dieser OER 
 
@@ -25,7 +25,7 @@ Folgend finden Sie Materialien aufgelistet, die ebenfalls einen Bezug zum Thema 
 :class: seealso
 
 **Checklisten:**
-- Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> (Seite 6, direkter Downloadlink) der <a href="https://www.fh-potsdam.de/forschung-transfer/forschung/forschungsdatenmanagement" class="external-link" target="_blank">FH Potsdam</a> 
+- Checkliste <a href="https://www.fh-potsdam.de/media/9516/download" class="external-link" target="_blank">Forschungsdaten</a> (Seite 6, direkter Downloadlink) der <a href="https://www.fh-potsdam.de/forschung-transfer/forschung/forschungsdatenmanagement" class="external-link" target="_blank">FH Potsdam</a>
 - Checkliste <a href="https://fairaware.dans.knaw.nl/" class="external-link" target="_blank">FAIR-Aware</a> des niederländischen Netzwerks <a href="https://dans.knaw.nl/en/" class="external-link" target="_blank">DANS</a>, die hilft, Daten auf ihre FAIRness zu überprüfen (auf Englisch)
 - Der Fragebogen <a href="https://creativecommons.org/chooser/" class="external-link" target="_blank">Creative Commons Chooser</a> der internationalen Organisation <a href="https://creativecommons.org/" class="external-link" target="_blank">Creative Commons</a>, der bei der Wahl der richtigen Lizenz unterstützen kann (auf Englisch)
 
@@ -36,7 +36,7 @@ Folgend finden Sie Materialien aufgelistet, die ebenfalls einen Bezug zum Thema 
 - Modul <a href="https://www.orca.nrw/moodle/mod/book/view.php?id=22027" class="external-link" target="_blank">Was braucht es für eine Datenpublikation</a> aus dem Kurs "Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis" von FDM@Studium.nrw via <a href="https://www.orca.nrw/" class="external-link" target="_blank">ORCA.nrw</a>
 
 **Videos:**
-- Video <a href="https://www.youtube.com/watch?v=GuIQO3cFIuw" class="external-link" target="_blank">Forschungsdaten zu Publikationen</a> von der <a href="https://www.rwth-aachen.de/cms/root/forschung/angebote-fuer-forschende/forschungsdaten-und-information/~bpboai/forschungsdatenmanagement-fdm/" class="external-link" target="_blank">RTHW Aachen</a>
+- Video <a href="https://www.youtube.com/watch?v=GuIQO3cFIuw" class="external-link" target="_blank">Forschungsdaten zu Publikationen</a> von der <a href="https://www.rwth-aachen.de/cms/root/forschung/angebote-fuer-forschende/forschungsdaten-und-information/~bpboai/forschungsdatenmanagement-fdm/" class="external-link" target="_blank">RWTH Aachen</a>
 - Video <a href="https://av.tib.eu/media/51995" class="external-link" target="_blank">10 Gründe für Open Access</a> von der Technischen Informationsbibliothek (<a href="https://www.tib.eu/de/" class="external-link" target="_blank">TIB</a>) und dem <a href="https://open-access.network/startseite" class="external-link" target="_blank">open-access.network</a>
 
 **Artikel:**

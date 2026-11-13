@@ -33,7 +33,7 @@ Diese Open Educational Resource (OER) führt Sie anhand eines konkreten Beispiel
 
 Die Lerneinheit orientiert sich an den Learnings, die sich durch die Begleitung zur Publikation und Dokumentation von Forschungsdaten des Projekts <a href="https://www.fh-potsdam.de/forschung-transfer/projekte/q-lca" class="external-link" target="_blank">Q-LCA</a> von <a href="https://orcid.org/0000-0001-7738-7627" class="external-link" target="_blank">Prof. Dr.-Ing. Michael Prytula</a> (Fachhochschule Potsdam) und <a href="https://orcid.org/0000-0003-2507-6469" class="external-link" target="_blank">Prof. Dipl.-Ing. Tim Rieniets</a> (Leibniz Universität Hannover) an der <a href="https://www.fh-potsdam.de/" class="external-link" target="_blank">Fachhochschule Potsdam</a> ergeben haben. Diese wurden abstrahiert und generisch formuliert, sodass die Erkenntnisse auch für andere Wissenschaftsdisziplinen umgesetzt werden können.
 
-Als Grundlage dient das <a href="https://zenodo.org/records/14747822" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abbilden. Auch der Prozess des nachträglichen Veröffentlichens von Forschungsdaten lässt sich mit diesem Modell fassen und organisieren, wobei dann nicht auf alle im Modell dargstellten Kompetenzen eingegangen werden muss (s. Kap. 1.3 [Nachträgliches Publizieren](nachpub:einleitung)).  
+Als Grundlage dient das <a href="https://zenodo.org/records/14747822" class="external-link" target="_blank">QUADRIGA Datenkompetenzframework</a>, dessen Phasen den wissenschaftlichen Forschungsprozess abbilden. Auch der Prozess des nachträglichen Veröffentlichens von Forschungsdaten lässt sich mit diesem Modell fassen und organisieren, wobei dann nicht auf alle im Modell dargestellten Kompetenzen eingegangen werden muss (s. Kap. 1.3 [Nachträgliches Publizieren](nachpub:einleitung)).  
 
 ```{figure} /assets/collage_intro.png
 ---
@@ -44,12 +44,12 @@ Collage aus Bildern zu Themen, die in dieser OER behandelt werden (mit <a href="
 ```
 ## Zielgruppe
 
-Dieses Lehrbuch richtet sich an Forschende, die eigene, bisher unveröffentlichte Forschungsdaten veröffentlichen oder die Daten anderer Wissenschafler:innen aufarbeiten wollen. Darüber hinaus sind auch Forschungsdatenmanagement(FDM)-Beauftragte an Hochschulen angesprochen.  
+Dieses Lehrbuch richtet sich an Forschende, die eigene, bisher unveröffentlichte Forschungsdaten veröffentlichen oder die Daten anderer Wissenschaftler:innen aufarbeiten wollen. Darüber hinaus sind auch Forschungsdatenmanagement (FDM)-Beauftragte an Hochschulen angesprochen.  
 Die Lerneinheiten des Datentyps Tabelle sind für alle wissenschaftlichen Disziplinen, Lernende und Lehrende geeignet, die mit Tabellen oder strukturierten Daten arbeiten und einzelne Kapitel nachnutzen wollen oder - in diesem Fall - Forschungsdaten nachträglich veröffentlichen wollen.
 
 ## Struktur der OER
 
-Anders als andere im Datenkompetenzzentrum QUADRIGA entworfenen <a href="https://quadriga-dk.github.io/fallstudien/" class="external-link" target="_blank">Lerneinheiten</a>, handelt es sich bei dieser OER um ein Szenario und nicht um eine Fallstudie, da dieser Lerneinheit keine spezifische Forschungsfrage zugrunde liegt. Thematischer Fokus ist hier, wie Forschungsdaten aus früheren Projekten nachträglich und entsprechend den <a href="https://www.gofair.foundation/fair-principles" class="external-link" target="_blank">FAIR-Prinzipien</a> publiziert werden können. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt (vgl. Abb. 2) durch die Vorbereitungen zur Veröffentlichung führt, Fallstricke identifiziert und Lösungen anbietet.
+Anders als andere im Datenkompetenzzentrum QUADRIGA entworfenen <a href="https://quadriga-dk.github.io/fallstudien/" class="external-link" target="_blank">Lerneinheiten</a> handelt es sich bei dieser OER um ein Szenario und nicht um eine Fallstudie, da dieser Lerneinheit keine spezifische Forschungsfrage zugrunde liegt. Thematischer Fokus ist hier, wie Forschungsdaten aus früheren Projekten nachträglich und entsprechend den <a href="https://www.gofair.foundation/fair-principles" class="external-link" target="_blank">FAIR-Prinzipien</a> publiziert werden können. Dabei ist das Szenario wie ein Walkthrough aufgebaut, das die Nutzer:innen Schritt für Schritt (vgl. Abb. 2) durch die Vorbereitungen zur Veröffentlichung führt, Fallstricke identifiziert und Lösungen anbietet.
 
 Die folgende Abbildung zeigt die 3 Schritte dieses Szenarios, die den Hauptkapiteln entsprechen.
 
