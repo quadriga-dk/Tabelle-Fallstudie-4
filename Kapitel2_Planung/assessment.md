@@ -11,7 +11,7 @@ kernelspec:
 ---
 
 (planung:assessment)=
-# 🏆Selbsttest: Planung
+# 🏆 Selbsttest: Planung
 
 ````{admonition} Hinweis
 :class: hinweis
@@ -111,7 +111,7 @@ question4 = [
                 "feedback": "✓ Richtig! Auch dies gehört laut Kapitel zu einer konsistenten Datenstruktur."
             },
             {
-                "answer": "Farbliche Markierungen auffälliger Werte erhöhen die Nachnutzbarkeit, da Auffälligkeiten so sofort erkennbar sind.",
+                "answer": "Farbliche Markierungen auffälliger Werte erhöhen die Nachnutzbarkeit, da Auffälligkeiten sofort erkennbar sind.",
                 "correct": False,
                 "feedback": "× Nicht korrekt. Rein visuelle Formatierungen sind für Menschen hilfreich, für die maschinelle Weiterverarbeitung aber ein Hindernis – gerade in Rohdatensätzen sollten sie vermieden werden."
             },
@@ -222,7 +222,7 @@ display_quiz(question6, colors=colors.jupyterquiz, max_width=1000)
 
 ## Frage 5
 
-Die folgenden vier Aussagen betreffen Vorgaben und rechtliche Vorbereitung einer Datenpublikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
+Die folgenden drei Aussagen betreffen Vorgaben und rechtliche Vorbereitung einer Datenpublikation. Entscheiden Sie jeweils, ob die Aussage richtig oder falsch ist.
 
 ```{code-cell} ipython3
 :tags: [remove-input]
