@@ -32,7 +32,7 @@ Fachübergreifende Metadatenstandards sind z. B.:
 - die <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link" target="_blank">Dublin Core</a> genannten Schemata ("terms/namespace" und "elements/1.1/namespace") der Dublin Core Metadata Initiative (DCMI)
 - das Vokabular von <a href="https://schema.org/" class="external-link" target="_blank">schema.org</a>
 
-Darüber hinaus finden Sie Informationen zu fachspezifischen Standards bei den Konsortien der Nationalen Forschungsdateninfrastruktur (<a href="https://www.nfdi.de/konsortien/" class="external-link" target="_blank">NFDI</a>) sowie deren Sektion <a href="https://www.nfdi.de/section-metadata/" class="external-link" target="_blank">(Meta)data, Terminology, Provenance</a>.
+Darüber hinaus finden Sie Informationen zu fachspezifischen Standards bei den Konsortien der Nationalen Forschungsdateninfrastruktur (<a href="https://www.nfdi.de/konsortien/" class="external-link" target="_blank">NFDI</a>) sowie deren Sektion <a href="https://www.nfdi.de/section-metadata/" class="external-link" target="_blank">(Meta)data, Terminologies, Provenance</a>.
 
 Einen Überblick über das Thema Metadaten und Metadatenstandards finden Sie zudem auf der Informationsseite <a href="https://forschungsdaten.info/fdm-allgemein/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards" class="external-link" target="_blank">forschungsdaten.info</a>
 
