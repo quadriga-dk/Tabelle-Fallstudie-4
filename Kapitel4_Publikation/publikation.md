@@ -25,7 +25,7 @@ Prüfen Sie darüber hinaus, ob die Beschreibung der Daten vollständig ist und 
 `````{admonition} Weitere Informationen
 :class: tip
 
-Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und Reifegradmodellen als auch mit automatisierten Prüfwerkzeugen unterstützt werden. Eine ausführliche Einführung in die FAIR-Prinzipien sowie weitere Hintergrundinformationen finden Sie in dem <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Kapitel 3.1 „FAIR-Prinzipien“</a> der QUADRIGA-OER <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html" class="external-link" target="_blank">Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht</a>. Dort werden unter anderem folgende Ansätze vorgestellt:
+Die FAIRifizierung von Forschungsdaten kann sowohl mithilfe von Checklisten und Reifegradmodellen als auch mit automatisierten Prüfwerkzeugen unterstützt werden. Eine ausführliche Einführung in die FAIR-Prinzipien sowie weitere Hintergrundinformationen finden Sie in dem <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Kapitel 3.1 "FAIR-Prinzipien"</a> der QUADRIGA-OER <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html" class="external-link" target="_blank">Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht</a>. Dort werden unter anderem folgende Ansätze vorgestellt:
 
 - **Checkliste:** eine kompakte <a href="https://zenodo.org/records/5111307" class="external-link" target="_blank">FAIR-Checkliste</a> von Jones und Grootveld (2017)
 - **Webtool:** das deutschsprachige <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), basierend auf dem FAIR Assessment Tool der <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/" class="external-link" target="_blank">Australian Research Data Commons</a>
@@ -53,11 +53,11 @@ Wenn Sie sich für <a href="https://zenodo.org/" class="external-link" target="_
 align: center
 width: 80%
 ---
-Screenshot des Zenodo Logins.
+Screenshot des Zenodo-Logins.
 ```
-*Quellenangabe: Screenshot des Logins zu <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+*Quellenangabe: Screenshot des Logins zu <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
 
-3. **Dateien hochladen:** Legen Sie über „New upload“ einen neuen Eintrag an und laden Sie die vorbereiteten Dateien hoch. Soll eine hierarchische Ordnerstruktur erhalten bleiben, können die Dateien als ZIP-Archiv hochgeladen werden.
+3. **Dateien hochladen:** Legen Sie über "New upload" einen neuen Eintrag an und laden Sie die vorbereiteten Dateien hoch. Soll eine hierarchische Ordnerstruktur erhalten bleiben, können die Dateien als ZIP-Archiv hochgeladen werden.
 
 ```{figure} /assets/zenodo_newupload.png
 ---
@@ -66,9 +66,9 @@ width: 60%
 ---
 Screenshot des Anlegens eines neuen Uploads.
 ```
-*Quellenangabe: Screenshot des Anlegens eines neuen Uploads bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+*Quellenangabe: Screenshot des Anlegens eines neuen Uploads bei <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
 
-Wenn Sie mehrere Uploads tätigen wollen, beachten Sie die Upload-Reihenfolge (bei Zenodo z. B. nach Datum, d.h. der erste Upload steht später unten). Innerhalb eines Uploads wird nach Namen sortiert, d. h. hier agieren Sie am besten mit Nummern. Die Daten(pakete) können dann einfach per Drag-and-Drop hinzugefügt werden.
+Wenn Sie mehrere Uploads tätigen wollen, beachten Sie die Upload-Reihenfolge (bei Zenodo z. B. nach Datum, d. h. der erste Upload steht später unten). Innerhalb eines Uploads wird nach Namen sortiert, d. h. hier agieren Sie am besten mit Nummern. Die Daten(pakete) können dann einfach per Drag-and-Drop hinzugefügt werden.
 
 ```{figure} /assets/zenodo_data.png
 ---
@@ -77,9 +77,9 @@ width: 90%
 ---
 Screenshot des Drag-and-Drop-Feldes.
 ```
-*Quellenangabe: Screenshot des Drag-and-Drop-Feldes eines neuen Uploads bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+*Quellenangabe: Screenshot des Drag-and-Drop-Feldes eines neuen Uploads bei <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
 
-4. **Datensatz beschreiben und Zugriffsrechte festlegen:** Beschreiben Sie den Datensatz mithilfe der Metadatenfelder. Füllen Sie so viele Felder wie möglich aus. Für den Eintrag kann ein neuer DOI generiert oder ein bereits zugewiesener DOI angegeben werden. Ergänzend können beispielsweise Schlagwörter, Förderinformationen oder Verknüpfungen zu verwandten Publikationen angegeben werden. Legen Sie außerdem unter „Visibility“ fest, wie der Datensatz zugänglich sein soll. Hier sollte "öffentlich" der Standard sein.
+4. **Datensatz beschreiben und Zugriffsrechte festlegen:** Beschreiben Sie den Datensatz mithilfe der Metadatenfelder. Füllen Sie so viele Felder wie möglich aus. Für den Eintrag kann ein neuer DOI generiert oder ein bereits zugewiesener DOI angegeben werden. Ergänzend können beispielsweise Schlagwörter, Förderinformationen oder Verknüpfungen zu verwandten Publikationen angegeben werden. Legen Sie außerdem unter "Visibility" fest, wie der Datensatz zugänglich sein soll. Hier sollte "öffentlich" der Standard sein.
 
 ```{figure} /assets/zenodo_metadata.png
 ---
@@ -88,7 +88,7 @@ width: 90%
 ---
 Screenshot einiger Metadatenfelder.
 ```
-*Quellenangabe: Screenshot des Anfangs der Metadatenfelder bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+*Quellenangabe: Screenshot des Anfangs der Metadatenfelder bei <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
 
 Vergessen Sie nicht eine TOC (Table of Contents = Inhaltsverzeichnis) in der Beschreibung hinzuzufügen. Diese ermöglicht einen schnellen Überblick über die Dateien und ist nicht nur bei großen Datenpaketen hilfreich.
 
@@ -101,7 +101,7 @@ width: 70%
 ---
 Screenshot des Feldes zum Speichern des Entwurfs ("Save draft") und zum Veröffentlichen ("Publish").
 ```
-*Quellenangabe: Screenshot des des Feldes zum Speichern des Entwurfs ("Save draft") und zum Veröffentlichen ("Publish") bei <a href="https://zenodo.org/records/19470557" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
+*Quellenangabe: Screenshot des Feldes zum Speichern des Entwurfs ("Save draft") und zum Veröffentlichen ("Publish") bei <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> vom 14.09.2026.*
 
 Eine ausführliche Schritt-für-Schritt-Anleitung auf Englisch zum Upload von Forschungsdaten auf Zenodo finden Sie bei den <a href="https://onderzoektips.ugent.be/en/tips/00002267/" class="external-link" target="_blank">(Re)Search Tips</a> auf der Webseite der Universität Gent.
 
