@@ -3,13 +3,13 @@
 
 In dieser Lerneinheit wurde nachvollzogen, wie bereits abgeschlossene Forschungsdaten nachträglich veröffentlicht werden können. Als Motivation für die Publikation sind Reproduzierbarkeit der Forschungsergebnisse, das Einhalten der FAIR-Prinzipien sowie die Gute wissenschaftliche Praxis der DFG zu nennen. Publizierte Daten sind darüber hinaus leichter zitierbar, erhöhen die Transparenz und Integrität wissenschaftlicher Forschung und können in Folgeprojekten nachgenutzt werden, statt neu erhoben zu werden.
 
-Das Publizieren von Forschungsdaten kann sich nach Fachdisziplin unterscheiden bzw. unterschiedlich umfangreich ausfallen. In dieser Lerneinheit wurde, anders als üblich, ein Beispielszenario zitiert, um die Schritte zur Veröffentlichung der Forschungsdaten anschaulicher zu machen. Dabei konnte nicht auf jedes Detail eingegangen, aber ein Gesamteindruck vermittelt werden.
+Das Publizieren von Forschungsdaten kann sich je nach Fachdisziplin unterscheiden bzw. unterschiedlich umfangreich ausfallen. In dieser Lerneinheit wurde, anders als üblich, ein Beispielszenario verwendet, um die Schritte zur Veröffentlichung der Forschungsdaten anschaulicher zu machen. Dabei konnte nicht auf jedes Detail eingegangen, aber ein Gesamteindruck vermittelt werden.
 
 So wurde in Kapitel 2 gezeigt, wie eine Forschungsdatenpublikation geplant wird. Dazu gilt es, sich einen Überblick über den Projektkontext zu verschaffen und die Datenentstehung nachzuvollziehen. Anschließend müssen die Daten auf ihre Qualität geprüft und mögliche rechtliche Vorgaben recherchiert werden.
 
-In Kapitel 3 wurde erläutert, wie Daten im Rahmen des Datenmanagements zur Veröffentlichung ausgewählt, strukturiert und in einem Datenmanagementplan erfasst werden. Zudem wurde dargelegt, dass Forschungsdaten ausführlich mit standardisierten Metadaten beschrieben werden müssen und alles, was Dritte über das Projekt wissen sollten, in einem Dokument (z. B. eine README oder ein Forschungsdatenbericht) festgehalten werden sollte.
+In Kapitel 3 wurde erläutert, wie Daten im Rahmen des Datenmanagements zur Veröffentlichung ausgewählt, strukturiert und in einem Datenmanagementplan erfasst werden. Zudem wurde dargelegt, dass Forschungsdaten ausführlich mit standardisierten Metadaten beschrieben werden müssen und alles, was Dritte über das Projekt wissen sollten, in einem Dokument (z. B. einer README oder einem Forschungsdatenbericht) festgehalten werden sollte.
 
-In Kapitel 4 wurde auf die Publikation von Forschungsdaten eingegangen. Dazu zählt die Auswahl eines Repositoriums, in dem die Daten veröffentlicht werden, die finale Prüfung und FAIRifizierung der Daten vor dem Upload sowie die Kommunikation der erfolgreichen Datenpublikation über verschiedene Kanäle.
+In Kapitel 4 wurde auf die Publikation von Forschungsdaten eingegangen. Dazu zählen die Auswahl eines Repositoriums, in dem die Daten veröffentlicht werden, die finale Prüfung und FAIRifizierung der Daten vor dem Upload sowie die Kommunikation der erfolgreichen Datenpublikation über verschiedene Kanäle.
 
 Anschließend finden Sie die "Keypoints" der einzelnen Kapitel noch einmal aufgelistet:
 
@@ -33,5 +33,5 @@ Anschließend finden Sie die "Keypoints" der einzelnen Kapitel noch einmal aufge
 
 - Publizieren Sie Ihre Daten nach Möglichkeit in einem fachspezifischen Repositorium. Sollte ein solches nicht zur Verfügung stehen, können Sie die Forschungsdaten in einem institutionellen oder einem generischen Repositorium wie Zenodo veröffentlichen.
 - Zur FAIRifizierung Ihrer Forschungsdaten können Sie Checklisten und Tools verwenden und das Ergebnis automatisiert prüfen lassen, um die Nachnutzungsmöglichkeit der Daten zu optimieren.
-- Für die Kommunikation der Veröffentlichung von Forschungsdaten kommen neben klassischen Mitteilungskanälen (Pressemitteilung, Social-Media-Post) auch spezielle Formate in Betracht (Data Stories). Es gilt zu prüfen, welche Zielgruppen erreicht werden sollen. Möglicherweise ist es sinnvoll, mehrere Kommunikationskanäle zu bedienen.
+- Für die Kommunikation der Veröffentlichung von Forschungsdaten kommen neben klassischen Kommunikationskanälen (Pressemitteilung, Social-Media-Post) auch spezielle Formate in Betracht (Data Stories). Es gilt zu prüfen, welche Zielgruppen erreicht werden sollen. Möglicherweise ist es sinnvoll, mehrere Kommunikationskanäle zu bedienen.
 ```
