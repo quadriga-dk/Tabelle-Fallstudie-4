@@ -31,6 +31,7 @@ chapters:
       - file: Kapitel4_Publikation/kommunikation
       - file: Kapitel4_Publikation/resumee
       - file: Kapitel4_Publikation/assessment
+  - file: Zusammenfassung
   - file: Kapitel5_Abschluss/toc
     sections:
       - file: Kapitel5_Abschluss/fragen_und_feedback

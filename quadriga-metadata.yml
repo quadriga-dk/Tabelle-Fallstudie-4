@@ -19,22 +19,22 @@ authorLIST:
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
   creditLIST:
   - Methodology
-  - Validation
   - Writing – original draft
-  - Writing – review & editing
 keywordLIST:
 - de: Verwaltung
 - de: Verwaltungswissenschaft
-- en: Public Sector
 - de: Tabelle
 - de: Lerneinheit
+- en: Public Sector
 - en: Open Educational Resource
 - de: Forschungsdatenpublikation
+- de: Datenmanagementplan
+- de: Repositorium
 - de: FAIR
-- de: Datenfluss
+- de: Kompetenz
 - de: Datenkompetenzframework
 description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt
-  für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
+  für Schritt durch das nachträgliche Publizieren von Forschungsdaten.
 tableOfContents: '- Einstieg
 
   - Planung
@@ -42,6 +42,8 @@ tableOfContents: '- Einstieg
   - Datenmanagement
 
   - Publikation
+
+  - Zusammenfassung
 
   - Abschluss'
 disciplineLIST:
@@ -54,7 +56,7 @@ targetGroupLIST:
 - Forschende (Projektleitung)
 - Promovierende
 - Hochschullehrende
-timeRequired: TODO
+timeRequired: PT1H45M
 language: de
 contributorLIST:
 - familyName: Schnaitter
@@ -63,8 +65,6 @@ contributorLIST:
   affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
   creditLIST:
   - Software
-  - Validation
-  - Writing – review & editing
 - familyName: Neuroth
   givenName: Heike
   orcid: https://orcid.org/0000-0002-3637-3154
@@ -78,6 +78,35 @@ contributorLIST:
   affiliation: Fachhochschule Potsdam
   creditLIST:
   - Resources
+- familyName: Islam
+  givenName: Lamia
+  orcid: https://orcid.org/0009-0001-1879-9880
+  affiliation: Universität Potsdam
+  creditLIST:
+  - Software
+- familyName: Porębski
+  givenName: Ralf-Gabriel
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+  creditLIST:
+  - Writing – original draft
+- familyName: Esfandiar
+  givenName: Saba
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+  creditLIST:
+  - Writing – original draft
+- familyName: Schmeling
+  givenName: Juliane
+  orcid: https://orcid.org/0009-0005-9814-1139
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+  creditLIST:
+  - Conceptualization
+  - Project administration
+- familyName: Petras
+  givenName: Vivien
+  orcid: https://orcid.org/0000-0002-8113-1509
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+  creditLIST:
+  - Funding acquisition
 identifier: TODO
 identifierGit: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
 identifierOER: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
@@ -88,10 +117,10 @@ usedToolLIST:
   url: keine
 chapterLIST:
 - title: Planung
-  description: TODO
+  description: Dieses Kapitel widmet sich der Planung einer Forschungsdatenveröffentlichung.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Planung/einleitung.html
-  timeRequired: TODO
-  learningGoal: Forschungsdaten erkennen
+  timeRequired: PT20M
+  learningGoal: Planung einer Forschungsdatenpublikation
   learningObjectiveLIST:
   - description: Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM
       01_001_0008)
@@ -108,11 +137,10 @@ chapterLIST:
     dataFlow: 1 Planung
     bloomsCategory: 3 Anwenden
 - title: Datenmanagement
-  description: TODO
+  description: Dieses Kapitel widmet sich dem Management der zu veröffentlichenden Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html
-  timeRequired: TODO
-  learningGoal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation,
-    Datenmanagementpläne
+  timeRequired: PT20M
+  learningGoal: Management von Forschungsdaten
   learningObjectiveLIST:
   - description: Lernende können Bestandteile eines Datenmanagementplans benennen.
       (LZ-ID 01_006_0092)
@@ -120,10 +148,10 @@ chapterLIST:
     dataFlow: 3 Management
     bloomsCategory: 1 Erinnern
 - title: Publikation
-  description: TODO
+  description: Dieses Kapitel widmet sich der Aufbewahrung, Publikation und Kommunikation von Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
-  timeRequired: TODO
-  learningGoal: Kompetenz Aufbewahrung
+  timeRequired: PT20M
+  learningGoal: Publikation von Forschungsdaten
   learningObjectiveLIST:
   - description: Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung,
       Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)
@@ -139,7 +167,7 @@ chapterLIST:
     dataFlow: 5 Publikation und Nachnutzung
     bloomsCategory: 1 Erinnern
 dateIssued: 2025-12-19
-dateModified: 2026-11-12
+dateModified: 2026-11-13
 version: 0.0.1
 contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum
   QUADRIGA erstellt.
@@ -148,7 +176,7 @@ contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das
   Förderkennzeichen: 16DKZ2034'
 qualityAssurance:
   description: https://doi.org/10.5281/zenodo.18953896
-  date: 2026-11-12
+  date: 2026-11-13
 learningResourceType: Jupyter Book
 schemaVersion: 2.0.0
 license: https://creativecommons.org/licenses/by/4.0/
