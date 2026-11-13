@@ -4,7 +4,7 @@ title: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektive
   Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources:
   Tabelle 4.'
 abstract: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für
-  Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
+  Schritt durch das nachträgliche Publizieren von Forschungsdaten.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -22,13 +22,15 @@ url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
 keywords: &id002
 - Verwaltung
 - Verwaltungswissenschaft
-- Public Sector
 - Tabelle
 - Lerneinheit
+- Public Sector
 - Open Educational Resource
 - Forschungsdatenpublikation
+- Datenmanagementplan
+- Repositorium
 - FAIR
-- Datenfluss
+- Kompetenz
 - Datenkompetenzframework
 license: CC-BY-4.0
 references:

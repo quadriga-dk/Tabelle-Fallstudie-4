@@ -12,7 +12,7 @@
     "LearningResource"
   ],
   "name": "Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.",
-  "description": "Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.",
+  "description": "Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt für Schritt durch das nachträgliche Publizieren von Forschungsdaten.",
   "version": "0.0.1",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/",
@@ -22,7 +22,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Tabelle-Fallstudie-4"
   },
   "datePublished": "2025-12-19",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-13",
   "author": [
     {
       "@type": "Person",
@@ -105,19 +105,89 @@
         "@type": "Organization",
         "name": "Fachhochschule Potsdam"
       }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Lamia",
+      "familyName": "Islam",
+      "name": "Lamia Islam",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0001-1879-9880",
+        "url": "https://orcid.org/0009-0001-1879-9880"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Ralf-Gabriel",
+      "familyName": "Porębski",
+      "name": "Ralf-Gabriel Porębski",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Saba",
+      "familyName": "Esfandiar",
+      "name": "Saba Esfandiar",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Juliane",
+      "familyName": "Schmeling",
+      "name": "Juliane Schmeling",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0005-9814-1139",
+        "url": "https://orcid.org/0009-0005-9814-1139"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Vivien",
+      "familyName": "Petras",
+      "name": "Vivien Petras",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-8113-1509",
+        "url": "https://orcid.org/0000-0002-8113-1509"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+      }
     }
   ],
   "inLanguage": "de",
   "keywords": [
     "Verwaltung",
     "Verwaltungswissenschaft",
-    "Public Sector",
     "Tabelle",
     "Lerneinheit",
+    "Public Sector",
     "Open Educational Resource",
     "Forschungsdatenpublikation",
+    "Datenmanagementplan",
+    "Repositorium",
     "FAIR",
-    "Datenfluss",
+    "Kompetenz",
     "Datenkompetenzframework"
   ],
   "about": [
@@ -131,15 +201,15 @@
     },
     {
       "@type": "Thing",
-      "name": "Public Sector"
-    },
-    {
-      "@type": "Thing",
       "name": "Tabelle"
     },
     {
       "@type": "Thing",
       "name": "Lerneinheit"
+    },
+    {
+      "@type": "Thing",
+      "name": "Public Sector"
     },
     {
       "@type": "Thing",
@@ -151,11 +221,19 @@
     },
     {
       "@type": "Thing",
+      "name": "Datenmanagementplan"
+    },
+    {
+      "@type": "Thing",
+      "name": "Repositorium"
+    },
+    {
+      "@type": "Thing",
       "name": "FAIR"
     },
     {
       "@type": "Thing",
-      "name": "Datenfluss"
+      "name": "Kompetenz"
     },
     {
       "@type": "Thing",
@@ -192,7 +270,7 @@
       "audienceType": "Hochschullehrende"
     }
   ],
-  "timeRequired": "TODO",
+  "timeRequired": "PT1H45M",
   "license": {
     "@type": "CreativeWork",
     "name": "Content",
@@ -202,9 +280,9 @@
     {
       "@type": "LearningResource",
       "name": "Planung",
-      "description": "TODO",
+      "description": "Dieses Kapitel widmet sich der Planung einer Forschungsdatenveröffentlichung.",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Planung/einleitung.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT20M",
       "teaches": "Forschungsdaten erkennen",
       "educationalAlignment": [
         {
@@ -230,9 +308,9 @@
     {
       "@type": "LearningResource",
       "name": "Datenmanagement",
-      "description": "TODO",
+      "description": "Dieses Kapitel widmet sich dem Management der zu veröffentlichenden Forschungsdaten.",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT20M",
       "teaches": "Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation, Datenmanagementpläne",
       "educationalAlignment": [
         {
@@ -246,9 +324,9 @@
     {
       "@type": "LearningResource",
       "name": "Publikation",
-      "description": "TODO",
+      "description": "Dieses Kapitel widmet sich der Aufbewahrung, Publikation und Kommunikation von Forschungsdaten.",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT20M",
       "teaches": "Kompetenz Aufbewahrung",
       "educationalAlignment": [
         {
@@ -272,7 +350,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Einstieg\n- Planung\n- Datenmanagement\n- Publikation\n- Abschluss",
+  "dcterms:tableOfContents": "- Einstieg\n- Planung\n- Datenmanagement\n- Publikation\n- Zusammenfassung und Reflexion\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",

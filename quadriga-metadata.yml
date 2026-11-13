@@ -43,7 +43,7 @@ tableOfContents: '- Einstieg
 
   - Publikation
 
-  - Zusammenfassung
+  - Zusammenfassung und Reflexion
 
   - Abschluss'
 disciplineLIST:
@@ -120,7 +120,7 @@ chapterLIST:
   description: Dieses Kapitel widmet sich der Planung einer Forschungsdatenveröffentlichung.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel2_Planung/einleitung.html
   timeRequired: PT20M
-  learningGoal: Planung einer Forschungsdatenpublikation
+  learningGoal: Forschungsdaten erkennen
   learningObjectiveLIST:
   - description: Die Lernenden können Beispiele für Forschungsdaten benennen. (LZM
       01_001_0008)
@@ -137,10 +137,12 @@ chapterLIST:
     dataFlow: 1 Planung
     bloomsCategory: 3 Anwenden
 - title: Datenmanagement
-  description: Dieses Kapitel widmet sich dem Management der zu veröffentlichenden Forschungsdaten.
+  description: Dieses Kapitel widmet sich dem Management der zu veröffentlichenden
+    Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel3_Datenmanagement/einleitung.html
   timeRequired: PT20M
-  learningGoal: Management von Forschungsdaten
+  learningGoal: Kompetenz Organisation, Methoden und Werkzeuge der Datenorganisation,
+    Datenmanagementpläne
   learningObjectiveLIST:
   - description: Lernende können Bestandteile eines Datenmanagementplans benennen.
       (LZ-ID 01_006_0092)
@@ -148,10 +150,11 @@ chapterLIST:
     dataFlow: 3 Management
     bloomsCategory: 1 Erinnern
 - title: Publikation
-  description: Dieses Kapitel widmet sich der Aufbewahrung, Publikation und Kommunikation von Forschungsdaten.
+  description: Dieses Kapitel widmet sich der Aufbewahrung, Publikation und Kommunikation
+    von Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/Kapitel4_Publikation/einleitung.html
   timeRequired: PT20M
-  learningGoal: Publikation von Forschungsdaten
+  learningGoal: Kompetenz Aufbewahrung
   learningObjectiveLIST:
   - description: Lernende können eigenständig geeignete Repositorien (z.B. zur Archivierung,
       Publikation oder Datennutzung) auswählen. (LZ-ID 04_004_0871)

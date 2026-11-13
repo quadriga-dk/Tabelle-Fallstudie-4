@@ -5,7 +5,7 @@ type: LearningResource
 name: 'Forschungsdatenpublikation: Ein Best-Practice-Beispiel zur retrospektiven Publikation
   von Daten für die Nachnutzung. QUADRIGA Open Educational Resources: Tabelle 4.'
 description: Diese Lerneinheit führt Sie anhand eines konkreten Beispiels Schritt
-  für Schritt durch das nachträgliche Publizieren von (Forschungs-)Daten.
+  für Schritt durch das nachträgliche Publizieren von Forschungsdaten.
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
 creator:
@@ -55,16 +55,61 @@ contributor:
     name: Fachhochschule Potsdam
     id: https://ror.org/012m9bp23
     type: Organization
+- givenName: Lamia
+  familyName: Islam
+  name: Lamia Islam
+  id: https://orcid.org/0009-0001-1879-9880
+  type: Person
+  affiliation:
+    name: Universität Potsdam
+    id: https://ror.org/03bnmw459
+    type: Organization
+- givenName: Ralf-Gabriel
+  familyName: Porębski
+  name: Ralf-Gabriel Porębski
+  type: Person
+  affiliation:
+    name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+    id: https://ror.org/00px80p03
+    type: Organization
+- givenName: Saba
+  familyName: Esfandiar
+  name: Saba Esfandiar
+  type: Person
+  affiliation:
+    name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+    id: https://ror.org/00px80p03
+    type: Organization
+- givenName: Juliane
+  familyName: Schmeling
+  name: Juliane Schmeling
+  id: https://orcid.org/0009-0005-9814-1139
+  type: Person
+  affiliation:
+    name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+    id: https://ror.org/00px80p03
+    type: Organization
+- givenName: Vivien
+  familyName: Petras
+  name: Vivien Petras
+  id: https://orcid.org/0000-0002-8113-1509
+  type: Person
+  affiliation:
+    name: Humboldt-Universität zu Berlin
+    id: https://ror.org/01hcx6992
+    type: Organization
 keywords:
 - Verwaltung
 - Verwaltungswissenschaft
-- Public Sector
 - Tabelle
 - Lerneinheit
+- Public Sector
 - Open Educational Resource
 - Forschungsdatenpublikation
+- Datenmanagementplan
+- Repositorium
 - FAIR
-- Datenfluss
+- Kompetenz
 - Datenkompetenzframework
 inLanguage:
 - de
@@ -75,7 +120,7 @@ educationalLevel:
 - https://w3id.org/kim/educationalLevel/level_A
 learningResourceType:
 - https://w3id.org/kim/hcrt/textbook
-duration: TODO
+duration: PT1H45M
 version: 0.0.1
 datePublished: '2025-12-19'
-dateModified: '2026-11-12'
+dateModified: '2026-11-13'
