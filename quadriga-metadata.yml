@@ -107,7 +107,7 @@ contributorLIST:
   affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
   creditLIST:
   - Funding acquisition
-identifier: TODO
+identifier: https://doi.org/10.5281/zenodo.24189329
 identifierGit: https://github.com/quadriga-dk/Tabelle-Fallstudie-4
 identifierOER: https://quadriga-dk.github.io/Tabelle-Fallstudie-4/
 prerequisiteLIST:
