@@ -16,7 +16,7 @@ Folgende wichtige Punkte sollten Sie darüber hinaus mitnehmen:
 
 **Datenorganisation**
 - Forschungsdaten müssen vor der Publikation geordnet, geclustert und in einem Datenmanagementplan (DMP) dokumentiert werden. Ziel ist, dass die Daten auch projektextern verständlich sind. Für das Erstellen eines DMP stehen Tools wie RDMO zur Verfügung.
-- Die Dateibenennung sollte konsequent sein und nach Möglichkeit vom Projekt übernommen werden. Die im Projekt gewachsene Struktur ist meist sinnvoll und logisch. Eine Veröffentlichung von Forschungsdaten in "Paketen" die der Struktur folgen ist daher zu empfehlen.
+- Die Dateibenennung sollte konsequent sein und nach Möglichkeit vom Projekt übernommen werden. Die im Projekt gewachsene Struktur ist meist sinnvoll und logisch. Eine Veröffentlichung von Forschungsdaten in "Paketen", die der Struktur folgen, ist daher zu empfehlen.
 
 **Erschließung**
 - Metadaten sollten üblichen Standards und den etablierten Konventionen der Fachcommunity folgen.
