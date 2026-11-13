@@ -35,7 +35,7 @@ Die folgend gelisteten Optionen gelten nicht ausschließlich für Datenpublikati
 | Pressemitteilung auf der Webseite der beteiligten Institutionen | Interessierte Öffentlichkeit, Kolleg:innen | <a href="https://www.fh-potsdam.de/aktuelles-medien/news" class="external-link" target="_blank">News-Seite der FH Potsdam</a> |
 | Mitteilung über Mailinglisten | Fachcommunity | <a href="https://www.listserv.dfn.de/sympa" class="external-link" target="_blank">E-Mail-Verteilerlisten für Wissenschaft und Forschung des DFN</a> |
 | Informationsdienst Wissenschaft (idw) | Fach- und wissenschaftliche Community | <a href="https://idw-online.de/" class="external-link" target="_blank">idw-online.de</a> |
-| Social-Media-Beiträge | interessierte Öffentlichkeit | <a href="https://www.linkedin.com//" class="external-link" target="_blank">LinkedIn</a>, <a href="https://joinmastodon.org/de" class="external-link" target="_blank">Mastodon</a>, <a href="https://bsky.app/" class="external-link" target="_blank">Bluesky</a> |
+| Social-Media-Beiträge | interessierte Öffentlichkeit | <a href="https://www.linkedin.com/" class="external-link" target="_blank">LinkedIn</a>, <a href="https://joinmastodon.org/de" class="external-link" target="_blank">Mastodon</a>, <a href="https://bsky.app/" class="external-link" target="_blank">Bluesky</a> |
 
 ### Neue Kommunikationswege in Bezug auf Daten
 
@@ -44,7 +44,7 @@ Um Daten als Einzelpublikation oder Teil einer Publikation von Forschungsergebni
 ````{margin}
 ```{admonition} Data Stories
 :class: hinweis
-Data Stories sind relativ kurze Zusammenfassungen von Erkenntnissen, die unter Einbindungen von prägnanten Visualisierungen komplexe Zusammenhänge verständlich vermitteln. Siehe auch <a href="https://de.wikipedia.org/wiki/Data_Storytelling" class="external-link" target="_blank">Wikipedia</a>.
+Data Stories sind relativ kurze Zusammenfassungen von Erkenntnissen, die unter Einbindung von prägnanten Visualisierungen komplexe Zusammenhänge verständlich vermitteln. Siehe auch <a href="https://de.wikipedia.org/wiki/Data_Storytelling" class="external-link" target="_blank">Wikipedia</a>.
 ``` 
 ````
 
@@ -74,4 +74,4 @@ In dem Szenario, das diese Lerneinheit begleitet, fanden folgende Kommunikations
 ## Zusammenfassung 
 
 Zur Kommunikation einer Datenpublikation kommen klassische Formate (Pressemitteilung) in Betracht, die Sie bereits von der Publikation üblicher Forschungsergebnisse kennen. Zusätzlich entwickeln sich aktuell neue Wege wie Data Stories, die eine Datenpublikation visuell hervorheben können. 
-Es gilt zu prüfen, welche Zielgruppe Sie erreichen wollen und welche Kommunikationswege zur Verfügung stehen. Unter Umständen ist das kommunizieren der Publikation auf mehreren Ebenen sinnvoll.
+Es gilt zu prüfen, welche Zielgruppe Sie erreichen wollen und welche Kommunikationswege zur Verfügung stehen. Unter Umständen ist das Kommunizieren der Publikation auf mehreren Ebenen sinnvoll.
