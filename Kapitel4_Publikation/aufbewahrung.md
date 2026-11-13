@@ -30,16 +30,16 @@ Dabei werden 3 Kategorien an Repositorien unterschieden:
 <ol>
   <li><b>Institutionelle Repositorien</b> werden von Institutionen (z. B. von Universitäten und Forschungseinrichtungen) betrieben. Die dort publizierten Daten spiegeln i. d. R. die thematische Vielfalt der Institution selbst. Institutionelle Repositorien sind auf die Bedürfnisse ihrer Mitarbeitenden ausgelegt und für Dritte und die Öffentlichkeit oft nur eingeschränkt oder sogar gar nicht zugänglich.</li>
   <li><b>Fachspezifische Repositorien</b> sind auf eine Fachdisziplin ausgelegt und thematisch entsprechend homogen. Sie sind zugeschnitten auf die Bedarfe und Anforderungen der entsprechenden Fachcommunity.</li>
-  <li><b>Generische Repositorien</b> sind allgemeine Plattformen ohne spezifische Fachausrichtung. Hierzu gehört zum Beispiel <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a></li>
+  <li><b>Generische Repositorien</b> sind allgemeine Plattformen ohne spezifische Fachausrichtung. Hierzu gehört zum Beispiel <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>.</li>
 </ol>
 
-Einen kurzen Überblick zum Thema bietet das Video '„Open Science: Von Daten zu Publikationen“: Repositorien' der Universität Konstanz:
+Einen kurzen Überblick zum Thema bietet das Video "'Open Science: Von Daten zu Publikationen': Repositorien" der Universität Konstanz:
 
 <iframe width="930" height="523" src="https://www.youtube.com/embed/N8EN6HHS-PU" title="„Open Science: Von Daten zu Publikationen“: Repositorien" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-Lizenzhinweis: Video "„Open Science: Von Daten zu Publikationen“: Repositorien" vom <a href="https://www.kim.uni-konstanz.de/openscience/open-science-im-kim/team/" class="external-link" target="_blank">Team Open Science</a> der Universität Konstanz unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a>.
+Lizenzhinweis: Video "'Open Science: Von Daten zu Publikationen': Repositorien" vom <a href="https://www.kim.uni-konstanz.de/openscience/open-science-im-kim/team/" class="external-link" target="_blank">Team Open Science</a> der Universität Konstanz unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/daten-publizieren" class="external-link" target="_blank">forschungsdaten.info</a>.
 
 ---
 
@@ -54,7 +54,7 @@ Um ein geeignetes Repositorium zu finden, kann Ihre Institution eine erste Anlau
 align: center
 width: 50%
 ---
-Startseite von r3data
+Startseite von re3data
 ```
 *Quellenangabe: Screenshot der Startseite von <a href="https://www.re3data.org/" class="external-link" target="_blank">re3data</a> vom 24.06.2026.*
 
@@ -65,9 +65,9 @@ Re3data funktioniert wie eine Suchmaschine für Forschungsdatenrepositorien. Üb
 align: center
 width: 50%
 ---
-Sunburst Diagramm von r3data
+Sunburst-Diagramm von re3data
 ```
-*Quellenangabe: Screenshot des Sunburst Diagramms von r3data vom 24.06.2026, das die Fachgebiete ud Fachdisziplinen zeigt, für die Repositorien verfügbar sind.*
+*Quellenangabe: Screenshot des Sunburst-Diagramms von re3data vom 24.06.2026, das die Fachgebiete und Fachdisziplinen zeigt, für die Repositorien verfügbar sind.*
 
 Generische Repositorien sind disziplinübergreifend und bieten eine unkomplizierte Lösung für Wissenschaftler:innen, für deren Forschungsfeld (noch) kein Fachrepositorium existiert oder deren Heimatinstitution keine eigene Infrastruktur anbietet. Zwei bekannte Beispiele für generische Repositorien sind <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> und <a href="https://figshare.com/" class="external-link" target="_blank">Figshare</a>.
 
