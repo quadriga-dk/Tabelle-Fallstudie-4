@@ -16,3 +16,6 @@ __pycache__
 
 # VS Code local configuration etc.
 .vscode
+
+# metadata schema valiation cache
+.schema_cache/
